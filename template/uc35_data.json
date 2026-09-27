@@ -1,0 +1,11 @@
+[
+    { "find": "Duyệt tài liệu ngoài (GAP)", "replace": "Khai báo quyền khả dụng trên Menu" },
+    { "find": "Thẩm định tài liệu ngoài do giáo viên đề xuất trước khi đưa vào Kho GAP.", "replace": "Cho phép Admin khai báo các quyền nghiệp vụ có thể xuất hiện trên một Menu để phục vụ cấu hình phân quyền theo Vai trò." },
+    { "find": "api/v1/admin/gap-materials/approve", "replace": "api/v1/admin/menus/actions" },
+    { "find": "“proposalId”: “GAP-2023-001”,", "replace": "“menuId”: “MENU_001”," },
+    { "find": "“status”: “APPROVED”,", "replace": "“actions”: [“VIEW”, “CREATE”, “UPDATE”, “DELETE”]" },
+    { "find": "“category”: “IELTS Reading”", "replace": "" },
+    { "find": "\"UserName\": string \t\t(Tên đăng nhập)", "replace": "\"menuId\": string \t(Định danh Menu)\n\"actions\": array \t(Danh sách quyền khả dụng)" },
+    { "find": "\"Password\": string  \t(Mật khẩu)", "replace": "" },
+    { "find": "“data”: object (Thông tin tài liệu đã duyệt)", "replace": "“data”: object (Thông tin cấu hình được lưu)" }
+]

@@ -1,0 +1,36 @@
+﻿Link
+https://gap-system.edu.vn
+TÃªn Ä‘Äƒng nháº­p
+admin
+Máº­t kháº©u
+Admin@123
+1
+Khai bÃ¡o quyá»n kháº£ dá»¥ng trÃªn Menu
+- Chá»©c nÄƒng: Cho phÃ©p Admin khai bÃ¡o cÃ¡c quyá»n nghiá»‡p vá»¥ cÃ³ thá»ƒ xuáº¥t hiá»‡n trÃªn má»™t Menu Ä‘á»ƒ phá»¥c vá»¥ cáº¥u hÃ¬nh phÃ¢n quyá»n theo Vai trÃ².
+- Input: (json format)
+{
+â€œmenuIdâ€: string (Äá»‹nh danh Menu)
+â€œactionsâ€: array (Danh sÃ¡ch quyá»n kháº£ dá»¥ng)
+"Password": string  (Máº­t kháº©u)
+}
+- Output:(json format)
+{
+"Result":
+{
+â€œdataâ€: object (ThÃ´ng tin cáº¥u hÃ¬nh Ä‘Æ°á»£c lÆ°u)
+}
+"Success": bool (Pháº§n má»m xá»­ lÃ½ dá»¯ liá»‡u cÃ³ lá»—i hay khÃ´ng)
+"Message": string (Ná»™i dung lá»—i tráº£ vá» náº¿u cÃ³)
+"StatusCode": int (Pháº§n má»m giao tiáº¿p API cÃ³ lá»—i hay khÃ´ng)
+}
+- Example Postman: (cURL format)
+curl --location 'https://vinacomin-test-service.sjob.vn/api/v1/admin/menus/actions' \
+--header 'Content-Type: application/json' \
+--data '{
+â€œmenuIdâ€: â€œMENU_001â€,
+â€œactionsâ€: [â€œVIEWâ€, â€œCREATEâ€, â€œUPDATEâ€, â€œDELETEâ€]
+â€œcategoryâ€: â€œIELTS Readingâ€
+
+}'
+
+

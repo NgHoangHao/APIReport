@@ -1,0 +1,12 @@
+[
+    { "find": "{makerlink}", "replace": "https://gap-system.edu.vn" },
+    { "find": "{makerdangnhap}", "replace": "admin" },
+    { "find": "{makermatkhau}", "replace": "Admin@123" },
+    { "find": "{{API_NAME_1}}", "replace": "Duyệt tài liệu ngoài (GAP)" },
+    { "find": "{{API_DESC_1}}", "replace": "Thẩm định tài liệu ngoài do giáo viên đề xuất trước khi đưa vào Kho GAP." },
+    { "find": "{{API_ENDPOINT_1}}", "replace": "api/v1/admin/gap-materials/approve" },
+    { "find": "{{API_CURL_DATA_1}}", "replace": "\"proposalId\": \"GAP-2023-001\",\n\"status\": \"APPROVED\",\n\"category\": \"IELTS Reading\"" },
+    { "find": "\"UserName\": string (Tên đăng nhập)", "replace": "\"proposalId\": string (Mã đề xuất)\n\"status\": string (APPROVED hoặc REJECTED)" },
+    { "find": "\"Password\": string  (Mật khẩu)", "replace": "\"rejectReason\": string (Lý do từ chối, bắt buộc nếu REJECTED)\n\"category\": string (Phân loại kho, nếu duyệt)" },
+    { "find": "\"Token\": string", "replace": "\"data\": object (Thông tin tài liệu đã duyệt)" }
+]

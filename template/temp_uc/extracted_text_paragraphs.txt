@@ -1,0 +1,2201 @@
+﻿BÃO CÃO PHÃ‚N TÃCH VÃ€ Äáº¶C Táº¢ USE CASE
+
+Danh sÃ¡ch Use Case
+STT
+MÃ£ UC
+TÃªn Use Case
+Actor
+01
+UC-LEVEL-ADD-01
+ThÃªm má»›i trÃ¬nh Ä‘á»™ há»c
+Quáº£n trá»‹ viÃªn (Admin)
+02
+UC-LEVEL-EDIT-01
+Chá»‰nh sá»­a trÃ¬nh Ä‘á»™ há»c
+Quáº£n trá»‹ viÃªn (Admin)
+03
+UC-LEVEL-STATUS-01
+Chuyá»ƒn tráº¡ng thÃ¡i trÃ¬nh Ä‘á»™ há»c
+Quáº£n trá»‹ viÃªn (Admin)
+04
+UC-LEVEL-DELETE-01
+XÃ³a trÃ¬nh Ä‘á»™ há»c
+Quáº£n trá»‹ viÃªn (Admin)
+05
+UC-LEVEL-FILTER-01
+Lá»c danh má»¥c trÃ¬nh Ä‘á»™ há»c
+Quáº£n trá»‹ viÃªn (Admin)
+06
+UC-TEACHER-ADD-01
+ThÃªm má»›i giÃ¡o viÃªn/trá»£ giáº£ng
+Quáº£n trá»‹ viÃªn (Admin)
+07
+UC-TEACHER-EDIT-01
+Chá»‰nh sá»­a há»“ sÆ¡ giÃ¡o viÃªn/trá»£ giáº£ng
+Quáº£n trá»‹ viÃªn (Admin)
+08
+UC-TEACHER-STATUS-01
+Chuyá»ƒn tráº¡ng thÃ¡i giÃ¡o viÃªn/trá»£ giáº£ng
+Quáº£n trá»‹ viÃªn (Admin)
+09
+UC-TEACHER-RESET-01
+Cáº¥p láº¡i máº­t kháº©u giÃ¡o viÃªn/trá»£ giáº£ng
+Quáº£n trá»‹ viÃªn (Admin)
+10
+UC-TEACHER-FILTER-01
+Lá»c danh sÃ¡ch giÃ¡o viÃªn/trá»£ giáº£ng
+Quáº£n trá»‹ viÃªn (Admin)
+11
+UC-STUDENT-CONVERT-01
+Chuyá»ƒn Ä‘á»•i khÃ¡ch hÃ ng Ä‘Ã£ Ä‘Ã³ng tiá»n thÃ nh há»c viÃªn
+Saler
+12
+UC-STUDENT-ADD-01
+ThÃªm há»c viÃªn thá»§ cÃ´ng
+Quáº£n trá»‹ viÃªn (Admin); ChÄƒm sÃ³c khÃ¡ch hÃ ng (CSKH)
+13
+UC-STUDENT-CLASS-01
+PhÃ¢n lá»›p / Chuyá»ƒn lá»›p há»c viÃªn
+Quáº£n trá»‹ viÃªn (Admin); ChÄƒm sÃ³c khÃ¡ch hÃ ng (CSKH)
+14
+UC-STUDENT-RECEIPT-01
+Xem áº£nh biÃªn lai chuyá»ƒn khoáº£n
+Quáº£n trá»‹ viÃªn (Admin); ChÄƒm sÃ³c khÃ¡ch hÃ ng (CSKH); Káº¿ toÃ¡n
+15
+UC-STUDENT-ACCOUNT-01
+KhÃ³a / Má»Ÿ khÃ³a tÃ i khoáº£n há»c viÃªn
+Quáº£n trá»‹ viÃªn (Admin); ChÄƒm sÃ³c khÃ¡ch hÃ ng (CSKH)
+16
+UC-STUDENT-RESET-01
+Cáº¥p láº¡i máº­t kháº©u há»c viÃªn
+Quáº£n trá»‹ viÃªn (Admin); ChÄƒm sÃ³c khÃ¡ch hÃ ng (CSKH)
+17
+UC-STUDENT-DELETE-01
+XÃ³a há»“ sÆ¡ há»c viÃªn
+Quáº£n trá»‹ viÃªn (Admin)
+18
+UC-STUDENT-LEARNING-STATUS-01
+Chuyá»ƒn tráº¡ng thÃ¡i há»c táº­p
+Quáº£n trá»‹ viÃªn (Admin); ChÄƒm sÃ³c khÃ¡ch hÃ ng (CSKH)
+19
+UC-STUDENT-FILTER-01
+Lá»c danh sÃ¡ch há»c viÃªn nÃ¢ng cao
+Quáº£n trá»‹ viÃªn (Admin); ChÄƒm sÃ³c khÃ¡ch hÃ ng (CSKH)
+20
+UC-HOLIDAY-CREATE-01
+Khai bÃ¡o ngÃ y nghá»‰ toÃ n há»‡ thá»‘ng
+Quáº£n trá»‹ viÃªn (Admin)
+21
+UC-HOLIDAY-UPDATE-01
+Äiá»u chá»‰nh / Há»§y bá» ngÃ y nghá»‰
+Quáº£n trá»‹ viÃªn (Admin)
+22
+UC-PORTAL-LOGIN-01
+ÄÄƒng nháº­p & Äá»•i máº­t kháº©u láº§n Ä‘áº§u
+Há»c viÃªn (Student)
+23
+UC-PORTAL-SPEAKING-REG-01
+ÄÄƒng kÃ½ ca thi Speaking
+Há»c viÃªn (Student)
+24
+UC-PORTAL-SPEAKING-SCHEDULE-01
+Tra cá»©u Lá»‹ch thi Speaking
+Há»c viÃªn (Student)
+25
+UC-PORTAL-GRADES-01
+Tra cá»©u Äiá»ƒm & Káº¿t quáº£ thi
+Há»c viÃªn (Student)
+26
+UC-CSKH-EXAM-WORKSPACE-01
+Workspace Äiá»u phá»‘i Kháº£o thÃ­ CSKH (WP_CSKH_01)
+ChuyÃªn viÃªn ChÄƒm sÃ³c khÃ¡ch hÃ ng (CSKH / Academic Coordinator)
+27
+UC-EXAM-WRITING-MANUAL-ASSIGN-01
+PhÃ¢n bá»• há»c viÃªn cáº§n nháº­p Ä‘iá»ƒm Writing thá»§ cÃ´ng
+Tá»• trÆ°á»Ÿng chuyÃªn mÃ´n (Leader Teacher)
+28
+UC-TEACHER-SPEAKING-AVAILABILITY-01
+ÄÄƒng kÃ½ lá»‹ch lÃ m viá»‡c thi Speaking (When2meet)
+GiÃ¡o viÃªn; Trá»£ giáº£ng
+29
+UC-EXAM-SPEAKING-GRADING-01
+Lá»‹ch thi Speaking GV & Nháº­p Ä‘iá»ƒm Speaking
+GiÃ¡o viÃªn; Trá»£ giáº£ng phá»¥ trÃ¡ch kháº£o thÃ­ (Interviewer / Examiner)
+30
+UC-EXAM-WRITING-GRADES-01
+Quáº£n lÃ½ nháº­n ca & Nháº­p Ä‘iá»ƒm Writing GV
+GiÃ¡o viÃªn; Trá»£ giáº£ng Ä‘Æ°á»£c phÃ¢n cÃ´ng (Grader / Examiner)
+31
+UC-DT-CLASS-MANAGEMENT-01
+Quáº£n lÃ½ Lá»›p há»c
+ChuyÃªn viÃªn CSKH; Quáº£n trá»‹ viÃªn (Admin)
+32
+UC-GAP-CARE-01
+ChÄƒm sÃ³c há»c viÃªn (GAP System)
+ChuyÃªn viÃªn CSKH; GiÃ¡o viÃªn phá»¥ trÃ¡ch lá»›p
+33
+UC-GAP-MATERIAL-APPROVAL-01
+Duyá»‡t tÃ i liá»‡u ngoÃ i (GAP)
+Tá»• trÆ°á»Ÿng chuyÃªn mÃ´n (Leader Teacher); Quáº£n trá»‹ viÃªn (Admin)
+34
+UC-RBAC-MENU-ACTIONS-01
+Khai bÃ¡o quyá»n kháº£ dá»¥ng trÃªn Menu
+Quáº£n trá»‹ viÃªn tá»‘i cao (Admin)
+35
+UC-RBAC-CREATE-ROLE-01
+Táº¡o Vai trÃ² má»›i
+Quáº£n trá»‹ viÃªn tá»‘i cao (Admin)
+36
+UC-RBAC-PERMISSION-MATRIX-01
+Cáº¥u hÃ¬nh ma tráº­n quyá»n cho Vai trÃ²
+Quáº£n trá»‹ viÃªn tá»‘i cao (Admin)
+37
+UC-RBAC-BULK-PERMISSIONS-01
+Chá»n táº¥t cáº£ quyá»n / Bá» chá»n quyá»n trong ma tráº­n phÃ¢n quyá»n
+Quáº£n trá»‹ viÃªn tá»‘i cao (Admin)
+38
+UC-RBAC-CLONE-PERMISSIONS-01
+NhÃ¢n báº£n quyá»n (Clone Permissions)
+Quáº£n trá»‹ viÃªn tá»‘i cao (Admin)
+39
+UC-RBAC-ASSIGN-ROLE-01
+GÃ¡n Vai trÃ² cho NgÆ°á»i dÃ¹ng
+Quáº£n trá»‹ viÃªn tá»‘i cao (Admin)
+40
+UC-RBAC-APPLY-PERMISSION-01
+Hiá»ƒn thá»‹ Menu vÃ  nÃºt chá»©c nÄƒng theo quyá»n Vai trÃ²
+Admin; CSKH; Leader Sale; Saler; GiÃ¡o viÃªn; Trá»£ giáº£ng; Káº¿ toÃ¡n
+41
+UC-SETTINGS-OPS-SLA-01
+Cáº¥u hÃ¬nh tham sá»‘ Váº­n hÃ nh & SLA Trung tÃ¢m
+Quáº£n trá»‹ viÃªn (Admin)
+42
+UC-SETTINGS-SPEAKING-01
+Cáº¥u hÃ¬nh tham sá»‘ Kháº£o thÃ­ Speaking
+Quáº£n trá»‹ viÃªn (Admin)
+43
+UC-SETTINGS-EMAIL-TEMPLATES-01
+Quáº£n lÃ½ Máº«u Email Tá»± Ä‘á»™ng (Email Templates)
+Quáº£n trá»‹ viÃªn (Admin)
+44
+UC-MASTER-DATA-ADD-01
+ThÃªm báº£n ghi Danh má»¥c LÃµi
+Quáº£n trá»‹ viÃªn (Admin)
+45
+UC-MASTER-DATA-EDIT-STATUS-01
+Chá»‰nh sá»­a / Báº­t táº¯t tráº¡ng thÃ¡i Danh má»¥c LÃµi
+Quáº£n trá»‹ viÃªn (Admin)
+46
+UC-MASTER-DATA-REORDER-01
+Sáº¯p xáº¿p thá»© tá»± hiá»ƒn thá»‹ Danh má»¥c LÃµi
+Quáº£n trá»‹ viÃªn (Admin)
+47
+UC-AUDIT-LOGS-SEARCH-01
+Tra cá»©u Nháº­t kÃ½ Há»‡ thá»‘ng (Audit Logs)
+Quáº£n trá»‹ viÃªn tá»‘i cao (Admin)
+48
+UC-AUDIT-LOGS-DIFF-01
+Xem chi tiáº¿t biáº¿n Ä‘á»™ng dá»¯ liá»‡u (Diff Viewer)
+Quáº£n trá»‹ viÃªn tá»‘i cao (Admin)
+49
+UC-AUDIT-LOGS-EXPORT-01
+Xuáº¥t BÃ¡o cÃ¡o Audit (Excel)
+Quáº£n trá»‹ viÃªn tá»‘i cao (Admin)
+
+2. UC-LEVEL-ADD-01 - ThÃªm má»›i trÃ¬nh Ä‘á»™ há»c
+2.1. HÃ¬nh Use Case tá»•ng quan
+
+2.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+2.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-LEVEL-ADD-01
+TÃªn Use Case
+ThÃªm má»›i trÃ¬nh Ä‘á»™ há»c
+Actor
+Quáº£n trá»‹ viÃªn (Admin)
+Má»¥c tiÃªu
+Admin thÃªm má»™t trÃ¬nh Ä‘á»™ há»c má»›i vÃ o danh má»¥c Ä‘á»ƒ há»‡ thá»‘ng sá»­ dá»¥ng khi táº¡o lá»›p há»c hoáº·c cáº¥u hÃ¬nh trÃ¬nh Ä‘á»™ chuyÃªn mÃ´n cho giÃ¡o viÃªn/trá»£ giáº£ng.
+MÃ´ táº£ nghiá»‡p vá»¥
+Admin má»Ÿ mÃ n hÃ¬nh Quáº£n lÃ½ TrÃ¬nh Ä‘á»™ há»c, nháº¥n + ThÃªm trÃ¬nh Ä‘á»™, nháº­p tÃªn trÃ¬nh Ä‘á»™, chá»n loáº¡i Ã¡p dá»¥ng, chá»n tráº¡ng thÃ¡i vÃ  lÆ°u. Há»‡ thá»‘ng kiá»ƒm tra báº¯t buá»™c, kiá»ƒm tra trÃ¹ng tÃªn, sau Ä‘Ã³ lÆ°u vÃ  cáº­p nháº­t danh sÃ¡ch.
+Äiá»u kiá»‡n trÆ°á»›c
+1. NgÆ°á»i dÃ¹ng Ä‘Ã£ Ä‘Äƒng nháº­p thÃ nh cÃ´ng. 2. NgÆ°á»i dÃ¹ng cÃ³ vai trÃ² Admin.
+Luá»“ng chÃ­nh
+1. Admin truy cáº­p /admin/levels. 2. Há»‡ thá»‘ng hiá»ƒn thá»‹ danh sÃ¡ch trÃ¬nh Ä‘á»™ vÃ  nÃºt + ThÃªm trÃ¬nh Ä‘á»™. 3. Admin nháº¥n + ThÃªm trÃ¬nh Ä‘á»™. 4. Há»‡ thá»‘ng má»Ÿ modal ThÃ´ng tin TrÃ¬nh Ä‘á»™ há»c. 5. Admin nháº­p tÃªn trÃ¬nh Ä‘á»™, chá»n loáº¡i Ã¡p dá»¥ng, nháº­p mÃ´ táº£ náº¿u cÃ³, chá»n tráº¡ng thÃ¡i. 6. Admin nháº¥n LÆ°u. 7. Há»‡ thá»‘ng kiá»ƒm tra dá»¯ liá»‡u há»£p lá»‡. 8. Há»‡ thá»‘ng lÆ°u trÃ¬nh Ä‘á»™. 9. Há»‡ thá»‘ng thÃ´ng bÃ¡o thÃ nh cÃ´ng vÃ  cáº­p nháº­t láº¡i danh sÃ¡ch.
+Luá»“ng thay tháº¿
+Admin nháº¥n Há»§y hoáº·c Ä‘Ã³ng modal trÆ°á»›c khi lÆ°u. Há»‡ thá»‘ng Ä‘Ã³ng modal, khÃ´ng gá»­i dá»¯ liá»‡u lÃªn server vÃ  giá»¯ nguyÃªn danh sÃ¡ch trÃ¬nh Ä‘á»™ cÅ©.
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: TÃªn trÃ¬nh Ä‘á»™ Ä‘á»ƒ trá»‘ng. Há»‡ thá»‘ng bÃ¡o lá»—i, giá»¯ modal vÃ  yÃªu cáº§u Admin nháº­p láº¡i.Luá»“ng ngoáº¡i lá»‡ 2: TÃªn trÃ¬nh Ä‘á»™ Ä‘Ã£ tá»“n táº¡i. Há»‡ thá»‘ng bÃ¡o lá»—i `TÃªn trÃ¬nh Ä‘á»™ Ä‘Ã£ tá»“n táº¡i, vui lÃ²ng nháº­p tÃªn khÃ¡c`, khÃ´ng lÆ°u dá»¯ liá»‡u.Luá»“ng ngoáº¡i lá»‡ 3: Loáº¡i Ã¡p dá»¥ng khÃ´ng há»£p lá»‡ hoáº·c náº±m ngoÃ i 2 giÃ¡ trá»‹ cho phÃ©p. Há»‡ thá»‘ng bÃ¡o lá»—i dá»¯ liá»‡u khÃ´ng há»£p lá»‡ vÃ  khÃ´ng lÆ°u trÃ¬nh Ä‘á»™.
+Quy táº¯c nghiá»‡p vá»¥
+TÃªn trÃ¬nh Ä‘á»™ báº¯t buá»™c nháº­p vÃ  khÃ´ng Ä‘Æ°á»£c trÃ¹ng láº·p. Loáº¡i Ã¡p dá»¥ng chá»‰ cÃ³ 2 giÃ¡ trá»‹: TrÃ¬nh Ä‘á»™ Lá»›p hoáº·c TrÃ¬nh Ä‘á»™ GiÃ¡o viÃªn, khÃ´ng cÃ³ lá»±a chá»n Cáº£ hai. MÃ´ táº£ lÃ  tÃ¹y chá»n. Tráº¡ng thÃ¡i gá»“m Äang má»Ÿ hoáº·c ÄÃ£ áº©n.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+TÃªn trÃ¬nh Ä‘á»™; Loáº¡i Ã¡p dá»¥ng; MÃ´ táº£; Tráº¡ng thÃ¡i.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: TrÃ¬nh Ä‘á»™ má»›i Ä‘Æ°á»£c lÆ°u vÃ o há»‡ thá»‘ng vÃ  hiá»ƒn thá»‹ trong báº£ng danh má»¥c. Náº¿u loáº¡i Ã¡p dá»¥ng lÃ  TrÃ¬nh Ä‘á»™ Lá»›p, trÃ¬nh Ä‘á»™ cÃ³ thá»ƒ xuáº¥t hiá»‡n trong dropdown táº¡o lá»›p khi á»Ÿ tráº¡ng thÃ¡i Äang má»Ÿ. Náº¿u loáº¡i Ã¡p dá»¥ng lÃ  TrÃ¬nh Ä‘á»™ GiÃ¡o viÃªn, trÃ¬nh Ä‘á»™ cÃ³ thá»ƒ xuáº¥t hiá»‡n trong dropdown trÃ¬nh Ä‘á»™ phá»¥ trÃ¡ch cá»§a giÃ¡o viÃªn.Tháº¥t báº¡i: KhÃ´ng cÃ³ dá»¯ liá»‡u má»›i Ä‘Æ°á»£c táº¡o. Danh sÃ¡ch trÃ¬nh Ä‘á»™ giá»¯ nguyÃªn.
+MÃ n hÃ¬nh liÃªn quan
+Quáº£n lÃ½ TrÃ¬nh Ä‘á»™ há»cRoute: /admin/levels
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+3. UC-LEVEL-EDIT-01 - Chá»‰nh sá»­a trÃ¬nh Ä‘á»™ há»c
+3.1. HÃ¬nh Use Case tá»•ng quan
+
+3.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+3.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-LEVEL-EDIT-01
+TÃªn Use Case
+Chá»‰nh sá»­a trÃ¬nh Ä‘á»™ há»c
+Actor
+Quáº£n trá»‹ viÃªn (Admin)
+Má»¥c tiÃªu
+Admin cáº­p nháº­t thÃ´ng tin má»™t trÃ¬nh Ä‘á»™ há»c Ä‘ang cÃ³ trong danh má»¥c Ä‘á»ƒ phá»¥c vá»¥ táº¡o lá»›p há»c hoáº·c cáº¥u hÃ¬nh trÃ¬nh Ä‘á»™ chuyÃªn mÃ´n cho giÃ¡o viÃªn/trá»£ giáº£ng.
+MÃ´ táº£ nghiá»‡p vá»¥
+Admin má»Ÿ mÃ n hÃ¬nh Quáº£n lÃ½ TrÃ¬nh Ä‘á»™ há»c, nháº¥n Sá»­a táº¡i dÃ²ng trÃ¬nh Ä‘á»™, cáº­p nháº­t thÃ´ng tin trong modal vÃ  nháº¥n LÆ°u. Há»‡ thá»‘ng kiá»ƒm tra dá»¯ liá»‡u há»£p lá»‡, kiá»ƒm tra trÃ¹ng tÃªn vÃ  cáº­p nháº­t danh sÃ¡ch.
+Äiá»u kiá»‡n trÆ°á»›c
+1. NgÆ°á»i dÃ¹ng Ä‘Ã£ Ä‘Äƒng nháº­p thÃ nh cÃ´ng. 2. NgÆ°á»i dÃ¹ng cÃ³ vai trÃ² Admin. 3. Danh má»¥c Ä‘Ã£ cÃ³ Ã­t nháº¥t má»™t trÃ¬nh Ä‘á»™ há»c Ä‘á»ƒ chá»‰nh sá»­a.
+Luá»“ng chÃ­nh
+1. Admin truy cáº­p /admin/levels. 2. Há»‡ thá»‘ng hiá»ƒn thá»‹ báº£ng danh má»¥c trÃ¬nh Ä‘á»™. 3. Admin nháº¥n Sá»­a táº¡i dÃ²ng trÃ¬nh Ä‘á»™ cáº§n cáº­p nháº­t. 4. Há»‡ thá»‘ng táº£i dá»¯ liá»‡u hiá»‡n táº¡i vÃ  má»Ÿ modal ThÃ´ng tin TrÃ¬nh Ä‘á»™ há»c. 5. Admin chá»‰nh sá»­a tÃªn trÃ¬nh Ä‘á»™, loáº¡i Ã¡p dá»¥ng, mÃ´ táº£ hoáº·c tráº¡ng thÃ¡i. 6. Admin nháº¥n LÆ°u. 7. Há»‡ thá»‘ng kiá»ƒm tra dá»¯ liá»‡u há»£p lá»‡. 8. Há»‡ thá»‘ng lÆ°u thÃ´ng tin cáº­p nháº­t. 9. Há»‡ thá»‘ng thÃ´ng bÃ¡o thÃ nh cÃ´ng vÃ  cáº­p nháº­t láº¡i danh sÃ¡ch.
+Luá»“ng thay tháº¿
+Admin nháº¥n Há»§y hoáº·c Ä‘Ã³ng modal trÆ°á»›c khi lÆ°u. Há»‡ thá»‘ng Ä‘Ã³ng modal, khÃ´ng gá»­i dá»¯ liá»‡u cáº­p nháº­t lÃªn server vÃ  giá»¯ nguyÃªn dá»¯ liá»‡u trÃ¬nh Ä‘á»™ cÅ©.
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: KhÃ´ng tÃ¬m tháº¥y trÃ¬nh Ä‘á»™ táº¡i thá»i Ä‘iá»ƒm má»Ÿ form sá»­a. Há»‡ thá»‘ng bÃ¡o lá»—i dá»¯ liá»‡u khÃ´ng tá»“n táº¡i hoáº·c Ä‘Ã£ bá»‹ thay Ä‘á»•i vÃ  khÃ´ng má»Ÿ modal chá»‰nh sá»­a.Luá»“ng ngoáº¡i lá»‡ 2: TÃªn trÃ¬nh Ä‘á»™ Ä‘á»ƒ trá»‘ng. Há»‡ thá»‘ng bÃ¡o lá»—i, giá»¯ modal vÃ  yÃªu cáº§u Admin nháº­p láº¡i.Luá»“ng ngoáº¡i lá»‡ 3: TÃªn trÃ¬nh Ä‘á»™ Ä‘Ã£ tá»“n táº¡i á»Ÿ má»™t báº£n ghi khÃ¡c. Há»‡ thá»‘ng bÃ¡o lá»—i `TÃªn trÃ¬nh Ä‘á»™ Ä‘Ã£ tá»“n táº¡i, vui lÃ²ng nháº­p tÃªn khÃ¡c`, khÃ´ng lÆ°u dá»¯ liá»‡u.Luá»“ng ngoáº¡i lá»‡ 4: Loáº¡i Ã¡p dá»¥ng khÃ´ng há»£p lá»‡ hoáº·c náº±m ngoÃ i 2 giÃ¡ trá»‹ cho phÃ©p. Há»‡ thá»‘ng bÃ¡o lá»—i dá»¯ liá»‡u khÃ´ng há»£p lá»‡ vÃ  khÃ´ng cáº­p nháº­t trÃ¬nh Ä‘á»™.
+Quy táº¯c nghiá»‡p vá»¥
+TÃªn trÃ¬nh Ä‘á»™ báº¯t buá»™c nháº­p vÃ  khÃ´ng Ä‘Æ°á»£c trÃ¹ng vá»›i trÃ¬nh Ä‘á»™ khÃ¡c. Loáº¡i Ã¡p dá»¥ng chá»‰ cÃ³ 2 giÃ¡ trá»‹: TrÃ¬nh Ä‘á»™ Lá»›p hoáº·c TrÃ¬nh Ä‘á»™ GiÃ¡o viÃªn, khÃ´ng cÃ³ lá»±a chá»n Cáº£ hai. MÃ´ táº£ lÃ  tÃ¹y chá»n. Tráº¡ng thÃ¡i gá»“m Äang má»Ÿ hoáº·c ÄÃ£ áº©n.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+TÃªn trÃ¬nh Ä‘á»™; Loáº¡i Ã¡p dá»¥ng; MÃ´ táº£; Tráº¡ng thÃ¡i.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: ThÃ´ng tin trÃ¬nh Ä‘á»™ Ä‘Æ°á»£c cáº­p nháº­t trong há»‡ thá»‘ng vÃ  hiá»ƒn thá»‹ láº¡i trÃªn báº£ng danh má»¥c. CÃ¡c dropdown liÃªn quan Ä‘áº¿n táº¡o lá»›p hoáº·c quáº£n lÃ½ giÃ¡o viÃªn sá»­ dá»¥ng dá»¯ liá»‡u má»›i theo Ä‘Ãºng loáº¡i Ã¡p dá»¥ng vÃ  tráº¡ng thÃ¡i.Tháº¥t báº¡i: KhÃ´ng cÃ³ dá»¯ liá»‡u trÃ¬nh Ä‘á»™ nÃ o Ä‘Æ°á»£c thay Ä‘á»•i. Danh sÃ¡ch trÃ¬nh Ä‘á»™ giá»¯ nguyÃªn.
+MÃ n hÃ¬nh liÃªn quan
+Quáº£n lÃ½ TrÃ¬nh Ä‘á»™ há»cRoute: /admin/levels
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+4. UC-LEVEL-STATUS-01 - Chuyá»ƒn tráº¡ng thÃ¡i trÃ¬nh Ä‘á»™ há»c
+4.1. HÃ¬nh Use Case tá»•ng quan
+
+4.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+4.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-LEVEL-STATUS-01
+TÃªn Use Case
+Chuyá»ƒn tráº¡ng thÃ¡i trÃ¬nh Ä‘á»™ há»c
+Actor
+Quáº£n trá»‹ viÃªn (Admin)
+Má»¥c tiÃªu
+Admin chuyá»ƒn tráº¡ng thÃ¡i má»™t trÃ¬nh Ä‘á»™ há»c giá»¯a Äang má»Ÿ vÃ  ÄÃ£ áº©n Ä‘á»ƒ kiá»ƒm soÃ¡t viá»‡c hiá»ƒn thá»‹ trong danh sÃ¡ch chá»n khi táº¡o lá»›p hoáº·c cáº¥u hÃ¬nh giÃ¡o viÃªn má»›i, Ä‘á»“ng thá»i báº£o toÃ n dá»¯ liá»‡u lá»‹ch sá»­.
+MÃ´ táº£ nghiá»‡p vá»¥
+Admin má»Ÿ mÃ n hÃ¬nh Quáº£n lÃ½ TrÃ¬nh Ä‘á»™ há»c, chá»n dÃ²ng trÃ¬nh Ä‘á»™ vÃ  nháº¥n nÃºt Ä‘á»•i tráº¡ng thÃ¡i. Há»‡ thá»‘ng xÃ¡c Ä‘á»‹nh tráº¡ng thÃ¡i má»›i, lÆ°u thay Ä‘á»•i, cáº­p nháº­t báº£ng danh má»¥c vÃ  Ã¡p dá»¥ng viá»‡c áº©n/hiá»‡n trong cÃ¡c dropdown liÃªn quan.
+Äiá»u kiá»‡n trÆ°á»›c
+1. NgÆ°á»i dÃ¹ng Ä‘Ã£ Ä‘Äƒng nháº­p thÃ nh cÃ´ng. 2. NgÆ°á»i dÃ¹ng cÃ³ vai trÃ² Admin. 3. Danh má»¥c Ä‘Ã£ cÃ³ Ã­t nháº¥t má»™t trÃ¬nh Ä‘á»™ há»c.
+Luá»“ng chÃ­nh
+1. Admin truy cáº­p /admin/levels. 2. Há»‡ thá»‘ng hiá»ƒn thá»‹ báº£ng danh má»¥c trÃ¬nh Ä‘á»™ vÃ  tráº¡ng thÃ¡i tá»«ng dÃ²ng. 3. Admin chá»n dÃ²ng trÃ¬nh Ä‘á»™ cáº§n Ä‘á»•i tráº¡ng thÃ¡i. 4. Admin nháº¥n nÃºt áº¨n náº¿u trÃ¬nh Ä‘á»™ Ä‘ang má»Ÿ hoáº·c Má»Ÿ láº¡i náº¿u trÃ¬nh Ä‘á»™ Ä‘Ã£ áº©n. 5. Há»‡ thá»‘ng táº£i thÃ´ng tin trÃ¬nh Ä‘á»™ hiá»‡n táº¡i. 6. Há»‡ thá»‘ng xÃ¡c Ä‘á»‹nh tráº¡ng thÃ¡i má»›i. 7. Há»‡ thá»‘ng cáº­p nháº­t tráº¡ng thÃ¡i. 8. Há»‡ thá»‘ng báº£o toÃ n dá»¯ liá»‡u lá»‹ch sá»­ liÃªn quan. 9. Há»‡ thá»‘ng thÃ´ng bÃ¡o thÃ nh cÃ´ng vÃ  cáº­p nháº­t láº¡i danh sÃ¡ch.
+Luá»“ng thay tháº¿
+Admin chá»n dÃ²ng trÃ¬nh Ä‘á»™ nhÆ°ng khÃ´ng nháº¥n nÃºt Ä‘á»•i tráº¡ng thÃ¡i. Há»‡ thá»‘ng khÃ´ng gá»­i yÃªu cáº§u cáº­p nháº­t lÃªn server vÃ  giá»¯ nguyÃªn tráº¡ng thÃ¡i hiá»‡n táº¡i.
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: KhÃ´ng tÃ¬m tháº¥y trÃ¬nh Ä‘á»™ táº¡i thá»i Ä‘iá»ƒm cáº­p nháº­t. Há»‡ thá»‘ng bÃ¡o lá»—i dá»¯ liá»‡u khÃ´ng tá»“n táº¡i hoáº·c Ä‘Ã£ bá»‹ thay Ä‘á»•i vÃ  khÃ´ng cáº­p nháº­t tráº¡ng thÃ¡i.Luá»“ng ngoáº¡i lá»‡ 2: Cáº­p nháº­t tráº¡ng thÃ¡i tháº¥t báº¡i do lá»—i há»‡ thá»‘ng hoáº·c server. Há»‡ thá»‘ng bÃ¡o lá»—i khÃ´ng thá»ƒ cáº­p nháº­t tráº¡ng thÃ¡i vÃ  giá»¯ nguyÃªn tráº¡ng thÃ¡i cÅ©.
+Quy táº¯c nghiá»‡p vá»¥
+Tráº¡ng thÃ¡i chá»‰ cÃ³ 2 giÃ¡ trá»‹: Äang má»Ÿ hoáº·c ÄÃ£ áº©n. TrÃ¬nh Ä‘á»™ ÄÃ£ áº©n khÃ´ng hiá»ƒn thá»‹ trong danh sÃ¡ch chá»n khi táº¡o lá»›p/giÃ¡o viÃªn má»›i, nhÆ°ng dá»¯ liá»‡u lá»‹ch sá»­ váº«n Ä‘Æ°á»£c báº£o toÃ n.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+MÃ£ trÃ¬nh Ä‘á»™ Ä‘Æ°á»£c chá»n; tráº¡ng thÃ¡i hiá»‡n táº¡i cá»§a trÃ¬nh Ä‘á»™.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: Tráº¡ng thÃ¡i trÃ¬nh Ä‘á»™ Ä‘Æ°á»£c cáº­p nháº­t trong há»‡ thá»‘ng. Náº¿u chuyá»ƒn sang ÄÃ£ áº©n, trÃ¬nh Ä‘á»™ khÃ´ng cÃ²n hiá»ƒn thá»‹ trong dropdown táº¡o lá»›p/giÃ¡o viÃªn má»›i. Náº¿u chuyá»ƒn sang Äang má»Ÿ, trÃ¬nh Ä‘á»™ cÃ³ thá»ƒ hiá»ƒn thá»‹ láº¡i trong dropdown phÃ¹ há»£p vá»›i loáº¡i Ã¡p dá»¥ng.Tháº¥t báº¡i: Tráº¡ng thÃ¡i trÃ¬nh Ä‘á»™ khÃ´ng thay Ä‘á»•i. Danh sÃ¡ch trÃ¬nh Ä‘á»™ giá»¯ nguyÃªn.
+MÃ n hÃ¬nh liÃªn quan
+Quáº£n lÃ½ TrÃ¬nh Ä‘á»™ há»cRoute: /admin/levels
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+5. UC-LEVEL-DELETE-01 - XÃ³a trÃ¬nh Ä‘á»™ há»c
+5.1. HÃ¬nh Use Case tá»•ng quan
+
+5.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+5.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-LEVEL-DELETE-01
+TÃªn Use Case
+XÃ³a trÃ¬nh Ä‘á»™ há»c
+Actor
+Quáº£n trá»‹ viÃªn (Admin)
+Má»¥c tiÃªu
+Admin xÃ³a má»™t trÃ¬nh Ä‘á»™ há»c khá»i danh má»¥c, Admin thá»±c hiá»‡n xÃ³a má»m trÃ¬nh Ä‘á»™ há»c khá»i danh má»¥c vÃ  tá»± Ä‘á»™ng xá»­ lÃ½ cÃ¡c liÃªn káº¿t liÃªn quan. 
+MÃ´ táº£ nghiá»‡p vá»¥
+Admin nháº¥n XÃ³a táº¡i dÃ²ng trÃ¬nh Ä‘á»™. Há»‡ thá»‘ng kiá»ƒm tra trÃ¬nh Ä‘á»™ cÃ³ Ä‘ang liÃªn káº¿t vá»›i lá»›p há»c hoáº·c giÃ¡o viÃªn khÃ´ng. Há»‡ thá»‘ng hiá»ƒn thá»‹ há»™p thoáº¡i xÃ¡c nháº­n xÃ³a, kÃ¨m theo danh sÃ¡ch chi tiáº¿t cÃ¡c Lá»›p há»c/GiÃ¡o viÃªn Ä‘ang sá»­ dá»¥ng trÃ¬nh Ä‘á»™ nÃ y (náº¿u cÃ³). Khi Admin xÃ¡c nháº­n, há»‡ thá»‘ng thá»±c hiá»‡n xÃ³a má»m trÃ¬nh Ä‘á»™ vÃ  gá»¡/áº©n cÃ¡c liÃªn káº¿t hiá»ƒn thá»‹ tÆ°Æ¡ng á»©ng." 
+Äiá»u kiá»‡n trÆ°á»›c
+1. NgÆ°á»i dÃ¹ng Ä‘Ã£ Ä‘Äƒng nháº­p thÃ nh cÃ´ng. 2. NgÆ°á»i dÃ¹ng cÃ³ vai trÃ² Admin. 3. Danh má»¥c Ä‘Ã£ cÃ³ Ã­t nháº¥t má»™t trÃ¬nh Ä‘á»™ há»c.
+Luá»“ng chÃ­nh
+1. Admin truy cáº­p /admin/levels. 
+2. Há»‡ thá»‘ng hiá»ƒn thá»‹ báº£ng danh má»¥c trÃ¬nh Ä‘á»™. 
+3. Admin nháº¥n XÃ³a táº¡i dÃ²ng trÃ¬nh Ä‘á»™ cáº§n xÃ³a. 
+4. Há»‡ thá»‘ng táº£i thÃ´ng tin trÃ¬nh Ä‘á»™ hiá»‡n táº¡i. 
+5. Há»‡ thá»‘ng kiá»ƒm tra vÃ  láº¥y danh sÃ¡ch cÃ¡c lá»›p há»c/giÃ¡o viÃªn Ä‘ang liÃªn káº¿t vá»›i trÃ¬nh Ä‘á»™ nÃ y.  
+6. Há»‡ thá»‘ng hiá»ƒn thá»‹ há»™p thoáº¡i xÃ¡c nháº­n xÃ³a (hiá»ƒn thá»‹ kÃ¨m danh sÃ¡ch dá»¯ liá»‡u liÃªn káº¿t tÃ¬m tháº¥y á»Ÿ BÆ°á»›c 5 náº¿u cÃ³). 
+7. Admin nháº¥n XÃ¡c nháº­n. 
+8. Há»‡ thá»‘ng gá»­i yÃªu cáº§u xÃ³a lÃªn server.
+9. Há»‡ thá»‘ng thá»±c hiá»‡n xÃ³a má»m trÃ¬nh Ä‘á»™ (cáº­p nháº­t tráº¡ng thÃ¡i Ä‘Ã£ xÃ³a) vÃ  xÃ³a/áº©n liÃªn káº¿t vá»›i cÃ¡c lá»›p/giÃ¡o viÃªn tÆ°Æ¡ng á»©ng, thÃ´ng bÃ¡o thÃ nh cÃ´ng vÃ  cáº­p nháº­t láº¡i danh sÃ¡ch. 
+Luá»“ng thay tháº¿
+Admin khÃ´ng xÃ¡c nháº­n xÃ³a, nháº¥n Há»§y hoáº·c Ä‘Ã³ng há»™p thoáº¡i xÃ¡c nháº­n. Há»‡ thá»‘ng khÃ´ng gá»­i yÃªu cáº§u xÃ³a lÃªn server vÃ  giá»¯ nguyÃªn danh sÃ¡ch trÃ¬nh Ä‘á»™.
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: KhÃ´ng tÃ¬m tháº¥y trÃ¬nh Ä‘á»™ táº¡i thá»i Ä‘iá»ƒm xÃ³a. Há»‡ thá»‘ng bÃ¡o lá»—i dá»¯ liá»‡u khÃ´ng tá»“n táº¡i hoáº·c Ä‘Ã£ bá»‹ thay Ä‘á»•i vÃ  khÃ´ng thá»±c hiá»‡n xÃ³a.Luá»“ng ngoáº¡i lá»‡ 2: Server xÃ³a tháº¥t báº¡i. Há»‡ thá»‘ng hiá»ƒn thá»‹ lá»—i khÃ´ng thá»ƒ xÃ³a trÃ¬nh Ä‘á»™ vÃ  giá»¯ nguyÃªn dá»¯ liá»‡u trÃ¬nh Ä‘á»™.
+Quy táº¯c nghiá»‡p vá»¥
+Cho phÃ©p thá»±c hiá»‡n xÃ³a má»m ngay cáº£ khi trÃ¬nh Ä‘á»™ Ä‘ang Ä‘Æ°á»£c gÃ¡n cho Lá»›p há»c/GiÃ¡o viÃªn. Dá»¯ liá»‡u thá»±c táº¿ khÃ´ng bá»‹ xÃ³a cá»©ng (hard-delete) khá»i Database Ä‘á»ƒ báº£o toÃ n toÃ n váº¹n dá»¯ liá»‡u lá»‹ch sá»­, nhÆ°ng sáº½ khÃ´ng cÃ²n hiá»ƒn thá»‹ á»Ÿ mÃ n hÃ¬nh Quáº£n lÃ½ TrÃ¬nh Ä‘á»™ vÃ  cÃ¡c dropdown chá»n trÃ¬nh Ä‘á»™. 
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+MÃ£ trÃ¬nh Ä‘á»™ Ä‘Æ°á»£c chá»n Ä‘á»ƒ xÃ³a.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: TrÃ¬nh Ä‘á»™ bá»‹ xÃ³a má»m, khÃ´ng cÃ²n hiá»ƒn thá»‹ trÃªn báº£ng trÃ¬nh Ä‘á»™. CÃ¡c Lá»›p há»c/GiÃ¡o viÃªn Ä‘ang sá»­ dá»¥ng trÃ¬nh Ä‘á»™ nÃ y sáº½ bá»‹ xÃ³a liÃªn káº¿t hiá»ƒn thá»‹ vá»›i trÃ¬nh Ä‘á»™ Ä‘Ã³. Tháº¥t báº¡i: KhÃ´ng cÃ³ dá»¯ liá»‡u nÃ o bá»‹ xÃ³a. Danh sÃ¡ch trÃ¬nh Ä‘á»™ giá»¯ nguyÃªn.
+MÃ n hÃ¬nh liÃªn quan
+Quáº£n lÃ½ TrÃ¬nh Ä‘á»™ há»cRoute: /admin/levels
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+6. UC-LEVEL-FILTER-01 - Lá»c danh má»¥c trÃ¬nh Ä‘á»™ há»c
+6.1. HÃ¬nh Use Case tá»•ng quan
+
+6.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+6.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-LEVEL-FILTER-01
+TÃªn Use Case
+Lá»c danh má»¥c trÃ¬nh Ä‘á»™ há»c
+Actor
+Quáº£n trá»‹ viÃªn (Admin)
+Má»¥c tiÃªu
+Admin lá»c danh má»¥c trÃ¬nh Ä‘á»™ há»c theo Loáº¡i Ã¡p dá»¥ng vÃ  Tráº¡ng thÃ¡i Ä‘á»ƒ kiá»ƒm tra, cáº¥u hÃ¬nh vÃ  truy váº¥n dá»¯ liá»‡u nhanh hÆ¡n.
+MÃ´ táº£ nghiá»‡p vá»¥
+Admin chá»n bá»™ lá»c Loáº¡i Ã¡p dá»¥ng vÃ /hoáº·c Tráº¡ng thÃ¡i. Há»‡ thá»‘ng truy váº¥n danh sÃ¡ch trÃ¬nh Ä‘á»™ theo Ä‘iá»u kiá»‡n lá»c vÃ  cáº­p nháº­t báº£ng hiá»ƒn thá»‹.
+Äiá»u kiá»‡n trÆ°á»›c
+1. NgÆ°á»i dÃ¹ng Ä‘Ã£ Ä‘Äƒng nháº­p thÃ nh cÃ´ng. 2. NgÆ°á»i dÃ¹ng cÃ³ vai trÃ² Admin. 3. MÃ n hÃ¬nh /admin/levels cÃ³ danh sÃ¡ch trÃ¬nh Ä‘á»™ há»c.
+Luá»“ng chÃ­nh
+1. Admin truy cáº­p /admin/levels. 2. Há»‡ thá»‘ng hiá»ƒn thá»‹ báº£ng danh má»¥c trÃ¬nh Ä‘á»™ vÃ  cÃ¡c bá»™ lá»c. 3. Admin chá»n giÃ¡ trá»‹ lá»c theo Loáº¡i Ã¡p dá»¥ng. 4. Admin chá»n giÃ¡ trá»‹ lá»c theo Tráº¡ng thÃ¡i. 5. Há»‡ thá»‘ng nháº­n Ä‘iá»u kiá»‡n lá»c. 6. Há»‡ thá»‘ng kiá»ƒm tra Ä‘iá»u kiá»‡n lá»c há»£p lá»‡. 7. Há»‡ thá»‘ng truy váº¥n danh sÃ¡ch trÃ¬nh Ä‘á»™ phÃ¹ há»£p. 8. Há»‡ thá»‘ng cáº­p nháº­t báº£ng danh má»¥c trÃªn mÃ n hÃ¬nh.
+Luá»“ng thay tháº¿
+Admin khÃ´i phá»¥c bá»™ lá»c máº·c Ä‘á»‹nh báº±ng cÃ¡ch chá»n Táº¥t cáº£ hoáº·c bá» Ä‘iá»u kiá»‡n lá»c. Há»‡ thá»‘ng truy váº¥n láº¡i toÃ n bá»™ danh má»¥c trÃ¬nh Ä‘á»™ vÃ  hiá»ƒn thá»‹ danh sÃ¡ch khÃ´ng Ã¡p dá»¥ng Ä‘iá»u kiá»‡n lá»c.
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: GiÃ¡ trá»‹ lá»c Loáº¡i Ã¡p dá»¥ng khÃ´ng há»£p lá»‡. Há»‡ thá»‘ng hiá»ƒn thá»‹ lá»—i Ä‘iá»u kiá»‡n lá»c khÃ´ng há»£p lá»‡ vÃ  khÃ´ng cáº­p nháº­t báº£ng káº¿t quáº£.Luá»“ng ngoáº¡i lá»‡ 2: GiÃ¡ trá»‹ lá»c Tráº¡ng thÃ¡i khÃ´ng há»£p lá»‡. Há»‡ thá»‘ng hiá»ƒn thá»‹ lá»—i Ä‘iá»u kiá»‡n tráº¡ng thÃ¡i khÃ´ng há»£p lá»‡ vÃ  khÃ´ng cáº­p nháº­t báº£ng káº¿t quáº£.Luá»“ng ngoáº¡i lá»‡ 3: Truy váº¥n danh sÃ¡ch tháº¥t báº¡i do lá»—i há»‡ thá»‘ng hoáº·c server. Há»‡ thá»‘ng hiá»ƒn thá»‹ lá»—i khÃ´ng thá»ƒ táº£i danh sÃ¡ch trÃ¬nh Ä‘á»™ vÃ  giá»¯ nguyÃªn dá»¯ liá»‡u Ä‘ang hiá»ƒn thá»‹ trÆ°á»›c Ä‘Ã³.
+Quy táº¯c nghiá»‡p vá»¥
+Loáº¡i Ã¡p dá»¥ng dÃ¹ng Ä‘á»ƒ lá»c gá»“m Táº¥t cáº£, TrÃ¬nh Ä‘á»™ Lá»›p, TrÃ¬nh Ä‘á»™ GV. Dá»¯ liá»‡u loáº¡i Ã¡p dá»¥ng cá»§a trÃ¬nh Ä‘á»™ chá»‰ cÃ³ 2 giÃ¡ trá»‹ nghiá»‡p vá»¥: TrÃ¬nh Ä‘á»™ Lá»›p hoáº·c TrÃ¬nh Ä‘á»™ GiÃ¡o viÃªn, khÃ´ng cÃ³ lá»±a chá»n Cáº£ hai. Tráº¡ng thÃ¡i gá»“m Äang má»Ÿ hoáº·c ÄÃ£ áº©n.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+GiÃ¡ trá»‹ lá»c Loáº¡i Ã¡p dá»¥ng; giÃ¡ trá»‹ lá»c Tráº¡ng thÃ¡i.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: Báº£ng danh má»¥c trÃ¬nh Ä‘á»™ chá»‰ hiá»ƒn thá»‹ cÃ¡c báº£n ghi phÃ¹ há»£p vá»›i Ä‘iá»u kiá»‡n lá»c. Dá»¯ liá»‡u gá»‘c khÃ´ng thay Ä‘á»•i.Tháº¥t báº¡i: Báº£ng danh má»¥c khÃ´ng Ä‘Æ°á»£c cáº­p nháº­t theo Ä‘iá»u kiá»‡n lá»c lá»—i. Dá»¯ liá»‡u trÃ¬nh Ä‘á»™ trong há»‡ thá»‘ng khÃ´ng thay Ä‘á»•i.
+MÃ n hÃ¬nh liÃªn quan
+Quáº£n lÃ½ TrÃ¬nh Ä‘á»™ há»cRoute: /admin/levels
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+7. UC-TEACHER-ADD-01 - ThÃªm má»›i giÃ¡o viÃªn/trá»£ giáº£ng
+7.1. HÃ¬nh Use Case tá»•ng quan
+
+7.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+7.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-TEACHER-ADD-01
+TÃªn Use Case
+ThÃªm má»›i giÃ¡o viÃªn/trá»£ giáº£ng
+Actor
+Quáº£n trá»‹ viÃªn (Admin)
+Má»¥c tiÃªu
+Admin thÃªm há»“ sÆ¡ giÃ¡o viÃªn hoáº·c trá»£ giáº£ng má»›i vÃ o há»‡ thá»‘ng, cáº¥u hÃ¬nh trÃ¬nh Ä‘á»™ chuyÃªn mÃ´n, link phÃ²ng thi Speaking online vÃ  kÃ­ch hoáº¡t tÃ i khoáº£n Ä‘Äƒng nháº­p máº·c Ä‘á»‹nh.
+MÃ´ táº£ nghiá»‡p vá»¥
+Admin nháº¥n + ThÃªm giÃ¡o viÃªn, nháº­p há»“ sÆ¡ nhÃ¢n sá»±, tick Trá»£ giáº£ng náº¿u lÃ  trá»£ giáº£ng, chá»n trÃ¬nh Ä‘á»™ chuyÃªn mÃ´n, nháº­p link Google Meet/Zoom vÃ  nháº¥n LÆ°u. Há»‡ thá»‘ng kiá»ƒm tra email, link thi online, lÆ°u há»“ sÆ¡ vÃ  tá»± Ä‘á»™ng kÃ­ch hoáº¡t tÃ i khoáº£n vá»›i máº­t kháº©u máº·c Ä‘á»‹nh abc@123.
+Äiá»u kiá»‡n trÆ°á»›c
+1. NgÆ°á»i dÃ¹ng Ä‘Ã£ Ä‘Äƒng nháº­p thÃ nh cÃ´ng. 2. NgÆ°á»i dÃ¹ng cÃ³ vai trÃ² Admin. 3. Há»‡ thá»‘ng Ä‘Ã£ cÃ³ danh má»¥c trÃ¬nh Ä‘á»™ vá»›i Type = TrÃ¬nh Ä‘á»™ GiÃ¡o viÃªn Ä‘á»ƒ chá»n.
+Luá»“ng chÃ­nh
+1. Admin truy cáº­p /admin/teachers. 
+2. Há»‡ thá»‘ng hiá»ƒn thá»‹ danh sÃ¡ch giÃ¡o viÃªn vÃ  nÃºt + ThÃªm giÃ¡o viÃªn. 
+3. Admin nháº¥n + ThÃªm giÃ¡o viÃªn. 
+4. Há»‡ thá»‘ng má»Ÿ modal Há»“ sÆ¡ GiÃ¡o viÃªn (cÃ³ thá»ƒ Ä‘á»•i thÃ nh Há»“ sÆ¡ NhÃ¢n sá»±). 
+5. Admin nháº­p thÃ´ng tin há»“ sÆ¡, chá»n Vai trÃ². Náº¿u vai trÃ² lÃ  GiÃ¡o viÃªn hoáº·c Trá»£ giáº£ng, há»‡ thá»‘ng má»Ÿ rá»™ng form Ä‘á»ƒ nháº­p 3 loáº¡i trÃ¬nh Ä‘á»™ (giáº£ng dáº¡y, cháº¥m Writing, cháº¥m Speaking) , chá»n trÃ¬nh Ä‘á»™ chuyÃªn mÃ´n, nháº­p link thi online, chá»n tráº¡ng thÃ¡i.
+ 6. Admin nháº¥n LÆ°u. 
+7. Há»‡ thá»‘ng kiá»ƒm tra dá»¯ liá»‡u há»£p lá»‡. 
+8. Há»‡ thá»‘ng lÆ°u há»“ sÆ¡ giÃ¡o viÃªn/trá»£ giáº£ng. 
+9. Há»‡ thá»‘ng tá»± Ä‘á»™ng kÃ­ch hoáº¡t tÃ i khoáº£n vá»›i máº­t kháº©u máº·c Ä‘á»‹nh abc@123. 
+10. Há»‡ thá»‘ng thÃ´ng bÃ¡o thÃ nh cÃ´ng vÃ  cáº­p nháº­t danh sÃ¡ch.
+Luá»“ng thay tháº¿
+Admin nháº¥n Há»§y hoáº·c Ä‘Ã³ng modal trÆ°á»›c khi lÆ°u. Há»‡ thá»‘ng Ä‘Ã³ng modal, khÃ´ng gá»­i dá»¯ liá»‡u lÃªn server vÃ  giá»¯ nguyÃªn danh sÃ¡ch giÃ¡o viÃªn.
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: Thiáº¿u dá»¯ liá»‡u báº¯t buá»™c. Há»‡ thá»‘ng hiá»ƒn thá»‹ lá»—i yÃªu cáº§u nháº­p Ä‘áº§y Ä‘á»§ thÃ´ng tin vÃ  giá»¯ modal Ä‘á»ƒ Admin nháº­p láº¡i.Luá»“ng ngoáº¡i lá»‡ 2: Email Ä‘Ã£ tá»“n táº¡i trong há»‡ thá»‘ng. Há»‡ thá»‘ng bÃ¡o lá»—i `Email Ä‘Ã£ Ä‘Æ°á»£c sá»­ dá»¥ng bá»Ÿi má»™t tÃ i khoáº£n khÃ¡c`, khÃ´ng lÆ°u dá»¯ liá»‡u.Luá»“ng ngoáº¡i lá»‡ 3: Link thi online sai Ä‘á»‹nh dáº¡ng. Há»‡ thá»‘ng bÃ¡o lá»—i `ÄÆ°á»ng dáº«n pháº£i báº¯t Ä‘áº§u báº±ng https://meet.google.com hoáº·c https://zoom.us`, khÃ´ng lÆ°u dá»¯ liá»‡u.
+Quy táº¯c nghiá»‡p vá»¥
+Email dÃ¹ng lÃ m tÃªn Ä‘Äƒng nháº­p Portal vÃ  khÃ´ng Ä‘Æ°á»£c trÃ¹ng láº·p. TrÃ¬nh Ä‘á»™ chuyÃªn mÃ´n láº¥y tá»« danh má»¥c trÃ¬nh Ä‘á»™ cÃ³ Type = TrÃ¬nh Ä‘á»™ GiÃ¡o viÃªn. Link thi online pháº£i báº¯t Ä‘áº§u báº±ng https://meet.google.com hoáº·c https://zoom.us. Tráº¡ng thÃ¡i gá»“m Äang dáº¡y hoáº·c ÄÃ£ nghá»‰. Náº¿u tick checkbox Trá»£ giáº£ng, há»‡ thá»‘ng hiá»ƒn thá»‹ tag Trá»£ giáº£ng.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+Há» tÃªn; Email; Sá»‘ Ä‘iá»‡n thoáº¡i; Chi nhÃ¡nh/CÆ¡ sá»Ÿ; Checkbox Trá»£ giáº£ng; TrÃ¬nh Ä‘á»™ giáº£ng dáº¡y; TrÃ¬nh Ä‘á»™ cháº¥m Writing; TrÃ¬nh Ä‘á»™ cháº¥m Speaking ; Link Google Meet/Zoom; Tráº¡ng thÃ¡i.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: Há»“ sÆ¡ giÃ¡o viÃªn/trá»£ giáº£ng Ä‘Æ°á»£c lÆ°u vÃ o há»‡ thá»‘ng. Náº¿u lÃ  trá»£ giáº£ng, tag Trá»£ giáº£ng hiá»ƒn thá»‹ trÃªn danh sÃ¡ch. Link Speaking sáºµn sÃ ng Ä‘Æ°á»£c há»‡ thá»‘ng sá»­ dá»¥ng khi gá»­i email lá»‹ch thi online. TÃ i khoáº£n Ä‘Äƒng nháº­p Ä‘Æ°á»£c kÃ­ch hoáº¡t vá»›i máº­t kháº©u máº·c Ä‘á»‹nh abc@123.Tháº¥t báº¡i: KhÃ´ng cÃ³ há»“ sÆ¡ giÃ¡o viÃªn/trá»£ giáº£ng má»›i Ä‘Æ°á»£c táº¡o. Danh sÃ¡ch giÃ¡o viÃªn giá»¯ nguyÃªn.
+MÃ n hÃ¬nh liÃªn quan
+Quáº£n lÃ½ GiÃ¡o viÃªn & Trá»£ giáº£ngRoute: /admin/teachers
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+8. UC-TEACHER-EDIT-01 - Chá»‰nh sá»­a há»“ sÆ¡ giÃ¡o viÃªn/trá»£ giáº£ng
+8.1. HÃ¬nh Use Case tá»•ng quan
+
+8.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+8.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-TEACHER-EDIT-01
+TÃªn Use Case
+Chá»‰nh sá»­a há»“ sÆ¡ giÃ¡o viÃªn/trá»£ giáº£ng
+Actor
+Quáº£n trá»‹ viÃªn (Admin)
+Má»¥c tiÃªu
+Admin cáº­p nháº­t há»“ sÆ¡ giÃ¡o viÃªn hoáº·c trá»£ giáº£ng Ä‘ang cÃ³ trong há»‡ thá»‘ng, bao gá»“m thÃ´ng tin cÃ¡ nhÃ¢n, phÃ¢n loáº¡i trá»£ giáº£ng, trÃ¬nh Ä‘á»™ chuyÃªn mÃ´n, link phÃ²ng thi Speaking online vÃ  tráº¡ng thÃ¡i lÃ m viá»‡c.
+MÃ´ táº£ nghiá»‡p vá»¥
+Admin nháº¥n Sá»­a táº¡i dÃ²ng giÃ¡o viÃªn, há»‡ thá»‘ng má»Ÿ modal Há»“ sÆ¡ GiÃ¡o viÃªn vá»›i dá»¯ liá»‡u hiá»‡n táº¡i. Admin chá»‰nh sá»­a thÃ´ng tin vÃ  nháº¥n LÆ°u. Há»‡ thá»‘ng kiá»ƒm tra email, link thi online, sau Ä‘Ã³ lÆ°u há»“ sÆ¡ cáº­p nháº­t vÃ  lÃ m má»›i danh sÃ¡ch.
+Äiá»u kiá»‡n trÆ°á»›c
+1. NgÆ°á»i dÃ¹ng Ä‘Ã£ Ä‘Äƒng nháº­p thÃ nh cÃ´ng. 2. NgÆ°á»i dÃ¹ng cÃ³ vai trÃ² Admin. 3. Danh sÃ¡ch Ä‘Ã£ cÃ³ Ã­t nháº¥t má»™t giÃ¡o viÃªn hoáº·c trá»£ giáº£ng. 4. Há»‡ thá»‘ng Ä‘Ã£ cÃ³ danh má»¥c trÃ¬nh Ä‘á»™ vá»›i Type = TrÃ¬nh Ä‘á»™ GiÃ¡o viÃªn Ä‘á»ƒ chá»n.
+Luá»“ng chÃ­nh
+1. Admin truy cáº­p /admin/teachers. 
+2. Há»‡ thá»‘ng hiá»ƒn thá»‹ danh sÃ¡ch giÃ¡o viÃªn. 
+3. Admin nháº¥n Sá»­a táº¡i dÃ²ng giÃ¡o viÃªn cáº§n cáº­p nháº­t. 
+4. Há»‡ thá»‘ng táº£i há»“ sÆ¡ hiá»‡n táº¡i vÃ  má»Ÿ modal Há»“ sÆ¡ GiÃ¡o viÃªn. 
+5. Admin cáº­p nháº­t thÃ´ng tin há»“ sÆ¡, vai trÃ² nhÃ¢n sá»±, cáº­p nháº­t 3 loáº¡i trÃ¬nh Ä‘á»™ (giáº£ng dáº¡y, cháº¥m Writing, Speaking) , link thi online hoáº·c tráº¡ng thÃ¡i. 
+6. Admin nháº¥n LÆ°u. 
+7. Há»‡ thá»‘ng kiá»ƒm tra dá»¯ liá»‡u há»£p lá»‡. 
+8. Há»‡ thá»‘ng lÆ°u há»“ sÆ¡ cáº­p nháº­t. 
+9. Há»‡ thá»‘ng hiá»ƒn thá»‹/áº©n khá»‘i nghiá»‡p vá»¥ giáº£ng dáº¡y tÃ¹y thuá»™c vÃ o Vai trÃ² Ä‘Æ°á»£c chá»n . 
+10. Há»‡ thá»‘ng thÃ´ng bÃ¡o thÃ nh cÃ´ng vÃ  cáº­p nháº­t láº¡i danh sÃ¡ch.
+Luá»“ng thay tháº¿
+Admin nháº¥n Há»§y hoáº·c Ä‘Ã³ng modal trÆ°á»›c khi lÆ°u. Há»‡ thá»‘ng Ä‘Ã³ng modal, khÃ´ng gá»­i dá»¯ liá»‡u cáº­p nháº­t lÃªn server vÃ  giá»¯ nguyÃªn há»“ sÆ¡ giÃ¡o viÃªn cÅ©.
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: KhÃ´ng tÃ¬m tháº¥y giÃ¡o viÃªn táº¡i thá»i Ä‘iá»ƒm má»Ÿ form sá»­a. Há»‡ thá»‘ng bÃ¡o lá»—i dá»¯ liá»‡u khÃ´ng tá»“n táº¡i hoáº·c Ä‘Ã£ bá»‹ thay Ä‘á»•i vÃ  khÃ´ng má»Ÿ modal chá»‰nh sá»­a.Luá»“ng ngoáº¡i lá»‡ 2: Thiáº¿u dá»¯ liá»‡u báº¯t buá»™c. Há»‡ thá»‘ng hiá»ƒn thá»‹ lá»—i yÃªu cáº§u nháº­p Ä‘áº§y Ä‘á»§ thÃ´ng tin vÃ  giá»¯ modal Ä‘á»ƒ Admin nháº­p láº¡i.Luá»“ng ngoáº¡i lá»‡ 3: Email Ä‘Ã£ Ä‘Æ°á»£c má»™t tÃ i khoáº£n khÃ¡c sá»­ dá»¥ng. Há»‡ thá»‘ng bÃ¡o lá»—i `Email Ä‘Ã£ Ä‘Æ°á»£c sá»­ dá»¥ng bá»Ÿi má»™t tÃ i khoáº£n khÃ¡c`, khÃ´ng lÆ°u dá»¯ liá»‡u.Luá»“ng ngoáº¡i lá»‡ 4: Link thi online sai Ä‘á»‹nh dáº¡ng. Há»‡ thá»‘ng bÃ¡o lá»—i `ÄÆ°á»ng dáº«n pháº£i báº¯t Ä‘áº§u báº±ng https://meet.google.com hoáº·c https://zoom.us`, khÃ´ng lÆ°u dá»¯ liá»‡u.
+Quy táº¯c nghiá»‡p vá»¥
+Email dÃ¹ng lÃ m tÃªn Ä‘Äƒng nháº­p Portal vÃ  khÃ´ng Ä‘Æ°á»£c trÃ¹ng vá»›i tÃ i khoáº£n khÃ¡c. TrÃ¬nh Ä‘á»™ chuyÃªn mÃ´n láº¥y tá»« danh má»¥c trÃ¬nh Ä‘á»™ cÃ³ Type = TrÃ¬nh Ä‘á»™ GiÃ¡o viÃªn. Link thi online pháº£i báº¯t Ä‘áº§u báº±ng https://meet.google.com hoáº·c https://zoom.us. Tráº¡ng thÃ¡i gá»“m Äang dáº¡y hoáº·c ÄÃ£ nghá»‰. Náº¿u tick checkbox Trá»£ giáº£ng, há»‡ thá»‘ng hiá»ƒn thá»‹ tag Trá»£ giáº£ng; náº¿u bá» tick, tag nÃ y khÃ´ng hiá»ƒn thá»‹.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+Há» tÃªn; Email; Sá»‘ Ä‘iá»‡n thoáº¡i; Chi nhÃ¡nh/CÆ¡ sá»Ÿ;TrÃ¬nh Ä‘á»™ giáº£ng dáº¡y; TrÃ¬nh Ä‘á»™ cháº¥m Writing; TrÃ¬nh Ä‘á»™ cháº¥m Speaking ; Link Google Meet/Zoom; Tráº¡ng thÃ¡i.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: Há»“ sÆ¡ giÃ¡o viÃªn/trá»£ giáº£ng Ä‘Æ°á»£c cáº­p nháº­t trong há»‡ thá»‘ng. Tag Trá»£ giáº£ng, trÃ¬nh Ä‘á»™ phá»¥ trÃ¡ch, link Speaking vÃ  tráº¡ng thÃ¡i hiá»ƒn thá»‹ Ä‘Ãºng theo dá»¯ liá»‡u má»›i.Tháº¥t báº¡i: KhÃ´ng cÃ³ dá»¯ liá»‡u há»“ sÆ¡ nÃ o Ä‘Æ°á»£c thay Ä‘á»•i. Danh sÃ¡ch giÃ¡o viÃªn giá»¯ nguyÃªn.
+MÃ n hÃ¬nh liÃªn quan
+Quáº£n lÃ½ GiÃ¡o viÃªn & Trá»£ giáº£ngRoute: /admin/teachers
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+9. UC-TEACHER-STATUS-01 - Chuyá»ƒn tráº¡ng thÃ¡i giÃ¡o viÃªn/trá»£ giáº£ng
+9.1. HÃ¬nh Use Case tá»•ng quan
+
+9.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+9.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-TEACHER-STATUS-01
+TÃªn Use Case
+Chuyá»ƒn tráº¡ng thÃ¡i giÃ¡o viÃªn/trá»£ giáº£ng
+Actor
+Quáº£n trá»‹ viÃªn (Admin)
+Má»¥c tiÃªu
+Admin chuyá»ƒn tráº¡ng thÃ¡i lÃ m viá»‡c cá»§a giÃ¡o viÃªn hoáº·c trá»£ giáº£ng giá»¯a Äang dáº¡y vÃ  ÄÃ£ nghá»‰, Ä‘á»“ng thá»i khÃ³a quyá»n truy cáº­p khi nhÃ¢n sá»± nghá»‰ lÃ m.
+MÃ´ táº£ nghiá»‡p vá»¥
+Admin nháº¥n nÃºt Ä‘á»•i tráº¡ng thÃ¡i táº¡i dÃ²ng giÃ¡o viÃªn. Khi chuyá»ƒn sang ÄÃ£ nghá»‰, há»‡ thá»‘ng kiá»ƒm tra giÃ¡o viÃªn cÃ³ Ä‘ang phá»¥ trÃ¡ch lá»›p há»c Ä‘ang hoáº¡t Ä‘á»™ng hoáº·c cÃ³ lá»‹ch cháº¥m thi chÆ°a hoÃ n thÃ nh hay khÃ´ng . Náº¿u khÃ´ng vÆ°á»›ng rÃ ng buá»™c, há»‡ thá»‘ng yÃªu cáº§u xÃ¡c nháº­n, cáº­p nháº­t tráº¡ng thÃ¡i vÃ  khÃ³a quyá»n truy cáº­p.
+Äiá»u kiá»‡n trÆ°á»›c
+1. NgÆ°á»i dÃ¹ng Ä‘Ã£ Ä‘Äƒng nháº­p thÃ nh cÃ´ng. 2. NgÆ°á»i dÃ¹ng cÃ³ vai trÃ² Admin. 3. Danh sÃ¡ch Ä‘Ã£ cÃ³ Ã­t nháº¥t má»™t giÃ¡o viÃªn hoáº·c trá»£ giáº£ng.
+Luá»“ng chÃ­nh
+1. Admin truy cáº­p /admin/teachers. 
+2. Há»‡ thá»‘ng hiá»ƒn thá»‹ danh sÃ¡ch giÃ¡o viÃªn vÃ  tráº¡ng thÃ¡i tá»«ng dÃ²ng. 
+3. Admin chá»n dÃ²ng giÃ¡o viÃªn cáº§n Ä‘á»•i tráº¡ng thÃ¡i. 
+4. Admin nháº¥n nÃºt Ä‘á»•i tráº¡ng thÃ¡i. 
+5. Há»‡ thá»‘ng táº£i há»“ sÆ¡ giÃ¡o viÃªn hiá»‡n táº¡i. 
+6. Náº¿u chuyá»ƒn sang ÄÃ£ nghá»‰, há»‡ thá»‘ng kiá»ƒm tra giÃ¡o viÃªn khÃ´ng phá»¥ trÃ¡ch lá»›p há»c Ä‘ang hoáº¡t Ä‘á»™ng hoáº·c cÃ³ lá»‹ch cháº¥m thi chÆ°a hoÃ n thÃ nh . 
+7. Há»‡ thá»‘ng hiá»ƒn thá»‹ há»™p thoáº¡i xÃ¡c nháº­n.
+8. Admin nháº¥n XÃ¡c nháº­n. 
+9. Há»‡ thá»‘ng cáº­p nháº­t tráº¡ng thÃ¡i má»›i. 
+10. Náº¿u tráº¡ng thÃ¡i má»›i lÃ  ÄÃ£ nghá»‰, há»‡ thá»‘ng khÃ³a quyá»n truy cáº­p. 
+11. Há»‡ thá»‘ng thÃ´ng bÃ¡o thÃ nh cÃ´ng vÃ  cáº­p nháº­t láº¡i danh sÃ¡ch.
+Luá»“ng thay tháº¿
+Admin khÃ´ng xÃ¡c nháº­n chuyá»ƒn tráº¡ng thÃ¡i, nháº¥n Há»§y hoáº·c Ä‘Ã³ng há»™p thoáº¡i. Há»‡ thá»‘ng khÃ´ng gá»­i yÃªu cáº§u cáº­p nháº­t lÃªn server vÃ  giá»¯ nguyÃªn tráº¡ng thÃ¡i hiá»‡n táº¡i.
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: KhÃ´ng tÃ¬m tháº¥y giÃ¡o viÃªn táº¡i thá»i Ä‘iá»ƒm cáº­p nháº­t. Há»‡ thá»‘ng bÃ¡o lá»—i dá»¯ liá»‡u khÃ´ng tá»“n táº¡i hoáº·c Ä‘Ã£ bá»‹ thay Ä‘á»•i vÃ  khÃ´ng cáº­p nháº­t tráº¡ng thÃ¡i.Luá»“ng ngoáº¡i lá»‡ 2: GiÃ¡o viÃªn Ä‘ang phá»¥ trÃ¡ch lá»›p há»c Ä‘ang hoáº¡t Ä‘á»™ng. Há»‡ thá»‘ng cáº£nh bÃ¡o `GiÃ¡o viÃªn Ä‘ang phá»¥ trÃ¡ch lá»›p há»c Ä‘ang hoáº¡t Ä‘á»™ng. Cáº­u cáº§n gÃ¡n giÃ¡o viÃªn khÃ¡c vÃ o lá»›p trÆ°á»›c khi chuyá»ƒn sang ÄÃ£ nghá»‰` vÃ  giá»¯ nguyÃªn tráº¡ng thÃ¡i `Äang dáº¡y`.Luá»“ng ngoáº¡i lá»‡ 3: Cáº­p nháº­t tráº¡ng thÃ¡i tháº¥t báº¡i do lá»—i há»‡ thá»‘ng hoáº·c server. Há»‡ thá»‘ng bÃ¡o lá»—i khÃ´ng thá»ƒ cáº­p nháº­t tráº¡ng thÃ¡i vÃ  giá»¯ nguyÃªn tráº¡ng thÃ¡i cÅ©.
+Quy táº¯c nghiá»‡p vá»¥
+Tráº¡ng thÃ¡i chá»‰ gá»“m Äang dáº¡y hoáº·c ÄÃ£ nghá»‰. Khi chuyá»ƒn sang ÄÃ£ nghá»‰, há»‡ thá»‘ng yÃªu cáº§u xÃ¡c nháº­n vÃ  khÃ³a quyá»n truy cáº­p. Náº¿u giÃ¡o viÃªn Ä‘ang phá»¥ trÃ¡ch lá»›p há»c Ä‘ang hoáº¡t Ä‘á»™ng, há»‡ thá»‘ng khÃ´ng cho chuyá»ƒn tráº¡ng thÃ¡i Ä‘áº¿n khi Admin gÃ¡n giÃ¡o viÃªn khÃ¡c vÃ o lá»›p.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+MÃ£ giÃ¡o viÃªn Ä‘Æ°á»£c chá»n; tráº¡ng thÃ¡i hiá»‡n táº¡i cá»§a giÃ¡o viÃªn.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: Tráº¡ng thÃ¡i giÃ¡o viÃªn/trá»£ giáº£ng Ä‘Æ°á»£c cáº­p nháº­t trong há»‡ thá»‘ng. Náº¿u chuyá»ƒn sang ÄÃ£ nghá»‰, quyá»n truy cáº­p cá»§a giÃ¡o viÃªn bá»‹ khÃ³a. Náº¿u chuyá»ƒn láº¡i Äang dáº¡y, tÃ i khoáº£n hoáº¡t Ä‘á»™ng theo quyá»n vai trÃ² Ä‘Æ°á»£c gÃ¡n.Tháº¥t báº¡i: Tráº¡ng thÃ¡i giÃ¡o viÃªn/trá»£ giáº£ng khÃ´ng thay Ä‘á»•i. Danh sÃ¡ch giÃ¡o viÃªn giá»¯ nguyÃªn.
+MÃ n hÃ¬nh liÃªn quan
+Quáº£n lÃ½ GiÃ¡o viÃªn & Trá»£ giáº£ngRoute: /admin/teachers
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+10. UC-TEACHER-RESET-01 - Cáº¥p láº¡i máº­t kháº©u giÃ¡o viÃªn/trá»£ giáº£ng
+10.1. HÃ¬nh Use Case tá»•ng quan
+
+10.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+10.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-TEACHER-RESET-01
+TÃªn Use Case
+Cáº¥p láº¡i máº­t kháº©u giÃ¡o viÃªn/trá»£ giáº£ng
+Actor
+Quáº£n trá»‹ viÃªn (Admin)
+Má»¥c tiÃªu
+Admin Ä‘áº·t láº¡i máº­t kháº©u Ä‘Äƒng nháº­p Portal cho giÃ¡o viÃªn hoáº·c trá»£ giáº£ng vá» máº­t kháº©u máº·c Ä‘á»‹nh abc@123 vÃ  gá»­i email thÃ´ng bÃ¡o cho giÃ¡o viÃªn.
+MÃ´ táº£ nghiá»‡p vá»¥
+Admin nháº¥n Reset Password táº¡i dÃ²ng giÃ¡o viÃªn. Há»‡ thá»‘ng yÃªu cáº§u xÃ¡c nháº­n, Ä‘áº·t láº¡i máº­t kháº©u vá» abc@123, gá»­i email thÃ´ng bÃ¡o vÃ  cáº­p nháº­t káº¿t quáº£ trÃªn mÃ n hÃ¬nh.
+Äiá»u kiá»‡n trÆ°á»›c
+1. NgÆ°á»i dÃ¹ng Ä‘Ã£ Ä‘Äƒng nháº­p thÃ nh cÃ´ng. 2. NgÆ°á»i dÃ¹ng cÃ³ vai trÃ² Admin. 3. Danh sÃ¡ch Ä‘Ã£ cÃ³ Ã­t nháº¥t má»™t giÃ¡o viÃªn hoáº·c trá»£ giáº£ng cÃ³ tÃ i khoáº£n Ä‘Äƒng nháº­p.
+Luá»“ng chÃ­nh
+1. Admin truy cáº­p /admin/teachers. 2. Há»‡ thá»‘ng hiá»ƒn thá»‹ danh sÃ¡ch giÃ¡o viÃªn. 3. Admin nháº¥n Reset Password táº¡i dÃ²ng giÃ¡o viÃªn cáº§n cáº¥p láº¡i máº­t kháº©u. 4. Há»‡ thá»‘ng táº£i há»“ sÆ¡ giÃ¡o viÃªn hiá»‡n táº¡i. 5. Há»‡ thá»‘ng hiá»ƒn thá»‹ há»™p thoáº¡i xÃ¡c nháº­n cáº¥p láº¡i máº­t kháº©u. 6. Admin nháº¥n XÃ¡c nháº­n. 7. Há»‡ thá»‘ng Ä‘áº·t láº¡i máº­t kháº©u vá» abc@123. 8. Há»‡ thá»‘ng gá»­i email thÃ´ng bÃ¡o máº­t kháº©u má»›i cho giÃ¡o viÃªn. 9. Há»‡ thá»‘ng thÃ´ng bÃ¡o cáº¥p láº¡i máº­t kháº©u thÃ nh cÃ´ng.
+Luá»“ng thay tháº¿
+ 
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: KhÃ´ng tÃ¬m tháº¥y giÃ¡o viÃªn táº¡i thá»i Ä‘iá»ƒm reset. Há»‡ thá»‘ng bÃ¡o lá»—i dá»¯ liá»‡u khÃ´ng tá»“n táº¡i hoáº·c Ä‘Ã£ bá»‹ thay Ä‘á»•i vÃ  khÃ´ng cáº¥p láº¡i máº­t kháº©u.Luá»“ng ngoáº¡i lá»‡ 2: TÃ i khoáº£n Ä‘ang bá»‹ khÃ³a do giÃ¡o viÃªn á»Ÿ tráº¡ng thÃ¡i `ÄÃ£ nghá»‰`. Há»‡ thá»‘ng hiá»ƒn thá»‹ cáº£nh bÃ¡o vÃ  khÃ´ng cáº¥p láº¡i máº­t kháº©u.Luá»“ng ngoáº¡i lá»‡ 3: Reset máº­t kháº©u tháº¥t báº¡i do lá»—i há»‡ thá»‘ng hoáº·c server. Há»‡ thá»‘ng hiá»ƒn thá»‹ lá»—i khÃ´ng thá»ƒ cáº¥p láº¡i máº­t kháº©u vÃ  giá»¯ nguyÃªn máº­t kháº©u hiá»‡n táº¡i.Luá»“ng ngoáº¡i lá»‡ 4: Gá»­i email thÃ´ng bÃ¡o tháº¥t báº¡i sau khi reset máº­t kháº©u thÃ nh cÃ´ng. Há»‡ thá»‘ng cáº£nh bÃ¡o Ä‘Ã£ reset máº­t kháº©u nhÆ°ng gá»­i email tháº¥t báº¡i.
+Quy táº¯c nghiá»‡p vá»¥
+Máº­t kháº©u sau khi reset lÃ  abc@123. Há»‡ thá»‘ng gá»­i email thÃ´ng bÃ¡o cho giÃ¡o viÃªn sau khi Ä‘áº·t láº¡i máº­t kháº©u. Náº¿u tÃ i khoáº£n Ä‘ang bá»‹ khÃ³a do tráº¡ng thÃ¡i ÄÃ£ nghá»‰, há»‡ thá»‘ng khÃ´ng cáº¥p láº¡i máº­t kháº©u.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+MÃ£ giÃ¡o viÃªn Ä‘Æ°á»£c chá»n; email tÃ i khoáº£n giÃ¡o viÃªn.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: Máº­t kháº©u tÃ i khoáº£n giÃ¡o viÃªn/trá»£ giáº£ng Ä‘Æ°á»£c Ä‘áº·t láº¡i vá» abc@123. GiÃ¡o viÃªn nháº­n email thÃ´ng bÃ¡o máº­t kháº©u má»›i.Tháº¥t báº¡i: Máº­t kháº©u hiá»‡n táº¡i khÃ´ng thay Ä‘á»•i, trá»« trÆ°á»ng há»£p reset thÃ nh cÃ´ng nhÆ°ng email thÃ´ng bÃ¡o tháº¥t báº¡i.
+MÃ n hÃ¬nh liÃªn quan
+Quáº£n lÃ½ GiÃ¡o viÃªn & Trá»£ giáº£ngRoute: /admin/teachers
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+11. UC-TEACHER-FILTER-01 - Lá»c danh sÃ¡ch giÃ¡o viÃªn/trá»£ giáº£ng
+11.1. HÃ¬nh Use Case tá»•ng quan
+
+11.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+11.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-TEACHER-FILTER-01
+TÃªn Use Case
+Lá»c danh sÃ¡ch giÃ¡o viÃªn/trá»£ giáº£ng
+Actor
+Quáº£n trá»‹ viÃªn (Admin)
+Má»¥c tiÃªu
+Admin lá»c nhanh danh sÃ¡ch giÃ¡o viÃªn vÃ  trá»£ giáº£ng theo phÃ¢n loáº¡i nhÃ¢n sá»± vÃ  tráº¡ng thÃ¡i lÃ m viá»‡c Ä‘á»ƒ tra cá»©u, kiá»ƒm tra hoáº·c thao tÃ¡c quáº£n lÃ½.
+MÃ´ táº£ nghiá»‡p vá»¥
+Admin chá»n bá»™ lá»c PhÃ¢n loáº¡i vÃ /hoáº·c Tráº¡ng thÃ¡i. Há»‡ thá»‘ng truy váº¥n danh sÃ¡ch giÃ¡o viÃªn theo Ä‘iá»u kiá»‡n lá»c vÃ  cáº­p nháº­t báº£ng hiá»ƒn thá»‹.
+Äiá»u kiá»‡n trÆ°á»›c
+1. NgÆ°á»i dÃ¹ng Ä‘Ã£ Ä‘Äƒng nháº­p thÃ nh cÃ´ng. 2. NgÆ°á»i dÃ¹ng cÃ³ vai trÃ² Admin. 3. MÃ n hÃ¬nh /admin/teachers cÃ³ danh sÃ¡ch giÃ¡o viÃªn/trá»£ giáº£ng.
+Luá»“ng chÃ­nh
+1. Admin truy cáº­p /admin/teachers. 2. Há»‡ thá»‘ng hiá»ƒn thá»‹ báº£ng danh sÃ¡ch giÃ¡o viÃªn vÃ  bá»™ lá»c. 3. Admin chá»n giÃ¡ trá»‹ lá»c theo PhÃ¢n loáº¡i. 4. Admin chá»n giÃ¡ trá»‹ lá»c theo Tráº¡ng thÃ¡i. 5. Há»‡ thá»‘ng nháº­n Ä‘iá»u kiá»‡n lá»c. 6. Há»‡ thá»‘ng kiá»ƒm tra Ä‘iá»u kiá»‡n lá»c há»£p lá»‡. 7. Há»‡ thá»‘ng truy váº¥n danh sÃ¡ch giÃ¡o viÃªn/trá»£ giáº£ng phÃ¹ há»£p. 8. Há»‡ thá»‘ng cáº­p nháº­t báº£ng danh sÃ¡ch giÃ¡o viÃªn trÃªn mÃ n hÃ¬nh.
+Luá»“ng thay tháº¿
+Admin khÃ´i phá»¥c bá»™ lá»c máº·c Ä‘á»‹nh báº±ng cÃ¡ch chá»n Táº¥t cáº£ hoáº·c bá» Ä‘iá»u kiá»‡n lá»c. Há»‡ thá»‘ng truy váº¥n láº¡i toÃ n bá»™ danh sÃ¡ch giÃ¡o viÃªn vÃ  hiá»ƒn thá»‹ danh sÃ¡ch khÃ´ng Ã¡p dá»¥ng Ä‘iá»u kiá»‡n lá»c.
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: GiÃ¡ trá»‹ lá»c PhÃ¢n loáº¡i khÃ´ng há»£p lá»‡. Há»‡ thá»‘ng hiá»ƒn thá»‹ lá»—i Ä‘iá»u kiá»‡n phÃ¢n loáº¡i khÃ´ng há»£p lá»‡ vÃ  khÃ´ng cáº­p nháº­t báº£ng káº¿t quáº£.Luá»“ng ngoáº¡i lá»‡ 2: GiÃ¡ trá»‹ lá»c Tráº¡ng thÃ¡i khÃ´ng há»£p lá»‡. Há»‡ thá»‘ng hiá»ƒn thá»‹ lá»—i Ä‘iá»u kiá»‡n tráº¡ng thÃ¡i khÃ´ng há»£p lá»‡ vÃ  khÃ´ng cáº­p nháº­t báº£ng káº¿t quáº£.Luá»“ng ngoáº¡i lá»‡ 3: Truy váº¥n danh sÃ¡ch tháº¥t báº¡i do lá»—i há»‡ thá»‘ng hoáº·c server. Há»‡ thá»‘ng hiá»ƒn thá»‹ lá»—i khÃ´ng thá»ƒ táº£i danh sÃ¡ch giÃ¡o viÃªn vÃ  giá»¯ nguyÃªn dá»¯ liá»‡u Ä‘ang hiá»ƒn thá»‹ trÆ°á»›c Ä‘Ã³.
+Quy táº¯c nghiá»‡p vá»¥
+PhÃ¢n loáº¡i gá»“m Táº¥t cáº£, GiÃ¡o viÃªn, Trá»£ giáº£ng; phÃ¢n loáº¡i trá»£ giáº£ng dá»±a trÃªn checkbox Trá»£ giáº£ng trong há»“ sÆ¡. Tráº¡ng thÃ¡i gá»“m Äang dáº¡y hoáº·c ÄÃ£ nghá»‰.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+GiÃ¡ trá»‹ lá»c PhÃ¢n loáº¡i; giÃ¡ trá»‹ lá»c Tráº¡ng thÃ¡i.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: Báº£ng danh sÃ¡ch chá»‰ hiá»ƒn thá»‹ giÃ¡o viÃªn/trá»£ giáº£ng phÃ¹ há»£p vá»›i Ä‘iá»u kiá»‡n lá»c. Dá»¯ liá»‡u gá»‘c khÃ´ng thay Ä‘á»•i.Tháº¥t báº¡i: Báº£ng danh sÃ¡ch khÃ´ng Ä‘Æ°á»£c cáº­p nháº­t theo Ä‘iá»u kiá»‡n lá»c lá»—i. Dá»¯ liá»‡u giÃ¡o viÃªn trong há»‡ thá»‘ng khÃ´ng thay Ä‘á»•i.
+MÃ n hÃ¬nh liÃªn quan
+Quáº£n lÃ½ GiÃ¡o viÃªn & Trá»£ giáº£ngRoute: /admin/teachers
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+12. UC-STUDENT-CONVERT-01 - Chuyá»ƒn Ä‘á»•i khÃ¡ch hÃ ng Ä‘Ã£ Ä‘Ã³ng tiá»n thÃ nh há»c viÃªn
+12.1. HÃ¬nh Use Case tá»•ng quan
+
+12.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+12.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-STUDENT-CONVERT-01
+TÃªn Use Case
+Chuyá»ƒn Ä‘á»•i khÃ¡ch hÃ ng Ä‘Ã£ Ä‘Ã³ng tiá»n thÃ nh há»c viÃªn
+Actor
+Saler
+Má»¥c tiÃªu
+Chuyá»ƒn Ä‘á»•i khÃ¡ch hÃ ng thÃ nh há»c viÃªn chÃ­nh thá»©c thÃ´ng qua viá»‡c táº¡o ÄÄƒng kÃ½ há»c vÃ  láº­p Phiáº¿u thu. Sinh mÃ£ há»c viÃªn, kÃ­ch hoáº¡t Portal vÃ  chuyá»ƒn dá»¯ liá»‡u tÃ i chÃ­nh sang tráº¡ng thÃ¡i Chá» Káº¿ toÃ¡n duyá»‡t. 
+MÃ´ táº£ nghiá»‡p vá»¥
+KhÃ¡ch hÃ ng Ä‘á»“ng Ã½ mua khÃ³a, Saler táº¡o ÄÄƒng kÃ½ há»c (chá»n khÃ³a/lá»™ trÃ¬nh) vÃ  láº­p Phiáº¿u thu (nháº­p Email, upload áº£nh chá»¥p biÃªn lai). Há»‡ thá»‘ng táº¡o há»“ sÆ¡ há»c viÃªn, sinh mÃ£ HV-XXXX, kÃ­ch hoáº¡t Portal (mustChangePassword = true). Phiáº¿u thu Ä‘Æ°á»£c Ä‘áº©y vá» danh sÃ¡ch chá» Káº¿ toÃ¡n xÃ¡c nháº­n. Há»c viÃªn náº±m á»Ÿ nhÃ³m "ChÆ°a phÃ¢n lá»›p" cho Ä‘áº¿n khi Ä‘Ã¡p á»©ng Ä‘iá»u kiá»‡n tÃ i chÃ­nh. 
+Äiá»u kiá»‡n trÆ°á»›c
+1. Saler Ä‘Ã£ Ä‘Äƒng nháº­p thÃ nh cÃ´ng. 2. KhÃ¡ch hÃ ng Ä‘Ã£ hoÃ n táº¥t chuyá»ƒn khoáº£n há»c phÃ­. 3. Saler cÃ³ quyá»n thao tÃ¡c táº¡i mÃ n hÃ¬nh TÆ° váº¥n ghi danh.
+Luá»“ng chÃ­nh
+1. Saler má»Ÿ há»“ sÆ¡ khÃ¡ch hÃ ng Ä‘Ã£ chuyá»ƒn khoáº£n há»c phÃ­. 2. Saler táº¡o ÄÄƒng kÃ½ há»c (chá»n khÃ³a/lá»™ trÃ¬nh tÆ°Æ¡ng á»©ng). 3. Saler láº­p Phiáº¿u thu cho Ä‘á»£t thanh toÃ¡n Ä‘áº§u tiÃªn, nháº­p Email há»c viÃªn vÃ  upload áº£nh biÃªn lai. 4. Saler nháº¥n LÆ°u / XÃ¡c nháº­n.  5. Há»‡ thá»‘ng kiá»ƒm tra Email vÃ  áº£nh biÃªn lai há»£p lá»‡. 6. Há»‡ thá»‘ng kiá»ƒm tra Email khÃ´ng trÃ¹ng láº·p. 7. Há»‡ thá»‘ng lÆ°u áº£nh biÃªn lai. 8. Há»‡ thá»‘ng chuyá»ƒn thÃ´ng tin khÃ¡ch hÃ ng sang há»“ sÆ¡ há»c viÃªn chÃ­nh thá»©c. 9. Há»‡ thá»‘ng tá»± Ä‘á»™ng sinh mÃ£ há»c viÃªn HV-XXXX. 10. Há»‡ thá»‘ng kÃ­ch hoáº¡t tÃ i khoáº£n Portal vá»›i tÃªn Ä‘Äƒng nháº­p lÃ  Email, máº­t kháº©u abc@123, mustChangePassword = true, badge ÄÃ£ cáº¥p. 11. Há»‡ thá»‘ng gá»­i email chÃ o má»«ng kÃ¨m thÃ´ng tin tÃ i khoáº£n. 12. Há»c viÃªn má»›i hiá»ƒn thá»‹ trÃªn /admin/students. 13. Dá»¯ liá»‡u thanh toÃ¡n Ä‘Æ°á»£c chuyá»ƒn sang tráº¡ng thÃ¡i "Chá» Káº¿ toÃ¡n duyá»‡t". Há»c viÃªn chÆ°a Ä‘á»§ Ä‘iá»u kiá»‡n phÃ¢n lá»›p cho Ä‘áº¿n khi Káº¿ toÃ¡n xÃ¡c nháº­n. 
+Luá»“ng thay tháº¿
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: Thiáº¿u Email hoáº·c chÆ°a upload áº£nh chá»¥p biÃªn lai chuyá»ƒn khoáº£n. Há»‡ thá»‘ng cháº·n lÆ°u vÃ  hiá»ƒn thá»‹ lá»—i `Báº¯t buá»™c nháº­p Email vÃ  upload áº¢nh chá»¥p biÃªn lai chuyá»ƒn khoáº£n Ä‘á»ƒ xÃ¡c nháº­n Ä‘Ã³ng tiá»n`.Luá»“ng ngoáº¡i lá»‡ 2: Email Ä‘Ã£ tá»“n táº¡i trong há»‡ thá»‘ng. Há»‡ thá»‘ng hiá»ƒn thá»‹ lá»—i `Email Ä‘Ã£ tá»“n táº¡i trÃªn há»‡ thá»‘ng, vui lÃ²ng kiá»ƒm tra láº¡i` vÃ  khÃ´ng chuyá»ƒn Ä‘á»•i thÃ nh há»c viÃªn.Luá»“ng ngoáº¡i lá»‡ 3: Gá»­i email chÃ o má»«ng tháº¥t báº¡i sau khi há»“ sÆ¡ há»c viÃªn vÃ  tÃ i khoáº£n Portal Ä‘Ã£ Ä‘Æ°á»£c táº¡o. Há»‡ thá»‘ng cáº£nh bÃ¡o Ä‘á»ƒ nhÃ¢n sá»± xá»­ lÃ½ gá»­i láº¡i, Ä‘á»“ng thá»i váº«n cáº­p nháº­t há»c viÃªn má»›i trÃªn `/admin/students`.
+Quy táº¯c nghiá»‡p vá»¥
+Email khÃ´ng Ä‘Æ°á»£c Ä‘á»ƒ trá»‘ng. Báº¯t buá»™c upload áº£nh chá»¥p biÃªn lai chuyá»ƒn khoáº£n. Email khÃ´ng Ä‘Æ°á»£c trÃ¹ng vá»›i tÃ i khoáº£n khÃ¡c trong há»‡ thá»‘ng. TÃªn Ä‘Äƒng nháº­p Portal lÃ  Email. Máº­t kháº©u máº·c Ä‘á»‹nh lÃ  abc@123. TÃ i khoáº£n Ä‘Æ°á»£c gáº¯n cá» mustChangePassword = true.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+Email há»c viÃªn; áº£nh chá»¥p biÃªn lai chuyá»ƒn khoáº£n; thÃ´ng tin khÃ¡ch hÃ ng tá»« há»“ sÆ¡ tÆ° váº¥n ghi danh.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: Há»“ sÆ¡ há»c viÃªn Ä‘Æ°á»£c táº¡o chÃ­nh thá»©c. MÃ£ há»c viÃªn Ä‘Æ°á»£c sinh tá»± Ä‘á»™ng. TÃ i khoáº£n Portal Ä‘Æ°á»£c kÃ­ch hoáº¡t vá»›i máº­t kháº©u ban Ä‘áº§u abc@123. áº¢nh biÃªn lai Ä‘Æ°á»£c lÆ°u trong há»“ sÆ¡ há»c viÃªn. Há»c viÃªn nháº­n email chÃ o má»«ng vÃ  cÃ³ thá»ƒ Ä‘Äƒng nháº­p Portal Ä‘á»ƒ Ä‘á»•i máº­t kháº©u láº§n Ä‘áº§u.Tháº¥t báº¡i: KhÃ´ng cÃ³ há»“ sÆ¡ há»c viÃªn má»›i Ä‘Æ°á»£c táº¡o, trá»« trÆ°á»ng há»£p email chÃ o má»«ng gá»­i tháº¥t báº¡i sau khi há»‡ thá»‘ng Ä‘Ã£ táº¡o há»c viÃªn vÃ  tÃ i khoáº£n Portal thÃ nh cÃ´ng.
+MÃ n hÃ¬nh liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN]Route: [CHÆ¯A CÃ“ THÃ”NG TIN]
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+13. UC-STUDENT-ADD-01 - ThÃªm há»c viÃªn thá»§ cÃ´ng
+13.1. HÃ¬nh Use Case tá»•ng quan
+
+13.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+13.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-STUDENT-ADD-01
+TÃªn Use Case
+ThÃªm há»c viÃªn thá»§ cÃ´ng
+Actor
+Quáº£n trá»‹ viÃªn (Admin); ChÄƒm sÃ³c khÃ¡ch hÃ ng (CSKH)
+Má»¥c tiÃªu
+Admin/CSKH táº¡o trá»±c tiáº¿p há»“ sÆ¡ há»c viÃªn chÃ­nh thá»©c trÃªn há»‡ thá»‘ng, lÆ°u biÃªn lai há»c phÃ­, sinh mÃ£ há»c viÃªn vÃ  kÃ­ch hoáº¡t tÃ i khoáº£n Portal cho há»c viÃªn.
+MÃ´ táº£ nghiá»‡p vá»¥
+Admin/CSKH nháº¥n + ThÃªm há»c viÃªn, nháº­p thÃ´ng tin cÃ¡ nhÃ¢n (Há» tÃªn, Email, SÄT, thÃ´ng tin phá»¥ huynh). Há»‡ thá»‘ng kiá»ƒm tra trÃ¹ng Email, táº¡o há»“ sÆ¡ con ngÆ°á»i (Profile), sinh mÃ£ HV-XXXX, kÃ­ch hoáº¡t tÃ i khoáº£n Portal (mustChangePassword = true). (LÆ°u Ã½: Thao tÃ¡c nÃ y KHÃ”NG Ä‘Ã­nh kÃ¨m biÃªn lai hay sinh cÃ´ng ná»£. Äá»ƒ Ä‘Ã³ng tiá»n, nhÃ¢n sá»± pháº£i vÃ o há»“ sÆ¡ nÃ y táº¡o ÄÄƒng kÃ½ vÃ  Phiáº¿u thu riÃªng). 
+Äiá»u kiá»‡n trÆ°á»›c
+1. NgÆ°á»i dÃ¹ng Ä‘Ã£ Ä‘Äƒng nháº­p thÃ nh cÃ´ng. 2. NgÆ°á»i dÃ¹ng cÃ³ vai trÃ² Admin hoáº·c CSKH. 3. NgÆ°á»i dÃ¹ng truy cáº­p Ä‘Æ°á»£c mÃ n hÃ¬nh /admin/students.
+Luá»“ng chÃ­nh
+1. Admin/CSKH truy cáº­p /admin/students. 
+2. Há»‡ thá»‘ng hiá»ƒn thá»‹ tháº» KPI, báº£ng danh sÃ¡ch há»c viÃªn vÃ  nÃºt + ThÃªm há»c viÃªn. 
+3. Admin/CSKH nháº¥n + ThÃªm há»c viÃªn. 
+4. Há»‡ thá»‘ng má»Ÿ modal thÃªm há»c viÃªn. 
+5. Admin/CSKH nháº­p thÃ´ng tin há»c viÃªn, Email, SÄT, thÃ´ng tin phá»¥ huynh.
+6. Admin/CSKH nháº¥n LÆ°u. 
+7. Há»‡ thá»‘ng kiá»ƒm tra dá»¯ liá»‡u báº¯t buá»™c há»£p lá»‡. 
+8. Há»‡ thá»‘ng kiá»ƒm tra Email khÃ´ng trÃ¹ng láº·p. 
+9. Há»‡ thá»‘ng lÆ°u há»“ sÆ¡ há»c viÃªn. 
+10. Há»‡ thá»‘ng tá»± Ä‘á»™ng sinh mÃ£ há»c viÃªn HV-XXXX. 
+11. Há»‡ thá»‘ng kÃ­ch hoáº¡t tÃ i khoáº£n Portal vá»›i tÃªn Ä‘Äƒng nháº­p lÃ  Email, máº­t kháº©u abc@123, mustChangePassword = true, badge ÄÃ£ cáº¥p (Náº¿u thao tÃ¡c táº¡i mÃ n hÃ¬nh danh sÃ¡ch chung, há»c viÃªn vÃ o nhÃ³m "ChÆ°a phÃ¢n lá»›p".). 
+12. Há»‡ thá»‘ng gá»­i email chÃ o má»«ng kÃ¨m thÃ´ng tin tÃ i khoáº£n. 
+13. Há»c viÃªn má»›i hiá»ƒn thá»‹ trong danh sÃ¡ch.
+Luá»“ng thay tháº¿
+Admin/CSKH nháº¥n Há»§y hoáº·c Ä‘Ã³ng modal trÆ°á»›c khi lÆ°u. Há»‡ thá»‘ng Ä‘Ã³ng modal, khÃ´ng gá»­i dá»¯ liá»‡u lÃªn server vÃ  khÃ´ng táº¡o há»“ sÆ¡ há»c viÃªn.
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: Thiáº¿u Email, SÄT, thÃ´ng tin phá»¥ huynh. Há»‡ thá»‘ng hiá»ƒn thá»‹ lá»—i yÃªu cáº§u nháº­p Ä‘áº§y Ä‘á»§ dá»¯ liá»‡u báº¯t buá»™c vÃ  giá»¯ modal Ä‘á»ƒ bá»• sung.Luá»“ng ngoáº¡i lá»‡ 2: Email Ä‘Ã£ tá»“n táº¡i trong há»‡ thá»‘ng. Há»‡ thá»‘ng hiá»ƒn thá»‹ lá»—i `Email Ä‘Ã£ tá»“n táº¡i trÃªn há»‡ thá»‘ng, vui lÃ²ng kiá»ƒm tra láº¡i` vÃ  khÃ´ng táº¡o há»“ sÆ¡ há»c viÃªn.Luá»“ng ngoáº¡i lá»‡ 3: Gá»­i email chÃ o má»«ng tháº¥t báº¡i sau khi há»“ sÆ¡ há»c viÃªn vÃ  tÃ i khoáº£n Portal Ä‘Ã£ Ä‘Æ°á»£c táº¡o. Há»‡ thá»‘ng cáº£nh bÃ¡o Ä‘á»ƒ nhÃ¢n sá»± xá»­ lÃ½ gá»­i láº¡i, Ä‘á»“ng thá»i váº«n cáº­p nháº­t há»c viÃªn má»›i trÃªn danh sÃ¡ch.
+Quy táº¯c nghiá»‡p vá»¥
+Email, SÄT, thÃ´ng tin phá»¥ huynh. Email khÃ´ng Ä‘Æ°á»£c trÃ¹ng vá»›i tÃ i khoáº£n khÃ¡c trong há»‡ thá»‘ng. TÃªn Ä‘Äƒng nháº­p Portal lÃ  Email. Máº­t kháº©u máº·c Ä‘á»‹nh lÃ  abc@123. TÃ i khoáº£n Ä‘Æ°á»£c gáº¯n cá» mustChangePassword = true.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+ThÃ´ng tin há»c viÃªn; Email; SÄT; thÃ´ng tin phá»¥ huynh; áº£nh biÃªn lai há»c phÃ­; tráº¡ng thÃ¡i há»c táº­p ban Ä‘áº§u.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: Há»“ sÆ¡ há»c viÃªn Ä‘Æ°á»£c táº¡o chÃ­nh thá»©c. MÃ£ há»c viÃªn Ä‘Æ°á»£c sinh tá»± Ä‘á»™ng. áº¢nh biÃªn lai Ä‘Æ°á»£c lÆ°u trong há»“ sÆ¡. TÃ i khoáº£n Portal Ä‘Æ°á»£c kÃ­ch hoáº¡t vá»›i máº­t kháº©u ban Ä‘áº§u abc@123. Há»c viÃªn nháº­n email chÃ o má»«ng vÃ  thÃ´ng tin tÃ i khoáº£n.Tháº¥t báº¡i: KhÃ´ng cÃ³ há»“ sÆ¡ há»c viÃªn má»›i Ä‘Æ°á»£c táº¡o, trá»« trÆ°á»ng há»£p email chÃ o má»«ng gá»­i tháº¥t báº¡i sau khi há»‡ thá»‘ng Ä‘Ã£ táº¡o há»“ sÆ¡ vÃ  tÃ i khoáº£n Portal thÃ nh cÃ´ng.
+MÃ n hÃ¬nh liÃªn quan
+Quáº£n lÃ½ Há»c viÃªnRoute: /admin/students
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+14. UC-STUDENT-CLASS-01 - PhÃ¢n lá»›p / Chuyá»ƒn lá»›p há»c viÃªn
+14.1. HÃ¬nh Use Case tá»•ng quan
+
+14.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+14.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-STUDENT-CLASS-01
+TÃªn Use Case
+PhÃ¢n lá»›p / Chuyá»ƒn lá»›p há»c viÃªn
+Actor
+Quáº£n trá»‹ viÃªn (Admin); ChÄƒm sÃ³c khÃ¡ch hÃ ng (CSKH)
+Má»¥c tiÃªu
+Admin/CSKH phÃ¢n há»c viÃªn chÆ°a cÃ³ lá»›p vÃ o lá»›p phÃ¹ há»£p hoáº·c chuyá»ƒn há»c viÃªn tá»« lá»›p hiá»‡n táº¡i sang lá»›p khÃ¡c, Ä‘á»“ng thá»i cáº­p nháº­t tráº¡ng thÃ¡i phÃ¢n lá»›p vÃ  sÄ© sá»‘ lá»›p.
+MÃ´ táº£ nghiá»‡p vá»¥
+Admin/CSKH chá»n há»c viÃªn, há»‡ thá»‘ng kiá»ƒm tra Ä‘iá»u kiá»‡n tÃ i chÃ­nh. Nháº¥n PhÃ¢n lá»›p/Chuyá»ƒn lá»›p, chá»n lá»›p Ä‘Ã­ch theo trÃ¬nh Ä‘á»™ khÃ³a Ä‘Äƒng kÃ½... Há»‡ thá»‘ng cáº­p nháº­t lá»›p há»c. Äáº·c biá»‡t, thao tÃ¡c chuyá»ƒn lá»›p khÃ´ng lÃ m thay Ä‘á»•i/reset cÃ´ng ná»£ hay lá»‹ch sá»­ thanh toÃ¡n cá»§a há»c viÃªn. 
+Äiá»u kiá»‡n trÆ°á»›c
+1. NgÆ°á»i dÃ¹ng Ä‘Ã£ Ä‘Äƒng nháº­p thÃ nh cÃ´ng. 
+2. NgÆ°á»i dÃ¹ng cÃ³ vai trÃ² Admin hoáº·c CSKH. 
+3. Há»c viÃªn Ä‘Ã£ tá»“n táº¡i trong danh sÃ¡ch. 
+4. Há»‡ thá»‘ng cÃ³ danh sÃ¡ch lá»›p há»c Ä‘á»ƒ chá»n lÃ m lá»›p Ä‘Ã­ch.
+5. Äá»ƒ Ä‘Æ°á»£c phÃ¢n lá»›p, há»c viÃªn pháº£i cÃ³ KhÃ³a Ä‘Äƒng kÃ½ há»£p lá»‡ VÃ€ Ä‘Ã£ Ä‘Ã¡p á»©ng Ä‘iá»u kiá»‡n tÃ i chÃ­nh (Phiáº¿u thu Ä‘Ã£ Ä‘Æ°á»£c Káº¿ toÃ¡n duyá»‡t HOáº¶C Ä‘Æ°á»£c CSKH Leader duyá»‡t ngoáº¡i lá»‡ 'Há»c trÆ°á»›c - Ä‘Ã³ng sau'). 
+Luá»“ng chÃ­nh
+1. Admin/CSKH truy cáº­p /admin/students. 2. Há»‡ thá»‘ng hiá»ƒn thá»‹ báº£ng danh sÃ¡ch há»c viÃªn. 3. Admin/CSKH chá»n há»c viÃªn cáº§n phÃ¢n lá»›p hoáº·c chuyá»ƒn lá»›p. 4. Admin/CSKH nháº¥n PhÃ¢n lá»›p hoáº·c Chuyá»ƒn lá»›p. 5. Há»‡ thá»‘ng má»Ÿ modal PhÃ¢n lá»›p / Chuyá»ƒn lá»›p. 6. Há»‡ thá»‘ng hiá»ƒn thá»‹ danh sÃ¡ch lá»›p phÃ¹ há»£p theo trÃ¬nh Ä‘á»™ vÃ  sÄ© sá»‘ hiá»‡n táº¡i. 7. Admin/CSKH chá»n lá»›p Ä‘Ã­ch, nháº­p lÃ½ do chuyá»ƒn lá»›p náº¿u cÃ³ vÃ  chá»n ngÃ y báº¯t Ä‘áº§u. 8. Admin/CSKH nháº¥n LÆ°u. 9. Há»‡ thá»‘ng kiá»ƒm tra dá»¯ liá»‡u há»£p lá»‡. 10. Há»‡ thá»‘ng cáº­p nháº­t lá»›p há»c cá»§a há»c viÃªn. 11. Há»‡ thá»‘ng lÆ°u lÃ½ do chuyá»ƒn lá»›p vÃ  ngÃ y báº¯t Ä‘áº§u. 12. Há»‡ thá»‘ng cáº­p nháº­t tráº¡ng thÃ¡i phÃ¢n lá»›p, sÄ© sá»‘ lá»›p vÃ  báº£ng danh sÃ¡ch há»c viÃªn.
+Luá»“ng thay tháº¿
+Admin/CSKH nháº¥n Há»§y hoáº·c Ä‘Ã³ng modal trÆ°á»›c khi lÆ°u. Há»‡ thá»‘ng Ä‘Ã³ng modal, khÃ´ng gá»­i dá»¯ liá»‡u phÃ¢n/chuyá»ƒn lá»›p lÃªn server vÃ  giá»¯ nguyÃªn lá»›p há»c hiá»‡n táº¡i cá»§a há»c viÃªn.
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: KhÃ´ng tÃ¬m tháº¥y há»c viÃªn táº¡i thá»i Ä‘iá»ƒm thao tÃ¡c. Há»‡ thá»‘ng bÃ¡o lá»—i dá»¯ liá»‡u há»c viÃªn khÃ´ng tá»“n táº¡i hoáº·c Ä‘Ã£ bá»‹ thay Ä‘á»•i vÃ  khÃ´ng má»Ÿ modal phÃ¢n/chuyá»ƒn lá»›p.Luá»“ng ngoáº¡i lá»‡ 2: Thiáº¿u lá»›p Ä‘Ã­ch hoáº·c ngÃ y báº¯t Ä‘áº§u. Há»‡ thá»‘ng hiá»ƒn thá»‹ lá»—i yÃªu cáº§u chá»n lá»›p Ä‘Ã­ch vÃ  ngÃ y báº¯t Ä‘áº§u, giá»¯ modal Ä‘á»ƒ Admin/CSKH bá»• sung dá»¯ liá»‡u.Luá»“ng ngoáº¡i lá»‡ 3: Lá»›p Ä‘Ã­ch Ä‘Ã£ Ä‘áº¡t giá»›i háº¡n sÄ© sá»‘. Há»‡ thá»‘ng hiá»ƒn thá»‹ cáº£nh bÃ¡o quÃ¡ táº£i Ä‘á»ƒ xÃ¡c nháº­n trÆ°á»›c khi lÆ°u. Náº¿u Admin/CSKH khÃ´ng xÃ¡c nháº­n, há»‡ thá»‘ng khÃ´ng cáº­p nháº­t lá»›p há»c cá»§a há»c viÃªn vÃ  giá»¯ nguyÃªn dá»¯ liá»‡u phÃ¢n lá»›p hiá»‡n táº¡i.
+Quy táº¯c nghiá»‡p vá»¥
+Báº¯t buá»™c chá»n lá»›p Ä‘Ã­ch vÃ  ngÃ y báº¯t Ä‘áº§u. Khi chuyá»ƒn lá»›p cáº§n nháº­p lÃ½ do chuyá»ƒn lá»›p. Lá»›p Ä‘Ã­ch hiá»ƒn thá»‹ theo trÃ¬nh Ä‘á»™ phÃ¹ há»£p vÃ  hiá»ƒn thá»‹ sÄ© sá»‘ hiá»‡n táº¡i. Náº¿u lá»›p Ä‘Ã£ Ä‘áº¡t giá»›i háº¡n sÄ© sá»‘, há»‡ thá»‘ng cáº£nh bÃ¡o quÃ¡ táº£i Ä‘á»ƒ Admin/CSKH xÃ¡c nháº­n trÆ°á»›c khi lÆ°u.
+Viá»‡c chuyá»ƒn lá»›p (ngay cáº£ khÃ¡c há»‡ F24/F32) tuyá»‡t Ä‘á»‘i khÃ´ng lÃ m reset sá»‘ tiá»n Ä‘Ã£ Ä‘Ã³ng, cÃ´ng ná»£ hay lá»‹ch sá»­ giao dá»‹ch ban Ä‘áº§u cá»§a há»c viÃªn (LÆ°u váº¿t tÃ i chÃ­nh). 
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+Há»c viÃªn Ä‘Æ°á»£c chá»n; lá»›p Ä‘Ã­ch; lÃ½ do chuyá»ƒn lá»›p; ngÃ y báº¯t Ä‘áº§u; thÃ´ng tin sÄ© sá»‘ hiá»‡n táº¡i cá»§a lá»›p.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: Há»c viÃªn Ä‘Æ°á»£c ghi nháº­n thuá»™c lá»›p há»c má»›i. Tráº¡ng thÃ¡i phÃ¢n lá»›p vÃ  sÄ© sá»‘ lá»›p Ä‘Æ°á»£c cáº­p nháº­t. Báº£ng danh sÃ¡ch há»c viÃªn hiá»ƒn thá»‹ lá»›p má»›i cá»§a há»c viÃªn.Tháº¥t báº¡i: Lá»›p há»c cá»§a há»c viÃªn khÃ´ng thay Ä‘á»•i. Dá»¯ liá»‡u phÃ¢n lá»›p hiá»‡n táº¡i Ä‘Æ°á»£c giá»¯ nguyÃªn.
+MÃ n hÃ¬nh liÃªn quan
+Quáº£n lÃ½ Há»c viÃªnRoute: /admin/students
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+15. UC-STUDENT-RECEIPT-01 - Xem áº£nh biÃªn lai chuyá»ƒn khoáº£n
+15.1. HÃ¬nh Use Case tá»•ng quan
+
+15.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+15.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-STUDENT-RECEIPT-01
+TÃªn Use Case
+Xem áº£nh biÃªn lai chuyá»ƒn khoáº£n
+Actor
+Quáº£n trá»‹ viÃªn (Admin); ChÄƒm sÃ³c khÃ¡ch hÃ ng (CSKH); Káº¿ toÃ¡n
+Má»¥c tiÃªu
+Cho phÃ©p nhÃ¢n sá»± cÃ³ quyá»n xem vÃ  phÃ³ng to áº£nh biÃªn lai chuyá»ƒn khoáº£n trong há»“ sÆ¡ há»c viÃªn Ä‘á»ƒ tra soÃ¡t giao dá»‹ch, Ä‘á»‘i soÃ¡t ngÃ¢n hÃ ng vÃ  háº­u kiá»ƒm.
+MÃ´ táº£ nghiá»‡p vá»¥
+Admin/CSKH/Káº¿ toÃ¡n chá»n há»c viÃªn trÃªn báº£ng danh sÃ¡ch vÃ  nháº¥n icon xem áº£nh biÃªn lai. Há»‡ thá»‘ng táº£i áº£nh biÃªn lai trong há»“ sÆ¡ há»c viÃªn, má»Ÿ popup/modal Ä‘á»ƒ xem hoáº·c phÃ³ng to áº£nh. NgÆ°á»i dÃ¹ng Ä‘Ã³ng modal sau khi tra soÃ¡t.
+Äiá»u kiá»‡n trÆ°á»›c
+1. NgÆ°á»i dÃ¹ng Ä‘Ã£ Ä‘Äƒng nháº­p thÃ nh cÃ´ng. 2. NgÆ°á»i dÃ¹ng cÃ³ vai trÃ² Admin, CSKH hoáº·c Káº¿ toÃ¡n. 3. Há»c viÃªn Ä‘Ã£ tá»“n táº¡i trong danh sÃ¡ch. 4. Há»“ sÆ¡ há»c viÃªn cÃ³ áº£nh biÃªn lai chuyá»ƒn khoáº£n náº¿u cáº§n xem.
+Luá»“ng chÃ­nh
+1. NgÆ°á»i dÃ¹ng truy cáº­p /admin/students. 2. Há»‡ thá»‘ng hiá»ƒn thá»‹ báº£ng danh sÃ¡ch há»c viÃªn vÃ  cá»™t BiÃªn lai chuyá»ƒn khoáº£n. 3. NgÆ°á»i dÃ¹ng chá»n há»c viÃªn cáº§n tra soÃ¡t. 4. NgÆ°á»i dÃ¹ng nháº¥n icon xem áº£nh biÃªn lai. 5. Há»‡ thá»‘ng táº£i há»“ sÆ¡ há»c viÃªn vÃ  áº£nh biÃªn lai. 6. Há»‡ thá»‘ng má»Ÿ popup/modal xem biÃªn lai. 7. NgÆ°á»i dÃ¹ng xem hoáº·c phÃ³ng to áº£nh Ä‘á»ƒ Ä‘á»‘i soÃ¡t. 8. NgÆ°á»i dÃ¹ng Ä‘Ã³ng popup/modal. 9. Há»‡ thá»‘ng quay láº¡i báº£ng danh sÃ¡ch há»c viÃªn.
+Luá»“ng thay tháº¿
+NgÆ°á»i dÃ¹ng chá»‰ xem áº£nh á»Ÿ kÃ­ch thÆ°á»›c máº·c Ä‘á»‹nh, khÃ´ng phÃ³ng to. Há»‡ thá»‘ng váº«n duy trÃ¬ modal xem áº£nh cho Ä‘áº¿n khi ngÆ°á»i dÃ¹ng Ä‘Ã³ng modal.
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: KhÃ´ng tÃ¬m tháº¥y há»c viÃªn táº¡i thá»i Ä‘iá»ƒm xem biÃªn lai. Há»‡ thá»‘ng bÃ¡o lá»—i dá»¯ liá»‡u há»c viÃªn khÃ´ng tá»“n táº¡i hoáº·c Ä‘Ã£ bá»‹ thay Ä‘á»•i vÃ  khÃ´ng má»Ÿ modal xem biÃªn lai.Luá»“ng ngoáº¡i lá»‡ 2: Há»“ sÆ¡ há»c viÃªn chÆ°a cÃ³ áº£nh biÃªn lai. Há»‡ thá»‘ng hiá»ƒn thá»‹ thÃ´ng bÃ¡o chÆ°a cÃ³ áº£nh biÃªn lai vÃ  khÃ´ng má»Ÿ modal xem áº£nh.Luá»“ng ngoáº¡i lá»‡ 3: Táº£i áº£nh hoáº·c phÃ³ng to áº£nh tháº¥t báº¡i. Há»‡ thá»‘ng hiá»ƒn thá»‹ lá»—i khÃ´ng thá»ƒ táº£i áº£nh biÃªn lai vÃ  giá»¯ nguyÃªn báº£ng danh sÃ¡ch há»c viÃªn.
+Quy táº¯c nghiá»‡p vá»¥
+Chá»‰ ngÆ°á»i dÃ¹ng cÃ³ quyá»n Admin, CSKH hoáº·c Káº¿ toÃ¡n Ä‘Æ°á»£c xem áº£nh biÃªn lai. áº¢nh biÃªn lai Ä‘Æ°á»£c lÆ°u trong há»“ sÆ¡ há»c viÃªn vÃ  dÃ¹ng cho tra soÃ¡t giao dá»‹ch, Ä‘á»‘i soÃ¡t vá»›i sá»• phá»¥ ngÃ¢n hÃ ng.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+MÃ£ há»c viÃªn Ä‘Æ°á»£c chá»n; Ä‘Æ°á»ng dáº«n hoáº·c dá»¯ liá»‡u áº£nh biÃªn lai trong há»“ sÆ¡ há»c viÃªn.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: áº¢nh biÃªn lai Ä‘Æ°á»£c hiá»ƒn thá»‹ cho ngÆ°á»i dÃ¹ng xem/Ä‘á»‘i soÃ¡t. Dá»¯ liá»‡u há»c viÃªn khÃ´ng thay Ä‘á»•i.Tháº¥t báº¡i: KhÃ´ng cÃ³ dá»¯ liá»‡u nÃ o thay Ä‘á»•i. NgÆ°á»i dÃ¹ng váº«n á»Ÿ mÃ n hÃ¬nh danh sÃ¡ch há»c viÃªn.
+MÃ n hÃ¬nh liÃªn quan
+Quáº£n lÃ½ Há»c viÃªnRoute: /admin/students
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+16. UC-STUDENT-ACCOUNT-01 - KhÃ³a / Má»Ÿ khÃ³a tÃ i khoáº£n há»c viÃªn
+16.1. HÃ¬nh Use Case tá»•ng quan
+
+16.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+16.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-STUDENT-ACCOUNT-01
+TÃªn Use Case
+KhÃ³a / Má»Ÿ khÃ³a tÃ i khoáº£n há»c viÃªn
+Actor
+Quáº£n trá»‹ viÃªn (Admin); ChÄƒm sÃ³c khÃ¡ch hÃ ng (CSKH)
+Má»¥c tiÃªu
+Admin/CSKH khÃ³a tÃ i khoáº£n Ä‘á»ƒ táº¡m ngÆ°ng quyá»n truy cáº­p Portal khi phÃ¡t hiá»‡n giao dá»‹ch lá»—i/há»§y hoáº·c há»c viÃªn vi pháº¡m quy cháº¿, Ä‘á»“ng thá»i cÃ³ thá»ƒ má»Ÿ khÃ³a khi váº¥n Ä‘á» Ä‘Ã£ Ä‘Æ°á»£c xá»­ lÃ½.
+MÃ´ táº£ nghiá»‡p vá»¥
+Admin/CSKH chá»n há»c viÃªn vÃ  nháº¥n KhÃ³a tÃ i khoáº£n hoáº·c Má»Ÿ khÃ³a. Há»‡ thá»‘ng yÃªu cáº§u xÃ¡c nháº­n, cáº­p nháº­t tráº¡ng thÃ¡i tÃ i khoáº£n, thay Ä‘á»•i quyá»n truy cáº­p Portal vÃ  cáº­p nháº­t badge trÃªn danh sÃ¡ch há»c viÃªn.
+Äiá»u kiá»‡n trÆ°á»›c
+1. NgÆ°á»i dÃ¹ng Ä‘Ã£ Ä‘Äƒng nháº­p thÃ nh cÃ´ng. 2. NgÆ°á»i dÃ¹ng cÃ³ vai trÃ² Admin hoáº·c CSKH. 3. Há»c viÃªn Ä‘Ã£ tá»“n táº¡i trong danh sÃ¡ch. 4. Há»c viÃªn Ä‘Ã£ cÃ³ tÃ i khoáº£n Portal.
+Luá»“ng chÃ­nh
+1. Admin/CSKH truy cáº­p /admin/students. 2. Há»‡ thá»‘ng hiá»ƒn thá»‹ báº£ng danh sÃ¡ch há»c viÃªn vÃ  badge tÃ i khoáº£n. 3. Admin/CSKH chá»n há»c viÃªn cáº§n khÃ³a hoáº·c má»Ÿ khÃ³a. 4. Admin/CSKH nháº¥n nÃºt KhÃ³a tÃ i khoáº£n hoáº·c Má»Ÿ khÃ³a. 5. Há»‡ thá»‘ng táº£i há»“ sÆ¡ há»c viÃªn vÃ  tráº¡ng thÃ¡i tÃ i khoáº£n hiá»‡n táº¡i. 6. Há»‡ thá»‘ng hiá»ƒn thá»‹ há»™p thoáº¡i xÃ¡c nháº­n. 7. Náº¿u khÃ³a tÃ i khoáº£n, Admin/CSKH nháº­p lÃ½ do khÃ³a. 8. Admin/CSKH nháº¥n XÃ¡c nháº­n. 9. Há»‡ thá»‘ng cáº­p nháº­t tráº¡ng thÃ¡i tÃ i khoáº£n. 10. Náº¿u khÃ³a, há»‡ thá»‘ng táº¡m ngÆ°ng quyá»n truy cáº­p Portal vÃ  Ä‘á»•i badge thÃ nh ÄÃ£ khÃ³a. Náº¿u má»Ÿ khÃ³a, há»‡ thá»‘ng khÃ´i phá»¥c quyá»n truy cáº­p Portal vÃ  Ä‘á»•i badge thÃ nh ÄÃ£ cáº¥p. 11. Há»‡ thá»‘ng cáº­p nháº­t báº£ng danh sÃ¡ch há»c viÃªn vÃ  thÃ´ng bÃ¡o thÃ nh cÃ´ng.
+Luá»“ng thay tháº¿
+Admin/CSKH nháº¥n Há»§y hoáº·c Ä‘Ã³ng há»™p thoáº¡i xÃ¡c nháº­n. Há»‡ thá»‘ng khÃ´ng gá»­i yÃªu cáº§u cáº­p nháº­t lÃªn server vÃ  giá»¯ nguyÃªn tráº¡ng thÃ¡i tÃ i khoáº£n hiá»‡n táº¡i.
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: KhÃ´ng tÃ¬m tháº¥y há»c viÃªn táº¡i thá»i Ä‘iá»ƒm thao tÃ¡c. Há»‡ thá»‘ng bÃ¡o lá»—i dá»¯ liá»‡u há»c viÃªn khÃ´ng tá»“n táº¡i hoáº·c Ä‘Ã£ bá»‹ thay Ä‘á»•i vÃ  khÃ´ng cáº­p nháº­t tráº¡ng thÃ¡i tÃ i khoáº£n.Luá»“ng ngoáº¡i lá»‡ 2: KhÃ³a tÃ i khoáº£n nhÆ°ng thiáº¿u lÃ½ do khÃ³a. Há»‡ thá»‘ng hiá»ƒn thá»‹ lá»—i yÃªu cáº§u nháº­p lÃ½ do khÃ³a tÃ i khoáº£n vÃ  khÃ´ng cáº­p nháº­t tráº¡ng thÃ¡i tÃ i khoáº£n.Luá»“ng ngoáº¡i lá»‡ 3: Cáº­p nháº­t tráº¡ng thÃ¡i tháº¥t báº¡i do lá»—i há»‡ thá»‘ng hoáº·c server. Há»‡ thá»‘ng hiá»ƒn thá»‹ lá»—i khÃ´ng thá»ƒ cáº­p nháº­t tráº¡ng thÃ¡i tÃ i khoáº£n vÃ  giá»¯ nguyÃªn tráº¡ng thÃ¡i cÅ©.
+Quy táº¯c nghiá»‡p vá»¥
+Tráº¡ng thÃ¡i tÃ i khoáº£n hiá»ƒn thá»‹ báº±ng badge ÄÃ£ cáº¥p hoáº·c ÄÃ£ khÃ³a. Khi khÃ³a tÃ i khoáº£n, há»‡ thá»‘ng táº¡m ngÆ°ng quyá»n truy cáº­p Portal. Khi má»Ÿ khÃ³a, há»‡ thá»‘ng khÃ´i phá»¥c quyá»n truy cáº­p Portal theo tÃ i khoáº£n há»c viÃªn. Thao tÃ¡c khÃ³a cáº§n cÃ³ lÃ½ do khÃ³a.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+MÃ£ há»c viÃªn Ä‘Æ°á»£c chá»n; tráº¡ng thÃ¡i tÃ i khoáº£n hiá»‡n táº¡i; lÃ½ do khÃ³a tÃ i khoáº£n náº¿u thao tÃ¡c lÃ  khÃ³a.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: Tráº¡ng thÃ¡i tÃ i khoáº£n há»c viÃªn Ä‘Æ°á»£c cáº­p nháº­t. Quyá»n truy cáº­p Portal thay Ä‘á»•i theo tráº¡ng thÃ¡i má»›i. Badge tÃ i khoáº£n trÃªn danh sÃ¡ch há»c viÃªn Ä‘Æ°á»£c cáº­p nháº­t.Tháº¥t báº¡i: Tráº¡ng thÃ¡i tÃ i khoáº£n há»c viÃªn khÃ´ng thay Ä‘á»•i. Quyá»n truy cáº­p Portal giá»¯ nguyÃªn.
+MÃ n hÃ¬nh liÃªn quan
+Quáº£n lÃ½ Há»c viÃªnRoute: /admin/students
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+17. UC-STUDENT-RESET-01 - Cáº¥p láº¡i máº­t kháº©u há»c viÃªn
+17.1. HÃ¬nh Use Case tá»•ng quan
+
+17.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+17.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-STUDENT-RESET-01
+TÃªn Use Case
+Cáº¥p láº¡i máº­t kháº©u há»c viÃªn
+Actor
+Quáº£n trá»‹ viÃªn (Admin); ChÄƒm sÃ³c khÃ¡ch hÃ ng (CSKH)
+Má»¥c tiÃªu
+Admin/CSKH Ä‘áº·t láº¡i máº­t kháº©u tÃ i khoáº£n Portal cá»§a há»c viÃªn vá» abc@123, kÃ­ch hoáº¡t láº¡i yÃªu cáº§u Ä‘á»•i máº­t kháº©u á»Ÿ láº§n Ä‘Äƒng nháº­p tiáº¿p theo vÃ  gá»­i email thÃ´ng bÃ¡o cho há»c viÃªn.
+MÃ´ táº£ nghiá»‡p vá»¥
+Admin/CSKH chá»n há»c viÃªn vÃ  nháº¥n Cáº¥p láº¡i máº­t kháº©u. Há»‡ thá»‘ng yÃªu cáº§u xÃ¡c nháº­n, Ä‘áº·t láº¡i máº­t kháº©u vá» abc@123, gáº¯n mustChangePassword = true, gá»­i email thÃ´ng bÃ¡o vÃ  cáº­p nháº­t káº¿t quáº£ trÃªn mÃ n hÃ¬nh.
+Äiá»u kiá»‡n trÆ°á»›c
+1. NgÆ°á»i dÃ¹ng Ä‘Ã£ Ä‘Äƒng nháº­p thÃ nh cÃ´ng. 2. NgÆ°á»i dÃ¹ng cÃ³ vai trÃ² Admin hoáº·c CSKH. 3. Há»c viÃªn Ä‘Ã£ tá»“n táº¡i trong danh sÃ¡ch. 4. Há»c viÃªn cÃ³ tÃ i khoáº£n Portal á»Ÿ tráº¡ng thÃ¡i hoáº¡t Ä‘á»™ng.
+Luá»“ng chÃ­nh
+1. Admin/CSKH truy cáº­p /admin/students. 2. Há»‡ thá»‘ng hiá»ƒn thá»‹ danh sÃ¡ch há»c viÃªn vÃ  nÃºt Cáº¥p láº¡i máº­t kháº©u. 3. Admin/CSKH chá»n há»c viÃªn cáº§n cáº¥p láº¡i máº­t kháº©u. 4. Admin/CSKH nháº¥n Cáº¥p láº¡i máº­t kháº©u. 5. Há»‡ thá»‘ng táº£i há»“ sÆ¡ há»c viÃªn vÃ  tÃ i khoáº£n hiá»‡n táº¡i. 6. Há»‡ thá»‘ng kiá»ƒm tra tÃ i khoáº£n Ä‘ang hoáº¡t Ä‘á»™ng. 7. Há»‡ thá»‘ng hiá»ƒn thá»‹ há»™p thoáº¡i xÃ¡c nháº­n. 8. Admin/CSKH nháº¥n XÃ¡c nháº­n. 9. Há»‡ thá»‘ng Ä‘áº·t láº¡i máº­t kháº©u vá» abc@123. 10. Há»‡ thá»‘ng kÃ­ch hoáº¡t láº¡i cá» mustChangePassword = true. 11. Há»‡ thá»‘ng gá»­i email thÃ´ng bÃ¡o máº­t kháº©u má»›i cho há»c viÃªn. 12. Há»‡ thá»‘ng thÃ´ng bÃ¡o cáº¥p láº¡i máº­t kháº©u thÃ nh cÃ´ng.
+Luá»“ng thay tháº¿
+Admin/CSKH nháº¥n Há»§y hoáº·c Ä‘Ã³ng há»™p thoáº¡i xÃ¡c nháº­n. Há»‡ thá»‘ng khÃ´ng gá»­i yÃªu cáº§u reset máº­t kháº©u lÃªn server vÃ  giá»¯ nguyÃªn máº­t kháº©u hiá»‡n táº¡i.
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: KhÃ´ng tÃ¬m tháº¥y há»c viÃªn táº¡i thá»i Ä‘iá»ƒm reset. Há»‡ thá»‘ng bÃ¡o lá»—i dá»¯ liá»‡u há»c viÃªn khÃ´ng tá»“n táº¡i hoáº·c Ä‘Ã£ bá»‹ thay Ä‘á»•i vÃ  khÃ´ng cáº¥p láº¡i máº­t kháº©u.Luá»“ng ngoáº¡i lá»‡ 2: TÃ i khoáº£n há»c viÃªn Ä‘ang bá»‹ khÃ³a. Há»‡ thá»‘ng hiá»ƒn thá»‹ cáº£nh bÃ¡o tÃ i khoáº£n Ä‘ang bá»‹ khÃ³a vÃ  khÃ´ng cáº¥p láº¡i máº­t kháº©u.Luá»“ng ngoáº¡i lá»‡ 3: Reset máº­t kháº©u tháº¥t báº¡i do lá»—i há»‡ thá»‘ng hoáº·c server. Há»‡ thá»‘ng hiá»ƒn thá»‹ lá»—i khÃ´ng thá»ƒ cáº¥p láº¡i máº­t kháº©u vÃ  giá»¯ nguyÃªn máº­t kháº©u hiá»‡n táº¡i.Luá»“ng ngoáº¡i lá»‡ 4: Gá»­i email thÃ´ng bÃ¡o tháº¥t báº¡i sau khi reset máº­t kháº©u thÃ nh cÃ´ng. Há»‡ thá»‘ng cáº£nh bÃ¡o Ä‘Ã£ reset máº­t kháº©u nhÆ°ng gá»­i email tháº¥t báº¡i.
+Quy táº¯c nghiá»‡p vá»¥
+Máº­t kháº©u sau khi reset lÃ  abc@123. Há»‡ thá»‘ng pháº£i kÃ­ch hoáº¡t láº¡i mustChangePassword = true. Náº¿u tÃ i khoáº£n Ä‘ang ÄÃ£ khÃ³a, há»‡ thá»‘ng khÃ´ng cáº¥p láº¡i máº­t kháº©u.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+MÃ£ há»c viÃªn Ä‘Æ°á»£c chá»n; email tÃ i khoáº£n há»c viÃªn; tráº¡ng thÃ¡i tÃ i khoáº£n hiá»‡n táº¡i.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: Máº­t kháº©u tÃ i khoáº£n Portal cá»§a há»c viÃªn Ä‘Æ°á»£c Ä‘áº·t láº¡i vá» abc@123. Cá» mustChangePassword Ä‘Æ°á»£c báº­t láº¡i. Há»c viÃªn nháº­n email thÃ´ng bÃ¡o vÃ  pháº£i Ä‘á»•i máº­t kháº©u á»Ÿ láº§n Ä‘Äƒng nháº­p tiáº¿p theo.Tháº¥t báº¡i: Máº­t kháº©u hiá»‡n táº¡i khÃ´ng thay Ä‘á»•i, trá»« trÆ°á»ng há»£p reset thÃ nh cÃ´ng nhÆ°ng gá»­i email thÃ´ng bÃ¡o tháº¥t báº¡i.
+MÃ n hÃ¬nh liÃªn quan
+Quáº£n lÃ½ Há»c viÃªnRoute: /admin/students
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+18. UC-STUDENT-DELETE-01 - XÃ³a há»“ sÆ¡ há»c viÃªn
+18.1. HÃ¬nh Use Case tá»•ng quan
+
+18.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+18.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-STUDENT-DELETE-01
+TÃªn Use Case
+XÃ³a há»“ sÆ¡ há»c viÃªn
+Actor
+Quáº£n trá»‹ viÃªn (Admin)
+Má»¥c tiÃªu
+Admin xÃ³a bá» hoÃ n toÃ n báº£n ghi há»c viÃªn trong trÆ°á»ng há»£p Saler nháº­p nháº§m giao dá»‹ch áº£o hoáº·c há»“ sÆ¡ há»c viÃªn Ä‘Æ°á»£c táº¡o sai lá»‡ch.
+MÃ´ táº£ nghiá»‡p vá»¥
+Admin chá»n há»c viÃªn vÃ  nháº¥n XÃ³a há»c viÃªn. Há»‡ thá»‘ng táº£i há»“ sÆ¡, kiá»ƒm tra Ä‘iá»u kiá»‡n xÃ³a, yÃªu cáº§u xÃ¡c nháº­n vÃ  lÃ½ do xÃ³a. Náº¿u há»£p lá»‡, há»‡ thá»‘ng xÃ³a há»“ sÆ¡ há»c viÃªn, thu há»“i hoáº·c vÃ´ hiá»‡u hÃ³a tÃ i khoáº£n Portal liÃªn quan vÃ  cáº­p nháº­t danh sÃ¡ch.
+Äiá»u kiá»‡n trÆ°á»›c
+1. NgÆ°á»i dÃ¹ng Ä‘Ã£ Ä‘Äƒng nháº­p thÃ nh cÃ´ng. 2. NgÆ°á»i dÃ¹ng cÃ³ vai trÃ² Admin. 3. Há»c viÃªn Ä‘Ã£ tá»“n táº¡i trong danh sÃ¡ch.
+Luá»“ng chÃ­nh
+1. Admin truy cáº­p /admin/students. 2. Há»‡ thá»‘ng hiá»ƒn thá»‹ báº£ng danh sÃ¡ch há»c viÃªn. 3. Admin chá»n há»c viÃªn cáº§n xÃ³a. 4. Admin nháº¥n XÃ³a há»c viÃªn. 5. Há»‡ thá»‘ng táº£i há»“ sÆ¡ há»c viÃªn hiá»‡n táº¡i. 6. Há»‡ thá»‘ng kiá»ƒm tra há»“ sÆ¡ Ä‘á»§ Ä‘iá»u kiá»‡n xÃ³a. 7. Há»‡ thá»‘ng hiá»ƒn thá»‹ há»™p thoáº¡i xÃ¡c nháº­n vÃ  yÃªu cáº§u nháº­p lÃ½ do xÃ³a. 8. Admin nháº­p lÃ½ do xÃ³a vÃ  nháº¥n XÃ¡c nháº­n. 9. Há»‡ thá»‘ng gá»­i yÃªu cáº§u xÃ³a há»“ sÆ¡. 10. Há»‡ thá»‘ng xÃ³a há»“ sÆ¡ há»c viÃªn khá»i há»‡ thá»‘ng. 11. Há»‡ thá»‘ng thu há»“i hoáº·c vÃ´ hiá»‡u hÃ³a tÃ i khoáº£n Portal liÃªn quan. 12. Há»‡ thá»‘ng cáº­p nháº­t danh sÃ¡ch há»c viÃªn vÃ  thÃ´ng bÃ¡o thÃ nh cÃ´ng.
+Luá»“ng thay tháº¿
+Admin nháº¥n Há»§y hoáº·c Ä‘Ã³ng há»™p thoáº¡i xÃ¡c nháº­n. Há»‡ thá»‘ng khÃ´ng gá»­i yÃªu cáº§u xÃ³a lÃªn server vÃ  giá»¯ nguyÃªn há»“ sÆ¡ há»c viÃªn.
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: KhÃ´ng tÃ¬m tháº¥y há»c viÃªn táº¡i thá»i Ä‘iá»ƒm xÃ³a. Há»‡ thá»‘ng bÃ¡o lá»—i dá»¯ liá»‡u há»c viÃªn khÃ´ng tá»“n táº¡i hoáº·c Ä‘Ã£ bá»‹ thay Ä‘á»•i vÃ  khÃ´ng thá»±c hiá»‡n xÃ³a.Luá»“ng ngoáº¡i lá»‡ 2: Há»“ sÆ¡ Ä‘Ã£ phÃ¡t sinh dá»¯ liá»‡u há»c táº­p/lá»›p há»c. Há»‡ thá»‘ng hiá»ƒn thá»‹ cáº£nh bÃ¡o vÃ  tá»« chá»‘i xÃ³a Ä‘á»ƒ báº£o toÃ n dá»¯ liá»‡u váº­n hÃ nh.Luá»“ng ngoáº¡i lá»‡ 3: Admin xÃ¡c nháº­n xÃ³a nhÆ°ng chÆ°a nháº­p lÃ½ do xÃ³a. Há»‡ thá»‘ng hiá»ƒn thá»‹ lá»—i yÃªu cáº§u nháº­p lÃ½ do xÃ³a vÃ  khÃ´ng xÃ³a há»“ sÆ¡ há»c viÃªn.Luá»“ng ngoáº¡i lá»‡ 4: Server xÃ³a tháº¥t báº¡i. Há»‡ thá»‘ng hiá»ƒn thá»‹ lá»—i khÃ´ng thá»ƒ xÃ³a há»“ sÆ¡ há»c viÃªn vÃ  giá»¯ nguyÃªn há»“ sÆ¡.
+Quy táº¯c nghiá»‡p vá»¥
+Chá»‰ Admin cÃ³ quyá»n xÃ³a há»“ sÆ¡ há»c viÃªn. Thao tÃ¡c xÃ³a pháº£i cÃ³ xÃ¡c nháº­n vÃ  lÃ½ do xÃ³a. Náº¿u há»“ sÆ¡ Ä‘Ã£ phÃ¡t sinh dá»¯ liá»‡u há»c táº­p/lá»›p há»c, há»‡ thá»‘ng tá»« chá»‘i xÃ³a Ä‘á»ƒ báº£o toÃ n dá»¯ liá»‡u váº­n hÃ nh.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+MÃ£ há»c viÃªn Ä‘Æ°á»£c chá»n; lÃ½ do xÃ³a há»“ sÆ¡.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: Há»“ sÆ¡ há»c viÃªn bá»‹ xÃ³a khá»i danh sÃ¡ch. TÃ i khoáº£n Portal liÃªn quan bá»‹ thu há»“i hoáº·c vÃ´ hiá»‡u hÃ³a.Tháº¥t báº¡i: Há»“ sÆ¡ há»c viÃªn khÃ´ng thay Ä‘á»•i. TÃ i khoáº£n Portal liÃªn quan giá»¯ nguyÃªn.
+MÃ n hÃ¬nh liÃªn quan
+Quáº£n lÃ½ Há»c viÃªnRoute: /admin/students
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+19. UC-STUDENT-LEARNING-STATUS-01 - Chuyá»ƒn tráº¡ng thÃ¡i há»c táº­p
+19.1. HÃ¬nh Use Case tá»•ng quan
+
+19.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+19.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-STUDENT-LEARNING-STATUS-01
+TÃªn Use Case
+Chuyá»ƒn tráº¡ng thÃ¡i há»c táº­p
+Actor
+Quáº£n trá»‹ viÃªn (Admin); ChÄƒm sÃ³c khÃ¡ch hÃ ng (CSKH)
+Má»¥c tiÃªu
+Admin/CSKH cáº­p nháº­t tráº¡ng thÃ¡i há»c táº­p cá»§a há»c viÃªn sang Äang há»c, Báº£o lÆ°u hoáº·c Nghá»‰ há»c, Ä‘á»“ng thá»i táº¡m ngÆ°ng tÃ­nh sá»‘ buá»•i khi há»c viÃªn á»Ÿ tráº¡ng thÃ¡i Báº£o lÆ°u.
+MÃ´ táº£ nghiá»‡p vá»¥
+Admin/CSKH chá»n há»c viÃªn, má»Ÿ thao tÃ¡c chuyá»ƒn tráº¡ng thÃ¡i há»c táº­p, chá»n tráº¡ng thÃ¡i má»›i, nháº­p lÃ½ do vÃ  ngÃ y hiá»‡u lá»±c rá»“i lÆ°u. Há»‡ thá»‘ng kiá»ƒm tra dá»¯ liá»‡u, cáº­p nháº­t tráº¡ng thÃ¡i, xá»­ lÃ½ táº¡m ngÆ°ng tÃ­nh sá»‘ buá»•i náº¿u lÃ  Báº£o lÆ°u, cáº­p nháº­t KPI vÃ  báº£ng danh sÃ¡ch.
+Äiá»u kiá»‡n trÆ°á»›c
+1. NgÆ°á»i dÃ¹ng Ä‘Ã£ Ä‘Äƒng nháº­p thÃ nh cÃ´ng. 2. NgÆ°á»i dÃ¹ng cÃ³ vai trÃ² Admin hoáº·c CSKH. 3. Há»c viÃªn Ä‘Ã£ tá»“n táº¡i trong danh sÃ¡ch.
+Luá»“ng chÃ­nh
+1. Admin/CSKH truy cáº­p /admin/students. 2. Há»‡ thá»‘ng hiá»ƒn thá»‹ tháº» KPI vÃ  báº£ng danh sÃ¡ch há»c viÃªn. 3. Admin/CSKH chá»n há»c viÃªn cáº§n cáº­p nháº­t. 4. Admin/CSKH má»Ÿ thao tÃ¡c chuyá»ƒn tráº¡ng thÃ¡i há»c táº­p. 5. Há»‡ thá»‘ng má»Ÿ modal vÃ  hiá»ƒn thá»‹ tráº¡ng thÃ¡i hiá»‡n táº¡i. 6. Admin/CSKH chá»n tráº¡ng thÃ¡i má»›i, nháº­p lÃ½ do vÃ  ngÃ y hiá»‡u lá»±c. 7. Admin/CSKH nháº¥n LÆ°u. 8. Há»‡ thá»‘ng kiá»ƒm tra dá»¯ liá»‡u há»£p lá»‡. 9. Há»‡ thá»‘ng cáº­p nháº­t tráº¡ng thÃ¡i há»c táº­p má»›i. 10. Náº¿u tráº¡ng thÃ¡i má»›i lÃ  Báº£o lÆ°u, há»‡ thá»‘ng táº¡m ngÆ°ng tÃ­nh sá»‘ buá»•i. 11. Náº¿u tráº¡ng thÃ¡i lÃ  Báº£o lÆ°u, há»‡ thá»‘ng táº¡m ngÆ°ng tÃ­nh sá»‘ buá»•i. Náº¿u tráº¡ng thÃ¡i lÃ  'Nghá»‰ há»c', há»‡ thá»‘ng tá»± Ä‘á»™ng kÃ­ch hoáº¡t tiáº¿n trÃ¬nh thu há»“i quyá»n vÃ  khÃ³a tÃ i khoáº£n Portal. 
+Luá»“ng thay tháº¿
+Admin/CSKH nháº¥n Há»§y hoáº·c Ä‘Ã³ng modal. Há»‡ thá»‘ng khÃ´ng gá»­i dá»¯ liá»‡u cáº­p nháº­t lÃªn server vÃ  giá»¯ nguyÃªn tráº¡ng thÃ¡i há»c táº­p hiá»‡n táº¡i.
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: KhÃ´ng tÃ¬m tháº¥y há»c viÃªn táº¡i thá»i Ä‘iá»ƒm cáº­p nháº­t. Há»‡ thá»‘ng bÃ¡o lá»—i dá»¯ liá»‡u há»c viÃªn khÃ´ng tá»“n táº¡i hoáº·c Ä‘Ã£ bá»‹ thay Ä‘á»•i vÃ  khÃ´ng cáº­p nháº­t tráº¡ng thÃ¡i há»c táº­p.Luá»“ng ngoáº¡i lá»‡ 2: Thiáº¿u tráº¡ng thÃ¡i má»›i, lÃ½ do hoáº·c ngÃ y hiá»‡u lá»±c. Há»‡ thá»‘ng hiá»ƒn thá»‹ lá»—i yÃªu cáº§u nháº­p Ä‘áº§y Ä‘á»§ thÃ´ng tin vÃ  giá»¯ modal Ä‘á»ƒ bá»• sung.Luá»“ng ngoáº¡i lá»‡ 3: Tráº¡ng thÃ¡i má»›i trÃ¹ng tráº¡ng thÃ¡i hiá»‡n táº¡i. Há»‡ thá»‘ng cáº£nh bÃ¡o khÃ´ng cÃ³ thay Ä‘á»•i tráº¡ng thÃ¡i vÃ  khÃ´ng cáº­p nháº­t dá»¯ liá»‡u.
+Quy táº¯c nghiá»‡p vá»¥
+Tráº¡ng thÃ¡i há»c táº­p chá»‰ gá»“m Äang há»c, Báº£o lÆ°u, Nghá»‰ há»c. Báº¯t buá»™c nháº­p lÃ½ do vÃ  ngÃ y hiá»‡u lá»±c. Tráº¡ng thÃ¡i má»›i pháº£i khÃ¡c tráº¡ng thÃ¡i hiá»‡n táº¡i. Khi chuyá»ƒn sang Báº£o lÆ°u, há»‡ thá»‘ng táº¡m ngÆ°ng tÃ­nh sá»‘ buá»•i.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+MÃ£ há»c viÃªn Ä‘Æ°á»£c chá»n; tráº¡ng thÃ¡i há»c táº­p má»›i; lÃ½ do cáº­p nháº­t; ngÃ y hiá»‡u lá»±c.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: Tráº¡ng thÃ¡i há»c táº­p cá»§a há»c viÃªn Ä‘Æ°á»£c cáº­p nháº­t. KPI theo tráº¡ng thÃ¡i vÃ  báº£ng danh sÃ¡ch há»c viÃªn Ä‘Æ°á»£c lÃ m má»›i. Náº¿u tráº¡ng thÃ¡i lÃ  Báº£o lÆ°u, sá»‘ buá»•i há»c viÃªn Ä‘Æ°á»£c táº¡m ngÆ°ng tÃ­nh.Tháº¥t báº¡i: Tráº¡ng thÃ¡i há»c táº­p cá»§a há»c viÃªn khÃ´ng thay Ä‘á»•i. KPI vÃ  danh sÃ¡ch giá»¯ nguyÃªn.
+MÃ n hÃ¬nh liÃªn quan
+Quáº£n lÃ½ Há»c viÃªnRoute: /admin/students
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+20. UC-STUDENT-FILTER-01 - Lá»c danh sÃ¡ch há»c viÃªn nÃ¢ng cao
+20.1. HÃ¬nh Use Case tá»•ng quan
+
+20.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+20.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-STUDENT-FILTER-01
+TÃªn Use Case
+Lá»c danh sÃ¡ch há»c viÃªn nÃ¢ng cao
+Actor
+Quáº£n trá»‹ viÃªn (Admin); ChÄƒm sÃ³c khÃ¡ch hÃ ng (CSKH)
+Má»¥c tiÃªu
+Admin/CSKH tÃ¬m kiáº¿m vÃ  lá»c danh sÃ¡ch há»c viÃªn theo nhiá»u Ä‘iá»u kiá»‡n Ä‘á»ƒ tra cá»©u nhanh, theo dÃµi tráº¡ng thÃ¡i vÃ  thá»±c hiá»‡n cÃ¡c thao tÃ¡c quáº£n lÃ½ phÃ¹ há»£p.
+MÃ´ táº£ nghiá»‡p vá»¥
+Admin/CSKH nháº­p tá»« khÃ³a tÃ¬m kiáº¿m theo há» tÃªn, Email, SÄT hoáº·c mÃ£ há»c viÃªn; chá»n cÃ¡c bá»™ lá»c theo tráº¡ng thÃ¡i há»c táº­p, tráº¡ng thÃ¡i phÃ¢n lá»›p vÃ  tráº¡ng thÃ¡i tÃ i khoáº£n. Há»‡ thá»‘ng kiá»ƒm tra Ä‘iá»u kiá»‡n, truy váº¥n dá»¯ liá»‡u vÃ  cáº­p nháº­t báº£ng danh sÃ¡ch há»c viÃªn.
+Äiá»u kiá»‡n trÆ°á»›c
+1. NgÆ°á»i dÃ¹ng Ä‘Ã£ Ä‘Äƒng nháº­p thÃ nh cÃ´ng. 2. NgÆ°á»i dÃ¹ng cÃ³ vai trÃ² Admin hoáº·c CSKH. 3. MÃ n hÃ¬nh /admin/students cÃ³ danh sÃ¡ch há»c viÃªn.
+Luá»“ng chÃ­nh
+1. Admin/CSKH truy cáº­p /admin/students. 2. Há»‡ thá»‘ng hiá»ƒn thá»‹ tháº» KPI, thanh cÃ´ng cá»¥ lá»c vÃ  báº£ng danh sÃ¡ch há»c viÃªn. 3. Admin/CSKH nháº­p tá»« khÃ³a tÃ¬m kiáº¿m. 4. Admin/CSKH chá»n tráº¡ng thÃ¡i há»c táº­p, tráº¡ng thÃ¡i phÃ¢n lá»›p hoáº·c tráº¡ng thÃ¡i tÃ i khoáº£n. 5. Há»‡ thá»‘ng nháº­n Ä‘iá»u kiá»‡n lá»c/tÃ¬m kiáº¿m. 6. Há»‡ thá»‘ng kiá»ƒm tra Ä‘iá»u kiá»‡n há»£p lá»‡. 7. Há»‡ thá»‘ng truy váº¥n danh sÃ¡ch há»c viÃªn theo Ä‘iá»u kiá»‡n. 8. Há»‡ thá»‘ng cáº­p nháº­t báº£ng danh sÃ¡ch há»c viÃªn phÃ¹ há»£p vá»›i Ä‘iá»u kiá»‡n lá»c.
+Luá»“ng thay tháº¿
+Admin/CSKH xÃ³a tá»« khÃ³a vÃ  Ä‘Æ°a bá»™ lá»c vá» máº·c Ä‘á»‹nh. Há»‡ thá»‘ng truy váº¥n láº¡i toÃ n bá»™ danh sÃ¡ch há»c viÃªn vÃ  hiá»ƒn thá»‹ danh sÃ¡ch khÃ´ng Ã¡p dá»¥ng Ä‘iá»u kiá»‡n lá»c.
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: Tá»« khÃ³a tÃ¬m kiáº¿m khÃ´ng há»£p lá»‡. Há»‡ thá»‘ng hiá»ƒn thá»‹ lá»—i tá»« khÃ³a tÃ¬m kiáº¿m khÃ´ng há»£p lá»‡ vÃ  khÃ´ng cáº­p nháº­t báº£ng káº¿t quáº£.Luá»“ng ngoáº¡i lá»‡ 2: Tráº¡ng thÃ¡i há»c táº­p khÃ´ng há»£p lá»‡. Há»‡ thá»‘ng hiá»ƒn thá»‹ lá»—i Ä‘iá»u kiá»‡n tráº¡ng thÃ¡i há»c táº­p khÃ´ng há»£p lá»‡ vÃ  khÃ´ng cáº­p nháº­t báº£ng káº¿t quáº£.Luá»“ng ngoáº¡i lá»‡ 3: Tráº¡ng thÃ¡i phÃ¢n lá»›p khÃ´ng há»£p lá»‡. Há»‡ thá»‘ng hiá»ƒn thá»‹ lá»—i Ä‘iá»u kiá»‡n tráº¡ng thÃ¡i phÃ¢n lá»›p khÃ´ng há»£p lá»‡ vÃ  khÃ´ng cáº­p nháº­t báº£ng káº¿t quáº£.Luá»“ng ngoáº¡i lá»‡ 4: Tráº¡ng thÃ¡i tÃ i khoáº£n khÃ´ng há»£p lá»‡. Há»‡ thá»‘ng hiá»ƒn thá»‹ lá»—i Ä‘iá»u kiá»‡n tráº¡ng thÃ¡i tÃ i khoáº£n khÃ´ng há»£p lá»‡ vÃ  khÃ´ng cáº­p nháº­t báº£ng káº¿t quáº£.Luá»“ng ngoáº¡i lá»‡ 5: Truy váº¥n danh sÃ¡ch tháº¥t báº¡i do lá»—i há»‡ thá»‘ng hoáº·c server. Há»‡ thá»‘ng hiá»ƒn thá»‹ lá»—i khÃ´ng thá»ƒ táº£i danh sÃ¡ch há»c viÃªn vÃ  giá»¯ nguyÃªn dá»¯ liá»‡u Ä‘ang hiá»ƒn thá»‹ trÆ°á»›c Ä‘Ã³.
+Quy táº¯c nghiá»‡p vá»¥
+TÃ¬m kiáº¿m há»— trá»£ theo Há» tÃªn, Email, SÄT, MÃ£ HV. Tráº¡ng thÃ¡i há»c táº­p gá»“m cÃ¡c nhÃ³m theo Ä‘áº·c táº£ nhÆ° Äang há»c, Báº£o lÆ°u, Nghá»‰ há»c, Cáº§n gia háº¡n. Tráº¡ng thÃ¡i phÃ¢n lá»›p gá»“m ÄÃ£ phÃ¢n lá»›p, ChÆ°a phÃ¢n lá»›p. Tráº¡ng thÃ¡i tÃ i khoáº£n gá»“m Äang hoáº¡t Ä‘á»™ng, ÄÃ£ khÃ³a.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+Tá»« khÃ³a tÃ¬m kiáº¿m; tráº¡ng thÃ¡i há»c táº­p; tráº¡ng thÃ¡i phÃ¢n lá»›p; tráº¡ng thÃ¡i tÃ i khoáº£n.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: Báº£ng danh sÃ¡ch chá»‰ hiá»ƒn thá»‹ cÃ¡c há»c viÃªn phÃ¹ há»£p Ä‘iá»u kiá»‡n tÃ¬m kiáº¿m/lá»c. Dá»¯ liá»‡u gá»‘c khÃ´ng thay Ä‘á»•i.Tháº¥t báº¡i: Báº£ng danh sÃ¡ch khÃ´ng Ä‘Æ°á»£c cáº­p nháº­t theo Ä‘iá»u kiá»‡n lá»—i. Dá»¯ liá»‡u há»c viÃªn trong há»‡ thá»‘ng khÃ´ng thay Ä‘á»•i.
+MÃ n hÃ¬nh liÃªn quan
+Quáº£n lÃ½ Há»c viÃªnRoute: /admin/students
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+21. UC-HOLIDAY-CREATE-01 - Khai bÃ¡o ngÃ y nghá»‰ toÃ n há»‡ thá»‘ng
+21.1. HÃ¬nh Use Case tá»•ng quan
+
+21.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+21.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-HOLIDAY-CREATE-01
+TÃªn Use Case
+Khai bÃ¡o ngÃ y nghá»‰ toÃ n há»‡ thá»‘ng
+Actor
+Quáº£n trá»‹ viÃªn (Admin)
+Má»¥c tiÃªu
+Admin khai bÃ¡o lá»‹ch nghá»‰ Lá»…/Táº¿t hoáº·c sá»± kiá»‡n Ä‘Ã³ng cá»­a toÃ n trung tÃ¢m, Ä‘á»ƒ há»‡ thá»‘ng tá»± Ä‘á»™ng quÃ©t lá»›p Ä‘ang há»c, tá»‹nh tiáº¿n lá»‹ch há»c vÃ  gá»­i email thÃ´ng bÃ¡o cho giÃ¡o viÃªn, há»c viÃªn bá»‹ áº£nh hÆ°á»Ÿng.
+MÃ´ táº£ nghiá»‡p vá»¥
+Admin nháº¥n + Khai bÃ¡o ngÃ y nghá»‰ má»›i, nháº­p tÃªn dá»‹p nghá»‰, chá»n ngÃ y báº¯t Ä‘áº§u/káº¿t thÃºc, chá»n tÃ¹y chá»n tá»‹nh tiáº¿n lá»‹ch há»c vÃ  gá»­i email, sau Ä‘Ã³ nháº¥n LÆ°u vÃ  Ãp dá»¥ng. Há»‡ thá»‘ng kiá»ƒm tra dá»¯ liá»‡u, lÆ°u ngÃ y nghá»‰, quÃ©t lá»›p IN_PROGRESS, Ä‘áº¿m buá»•i bá»‹ giÃ¡n Ä‘oáº¡n, há»‡ thá»‘ng tá»± Ä‘á»™ng bá» qua ngÃ y nghá»‰, cá»™ng thÃªm buá»•i há»c tÆ°Æ¡ng á»©ng, tÃ­nh toÃ¡n láº¡i ngÃ y kiá»ƒm tra giá»¯a ká»³, ngÃ y kiá»ƒm tra cuá»‘i ká»³ vÃ  ngÃ y káº¿t thÃºc (end_date) cho toÃ n bá»™ lá»›p há»c bá»‹ áº£nh hÆ°á»Ÿng, sau Ä‘Ã³ gá»­i email thÃ´ng bÃ¡o. 
+Äiá»u kiá»‡n trÆ°á»›c
+1. NgÆ°á»i dÃ¹ng Ä‘Ã£ Ä‘Äƒng nháº­p thÃ nh cÃ´ng. 2. NgÆ°á»i dÃ¹ng cÃ³ vai trÃ² Admin. 3. MÃ n hÃ¬nh /admin/holidays truy cáº­p Ä‘Æ°á»£c.
+Luá»“ng chÃ­nh
+1. Admin truy cáº­p /admin/holidays. 2. Há»‡ thá»‘ng hiá»ƒn thá»‹ lá»‹ch tá»•ng quan vÃ  báº£ng danh sÃ¡ch ngÃ y nghá»‰. 3. Admin nháº¥n + Khai bÃ¡o ngÃ y nghá»‰ má»›i. 4. Há»‡ thá»‘ng má»Ÿ modal Khai bÃ¡o NgÃ y nghá»‰. 5. Admin nháº­p tÃªn dá»‹p nghá»‰, chá»n ngÃ y báº¯t Ä‘áº§u/káº¿t thÃºc, chá»n tÃ¹y chá»n tá»‹nh tiáº¿n vÃ  gá»­i email, nháº­p ghi chÃº. 6. Admin nháº¥n LÆ°u vÃ  Ãp dá»¥ng. 7. Há»‡ thá»‘ng tá»± Ä‘á»™ng Ä‘áº¿m sá»‘ ngÃ y nghá»‰. 8. Há»‡ thá»‘ng kiá»ƒm tra khoáº£ng ngÃ y há»£p lá»‡ vÃ  khÃ´ng trÃ¹ng ká»³ nghá»‰ khÃ¡c. 9. Há»‡ thá»‘ng ghi nháº­n ngÃ y nghá»‰. 10. Há»‡ thá»‘ng quÃ©t lá»›p Äang há»c (IN_PROGRESS). 11. Há»‡ thá»‘ng kiá»ƒm tra buá»•i há»c trÃ¹ng khoáº£ng ngÃ y nghá»‰, Ä‘áº¿m sá»‘ buá»•i bá»‹ giÃ¡n Ä‘oáº¡n. 12. Há»‡ thá»‘ng tá»‹nh tiáº¿n lá»‹ch há»c: tá»± Ä‘á»™ng bá» qua ngÃ y nghá»‰, cá»™ng thÃªm buá»•i há»c bÃ¹ vÃ o cuá»‘i khÃ³a, tÃ­nh toÃ¡n láº¡i chÃ­nh xÃ¡c thá»i gian kiá»ƒm tra giá»¯a ká»³ vÃ  thá»i gian kiá»ƒm tra cuá»‘i ká»³.  13. Há»‡ thá»‘ng xáº¿p hÃ ng gá»­i email thÃ´ng bÃ¡o Ä‘áº¿n giÃ¡o viÃªn vÃ  há»c viÃªn cÃ¡c lá»›p bá»‹ áº£nh hÆ°á»Ÿng. 14. Há»‡ thá»‘ng cáº­p nháº­t danh sÃ¡ch ngÃ y nghá»‰, lá»‹ch tá»•ng quan vÃ  hiá»ƒn thá»‹ tá»•ng sá»‘ lá»›p Ä‘Ã£ tá»‹nh tiáº¿n.
+Luá»“ng thay tháº¿
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: NgÃ y káº¿t thÃºc nhá» hÆ¡n ngÃ y báº¯t Ä‘áº§u. Há»‡ thá»‘ng cháº·n lÆ°u, hiá»ƒn thá»‹ lá»—i validation vÃ  giá»¯ modal Ä‘á»ƒ Admin Ä‘iá»u chá»‰nh.Luá»“ng ngoáº¡i lá»‡ 2: Khoáº£ng ngÃ y nghá»‰ trÃ¹ng vá»›i má»™t ká»³ nghá»‰ khÃ¡c Ä‘Ã£ khai bÃ¡o. Há»‡ thá»‘ng cáº£nh bÃ¡o yÃªu cáº§u kiá»ƒm tra láº¡i vÃ  khÃ´ng lÆ°u ngÃ y nghá»‰.Luá»“ng ngoáº¡i lá»‡ 3: Lá»—i trong quÃ¡ trÃ¬nh tá»‹nh tiáº¿n hÃ ng loáº¡t. Há»‡ thá»‘ng há»§y thao tÃ¡c Ä‘á»ƒ Ä‘áº£m báº£o an toÃ n dá»¯ liá»‡u lá»‹ch há»c cá»§a cÃ¡c lá»›p vÃ  hiá»ƒn thá»‹ lá»—i tá»‹nh tiáº¿n tháº¥t báº¡i.
+Quy táº¯c nghiá»‡p vá»¥
+NgÃ y káº¿t thÃºc pháº£i lá»›n hÆ¡n hoáº·c báº±ng ngÃ y báº¯t Ä‘áº§u. Khoáº£ng ngÃ y nghá»‰ khÃ´ng Ä‘Æ°á»£c trÃ¹ng vá»›i ká»³ nghá»‰ Ä‘Ã£ khai bÃ¡o. TÃ¹y chá»n Tá»± Ä‘á»™ng tá»‹nh tiáº¿n ngÃ y káº¿t thÃºc cho toÃ n bá»™ lá»›p há»c Ä‘ang cháº¡y vÃ  Gá»­i email thÃ´ng bÃ¡o tá»± Ä‘á»™ng máº·c Ä‘á»‹nh Ä‘Æ°á»£c chá»n.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+TÃªn dá»‹p nghá»‰; ngÃ y báº¯t Ä‘áº§u; ngÃ y káº¿t thÃºc; tÃ¹y chá»n tá»± Ä‘á»™ng tá»‹nh tiáº¿n lá»‹ch há»c; tÃ¹y chá»n gá»­i email thÃ´ng bÃ¡o; ghi chÃº/thÃ´ng bÃ¡o.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: ThÃ´ng tin ngÃ y nghá»‰ Ä‘Æ°á»£c lÆ°u trÃªn há»‡ thá»‘ng. NgÃ y káº¿t thÃºc cá»§a toÃ n bá»™ cÃ¡c lá»›p há»c Ä‘ang cháº¡y bá»‹ trÃ¹ng ngÃ y nghá»‰ Ä‘Æ°á»£c tá»± Ä‘á»™ng bá» qua ngÃ y nghá»‰ vÃ  cá»™ng thÃªm 1 ngÃ y vÃ o sá»‘ buá»•i. Há»‡ thá»‘ng tá»± Ä‘á»™ng tÃ­nh láº¡i ngÃ y kiá»ƒm tra giá»¯a ká»³ vÃ  cuá»‘i ká»³ tÆ°Æ¡ng á»©ng. . Email thÃ´ng bÃ¡o Ä‘Æ°á»£c gá»­i Ä‘áº¿n giÃ¡o viÃªn vÃ  há»c viÃªn náº¿u tÃ¹y chá»n gá»­i email Ä‘Æ°á»£c báº­t.Tháº¥t báº¡i: NgÃ y nghá»‰ khÃ´ng Ä‘Æ°á»£c Ã¡p dá»¥ng hoáº·c lá»‹ch há»c khÃ´ng bá»‹ thay Ä‘á»•i tÃ¹y theo Ä‘iá»ƒm lá»—i. Dá»¯ liá»‡u lá»‹ch há»c Ä‘Æ°á»£c báº£o toÃ n khi tá»‹nh tiáº¿n tháº¥t báº¡i.
+MÃ n hÃ¬nh liÃªn quan
+Quáº£n lÃ½ NgÃ y nghá»‰ toÃ n há»‡ thá»‘ngRoute: /admin/holidays
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+22. UC-HOLIDAY-UPDATE-01 - Äiá»u chá»‰nh / Há»§y bá» ngÃ y nghá»‰
+22.1. HÃ¬nh Use Case tá»•ng quan
+
+22.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+22.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-HOLIDAY-UPDATE-01
+TÃªn Use Case
+Äiá»u chá»‰nh / Há»§y bá» ngÃ y nghá»‰
+Actor
+Quáº£n trá»‹ viÃªn (Admin)
+Má»¥c tiÃªu
+Admin Ä‘iá»u chá»‰nh hoáº·c há»§y bá» má»™t ká»³ nghá»‰ Ä‘Ã£ khai bÃ¡o, Ä‘á»“ng thá»i há»‡ thá»‘ng quÃ©t láº¡i cÃ¡c lá»›p Ä‘ang hoáº¡t Ä‘á»™ng Ä‘á»ƒ tÃ­nh láº¡i ngÃ y káº¿t thÃºc, ngÃ y kiá»ƒm tra giá»¯a ká»³ vÃ  sá»‘ buá»•i bá»‹ áº£nh hÆ°á»Ÿng.
+MÃ´ táº£ nghiá»‡p vá»¥
+Admin chá»n ká»³ nghá»‰ cáº§n sá»­a hoáº·c há»§y. Náº¿u sá»­a, Admin cáº­p nháº­t tÃªn dá»‹p nghá»‰, khoáº£ng ngÃ y nghá»‰, ghi chÃº vÃ  tÃ¹y chá»n gá»­i email. Náº¿u há»§y, Admin nháº­p lÃ½ do há»§y. há»‡ thá»‘ng kiá»ƒm tra dá»¯ liá»‡u, cáº­p nháº­t/há»§y ngÃ y nghá»‰, quÃ©t toÃ n bá»™ lá»›p Ä‘ang hoáº¡t Ä‘á»™ng Ä‘á»ƒ tÃ­nh láº¡i ngÃ y káº¿t thÃºc, thá»i gian kiá»ƒm tra giá»¯a ká»³, thá»i gian kiá»ƒm tra cuá»‘i ká»³ vÃ  sá»‘ buá»•i bá»‹ áº£nh hÆ°á»Ÿng, sau Ä‘Ã³ gá»­i email thÃ´ng bÃ¡o náº¿u Ä‘Æ°á»£c chá»n. 
+Äiá»u kiá»‡n trÆ°á»›c
+1. NgÆ°á»i dÃ¹ng Ä‘Ã£ Ä‘Äƒng nháº­p thÃ nh cÃ´ng. 2. NgÆ°á»i dÃ¹ng cÃ³ vai trÃ² Admin. 3. ÄÃ£ cÃ³ Ã­t nháº¥t má»™t ngÃ y nghá»‰ Ä‘Æ°á»£c khai bÃ¡o trong há»‡ thá»‘ng.
+Luá»“ng chÃ­nh
+1. Admin truy cáº­p /admin/holidays. 2. Há»‡ thá»‘ng hiá»ƒn thá»‹ lá»‹ch tá»•ng quan vÃ  báº£ng danh sÃ¡ch ngÃ y nghá»‰. 3. Admin chá»n ká»³ nghá»‰ cáº§n thao tÃ¡c. 4. Há»‡ thá»‘ng táº£i thÃ´ng tin ngÃ y nghá»‰ hiá»‡n táº¡i. 5. Admin chá»n Sá»­a hoáº·c Há»§y bá». 6. Náº¿u sá»­a, Admin cáº­p nháº­t thÃ´ng tin ngÃ y nghá»‰ vÃ  nháº¥n LÆ°u vÃ  Ãp dá»¥ng. Náº¿u há»§y, Admin nháº­p lÃ½ do vÃ  nháº¥n XÃ¡c nháº­n há»§y. 7. Há»‡ thá»‘ng kiá»ƒm tra dá»¯ liá»‡u há»£p lá»‡. 8. Há»‡ thá»‘ng lÆ°u thÃ´ng tin Ä‘iá»u chá»‰nh hoáº·c ghi nháº­n ngÃ y nghá»‰ bá»‹ há»§y. 9. Há»‡ thá»‘ng quÃ©t toÃ n bá»™ lá»›p Ä‘ang hoáº¡t Ä‘á»™ng. 10. Há»‡ thá»‘ng tÃ­nh toÃ¡n láº¡i toÃ n bá»™ dá»¯ liá»‡u cá»§a cÃ¡c lá»›p liÃªn quan: Ä‘iá»u chá»‰nh láº¡i sá»‘ buá»•i, ngÃ y kiá»ƒm tra giá»¯a ká»³, ngÃ y kiá»ƒm tra cuá»‘i ká»³ vÃ  cáº­p nháº­t láº¡i ngÃ y káº¿t thÃºc (end_date).  11. Há»‡ thá»‘ng cáº­p nháº­t lá»‹ch há»c má»›i cho cÃ¡c lá»›p bá»‹ áº£nh hÆ°á»Ÿng. 12. Náº¿u Ä‘Æ°á»£c chá»n, há»‡ thá»‘ng gá»­i email thÃ´ng bÃ¡o thay Ä‘á»•i lá»‹ch nghá»‰ cho giÃ¡o viÃªn vÃ  há»c viÃªn. 13. Há»‡ thá»‘ng cáº­p nháº­t lá»‹ch tá»•ng quan, báº£ng danh sÃ¡ch ngÃ y nghá»‰ vÃ  thÃ´ng bÃ¡o thÃ nh cÃ´ng.
+Luá»“ng thay tháº¿
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: KhÃ´ng tÃ¬m tháº¥y ngÃ y nghá»‰ táº¡i thá»i Ä‘iá»ƒm thao tÃ¡c. Há»‡ thá»‘ng bÃ¡o lá»—i ngÃ y nghá»‰ khÃ´ng tá»“n táº¡i hoáº·c Ä‘Ã£ bá»‹ thay Ä‘á»•i vÃ  khÃ´ng thá»±c hiá»‡n thao tÃ¡c.Luá»“ng ngoáº¡i lá»‡ 2: Khi sá»­a, ngÃ y káº¿t thÃºc nhá» hÆ¡n ngÃ y báº¯t Ä‘áº§u. Há»‡ thá»‘ng hiá»ƒn thá»‹ lá»—i validation vÃ  khÃ´ng lÆ°u thay Ä‘á»•i.Luá»“ng ngoáº¡i lá»‡ 3: Khi sá»­a, khoáº£ng ngÃ y nghá»‰ trÃ¹ng vá»›i ká»³ nghá»‰ khÃ¡c Ä‘Ã£ khai bÃ¡o. Há»‡ thá»‘ng hiá»ƒn thá»‹ cáº£nh bÃ¡o vÃ  khÃ´ng lÆ°u thay Ä‘á»•i.Luá»“ng ngoáº¡i lá»‡ 4: Khi há»§y, thiáº¿u lÃ½ do há»§y bá». Há»‡ thá»‘ng hiá»ƒn thá»‹ lá»—i yÃªu cáº§u nháº­p lÃ½ do há»§y bá» vÃ  khÃ´ng há»§y ngÃ y nghá»‰.Luá»“ng ngoáº¡i lá»‡ 5: Lá»—i trong quÃ¡ trÃ¬nh tÃ­nh láº¡i lá»‹ch hÃ ng loáº¡t. Há»‡ thá»‘ng há»§y thao tÃ¡c, khÃ´i phá»¥c dá»¯ liá»‡u ngÃ y nghá»‰/lá»‹ch há»c trÆ°á»›c Ä‘Ã³ vÃ  hiá»ƒn thá»‹ lá»—i cáº­p nháº­t lá»‹ch há»c tháº¥t báº¡i.
+Quy táº¯c nghiá»‡p vá»¥
+Khi sá»­a, ngÃ y káº¿t thÃºc pháº£i lá»›n hÆ¡n hoáº·c báº±ng ngÃ y báº¯t Ä‘áº§u vÃ  khoáº£ng ngÃ y nghá»‰ khÃ´ng Ä‘Æ°á»£c trÃ¹ng vá»›i ká»³ nghá»‰ khÃ¡c. Khi há»§y, báº¯t buá»™c nháº­p lÃ½ do há»§y bá». Má»i thay Ä‘á»•i ngÃ y nghá»‰ pháº£i kÃ­ch hoáº¡t quÃ©t láº¡i lá»›p Ä‘ang hoáº¡t Ä‘á»™ng Ä‘á»ƒ tÃ­nh láº¡i lá»‹ch.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+NgÃ y nghá»‰ Ä‘Æ°á»£c chá»n; thÃ´ng tin ngÃ y nghá»‰ má»›i náº¿u sá»­a; lÃ½ do há»§y bá» náº¿u há»§y; tÃ¹y chá»n gá»­i email thÃ´ng bÃ¡o.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: NgÃ y nghá»‰ Ä‘Æ°á»£c cáº­p nháº­t hoáº·c bá»‹ há»§y bá». Lá»‹ch há»c cá»§a cÃ¡c lá»›p Ä‘ang hoáº¡t Ä‘á»™ng bá»‹ áº£nh hÆ°á»Ÿng Ä‘Æ°á»£c tÃ­nh láº¡i. GiÃ¡o viÃªn vÃ  há»c viÃªn nháº­n email náº¿u tÃ¹y chá»n gá»­i email Ä‘Æ°á»£c báº­t.Tháº¥t báº¡i: NgÃ y nghá»‰ vÃ  lá»‹ch há»c giá»¯ nguyÃªn hoáº·c Ä‘Æ°á»£c khÃ´i phá»¥c vá» tráº¡ng thÃ¡i trÆ°á»›c thao tÃ¡c.
+MÃ n hÃ¬nh liÃªn quan
+Quáº£n lÃ½ NgÃ y nghá»‰ toÃ n há»‡ thá»‘ngRoute: /admin/holidays
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+23. UC-PORTAL-LOGIN-01 - ÄÄƒng nháº­p & Äá»•i máº­t kháº©u láº§n Ä‘áº§u
+23.1. HÃ¬nh Use Case tá»•ng quan
+
+23.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+23.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-PORTAL-LOGIN-01
+TÃªn Use Case
+ÄÄƒng nháº­p & Äá»•i máº­t kháº©u láº§n Ä‘áº§u
+Actor
+Há»c viÃªn (Student)
+Má»¥c tiÃªu
+Há»c viÃªn Ä‘Äƒng nháº­p Portal báº±ng Email vÃ  máº­t kháº©u ban Ä‘áº§u abc@123, sau Ä‘Ã³ báº¯t buá»™c thiáº¿t láº­p máº­t kháº©u má»›i Ä‘áº¡t chuáº©n báº£o máº­t náº¿u cá» mustChangePassword = true.
+MÃ´ táº£ nghiá»‡p vá»¥
+Há»c viÃªn nháº­p Email vÃ  máº­t kháº©u táº¡i /portal/login. Há»‡ thá»‘ng kiá»ƒm tra thÃ´ng tin Ä‘Äƒng nháº­p vÃ  tráº¡ng thÃ¡i tÃ i khoáº£n. Náº¿u mustChangePassword = true, há»‡ thá»‘ng Ä‘iá»u hÆ°á»›ng há»c viÃªn Ä‘áº¿n mÃ n hÃ¬nh Ä‘á»•i máº­t kháº©u láº§n Ä‘áº§u. Há»c viÃªn nháº­p máº­t kháº©u má»›i Ä‘áº¡t má»©c Máº¡nh, xÃ¡c nháº­n khá»›p, há»‡ thá»‘ng lÆ°u máº­t kháº©u má»›i, háº¡ cá» mustChangePassword = false vÃ  chuyá»ƒn vÃ o Dashboard.
+Äiá»u kiá»‡n trÆ°á»›c
+1. Há»c viÃªn Ä‘Ã£ hoÃ n táº¥t Ä‘Ã³ng há»c phÃ­ vÃ  Ä‘Æ°á»£c há»‡ thá»‘ng cáº¥p tÃ i khoáº£n Portal. 2. Há»c viÃªn nháº­n email chÃ o má»«ng chá»©a thÃ´ng tin Ä‘Äƒng nháº­p ban Ä‘áº§u.
+Luá»“ng chÃ­nh
+1. Há»c viÃªn truy cáº­p /portal/login. 2. Há»‡ thá»‘ng hiá»ƒn thá»‹ form Ä‘Äƒng nháº­p. 3. Há»c viÃªn nháº­p Email vÃ  máº­t kháº©u táº¡m thá»i abc@123. 4. Há»c viÃªn nháº¥n ÄÄƒng nháº­p. 5. Há»‡ thá»‘ng kiá»ƒm tra Email, máº­t kháº©u vÃ  tráº¡ng thÃ¡i tÃ i khoáº£n Active. 6. Há»‡ thá»‘ng phÃ¡t hiá»‡n mustChangePassword = true. 7. Há»‡ thá»‘ng Ä‘iá»u hÆ°á»›ng Ä‘áº¿n /portal/first-login-password. 8. Há»c viÃªn nháº­p máº­t kháº©u hiá»‡n táº¡i, máº­t kháº©u má»›i vÃ  xÃ¡c nháº­n máº­t kháº©u má»›i. 9. Há»‡ thá»‘ng kiá»ƒm tra Ä‘á»™ máº¡nh máº­t kháº©u theo thá»i gian thá»±c. 10. Khi máº­t kháº©u Ä‘áº¡t má»©c Máº¡nh vÃ  xÃ¡c nháº­n khá»›p, há»c viÃªn nháº¥n Cáº­p nháº­t máº­t kháº©u & VÃ o trang chá»§. 11. Há»‡ thá»‘ng mÃ£ hÃ³a vÃ  lÆ°u máº­t kháº©u má»›i. 12. Há»‡ thá»‘ng cáº­p nháº­t mustChangePassword = false. 13. Há»‡ thá»‘ng xÃ¡c thá»±c phiÃªn lÃ m viá»‡c vÃ  chuyá»ƒn há»c viÃªn vÃ o Dashboard Portal.
+Luá»“ng thay tháº¿
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: Sai Email hoáº·c máº­t kháº©u. Há»‡ thá»‘ng bÃ¡o lá»—i `Email hoáº·c máº­t kháº©u khÃ´ng chÃ­nh xÃ¡c, vui lÃ²ng thá»­ láº¡i` vÃ  khÃ´ng táº¡o phiÃªn Ä‘Äƒng nháº­p.Luá»“ng ngoáº¡i lá»‡ 2: TÃ i khoáº£n há»c viÃªn bá»‹ táº¡m khÃ³a. Há»‡ thá»‘ng tá»« chá»‘i Ä‘Äƒng nháº­p vÃ  thÃ´ng bÃ¡o `TÃ i khoáº£n cá»§a báº¡n Ä‘ang bá»‹ táº¡m khÃ³a. Vui lÃ²ng liÃªn há»‡ bá»™ pháº­n ChÄƒm sÃ³c khÃ¡ch hÃ ng`.Luá»“ng ngoáº¡i lá»‡ 3: Máº­t kháº©u má»›i lÃ  `abc@123` hoáº·c khÃ´ng Ä‘á»§ Ä‘á»™ máº¡nh. Há»‡ thá»‘ng cháº·n kÃ­ch hoáº¡t nÃºt cáº­p nháº­t vÃ  cáº£nh bÃ¡o chi tiáº¿t tiÃªu chÃ­ cÃ²n thiáº¿u.Luá»“ng ngoáº¡i lá»‡ 4: XÃ¡c nháº­n máº­t kháº©u má»›i khÃ´ng khá»›p. Há»‡ thá»‘ng hiá»ƒn thá»‹ lá»—i máº­t kháº©u xÃ¡c nháº­n khÃ´ng khá»›p vÃ  khÃ´ng cho lÆ°u máº­t kháº©u má»›i.
+Quy táº¯c nghiá»‡p vá»¥
+Máº­t kháº©u má»›i khÃ´ng Ä‘Æ°á»£c lÃ  abc@123, tá»‘i thiá»ƒu 8 kÃ½ tá»±, cÃ³ chá»¯ hoa, chá»¯ thÆ°á»ng, chá»¯ sá»‘ vÃ  kÃ½ tá»± Ä‘áº·c biá»‡t. NÃºt Cáº­p nháº­t máº­t kháº©u & VÃ o trang chá»§ chá»‰ kÃ­ch hoáº¡t khi máº­t kháº©u Ä‘áº¡t má»©c Máº¡nh vÃ  xÃ¡c nháº­n máº­t kháº©u khá»›p.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+Email; máº­t kháº©u hiá»‡n táº¡i; máº­t kháº©u má»›i; xÃ¡c nháº­n máº­t kháº©u má»›i; tÃ¹y chá»n ghi nhá»› Ä‘Äƒng nháº­p.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: Máº­t kháº©u má»›i cá»§a há»c viÃªn Ä‘Æ°á»£c cáº­p nháº­t an toÃ n. Cá» mustChangePassword chuyá»ƒn sang false. PhiÃªn lÃ m viá»‡c cá»§a há»c viÃªn Ä‘Æ°á»£c xÃ¡c thá»±c há»£p lá»‡ vÃ  há»c viÃªn vÃ o Ä‘Æ°á»£c Dashboard Portal.Tháº¥t báº¡i: Há»c viÃªn khÃ´ng vÃ o Ä‘Æ°á»£c Dashboard hoáº·c máº­t kháº©u má»›i khÃ´ng Ä‘Æ°á»£c lÆ°u tÃ¹y Ä‘iá»ƒm lá»—i.
+MÃ n hÃ¬nh liÃªn quan
+ÄÄƒng nháº­p Portal; Äá»•i máº­t kháº©u láº§n Ä‘áº§uRoute: /portal/login; /portal/first-login-password
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+24. UC-PORTAL-SPEAKING-REG-01 - ÄÄƒng kÃ½ ca thi Speaking
+24.1. HÃ¬nh Use Case tá»•ng quan
+
+24.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+24.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-PORTAL-SPEAKING-REG-01
+TÃªn Use Case
+ÄÄƒng kÃ½ ca thi Speaking
+Actor
+Há»c viÃªn (Student)
+Má»¥c tiÃªu
+Há»c viÃªn chá»§ Ä‘á»™ng chá»n cÃ¡c khung giá» ráº£nh 15 phÃºt trong tuáº§n thi Speaking Ä‘á»ƒ há»‡ thá»‘ng tá»± Ä‘á»™ng ghÃ©p ca thi online 1-1 theo FIFO, Æ°u tiÃªn Trá»£ giáº£ng trÆ°á»›c GiÃ¡o viÃªn chÃ­nh.
+MÃ´ táº£ nghiá»‡p vá»¥
+Há»c viÃªn truy cáº­p mÃ n hÃ¬nh Ä‘Äƒng kÃ½ ca thi, xem thÃ´ng tin Ä‘á»£t thi vÃ  lÆ°á»›i slot 15 phÃºt, chá»n tá»‘i thiá»ƒu 3 slot ráº£nh rá»“i xÃ¡c nháº­n. Há»‡ thá»‘ng Ä‘Æ°a yÃªu cáº§u vÃ o hÃ ng Ä‘á»£i FIFO, Ä‘á»‘i chiáº¿u vá»›i lá»‹ch ráº£nh cá»§a giÃ¡m kháº£o, Æ°u tiÃªn ghÃ©p Trá»£ giáº£ng, sau Ä‘Ã³ GiÃ¡o viÃªn chÃ­nh; náº¿u khÃ´ng ghÃ©p Ä‘Æ°á»£c thÃ¬ chuyá»ƒn CSKH Ä‘iá»u phá»‘i.
+Äiá»u kiá»‡n trÆ°á»›c
+1. Há»c viÃªn Ä‘Ã£ Ä‘Äƒng nháº­p thÃ nh cÃ´ng vÃ o Portal. 2. Lá»›p há»c cá»§a há»c viÃªn Ä‘ang má»Ÿ Ä‘á»£t Ä‘Äƒng kÃ½ ca thi Speaking trÆ°á»›c ngÃ y thi tá»« 5 Ä‘áº¿n 7 ngÃ y. 3. Cá»•ng Ä‘Äƒng kÃ½ chÆ°a Ä‘Ã³ng.
+Luá»“ng chÃ­nh
+1. Há»c viÃªn truy cáº­p /portal/speaking-registration. 2. Há»‡ thá»‘ng kiá»ƒm tra cá»•ng Ä‘Äƒng kÃ½ cÃ²n má»Ÿ. 3. Há»‡ thá»‘ng hiá»ƒn thá»‹ thÃ´ng tin Ä‘á»£t thi, lá»›p há»c, hÃ¬nh thá»©c thi online 1-1, thá»i háº¡n Ä‘Ã³ng cá»•ng. 4. Há»‡ thá»‘ng hiá»ƒn thá»‹ Date Pills vÃ  lÆ°á»›i slot 15 phÃºt trong tuáº§n thi. 5. Há»c viÃªn chá»n cÃ¡c slot ráº£nh. 6. Há»c viÃªn xem panel tÃ³m táº¯t cÃ¡c slot Ä‘Ã£ chá»n. 7. Há»c viÃªn nháº¥n XÃ¡c nháº­n Ä‘Äƒng kÃ½ ca thi. 8. Há»‡ thá»‘ng kiá»ƒm tra há»c viÃªn chá»n tá»‘i thiá»ƒu 3 slot. 9. Há»‡ thá»‘ng lÆ°u yÃªu cáº§u vÃ  Ä‘Æ°a vÃ o hÃ ng Ä‘á»£i FIFO. 10. Há»‡ thá»‘ng Ä‘á»‘i chiáº¿u slot há»c viÃªn chá»n vá»›i quá»¹ thá»i gian ráº£nh cá»§a giÃ¡m kháº£o. 11. Há»‡ thá»‘ng Æ°u tiÃªn ghÃ©p vá»›i Trá»£ giáº£ng; náº¿u Trá»£ giáº£ng kÃ­n lá»‹ch thÃ¬ ghÃ©p vá»›i GiÃ¡o viÃªn chÃ­nh. 12. Há»‡ thá»‘ng cáº­p nháº­t tráº¡ng thÃ¡i ÄÃ£ ghi nháº­n ca thi, gá»­i email xÃ¡c nháº­n vÃ  hiá»ƒn thá»‹ thÃ´ng bÃ¡o Ä‘Äƒng kÃ½ thÃ nh cÃ´ng.
+Luá»“ng thay tháº¿
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: Cá»•ng Ä‘Äƒng kÃ½ Ä‘Ã£ Ä‘Ã³ng. Há»‡ thá»‘ng khÃ³a toÃ n bá»™ lÆ°á»›i chá»n giá» vÃ  hiá»ƒn thá»‹ thÃ´ng bÃ¡o `Äá»£t Ä‘Äƒng kÃ½ Ä‘Ã£ káº¿t thÃºc. Vui lÃ²ng liÃªn há»‡ ChÄƒm sÃ³c khÃ¡ch hÃ ng Ä‘á»ƒ Ä‘Æ°á»£c xáº¿p ca thi bá»• sung`.Luá»“ng ngoáº¡i lá»‡ 2: Há»c viÃªn chá»n dÆ°á»›i 3 slot ráº£nh. Há»‡ thá»‘ng cháº·n lÆ°u vÃ  hiá»ƒn thá»‹ cáº£nh bÃ¡o `Vui lÃ²ng chá»n tá»‘i thiá»ƒu 3 khung giá» ráº£nh Ä‘á»ƒ Ä‘áº£m báº£o tá»· lá»‡ ghÃ©p ca thÃ nh cÃ´ng`.
+Quy táº¯c nghiá»‡p vá»¥
+Há»c viÃªn pháº£i chá»n tá»‘i thiá»ƒu 3 slot ráº£nh. Slot thi lÃ  15 phÃºt. Chá»‰ cho phÃ©p Ä‘Äƒng kÃ½ khi cá»•ng Ä‘Äƒng kÃ½ cÃ²n má»Ÿ. Thuáº­t toÃ¡n ghÃ©p ca xá»­ lÃ½ theo FIFO vÃ  Æ°u tiÃªn slot cá»§a Trá»£ giáº£ng trÆ°á»›c GiÃ¡o viÃªn chÃ­nh.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+Danh sÃ¡ch slot 15 phÃºt há»c viÃªn chá»n; thÃ´ng tin Ä‘á»£t thi; lá»›p há»c; thá»i háº¡n Ä‘Ã³ng cá»•ng Ä‘Äƒng kÃ½.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: YÃªu cáº§u Ä‘Äƒng kÃ½ ca thi Speaking cá»§a há»c viÃªn Ä‘Æ°á»£c lÆ°u. Lá»‹ch thi Ä‘Æ°á»£c tá»± Ä‘á»™ng ghÃ©p ná»‘i vá»›i Trá»£ giáº£ng hoáº·c GiÃ¡o viÃªn chÃ­nh náº¿u cÃ³ slot phÃ¹ há»£p. Há»c viÃªn nháº­n email xÃ¡c nháº­n Ä‘Äƒng kÃ½ vÃ  cÃ³ thá»ƒ tra cá»©u lá»‹ch thi sau khi chá»‘t.Tháº¥t báº¡i: YÃªu cáº§u Ä‘Äƒng kÃ½ khÃ´ng Ä‘Æ°á»£c lÆ°u hoáº·c Ä‘Æ°á»£c chuyá»ƒn sang tráº¡ng thÃ¡i Chá» CSKH Ä‘iá»u phá»‘i tÃ¹y tÃ¬nh huá»‘ng.
+MÃ n hÃ¬nh liÃªn quan
+ÄÄƒng kÃ½ ca thi SpeakingRoute: /portal/speaking-registration
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+25. UC-PORTAL-SPEAKING-SCHEDULE-01 - Tra cá»©u Lá»‹ch thi Speaking
+25.1. HÃ¬nh Use Case tá»•ng quan
+
+25.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+25.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-PORTAL-SPEAKING-SCHEDULE-01
+TÃªn Use Case
+Tra cá»©u Lá»‹ch thi Speaking
+Actor
+Há»c viÃªn (Student)
+Má»¥c tiÃªu
+Há»c viÃªn xem Ä‘Æ°á»£c thÃ´ng tin ca thi Speaking 1-1 Ä‘Ã£ chá»‘t, biáº¿t chÃ­nh xÃ¡c thá»i gian, giÃ¡m kháº£o, tráº¡ng thÃ¡i ca thi vÃ  vÃ o phÃ²ng thi online Ä‘Ãºng thá»i Ä‘iá»ƒm.
+MÃ´ táº£ nghiá»‡p vá»¥
+Há»c viÃªn truy cáº­p mÃ n hÃ¬nh lá»‹ch thi Speaking hoáº·c báº¥m link nháº¯c lá»‹ch trong email. Há»‡ thá»‘ng hiá»ƒn thá»‹ tháº» ca thi chÃ­nh thá»©c, countdown timer, thÃ´ng tin giÃ¡m kháº£o, hÆ°á»›ng dáº«n thi vÃ  Ä‘iá»u khiá»ƒn tráº¡ng thÃ¡i nÃºt VÃ€O PHÃ’NG THI ONLINE. Khi Ä‘áº¿n thá»i Ä‘iá»ƒm há»£p lá»‡, há»c viÃªn báº¥m nÃºt Ä‘á»ƒ má»Ÿ tab Google Meet/Zoom phÃ²ng thi cá»‘ Ä‘á»‹nh cá»§a giÃ¡m kháº£o.
+Äiá»u kiá»‡n trÆ°á»›c
+1. Há»c viÃªn Ä‘Ã£ Ä‘Äƒng nháº­p thÃ nh cÃ´ng vÃ o Portal. 2. Ca thi Speaking cá»§a há»c viÃªn Ä‘Ã£ Ä‘Æ°á»£c há»‡ thá»‘ng ghÃ©p lá»‹ch thÃ nh cÃ´ng vÃ  chuyá»ƒn sang tráº¡ng thÃ¡i ÄÃ£ chá»‘t lá»‹ch.
+Luá»“ng chÃ­nh
+1. Há»c viÃªn truy cáº­p /portal/speaking-schedule. 2. Há»‡ thá»‘ng kiá»ƒm tra ca thi Speaking Ä‘Ã£ chá»‘t. 3. Há»‡ thá»‘ng hiá»ƒn thá»‹ tháº» ca thi chÃ­nh thá»©c gá»“m tÃªn ká»³ thi, lá»›p há»c, ngÃ y thi, khung giá» 15 phÃºt, giÃ¡m kháº£o, tag GiÃ¡o viÃªn hoáº·c Trá»£ giáº£ng, tráº¡ng thÃ¡i ÄÃ£ chá»‘t lá»‹ch / Sáº¯p diá»…n ra. 4. Há»‡ thá»‘ng hiá»ƒn thá»‹ countdown timer vÃ  khá»‘i hÆ°á»›ng dáº«n thi. 5. Há»‡ thá»‘ng kiá»ƒm tra link Google Meet/Zoom cá»‘ Ä‘á»‹nh cá»§a giÃ¡m kháº£o. 6. Äáº¿n trÆ°á»›c giá» thi 5 phÃºt hoáº·c trong 15 phÃºt thi, há»‡ thá»‘ng kÃ­ch hoáº¡t nÃºt VÃ€O PHÃ’NG THI ONLINE. 7. Há»c viÃªn báº¥m nÃºt. 8. Há»‡ thá»‘ng má»Ÿ tab má»›i Ä‘áº¿n link Google Meet/Zoom. 9. GiÃ¡o viÃªn hoáº·c Trá»£ giáº£ng tiáº¿p nháº­n há»c viÃªn vÃ  báº¯t Ä‘áº§u buá»•i phá»ng váº¥n Speaking 1-1.
+Luá»“ng thay tháº¿
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: Há»c viÃªn chÆ°a Ä‘Äƒng kÃ½ hoáº·c ca thi Ä‘ang chá» CSKH Ä‘iá»u phá»‘i. Há»‡ thá»‘ng hiá»ƒn thá»‹ mÃ n hÃ¬nh trá»‘ng thÃ¢n thiá»‡n vá»›i thÃ´ng bÃ¡o `Báº¡n chÆ°a cÃ³ lá»‹ch thi Speaking nÃ o. Vui lÃ²ng vÃ o má»¥c ÄÄƒng kÃ½ ca thi hoáº·c liÃªn há»‡ CSKH`.Luá»“ng ngoáº¡i lá»‡ 2: Link phÃ²ng thi cá»§a giÃ¡o viÃªn bá»‹ lá»—i hoáº·c chÆ°a Ä‘Æ°á»£c cáº­p nháº­t. Há»‡ thá»‘ng khÃ³a nÃºt vÃ o phÃ²ng thi vÃ  hiá»ƒn thá»‹ hotline kháº©n cáº¥p cá»§a CSKH Ä‘á»ƒ há»— trá»£ há»c viÃªn káº¿t ná»‘i phÃ²ng thi ngay láº­p tá»©c.
+Quy táº¯c nghiá»‡p vá»¥
+Chá»‰ hiá»ƒn thá»‹ ca thi chÃ­nh thá»©c khi tráº¡ng thÃ¡i lÃ  ÄÃ£ chá»‘t lá»‹ch. NÃºt vÃ o phÃ²ng thi disabled náº¿u cÃ²n hÆ¡n 15 phÃºt trÆ°á»›c giá» thi, active trÆ°á»›c giá» thi 5 phÃºt vÃ  trong suá»‘t 15 phÃºt thi. YÃªu cáº§u Ä‘á»•i lá»‹ch / bÃ¡o váº¯ng chá»‰ gá»­i trÆ°á»›c giá» thi tá»‘i thiá»ƒu 2 tiáº¿ng.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+ThÃ´ng tin há»c viÃªn; ca thi Speaking Ä‘Ã£ chá»‘t; tÃªn ká»³ thi; lá»›p há»c; ngÃ y thi; khung giá» 15 phÃºt; thÃ´ng tin giÃ¡m kháº£o; link Google Meet/Zoom cá»‘ Ä‘á»‹nh; thá»i Ä‘iá»ƒm hiá»‡n táº¡i cá»§a há»‡ thá»‘ng.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: Há»c viÃªn náº¯m báº¯t chÃ­nh xÃ¡c thá»i gian, giÃ¡m kháº£o vÃ  truy cáº­p phÃ²ng thi online Ä‘Ãºng giá». Buá»•i thi Speaking diá»…n ra Ä‘Ãºng SLA.Tháº¥t báº¡i: Há»c viÃªn chÆ°a vÃ o Ä‘Æ°á»£c phÃ²ng thi; há»‡ thá»‘ng hiá»ƒn thá»‹ hÆ°á»›ng xá»­ lÃ½ phÃ¹ há»£p nhÆ° Ä‘Äƒng kÃ½ ca thi, liÃªn há»‡ CSKH hoáº·c dÃ¹ng hotline kháº©n cáº¥p.
+MÃ n hÃ¬nh liÃªn quan
+Tra cá»©u Lá»‹ch thi SpeakingRoute: /portal/speaking-schedule
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+26. UC-PORTAL-GRADES-01 - Tra cá»©u Äiá»ƒm & Káº¿t quáº£ thi
+26.1. HÃ¬nh Use Case tá»•ng quan
+
+26.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+26.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-PORTAL-GRADES-01
+TÃªn Use Case
+Tra cá»©u Äiá»ƒm & Káº¿t quáº£ thi
+Actor
+Há»c viÃªn (Student)
+Má»¥c tiÃªu
+Há»c viÃªn xem Ä‘áº§y Ä‘á»§ Ä‘iá»ƒm tá»•ng káº¿t, Ä‘iá»ƒm chi tiáº¿t 4 ká»¹ nÄƒng IELTS, nháº­n xÃ©t chuyÃªn mÃ´n vÃ  táº£i Báº£ng Ä‘iá»ƒm chÃ­nh thá»©c dáº¡ng PDF.
+MÃ´ táº£ nghiá»‡p vá»¥
+Há»c viÃªn chá»n khÃ³a há»c vÃ  ká»³ thi giá»¯a ká»³ hoáº·c cuá»‘i ká»³. Há»‡ thá»‘ng hiá»ƒn thá»‹ Overall Band Score, Ä‘Ã¡nh giÃ¡ chuáº©n Ä‘áº§u ra, Ä‘iá»ƒm Listening/Reading, chi tiáº¿t tiÃªu chÃ­ Writing/Speaking, nháº­n xÃ©t cá»§a giÃ¡o viÃªn hoáº·c giÃ¡m kháº£o, biá»ƒu Ä‘á»“ Radar vÃ  chá»©c nÄƒng táº£i báº£ng Ä‘iá»ƒm PDF.
+Äiá»u kiá»‡n trÆ°á»›c
+1. Há»c viÃªn Ä‘Ã£ Ä‘Äƒng nháº­p thÃ nh cÃ´ng vÃ o Portal. 2. Ká»³ thi Ä‘Ã£ Ä‘Æ°á»£c giÃ¡o viÃªn hoÃ n táº¥t cháº¥m Ä‘iá»ƒm. 3. Káº¿t quáº£ Ä‘Ã£ Ä‘Æ°á»£c há»‡ thá»‘ng duyá»‡t cÃ´ng bá»‘.
+Luá»“ng chÃ­nh
+1. Há»c viÃªn truy cáº­p /portal/grades. 
+2. Há»‡ thá»‘ng táº£i danh sÃ¡ch khÃ³a há»c vÃ  ká»³ thi. 
+3. Há»c viÃªn chá»n khÃ³a há»c vÃ  ká»³ thi.
+4. Há»‡ thá»‘ng kiá»ƒm tra káº¿t quáº£ Ä‘Ã£ duyá»‡t cÃ´ng bá»‘. 
+5. Há»‡ thá»‘ng hiá»ƒn thá»‹ Overall Band Score vÃ  Ä‘Ã¡nh giÃ¡ Äáº¡t chuáº©n / Cáº§n bá»“i dÆ°á»¡ng. 
+6. Há»‡ thá»‘ng hiá»ƒn thá»‹ Ä‘iá»ƒm Listening/Reading, sá»‘ cÃ¢u Ä‘Ãºng trÃªn 40 vÃ  Band quy Ä‘á»•i. 
+7. Há»‡ thá»‘ng hiá»ƒn thá»‹ Overall Writing, 4 tiÃªu chÃ­ vÃ  nháº­n xÃ©t cá»§a giÃ¡o viÃªn. 8. Há»‡ thá»‘ng hiá»ƒn thá»‹ Overall Speaking, 4 tiÃªu chÃ­ vÃ  Ä‘Ã¡nh giÃ¡ cá»§a giÃ¡m kháº£o. 
+9. Há»‡ thá»‘ng hiá»ƒn thá»‹ Biá»ƒu Ä‘á»“ Radar so vá»›i Band má»¥c tiÃªu. 
+10. Há»c viÃªn nháº¥n Táº£i Báº£ng Ä‘iá»ƒm PDF. 
+11. Há»‡ thá»‘ng táº¡o vÃ  táº£i Báº£ng Ä‘iá»ƒm chÃ­nh thá»©c cÃ³ mÃ£ tra cá»©u, mÃ£ QR, logo trung tÃ¢m IELTS Master vÃ  chá»¯ kÃ½ Ä‘iá»‡n tá»­.
+Luá»“ng thay tháº¿
+1. Theo dÃµi tráº¡ng thÃ¡i cháº¥m Ä‘iá»ƒm: Náº¿u ká»³ thi vá»«a diá»…n ra vÃ  chÆ°a Ä‘Æ°á»£c duyá»‡t cÃ´ng bá»‘, há»‡ thá»‘ng hiá»ƒn thá»‹ tráº¡ng thÃ¡i Äang cháº¥m Ä‘iá»ƒm thay vÃ¬ hiá»ƒn thá»‹ Ä‘iá»ƒm sá»‘. 
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: Há»c viÃªn váº¯ng thi. Há»‡ thá»‘ng hiá»ƒn thá»‹ tráº¡ng thÃ¡i `Váº¯ng thi (Absent)`, hÆ°á»›ng dáº«n Ä‘Äƒng kÃ½ thi bÃ¹ vÃ  hÆ°á»›ng dáº«n liÃªn há»‡ CSKH.Luá»“ng ngoáº¡i lá»‡ 2: Lá»—i Ä‘Æ°á»ng truyá»n khi xuáº¥t PDF. Há»‡ thá»‘ng hiá»ƒn thá»‹ yÃªu cáº§u thá»­ láº¡i hoáº·c lá»±a chá»n gá»­i file PDF trá»±c tiáº¿p vá» email há»c viÃªn.
+Quy táº¯c nghiá»‡p vá»¥
+Chá»‰ hiá»ƒn thá»‹ Ä‘iá»ƒm chÃ­nh thá»©c sau khi Ä‘Æ°á»£c duyá»‡t cÃ´ng bá»‘. Listening vÃ  Reading hiá»ƒn thá»‹ sá»‘ cÃ¢u Ä‘Ãºng trÃªn 40 vÃ  Band quy Ä‘á»•i. Writing vÃ  Speaking hiá»ƒn thá»‹ 4 tiÃªu chÃ­ IELTS cÃ¹ng nháº­n xÃ©t. YÃªu cáº§u phÃºc kháº£o chá»‰ Ä‘Æ°á»£c gá»­i trong 48 giá» ká»ƒ tá»« khi cÃ´ng bá»‘ Ä‘iá»ƒm.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+KhÃ³a há»c; ká»³ thi Thi Giá»¯a ká»³ hoáº·c Thi Cuá»‘i ká»³; Ä‘iá»ƒm Listening, Reading, Writing, Speaking; Ä‘iá»ƒm tá»«ng tiÃªu chÃ­ Writing/Speaking; nháº­n xÃ©t chuyÃªn mÃ´n; Band má»¥c tiÃªu khÃ³a há»c; tráº¡ng thÃ¡i cÃ´ng bá»‘ Ä‘iá»ƒm.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: Há»c viÃªn náº¯m báº¯t toÃ n diá»‡n káº¿t quáº£ há»c táº­p, biáº¿t cÃ¡c Ä‘iá»ƒm cáº§n kháº¯c phá»¥c vÃ  táº£i Ä‘Æ°á»£c file Báº£ng Ä‘iá»ƒm PDF Ä‘á»ƒ lÆ°u trá»¯ hoáº·c bÃ¡o cÃ¡o phá»¥ huynh.Tháº¥t báº¡i: Káº¿t quáº£ chÆ°a Ä‘Æ°á»£c cÃ´ng bá»‘, há»c viÃªn Ä‘Æ°á»£c ghi nháº­n Ä‘ang cháº¥m Ä‘iá»ƒm, váº¯ng thi hoáº·c Ä‘Æ°á»£c hÆ°á»›ng dáº«n liÃªn há»‡ PhÃ²ng Kháº£o thÃ­/CSKH tÃ¹y tÃ¬nh huá»‘ng.
+MÃ n hÃ¬nh liÃªn quan
+Tra cá»©u Äiá»ƒm & Káº¿t quáº£ thiRoute: /portal/grades
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+27. UC-CSKH-EXAM-WORKSPACE-01 - Workspace Äiá»u phá»‘i Kháº£o thÃ­ CSKH (WP_CSKH_01)
+27.1. HÃ¬nh Use Case tá»•ng quan
+
+27.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+27.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-CSKH-EXAM-WORKSPACE-01
+TÃªn Use Case
+Workspace Äiá»u phá»‘i Kháº£o thÃ­ CSKH (WP_CSKH_01)
+Actor
+ChuyÃªn viÃªn ChÄƒm sÃ³c khÃ¡ch hÃ ng (CSKH / Academic Coordinator)
+Má»¥c tiÃªu
+Táº­p trung xá»­ lÃ½ ngoáº¡i lá»‡ Speaking, phÃ¡t Ä‘á»™ng phÃ¢n bá»• giÃ¡o viÃªn nháº­p Ä‘iá»ƒm Writing vÃ  chÄƒm sÃ³c phá»¥ huynh sau thi theo SLA 7 ngÃ y.
+MÃ´ táº£ nghiá»‡p vá»¥
+CSKH hoáº·c Admin truy cáº­p Workspace gá»“m 3 tab nghiá»‡p vá»¥. CSKH cÃ³ thá»ƒ gá»i há»c viÃªn vÃ  xáº¿p lá»‹ch Speaking thá»§ cÃ´ng, phÃ¡t Ä‘á»™ng thuáº­t toÃ¡n phÃ¢n bá»• ca nháº­p Ä‘iá»ƒm Writing vá»›i SLA 24 giá», Ä‘á»“ng thá»i theo dÃµi hÃ ng Ä‘á»£i chÄƒm sÃ³c phá»¥ huynh, ghi nháº­n tÆ° váº¥n vÃ  hoÃ n táº¥t SLA 7 ngÃ y.
+Äiá»u kiá»‡n trÆ°á»›c
+1. NgÆ°á»i dÃ¹ng Ä‘Ã£ Ä‘Äƒng nháº­p vá»›i vai trÃ² CSKH hoáº·c Admin. 2. Ká»³ thi Speaking Ä‘ang trong giai Ä‘oáº¡n chá»‘t ca hoáº·c ká»³ thi Writing giá»¯a ká»³/cuá»‘i ká»³ vá»«a diá»…n ra.
+Luá»“ng chÃ­nh
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng thay tháº¿
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: ToÃ n bá»™ giÃ¡m kháº£o kÃ­n lá»‹ch trong Ä‘á»£t Speaking. Há»‡ thá»‘ng hiá»ƒn thá»‹ cáº£nh bÃ¡o Ä‘á»; CSKH kiáº¿n nghá»‹ Leader Teacher Ä‘iá»u Ä‘á»™ng thÃªm trá»£ giáº£ng má»Ÿ slot.Luá»“ng ngoáº¡i lá»‡ 2: QuÃ¡ háº¡n SLA chÄƒm sÃ³c 7 ngÃ y. Há»‡ thá»‘ng Ä‘á»•i Badge thÃ nh `QuÃ¡ háº¡n SLA`, ghi nháº­n KPI cáº£nh bÃ¡o vÃ  gá»­i bÃ¡o cÃ¡o cho Admin.Luá»“ng ngoáº¡i lá»‡ 3: NgÆ°á»i dÃ¹ng khÃ´ng cÃ³ vai trÃ² CSKH/Admin. Há»‡ thá»‘ng tá»« chá»‘i truy cáº­p Workspace vÃ  hiá»ƒn thá»‹ thÃ´ng bÃ¡o khÃ´ng Ä‘á»§ quyá»n.
+Quy táº¯c nghiá»‡p vá»¥
+Xáº¿p lá»‹ch Speaking pháº£i dÃ¹ng giÃ¡m kháº£o vÃ  slot cÃ²n trá»‘ng. PhÃ¢n bá»• Writing pháº£i Ä‘á»‘i chiáº¿u trÃ¬nh Ä‘á»™ vÃ  quota lÃ m viá»‡c. Ca nháº­p Ä‘iá»ƒm Writing cÃ³ SLA 24 giá». ChÄƒm sÃ³c phá»¥ huynh cÃ³ SLA 7 ngÃ y, Badge xanh khi cÃ²n hÆ¡n 3 ngÃ y, vÃ ng tá»« 1 Ä‘áº¿n 3 ngÃ y, Ä‘á» khi cÃ²n dÆ°á»›i 24 giá».
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+Danh sÃ¡ch Ä‘Äƒng kÃ½ Speaking tháº¥t báº¡i; sá»‘ Ä‘iá»‡n thoáº¡i há»c viÃªn/phá»¥ huynh; lá»‹ch ráº£nh giÃ¡m kháº£o; danh sÃ¡ch lá»›p vá»«a thi Writing; trÃ¬nh Ä‘á»™ lá»›p; danh sÃ¡ch giÃ¡o viÃªn/trá»£ giáº£ng; quota tuáº§n; Ä‘iá»ƒm Speaking vÃ  Writing; thÃ´ng tin phá»¥ huynh; ná»™i dung tÆ° váº¥n.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: 1. Há»c viÃªn ngoáº¡i lá»‡ Speaking Ä‘Æ°á»£c bá»‘ trÃ­ ca thi chÃ­nh thá»©c. 2. Danh sÃ¡ch há»c viÃªn Writing Ä‘Æ°á»£c phÃ¢n bá»• cho giÃ¡o viÃªn trong SLA 24 giá» hoáº·c Ä‘Æ°á»£c chuyá»ƒn hÃ ng Ä‘á»£i thá»§ cÃ´ng. 3. Cuá»™c gá»i tÆ° váº¥n phá»¥ huynh Ä‘Æ°á»£c lÆ°u Ä‘áº§y Ä‘á»§ vÃ  káº¿t quáº£ Ä‘Æ°á»£c phÃ©p cÃ´ng bá»‘ lÃªn Student Portal khi hoÃ n táº¥t SLA.Tháº¥t báº¡i: Há»“ sÆ¡ váº«n náº±m trong hÃ ng Ä‘á»£i, Ä‘Æ°á»£c gáº¯n tráº¡ng thÃ¡i háº¹n gá»i láº¡i, báº£o lÆ°u/hoÃ£n thi, thiáº¿u ngÆ°á»i phÃ¢n bá»• hoáº·c quÃ¡ háº¡n SLA Ä‘á»ƒ tiáº¿p tá»¥c xá»­ lÃ½ vÃ  cáº£nh bÃ¡o.
+MÃ n hÃ¬nh liÃªn quan
+Workspace Äiá»u phá»‘i Kháº£o thÃ­ CSKHRoute: /cskh/exam-workspace
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+28. UC-EXAM-WRITING-MANUAL-ASSIGN-01 - PhÃ¢n bá»• há»c viÃªn cáº§n nháº­p Ä‘iá»ƒm Writing thá»§ cÃ´ng
+28.1. HÃ¬nh Use Case tá»•ng quan
+
+28.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+28.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-EXAM-WRITING-MANUAL-ASSIGN-01
+TÃªn Use Case
+PhÃ¢n bá»• há»c viÃªn cáº§n nháº­p Ä‘iá»ƒm Writing thá»§ cÃ´ng
+Actor
+Tá»• trÆ°á»Ÿng chuyÃªn mÃ´n (Leader Teacher)
+Má»¥c tiÃªu
+PhÃ¢n bá»• thá»§ cÃ´ng há»c viÃªn cáº§n nháº­p Ä‘iá»ƒm Writing chÆ°a Ä‘Æ°á»£c gÃ¡n ngÆ°á»i cháº¥m hoáº·c bá»‹ giÃ¡o viÃªn tá»« chá»‘i nháº­n ca, báº£o Ä‘áº£m ca Ä‘Æ°á»£c giao cho ngÆ°á»i phÃ¹ há»£p vÃ  tiáº¿p tá»¥c SLA 24 giá».
+MÃ´ táº£ nghiá»‡p vá»¥
+Há»‡ thá»‘ng tá»± Ä‘á»™ng phÃ¢n bá»• ca Writing Ä‘áº§u tiÃªn, náº¿u tháº¥t báº¡i hoáº·c GV tá»« chá»‘i sáº½ Ä‘áº©y vá» hÃ ng Ä‘á»£i nÃ y. Leader Teacher/Admin xem báº£ng ca tá»“n Ä‘á»ng, chá»n há»c viÃªn. Há»‡ thá»‘ng Ä‘á» xuáº¥t GV kháº£ dá»¥ng, Æ°u tiÃªn xáº¿p lÃªn Ä‘áº§u cÃ¡c GV cÃ³ pháº¡m vi trÃ¬nh Ä‘á»™ háº¹p Ä‘á»ƒ rÃ¨n luyá»‡n. Táº£i cÃ´ng viá»‡c Ä‘Æ°á»£c tÃ­nh toÃ¡n dá»±a trÃªn Lá»‹ch sá»­ & Cáº¥u hÃ¬nh há»‡ thá»‘ng. NgÆ°á»i dÃ¹ng xÃ¡c nháº­n chá»‰ Ä‘á»‹nh, há»‡ thá»‘ng cáº­p nháº­t ca, tÃ¡i khá»Ÿi Ä‘á»™ng SLA 24 giá» vÃ  gá»­i thÃ´ng bÃ¡o kháº©n cáº¥p. 
+Äiá»u kiá»‡n trÆ°á»›c
+1. NgÆ°á»i dÃ¹ng Ä‘Ã£ Ä‘Äƒng nháº­p vá»›i vai trÃ² Leader Teacher hoáº·c Admin. 2. CÃ³ Ã­t nháº¥t má»™t há»c viÃªn cáº§n nháº­p Ä‘iá»ƒm Writing chÆ°a Ä‘Æ°á»£c gÃ¡n giÃ¡o viÃªn hoáº·c vá»«a bá»‹ giÃ¡o viÃªn tá»« chá»‘i nháº­n ca.
+Luá»“ng chÃ­nh
+1. Leader Teacher/Admin truy cáº­p mÃ n hÃ¬nh. 
+2. Há»‡ thá»‘ng hiá»ƒn thá»‹ danh sÃ¡ch ca Writing tá»“n Ä‘á»ng. 
+3. NgÆ°á»i dÃ¹ng lá»c theo lá»›p, trÃ¬nh Ä‘á»™ hoáº·c lÃ½ do. 
+4. NgÆ°á»i dÃ¹ng má»Ÿ link bÃ i viáº¿t náº¿u cáº§n. 
+5. NgÆ°á»i dÃ¹ng chá»n má»™t hoáº·c nhiá»u há»c viÃªn. 
+6. Há»‡ thá»‘ng hiá»ƒn thá»‹ danh sÃ¡ch giÃ¡o viÃªn/trá»£ giáº£ng phÃ¹ há»£p, Æ°u tiÃªn xáº¿p lÃªn Ä‘áº§u cÃ¡c GV cÃ³ pháº¡m vi trÃ¬nh Ä‘á»™ háº¹p. Hiá»ƒn thá»‹ cÃ¡c chá»‰ sá»‘ táº£i: Má»©c táº£i cÃ´ng viá»‡c (Ä‘Æ°á»£c tÃ­nh tá»« Lá»‹ch sá»­ & Cáº¥u hÃ¬nh), sá»‘ bÃ i chá» vÃ  tráº¡ng thÃ¡i. 
+7. NgÆ°á»i dÃ¹ng chá»n giáº£ng viÃªn thay tháº¿. 
+8. NgÆ°á»i dÃ¹ng nháº­p ghi chÃº chá»‰ Ä‘áº¡o. 
+9. NgÆ°á»i dÃ¹ng nháº¥n XÃ¡c nháº­n chá»‰ Ä‘á»‹nh phÃ¢n bá»•. 
+10. Há»‡ thá»‘ng cáº­p nháº­t ca, tÃ¡i khá»Ÿi Ä‘á»™ng SLA 24 giá», gá»­i Notification/Email kháº©n cáº¥p, xÃ³a ca khá»i hÃ ng Ä‘á»£i thá»§ cÃ´ng vÃ  hiá»ƒn thá»‹ ca táº¡i giao diá»‡n nháº­p Ä‘iá»ƒm Writing cá»§a giÃ¡o viÃªn.
+Luá»“ng thay tháº¿
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: Giáº£ng viÃªn Ä‘Æ°á»£c chá»n Ä‘áº¡t hoáº·c vÆ°á»£t 100% quota tuáº§n. Há»‡ thá»‘ng hiá»ƒn thá»‹ cáº£nh bÃ¡o mÃ u vÃ ng; ngÆ°á»i dÃ¹ng pháº£i xÃ¡c nháº­n cÆ°á»¡ng cháº¿ gÃ¡n ca hoáº·c há»§y thao tÃ¡c.Luá»“ng ngoáº¡i lá»‡ 2: Giáº£ng viÃªn Ä‘ang á»Ÿ tráº¡ng thÃ¡i `ÄÃ£ nghá»‰` hoáº·c khÃ³a tÃ i khoáº£n. Há»‡ thá»‘ng cháº·n lá»±a chá»n vÃ  hiá»ƒn thá»‹ thÃ´ng bÃ¡o giáº£ng viÃªn khÃ´ng kháº£ dá»¥ng.Luá»“ng ngoáº¡i lá»‡ 3: NgÆ°á»i dÃ¹ng khÃ´ng cÃ³ quyá»n Leader Teacher/Admin. Há»‡ thá»‘ng tá»« chá»‘i truy cáº­p vÃ  hiá»ƒn thá»‹ thÃ´ng bÃ¡o khÃ´ng Ä‘á»§ quyá»n.
+Quy táº¯c nghiá»‡p vá»¥
+GiÃ¡o viÃªn/trá»£ giáº£ng Ä‘Æ°á»£c chá»n pháº£i cÃ³ trÃ¬nh Ä‘á»™ chuyÃªn mÃ´n phÃ¹ há»£p vÃ  Ä‘ang hoáº¡t Ä‘á»™ng. Thuáº­t toÃ¡n hiá»ƒn thá»‹ Æ°u tiÃªn GV cÃ³ pháº¡m vi trÃ¬nh Ä‘á»™ háº¹p. TÃ¬nh tráº¡ng quÃ¡ táº£i cá»§a GV Ä‘Æ°á»£c tÃ­nh theo Lá»‹ch sá»­ cÃ´ng viá»‡c & Tham sá»‘ Cáº¥u hÃ¬nh. Náº¿u quÃ¡ táº£i pháº£i hiá»ƒn thá»‹ cáº£nh bÃ¡o vÃ  yÃªu cáº§u xÃ¡c nháº­n cÆ°á»¡ng cháº¿. GiÃ¡o viÃªn Ä‘Ã£ nghá»‰ hoáº·c khÃ³a tÃ i khoáº£n khÃ´ng Ä‘Æ°á»£c chá»n. SLA cá»§a ca má»›i lÃ  24 giá».
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+MÃ£ ca; há»c viÃªn; lá»›p; trÃ¬nh Ä‘á»™; ká»³ thi; link bÃ i viáº¿t; lÃ½ do tá»“n Ä‘á»ng; thá»i gian chá»; giÃ¡o viÃªn/trá»£ giáº£ng phÃ¹ há»£p; Workload; Weekly Quota; ghi chÃº chá»‰ Ä‘áº¡o tá»‘i Ä‘a 500 kÃ½ tá»±.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: Há»c viÃªn Ä‘Æ°á»£c gÃ¡n cho giÃ¡o viÃªn má»›i; ca biáº¿n máº¥t khá»i danh sÃ¡ch chá» thá»§ cÃ´ng; ca xuáº¥t hiá»‡n táº¡i giao diá»‡n Quáº£n lÃ½ nháº­n ca & Nháº­p Ä‘iá»ƒm Writing cá»§a giÃ¡o viÃªn; SLA 24 giá» Ä‘Æ°á»£c khá»Ÿi Ä‘á»™ng láº¡i.Tháº¥t báº¡i: Ca váº«n á»Ÿ hÃ ng Ä‘á»£i thá»§ cÃ´ng, khÃ´ng Ä‘Æ°á»£c gÃ¡n cho giÃ¡o viÃªn khÃ´ng phÃ¹ há»£p, Ä‘Ã£ nghá»‰ hoáº·c khÃ³a tÃ i khoáº£n; thao tÃ¡c bá»‹ há»§y náº¿u ngÆ°á»i dÃ¹ng khÃ´ng xÃ¡c nháº­n cÆ°á»¡ng cháº¿ khi vÆ°á»£t quota.
+MÃ n hÃ¬nh liÃªn quan
+PhÃ¢n bá»• LÆ°á»£t Nháº­p Ä‘iá»ƒm Writing Thá»§ cÃ´ngRoute: /admin/writing-manual-assignment
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+29. UC-TEACHER-SPEAKING-AVAILABILITY-01 - ÄÄƒng kÃ½ lá»‹ch lÃ m viá»‡c thi Speaking (When2meet)
+29.1. HÃ¬nh Use Case tá»•ng quan
+
+29.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+29.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-TEACHER-SPEAKING-AVAILABILITY-01
+TÃªn Use Case
+ÄÄƒng kÃ½ lá»‹ch lÃ m viá»‡c thi Speaking (When2meet)
+Actor
+GiÃ¡o viÃªn; Trá»£ giáº£ng
+Má»¥c tiÃªu
+GiÃ¡o viÃªn vÃ  Trá»£ giáº£ng khai bÃ¡o cÃ¡c khung thá»i gian ráº£nh 15 phÃºt Ä‘á»ƒ há»‡ thá»‘ng dÃ¹ng lÃ m dá»¯ liá»‡u Ä‘áº§u vÃ o cho thuáº­t toÃ¡n ghÃ©p ca thi Speaking 1-1 online.
+MÃ´ táº£ nghiá»‡p vá»¥
+Giáº£ng viÃªn truy cáº­p mÃ n hÃ¬nh When2meet, chá»n tuáº§n, kÃ©o chá»n hoáº·c click cÃ¡c slot 15 phÃºt tá»« 08:00 Ä‘áº¿n 21:30, xem thá»‘ng kÃª tá»•ng slot/giá» vÃ  tiáº¿n Ä‘á»™ cam káº¿t, dÃ¹ng cÃ´ng cá»¥ thao tÃ¡c nhanh náº¿u cáº§n, sau Ä‘Ã³ lÆ°u lá»‹ch ráº£nh Speaking. Há»‡ thá»‘ng lÆ°u lá»‹ch kháº£ dá»¥ng vÃ  cung cáº¥p cho thuáº­t toÃ¡n ghÃ©p lá»‹ch Speaking.
+Äiá»u kiá»‡n trÆ°á»›c
+1. GiÃ¡o viÃªn/Trá»£ giáº£ng Ä‘Ã£ Ä‘Äƒng nháº­p thÃ nh cÃ´ng. 2. Cá»•ng Ä‘Äƒng kÃ½ lá»‹ch kháº£o thÃ­ Speaking Ä‘ang má»Ÿ. 3. GiÃ¡o viÃªn/Trá»£ giáº£ng Ä‘Ã£ khai bÃ¡o link Google Meet cÃ¡ nhÃ¢n cá»‘ Ä‘á»‹nh.
+Luá»“ng chÃ­nh
+1. GiÃ¡o viÃªn/Trá»£ giáº£ng truy cáº­p /teacher/speaking-availability. 2. Há»‡ thá»‘ng kiá»ƒm tra cá»•ng Ä‘Äƒng kÃ½ cÃ²n má»Ÿ vÃ  Ä‘Ã£ cÃ³ link Google Meet. 3. Há»‡ thá»‘ng hiá»ƒn thá»‹ Week Picker, lÆ°á»›i When2meet 7 ngÃ y, slot 15 phÃºt tá»« 08:00 Ä‘áº¿n 21:30 vÃ  chÃº giáº£i mÃ u. 4. Giáº£ng viÃªn chá»n tuáº§n. 5. Giáº£ng viÃªn kÃ©o chuá»™t hoáº·c click chá»n slot ráº£nh. 6. Há»‡ thá»‘ng Ä‘á»•i Ã´ Ä‘Ã£ chá»n sang mÃ u xanh lÃ¡, cáº­p nháº­t tá»•ng slot, sá»‘ giá» quy Ä‘á»•i, Target Hours vÃ  thanh tiáº¿n Ä‘á»™. 7. Giáº£ng viÃªn nháº¥n LÆ°u lá»‹ch ráº£nh Speaking. 8. Há»‡ thá»‘ng lÆ°u lá»‹ch vÃ o kho kháº£ dá»¥ng, gáº¯n vá»›i tÃ i khoáº£n giáº£ng viÃªn, cáº­p nháº­t dá»¯ liá»‡u Ä‘áº§u vÃ o cho thuáº­t toÃ¡n xáº¿p lá»‹ch Speaking FIFO vÃ  thÃ´ng bÃ¡o thÃ nh cÃ´ng.
+Luá»“ng thay tháº¿
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: Cá»•ng Ä‘Äƒng kÃ½ Ä‘Ã£ Ä‘Ã³ng. Há»‡ thá»‘ng chuyá»ƒn lÆ°á»›i sang cháº¿ Ä‘á»™ Read-only, hiá»ƒn thá»‹ Badge `Cá»•ng Ä‘Äƒng kÃ½ Ä‘Ã£ Ä‘Ã³ng` vÃ  khÃ³a thao tÃ¡c chá»n/há»§y slot.Luá»“ng ngoáº¡i lá»‡ 2: ChÆ°a khai bÃ¡o link Google Meet cá»‘ Ä‘á»‹nh. Há»‡ thá»‘ng cháº·n lÆ°u lá»‹ch vÃ  yÃªu cáº§u giáº£ng viÃªn cáº­p nháº­t link Google Meet cÃ¡ nhÃ¢n táº¡i há»“ sÆ¡ trÆ°á»›c khi Ä‘Äƒng kÃ½ nháº­n ca thi Speaking.
+Quy táº¯c nghiá»‡p vá»¥
+Chá»©c nÄƒng chá»‰ Ã¡p dá»¥ng cho Speaking 1-1 online, khÃ´ng Ã¡p dá»¥ng nghiá»‡p vá»¥ Writing. Slot cÃ³ chu ká»³ 15 phÃºt. Ã” Ä‘Ã£ ghÃ©p ca thi chÃ­nh thá»©c mÃ u cam vÃ  khÃ´ng Ä‘Æ°á»£c tá»± Ã½ bá» tick. Náº¿u cá»•ng Ä‘Äƒng kÃ½ Ä‘Ã³ng thÃ¬ lÆ°á»›i chá»‰ Ä‘á»c. Náº¿u thiáº¿u link Google Meet thÃ¬ cháº·n lÆ°u.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+Tuáº§n lÃ m viá»‡c; danh sÃ¡ch ngÃ y trong tuáº§n; slot 15 phÃºt tá»« 08:00 Ä‘áº¿n 21:30; slot Ä‘Ã£ chá»n; slot Ä‘Ã£ ghÃ©p ca; Target Hours; link Google Meet cÃ¡ nhÃ¢n; tÃ i khoáº£n GiÃ¡o viÃªn/Trá»£ giáº£ng.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: Lá»‹ch ráº£nh 15 phÃºt cá»§a GiÃ¡o viÃªn/Trá»£ giáº£ng Ä‘Æ°á»£c cáº­p nháº­t thÃ nh cÃ´ng, sáºµn sÃ ng cho thuáº­t toÃ¡n tá»± Ä‘á»™ng ghÃ©p lá»‹ch thi Speaking, Æ°u tiÃªn Trá»£ giáº£ng trÆ°á»›c.Tháº¥t báº¡i: Lá»‹ch ráº£nh khÃ´ng Ä‘Æ°á»£c lÆ°u náº¿u cá»•ng Ä‘Ã³ng hoáº·c thiáº¿u link Google Meet; ngÆ°á»i dÃ¹ng pháº£i cáº­p nháº­t há»“ sÆ¡ hoáº·c chá» cá»•ng Ä‘Äƒng kÃ½ má»Ÿ bá»• sung.
+MÃ n hÃ¬nh liÃªn quan
+ÄÄƒng KÃ½ Lá»‹ch LÃ m Viá»‡c Thi Speaking (When2meet)Route: /teacher/speaking-availability
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+30. UC-EXAM-SPEAKING-GRADING-01 - Lá»‹ch thi Speaking GV & Nháº­p Ä‘iá»ƒm Speaking
+30.1. HÃ¬nh Use Case tá»•ng quan
+
+30.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+30.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-EXAM-SPEAKING-GRADING-01
+TÃªn Use Case
+Lá»‹ch thi Speaking GV & Nháº­p Ä‘iá»ƒm Speaking
+Actor
+GiÃ¡o viÃªn; Trá»£ giáº£ng phá»¥ trÃ¡ch kháº£o thÃ­ (Interviewer / Examiner)
+Má»¥c tiÃªu
+Giáº£ng viÃªn theo dÃµi cÃ¡c ca Speaking Ä‘Æ°á»£c phÃ¢n cÃ´ng, má»Ÿ phÃ²ng thi online, Ä‘iá»ƒm danh há»c viÃªn, nháº­p Ä‘iá»ƒm 4 tiÃªu chÃ­ IELTS Speaking vÃ  hoÃ n táº¥t ca thi trong 15 phÃºt.
+MÃ´ táº£ nghiá»‡p vá»¥
+Giáº£ng viÃªn xem Timeline ca thi theo ngÃ y, má»Ÿ Google Meet/Zoom cá»‘ Ä‘á»‹nh, tiáº¿p nháº­n há»c viÃªn trong Waiting Room, nháº­p FC/LR/GRA/PR theo thang 0.0â€“9.0 bÆ°á»›c 0.5, nháº­p nháº­n xÃ©t, Ä‘á»ƒ há»‡ thá»‘ng tá»± tÃ­nh Overall vÃ  lÆ°u hoÃ n thÃ nh ca. Náº¿u há»c viÃªn váº¯ng sau 5 phÃºt, giáº£ng viÃªn Ä‘Ã¡nh dáº¥u Absent Ä‘á»ƒ cáº£nh bÃ¡o CSKH xáº¿p thi bÃ¹.
+Äiá»u kiá»‡n trÆ°á»›c
+1. GiÃ¡o viÃªn/Trá»£ giáº£ng Ä‘Ã£ Ä‘Æ°á»£c há»‡ thá»‘ng phÃ¢n bá»• Ã­t nháº¥t má»™t ca thi Speaking chÃ­nh thá»©c. 2. ÄÃ£ Ä‘áº¿n ngÃ y diá»…n ra ca thi.
+Luá»“ng chÃ­nh
+1. Giáº£ng viÃªn truy cáº­p mÃ n hÃ¬nh. 2. Há»‡ thá»‘ng hiá»ƒn thá»‹ Timeline theo ngÃ y vÃ  tráº¡ng thÃ¡i ca. 3. Giáº£ng viÃªn chá»n ca Ä‘áº¿n giá» vÃ  má»Ÿ phÃ²ng Google Meet/Zoom. 4. Giáº£ng viÃªn chá» vÃ  Admit há»c viÃªn tá»« Waiting Room. 5. Giáº£ng viÃªn phá»ng váº¥n Speaking 1-1. 6. Giáº£ng viÃªn nháº­p FC, LR, GRA, PR. 7. Há»‡ thá»‘ng kiá»ƒm tra thang Ä‘iá»ƒm, tÃ­nh trung bÃ¬nh vÃ  lÃ m trÃ²n Overall Speaking. 8. Giáº£ng viÃªn nháº­p nháº­n xÃ©t vÃ  gÃ³p Ã½ chuyÃªn mÃ´n. 9. Giáº£ng viÃªn nháº¥n LÆ°u Ä‘iá»ƒm & HoÃ n thÃ nh ca thi. 10. Há»‡ thá»‘ng lÆ°u dá»¯ liá»‡u, cáº­p nháº­t tráº¡ng thÃ¡i ÄÃ£ hoÃ n thÃ nh vÃ  Ä‘á»“ng bá»™ káº¿t quáº£ há»c táº­p.
+Luá»“ng thay tháº¿
+Sau quÃ¡ 5 phÃºt ká»ƒ tá»« giá» báº¯t Ä‘áº§u, náº¿u há»c viÃªn khÃ´ng vÃ o phÃ²ng vÃ  khÃ´ng liÃªn láº¡c Ä‘Æ°á»£c, giáº£ng viÃªn chá»n ÄÃ¡nh dáº¥u Váº¯ng thi (Absent), nháº­p lÃ½ do vÃ  xÃ¡c nháº­n. Há»‡ thá»‘ng cáº­p nháº­t tráº¡ng thÃ¡i Váº¯ng thi, giáº£i phÃ³ng thá»i gian giÃ¡m kháº£o vÃ  tá»± Ä‘á»™ng cáº£nh bÃ¡o Workspace CSKH Ä‘á»ƒ liÃªn há»‡, xáº¿p lá»‹ch thi bÃ¹.
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: Máº¥t káº¿t ná»‘i Internet. Há»‡ thá»‘ng Auto-save Ä‘iá»ƒm tá»«ng tiÃªu chÃ­ vÃ o localstore vá»›i nhÃ£n `NhÃ¡p`, chá» khÃ´i phá»¥c máº¡ng vÃ  Ä‘á»“ng bá»™ dá»¯ liá»‡u nhÃ¡p lÃªn há»‡ thá»‘ng.Luá»“ng ngoáº¡i lá»‡ 2: Nháº­p Ä‘iá»ƒm Ã¢m, lá»›n hÆ¡n 9.0 hoáº·c khÃ´ng theo bÆ°á»›c 0.5. Há»‡ thá»‘ng cháº·n lÆ°u vÃ  hiá»ƒn thá»‹ lá»—i thang Ä‘iá»ƒm há»£p lá»‡.Luá»“ng ngoáº¡i lá»‡ 3: KhÃ´ng cÃ³ ca thi Ä‘Æ°á»£c phÃ¢n cÃ´ng trong ngÃ y. Há»‡ thá»‘ng hiá»ƒn thá»‹ danh sÃ¡ch ca trá»‘ng vÃ  thÃ´ng bÃ¡o chÆ°a cÃ³ ca thi.
+Quy táº¯c nghiá»‡p vá»¥
+Äiá»ƒm tá»«ng tiÃªu chÃ­ trong khoáº£ng 0.0â€“9.0 vÃ  bÆ°á»›c nháº£y 0.5. Overall Ä‘Æ°á»£c tÃ­nh tá»« trung bÃ¬nh 4 tiÃªu chÃ­ vÃ  lÃ m trÃ²n theo chuáº©n IELTS. Sau 5 phÃºt tá»« giá» báº¯t Ä‘áº§u mÃ  há»c viÃªn chÆ°a vÃ o phÃ²ng, giáº£ng viÃªn cÃ³ thá»ƒ Ä‘Ã¡nh dáº¥u Váº¯ng thi. Dá»¯ liá»‡u nhÃ¡p khi máº¥t máº¡ng pháº£i gáº¯n nhÃ£n NhÃ¡p.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+Danh sÃ¡ch ca theo ngÃ y; tÃªn há»c viÃªn; mÃ£ lá»›p; trÃ¬nh Ä‘á»™; link Google Meet/Zoom; Ä‘iá»ƒm FC, LR, GRA, PR; nháº­n xÃ©t chuyÃªn mÃ´n; lÃ½ do váº¯ng thi náº¿u cÃ³.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: Äiá»ƒm 4 tiÃªu chÃ­, Overall vÃ  nháº­n xÃ©t Ä‘Æ°á»£c lÆ°u vÄ©nh viá»…n; ca thi chuyá»ƒn ÄÃ£ hoÃ n thÃ nh; káº¿t quáº£ sáºµn sÃ ng Ä‘á»“ng bá»™ sang Student Portal.Tháº¥t báº¡i: [CHÆ¯A CÃ“ THÃ”NG TIN]
+MÃ n hÃ¬nh liÃªn quan
+Lá»‹ch Thi Speaking & Nháº­p Äiá»ƒm Giáº£ng ViÃªnRoute: /teacher/speaking-exams
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+31. UC-EXAM-WRITING-GRADES-01 - Quáº£n lÃ½ nháº­n ca & Nháº­p Ä‘iá»ƒm Writing GV
+31.1. HÃ¬nh Use Case tá»•ng quan
+
+31.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+31.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-EXAM-WRITING-GRADES-01
+TÃªn Use Case
+Quáº£n lÃ½ nháº­n ca & Nháº­p Ä‘iá»ƒm Writing GV
+Actor
+GiÃ¡o viÃªn; Trá»£ giáº£ng Ä‘Æ°á»£c phÃ¢n cÃ´ng (Grader / Examiner)
+Má»¥c tiÃªu
+Giáº£ng viÃªn nháº­n vÃ  hoÃ n thÃ nh cÃ¡c ca nháº­p Ä‘iá»ƒm Writing trong SLA 24 giá», hoáº·c tá»« chá»‘i há»£p lá»‡ trong thá»i háº¡n Ä‘á»ƒ ca Ä‘Æ°á»£c phÃ¢n bá»• cho ngÆ°á»i khÃ¡c.
+MÃ´ táº£ nghiá»‡p vá»¥
+Giáº£ng viÃªn xem danh sÃ¡ch ca Writing, má»Ÿ bÃ i lÃ m ngoÃ i, nháº­p Ä‘iá»ƒm TA/TR, CC, LR, GRA theo thang 0.0â€“9.0 bÆ°á»›c 0.5, nháº­p pháº£n há»“i sÆ° pháº¡m vÃ  gá»­i káº¿t quáº£. Há»‡ thá»‘ng tá»± tÃ­nh Overall Writing, cáº­p nháº­t hoÃ n thÃ nh vÃ  chuyá»ƒn Ä‘iá»ƒm cho luá»“ng CSKH.
+Äiá»u kiá»‡n trÆ°á»›c
+1. GiÃ¡o viÃªn/Trá»£ giáº£ng Ä‘Ã£ Ä‘Æ°á»£c phÃ¢n bá»• danh sÃ¡ch há»c sinh cáº§n nháº­p Ä‘iá»ƒm Writing. 2. TÃ i khoáº£n giáº£ng viÃªn Ä‘ang hoáº¡t Ä‘á»™ng bÃ¬nh thÆ°á»ng.
+Luá»“ng chÃ­nh
+1. Giáº£ng viÃªn truy cáº­p mÃ n hÃ¬nh. 2. Há»‡ thá»‘ng hiá»ƒn thá»‹ danh sÃ¡ch ca, link bÃ i lÃ m vÃ  Countdown SLA 24 giá». 3. Giáº£ng viÃªn má»Ÿ link bÃ i lÃ m E-learning/Google Drive vÃ  phÃ¢n tÃ­ch bÃ i. 4. Giáº£ng viÃªn báº¥m Nháº­p Ä‘iá»ƒm. 5. Há»‡ thá»‘ng má»Ÿ form TA/TR, CC, LR, GRA. 6. Giáº£ng viÃªn nháº­p Ä‘iá»ƒm vÃ  pháº£n há»“i sÆ° pháº¡m. 7. Há»‡ thá»‘ng kiá»ƒm tra thang Ä‘iá»ƒm, tÃ­nh trung bÃ¬nh vÃ  lÃ m trÃ²n Overall Writing. 8. Giáº£ng viÃªn nháº¥n Gá»­i káº¿t quáº£ nháº­p Ä‘iá»ƒm. 9. Há»‡ thá»‘ng cáº­p nháº­t ÄÃ£ hoÃ n thÃ nh, ghi nháº­n thá»i gian hoÃ n táº¥t vÃ  chuyá»ƒn dá»¯ liá»‡u cho luá»“ng CSKH chÄƒm sÃ³c phá»¥ huynh SLA 7 ngÃ y.
+Luá»“ng thay tháº¿
+Trong thá»i háº¡n cho phÃ©p 2â€“4 giá» tá»« lÃºc nháº­n ca, giáº£ng viÃªn nháº¥n Tá»« chá»‘i nháº­n ca, nháº­p lÃ½ do báº¯t buá»™c vÃ  xÃ¡c nháº­n. Há»‡ thá»‘ng gá»¡ ca khá»i danh sÃ¡ch giáº£ng viÃªn, chuyá»ƒn ca sang hÃ ng Ä‘á»£i PhÃ¢n bá»• thá»§ cÃ´ng Task 18 Ä‘á»ƒ Leader Teacher chá»‰ Ä‘á»‹nh ngÆ°á»i khÃ¡c.
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: ÄÃ£ quÃ¡ 4 giá» tá»« lÃºc phÃ¢n bá»•. Há»‡ thá»‘ng khÃ³a cá»©ng nÃºt `Tá»« chá»‘i nháº­n ca` vÃ  hiá»ƒn thá»‹ thÃ´ng bÃ¡o: `ÄÃ£ háº¿t thá»i háº¡n cho phÃ©p tá»« chá»‘i (4 giá»). Giáº£ng viÃªn báº¯t buá»™c pháº£i hoÃ n thÃ nh nháº­p Ä‘iá»ƒm trong háº¡n SLA 24 giá».`Luá»“ng ngoáº¡i lá»‡ 2: Countdown cÃ²n dÆ°á»›i 4 giá». Há»‡ thá»‘ng Ä‘á»•i dÃ²ng hiá»ƒn thá»‹ sang mÃ u cam cáº£nh bÃ¡o nhÆ°ng váº«n cho phÃ©p gá»­i káº¿t quáº£. Náº¿u vÆ°á»£t 24 giá», dÃ²ng chuyá»ƒn mÃ u Ä‘á» `QuÃ¡ háº¡n SLA` vÃ  há»‡ thá»‘ng gá»­i email cáº£nh bÃ¡o vá» Ban quáº£n trá»‹.Luá»“ng ngoáº¡i lá»‡ 3: Nháº­p Ä‘iá»ƒm ngoÃ i khoáº£ng 0.0â€“9.0 hoáº·c khÃ´ng theo bÆ°á»›c 0.5. Há»‡ thá»‘ng cháº·n gá»­i káº¿t quáº£ vÃ  hiá»ƒn thá»‹ lá»—i thang Ä‘iá»ƒm há»£p lá»‡.Luá»“ng ngoáº¡i lá»‡ 4: KhÃ´ng cÃ³ ca Writing Ä‘Æ°á»£c phÃ¢n cÃ´ng. Há»‡ thá»‘ng hiá»ƒn thá»‹ danh sÃ¡ch ca trá»‘ng vÃ  thÃ´ng bÃ¡o chÆ°a cÃ³ ca nháº­p Ä‘iá»ƒm.
+Quy táº¯c nghiá»‡p vá»¥
+Ca pháº£i Ä‘Æ°á»£c hoÃ n thÃ nh trong SLA 24 giá». NÃºt Tá»« chá»‘i nháº­n ca chá»‰ kháº£ dá»¥ng trong thá»i háº¡n 2â€“4 giá» Ä‘áº§u vÃ  khÃ³a cá»©ng sau 4 giá». Äiá»ƒm tá»«ng tiÃªu chÃ­ tá»« 0.0 Ä‘áº¿n 9.0, bÆ°á»›c 0.5. Pháº£n há»“i sÆ° pháº¡m tá»‘i Ä‘a 1500 kÃ½ tá»±.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+MÃ£ ca; há»c viÃªn; lá»›p; trÃ¬nh Ä‘á»™; ká»³ thi; link bÃ i lÃ m ngoÃ i; thá»i gian giao ca; Ä‘iá»ƒm TA/TR, CC, LR, GRA; pháº£n há»“i sÆ° pháº¡m; lÃ½ do tá»« chá»‘i náº¿u cÃ³.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: Äiá»ƒm 4 tiÃªu chÃ­ Writing vÃ  pháº£n há»“i Ä‘Æ°á»£c lÆ°u; ca chuyá»ƒn ÄÃ£ hoÃ n thÃ nh; dá»¯ liá»‡u sáºµn sÃ ng kÃ­ch hoáº¡t luá»“ng CSKH gá»i phá»¥ huynh theo SLA 7 ngÃ y.Tháº¥t báº¡i: [CHÆ¯A CÃ“ THÃ”NG TIN]
+MÃ n hÃ¬nh liÃªn quan
+Quáº£n lÃ½ Nháº­n ca & Nháº­p Ä‘iá»ƒm Writing GVRoute: /teacher/writing-grades
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+32. UC-DT-CLASS-MANAGEMENT-01 - Quáº£n lÃ½ Lá»›p há»c
+32.1. HÃ¬nh Use Case tá»•ng quan
+
+32.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+32.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-DT-CLASS-MANAGEMENT-01
+TÃªn Use Case
+Quáº£n lÃ½ Lá»›p há»c
+Actor
+ChuyÃªn viÃªn CSKH; Quáº£n trá»‹ viÃªn (Admin)
+Má»¥c tiÃªu
+Quáº£n lÃ½ danh má»¥c vÃ  váº­n hÃ nh lá»›p há»c, bao gá»“m táº¡o lá»›p, gÃ¡n há»c viÃªn, táº¡o ngÃ y nghá»‰ riÃªng vÃ  Ä‘iá»ƒm danh Ä‘á»ƒ Ä‘á»“ng bá»™ dá»¯ liá»‡u chÄƒm sÃ³c há»c viÃªn GAP.
+MÃ´ táº£ nghiá»‡p vá»¥
+CSKH/Admin thao tÃ¡c trÃªn giao diá»‡n 2 cá»™t gá»“m Sidebar danh sÃ¡ch lá»›p vÃ  khung chi tiáº¿t lá»›p. NgÆ°á»i dÃ¹ng cÃ³ thá»ƒ táº¡o lá»›p vá»›i tÃªn vÃ  ngÃ y káº¿t thÃºc tá»± Ä‘á»™ng, thÃªm/chuyá»ƒn há»c viÃªn, khai bÃ¡o ngÃ y nghá»‰ riÃªng cÃ³ email thÃ´ng bÃ¡o vÃ  Ä‘iá»ƒm danh buá»•i há»c Ä‘á»ƒ Ä‘áº©y há»c viÃªn váº¯ng/yáº¿u sang GAP.
+Äiá»u kiá»‡n trÆ°á»›c
+1. NgÆ°á»i dÃ¹ng Ä‘Ã£ Ä‘Äƒng nháº­p vá»›i vai trÃ² CSKH hoáº·c Admin. 2. ÄÃ£ cÃ³ Ã­t nháº¥t má»™t trÃ¬nh Ä‘á»™ há»c Type TrÃ¬nh Ä‘á»™ Lá»›p.
+Luá»“ng chÃ­nh
+Admin/CSKH truy cáº­p mÃ n hÃ¬nh Quáº£n lÃ½ Lá»›p há»c (/admin/classes).
+Há»‡ thá»‘ng hiá»ƒn thá»‹ giao diá»‡n 2 cá»™t: Sidebar danh sÃ¡ch lá»›p há»c bÃªn trÃ¡i vÃ  Khung chi tiáº¿t lá»›p bÃªn pháº£i.
+NgÆ°á»i dÃ¹ng nháº¥n nÃºt '+ Táº¡o lá»›p má»›i'.
+NgÆ°á»i dÃ¹ng chá»n TrÃ¬nh Ä‘á»™, NgÃ y báº¯t Ä‘áº§u, Sá»‘ buá»•i, Thá»© há»c vÃ  CSKH phá»¥ trÃ¡ch.
+Há»‡ thá»‘ng tá»± Ä‘á»™ng sinh tÃªn lá»›p theo cÃ´ng thá»©c [TÃªn trÃ¬nh Ä‘á»™]-[Sá»‘ lÆ°á»£ng lá»›p hiá»‡n cÃ³ + 1].
+Há»‡ thá»‘ng tá»± Ä‘á»™ng tÃ­nh toÃ¡n NgÃ y káº¿t thÃºc vÃ  NgÃ y giá»¯a ká»³ (bá» qua ngÃ y lá»… toÃ n há»‡ thá»‘ng), Ä‘á»“ng thá»i kiá»ƒm tra khÃ´ng cÃ³ trÃ¹ng lá»‹ch phÃ²ng/giÃ¡o viÃªn vÃ  lÆ°u lá»›p má»›i.NgÆ°á»i dÃ¹ng chá»n lá»›p vÃ  báº¥m '+ ThÃªm há»c viÃªn' hoáº·c báº¥m 'Chuyá»ƒn lá»›p' táº¡i dÃ²ng cá»§a má»™t há»c viÃªn.
+Há»‡ thá»‘ng kiá»ƒm tra vÃ  chá»‰ cho phÃ©p thao tÃ¡c Ä‘á»‘i vá»›i cÃ¡c há»c viÃªn Ä‘Ã£ Ä‘Ã¡p á»©ng Ä‘iá»u kiá»‡n tÃ i chÃ­nh (Phiáº¿u thu Ä‘á»£t 1 Ä‘Ã£ Ä‘Æ°á»£c Káº¿ toÃ¡n duyá»‡t HOáº¶C cÃ³ quyáº¿t Ä‘á»‹nh ngoáº¡i lá»‡ 'Há»c trÆ°á»›c - Ä‘Ã³ng sau').
+NgÆ°á»i dÃ¹ng chá»n há»c viÃªn/lá»›p Ä‘Ã­ch. Há»‡ thá»‘ng kiá»ƒm tra giá»›i háº¡n sÄ© sá»‘ (tá»‘i Ä‘a 20).
+Há»‡ thá»‘ng lÆ°u há»c viÃªn vÃ o lá»›p, cáº­p nháº­t sÄ© sá»‘ hiá»‡n táº¡i. Viá»‡c chuyá»ƒn lá»›p Ä‘áº£m báº£o khÃ´ng lÃ m reset cÃ´ng ná»£ hay lá»‹ch sá»­ thanh toÃ¡n cá»§a há»c viÃªn.
+NgÆ°á»i dÃ¹ng chá»n 'Táº¡o ngÃ y nghá»‰ riÃªng cá»§a lá»›p' vÃ  chá»n ngÃ y nghá»‰ há»£p lá»‡ trÃªn lá»‹ch.
+Há»‡ thá»‘ng lÃ¹i NgÃ y káº¿t thÃºc cá»§a lá»›p tÆ°Æ¡ng á»©ng sá»‘ buá»•i nghá»‰ vÃ  tá»± Ä‘á»™ng gá»­i email thÃ´ng bÃ¡o cho há»c viÃªn.NgÆ°á»i dÃ¹ng chá»n 'Äiá»ƒm danh', ghi nháº­n tráº¡ng thÃ¡i (CÃ³ máº·t / Váº¯ng cÃ³ phÃ©p / Váº¯ng khÃ´ng phÃ©p / Tiáº¿p thu cháº­m, yáº¿u).
+NgÆ°á»i dÃ¹ng nháº¥n LÆ°u. Há»‡ thá»‘ng tá»± Ä‘á»™ng Ä‘áº©y danh sÃ¡ch há»c viÃªn Váº¯ng hoáº·c Yáº¿u sang HÃ ng Ä‘á»£i cá»§a há»‡ thá»‘ng ChÄƒm sÃ³c GAP.
+
+Luá»“ng thay tháº¿
+Lá»c vÃ  tÃ¬m kiáº¿m lá»›p há»c: NgÆ°á»i dÃ¹ng sá»­ dá»¥ng Ã´ tÃ¬m kiáº¿m vÃ  cÃ¡c tab bá»™ lá»c tráº¡ng thÃ¡i ('Äang há»c', 'ÄÃ£ káº¿t thÃºc', 'ÄÃ£ táº¯t') trÃªn Sidebar Ä‘á»ƒ tra cá»©u nhanh thÃ´ng tin, quáº£n lÃ½ sÄ© sá»‘ hoáº·c xem láº¡i dá»¯ liá»‡u cá»§a cÃ¡c lá»›p há»c cÅ©.
+Há»§y thao tÃ¡c: Táº¡i báº¥t ká»³ bÆ°á»›c nÃ o trong cÃ¡c form (Táº¡o lá»›p, ThÃªm há»c viÃªn, Äiá»ƒm danh, v.v.), ngÆ°á»i dÃ¹ng nháº¥n nÃºt 'Há»§y' hoáº·c Ä‘Ã³ng Modal. Há»‡ thá»‘ng láº­p tá»©c há»§y tiáº¿n trÃ¬nh, Ä‘Ã³ng giao diá»‡n form vÃ  khÃ´ng gá»­i báº¥t ká»³ thay Ä‘á»•i nÃ o lÃªn mÃ¡y chá»§, báº£o toÃ n nguyÃªn váº¹n dá»¯ liá»‡u hiá»‡n táº¡i.
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: TrÃ¹ng lá»‹ch phÃ²ng há»c hoáº·c giÃ¡o viÃªn. Há»‡ thá»‘ng cáº£nh bÃ¡o vÃ  yÃªu cáº§u Ä‘iá»u chá»‰nh lá»‹ch/phÃ²ng/giÃ¡o viÃªn trÆ°á»›c khi lÆ°u lá»›p.Luá»“ng ngoáº¡i lá»‡ 2: Sá»‘ há»c viÃªn vÆ°á»£t 20. Há»‡ thá»‘ng hiá»ƒn thá»‹ cáº£nh bÃ¡o vÃ ng; ngÆ°á»i dÃ¹ng cÃ³ thá»ƒ há»§y hoáº·c xÃ¡c nháº­n tiáº¿p tá»¥c theo quyá»n nghiá»‡p vá»¥.Luá»“ng ngoáº¡i lá»‡ 3: NgÆ°á»i dÃ¹ng khÃ´ng cÃ³ quyá»n CSKH/Admin. Há»‡ thá»‘ng tá»« chá»‘i truy cáº­p vÃ  hiá»ƒn thá»‹ thÃ´ng bÃ¡o khÃ´ng Ä‘á»§ quyá»n.
+Luá»“ng ngoáº¡i lá»‡ 4: Há»c viÃªn chÆ°a Ä‘Ã³ng tiá»n hoáº·c chÆ°a Ä‘Æ°á»£c Káº¿ toÃ¡n duyá»‡t phiáº¿u thu. Há»‡ thá»‘ng cháº·n thao tÃ¡c ThÃªm/Chuyá»ƒn lá»›p vÃ  hiá»ƒn thá»‹ thÃ´ng bÃ¡o lá»—i "Há»c viÃªn chÆ°a hoÃ n táº¥t thá»§ tá»¥c tÃ i chÃ­nh cho khÃ³a há»c nÃ y". 
+Quy táº¯c nghiá»‡p vá»¥
+TÃªn lá»›p tá»± sinh theo [TÃªn trÃ¬nh Ä‘á»™]-[Sá»‘ lÆ°á»£ng lá»›p hiá»‡n cÃ³ + 1]. NgÃ y káº¿t thÃºc vÃ  ngÃ y giá»¯a ká»³ tá»± tÃ­nh, bá» qua ngÃ y nghá»‰ lá»… toÃ n há»‡ thá»‘ng; ngÃ y káº¿t thÃºc Read-only. SÄ© sá»‘ tiÃªu chuáº©n lÃ  20 há»c viÃªn. Há»c viÃªn chá»‰ Ä‘Æ°á»£c thÃªm hoáº·c chuyá»ƒn vÃ o lá»›p khi ÄÃƒ ÄÃP á»¨NG ÄIá»€U KIá»†N TÃ€I CHÃNH (Phiáº¿u thu Ä‘á»£t 1 Ä‘Ã£ Ä‘Æ°á»£c Káº¿ toÃ¡n duyá»‡t hoáº·c cÃ³ quyáº¿t Ä‘á»‹nh 'Há»c trÆ°á»›c - Ä‘Ã³ng sau'). Chuyá»ƒn lá»›p tuyá»‡t Ä‘á»‘i khÃ´ng lÃ m reset sá»‘ tiá»n Ä‘Ã£ Ä‘Ã³ng hay cÃ´ng ná»£. 
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+TrÃ¬nh Ä‘á»™ lá»›p; ngÃ y báº¯t Ä‘áº§u; sá»‘ buá»•i; thá»© há»c; CSKH phá»¥ trÃ¡ch; chi nhÃ¡nh; há»c viÃªn; ngÃ y nghá»‰ riÃªng; tráº¡ng thÃ¡i Ä‘iá»ƒm danh.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: Lá»›p Ä‘Æ°á»£c táº¡o vá»›i tÃªn, ngÃ y káº¿t thÃºc vÃ  ngÃ y giá»¯a ká»³ chÃ­nh xÃ¡c; há»c viÃªn Ä‘Æ°á»£c gÃ¡n Ä‘Ãºng lá»›p; ngÃ y nghá»‰ Ä‘Æ°á»£c thÃ´ng bÃ¡o; dá»¯ liá»‡u Ä‘iá»ƒm danh Ä‘Æ°á»£c Ä‘á»“ng bá»™ sang GAP.Tháº¥t báº¡i: Lá»›p khÃ´ng Ä‘Æ°á»£c lÆ°u náº¿u trÃ¹ng lá»‹ch; há»c viÃªn khÃ´ng Ä‘Æ°á»£c thÃªm náº¿u thao tÃ¡c bá»‹ há»§y hoáº·c chÆ°a Ä‘Ã¡p á»©ng Ä‘iá»u kiá»‡n tÃ i chÃ­nh; dá»¯ liá»‡u Ä‘iá»ƒm danh khÃ´ng Ä‘áº©y GAP náº¿u chÆ°a lÆ°u thÃ nh cÃ´ng. 
+MÃ n hÃ¬nh liÃªn quan
+Quáº£n lÃ½ Lá»›p há»cRoute: /admin/classes
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+33. UC-GAP-CARE-01 - ChÄƒm sÃ³c há»c viÃªn (GAP System)
+33.1. HÃ¬nh Use Case tá»•ng quan
+
+33.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+33.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-GAP-CARE-01
+TÃªn Use Case
+ChÄƒm sÃ³c há»c viÃªn (GAP System)
+Actor
+ChuyÃªn viÃªn CSKH; GiÃ¡o viÃªn phá»¥ trÃ¡ch lá»›p
+Má»¥c tiÃªu
+Táº¡o vÃ  xá»­ lÃ½ há»“ sÆ¡ GAP cho há»c viÃªn váº¯ng há»c hoáº·c tiáº¿p thu cháº­m/yáº¿u, gá»­i tÃ i liá»‡u/bÃ i táº­p bÃ¹ qua email vÃ  lÆ°u audit log phÃ¡p lÃ½ vÄ©nh viá»…n.
+MÃ´ táº£ nghiá»‡p vá»¥
+CSKH/GiÃ¡o viÃªn xem hÃ ng Ä‘á»£i GAP Case, lá»c theo lá»›p/lÃ½ do/tráº¡ng thÃ¡i, chá»n há»c viÃªn, cáº¥u hÃ¬nh gÃ³i há»— trá»£ gá»“m tÃ i liá»‡u tÃ³m táº¯t, bÃ i táº­p bá»• trá»£, lá»i dáº·n dÃ² vÃ  deadline 48 giá». Há»‡ thá»‘ng gá»­i email cho há»c viÃªn/phá»¥ huynh, ghi gap_delivery_logs, cáº­p nháº­t tráº¡ng thÃ¡i vÃ  cho phÃ©p Ä‘Ã³ng case khi hoÃ n thÃ nh.
+Äiá»u kiá»‡n trÆ°á»›c
+1. NgÆ°á»i dÃ¹ng Ä‘Ã£ Ä‘Äƒng nháº­p vá»›i vai trÃ² CSKH hoáº·c GiÃ¡o viÃªn. 2. CÃ³ há»c viÃªn phÃ¡t sinh GAP tá»« Ä‘iá»ƒm danh hoáº·c giÃ¡o viÃªn tÃ­ch chá»n chÄƒm sÃ³c há»c sinh.
+Luá»“ng chÃ­nh
+1. NgÆ°á»i dÃ¹ng truy cáº­p mÃ n hÃ¬nh. 2. Há»‡ thá»‘ng hiá»ƒn thá»‹ hÃ ng Ä‘á»£i GAP Case. 3. NgÆ°á»i dÃ¹ng lá»c theo lá»›p/lÃ½ do/tráº¡ng thÃ¡i. 4. NgÆ°á»i dÃ¹ng chá»n há»c viÃªn vÃ  má»Ÿ Modal gá»­i GAP. 5. Há»‡ thá»‘ng Ä‘iá»n email vÃ  gá»£i Ã½ tÃ i liá»‡u tÃ³m táº¯t. 6. NgÆ°á»i dÃ¹ng chá»n bÃ i táº­p bá»• trá»£, nháº­p lá»i dáº·n dÃ², thiáº¿t láº­p deadline. 7. NgÆ°á»i dÃ¹ng xÃ¡c nháº­n gá»­i. 8. Há»‡ thá»‘ng gá»­i email chÃ­nh thá»©c cho há»c viÃªn/phá»¥ huynh. 9. Há»‡ thá»‘ng ghi gap_delivery_logs gá»“m mÃ£ case, ID há»c viÃªn, email nháº­n, thá»i gian gá»­i, link tÃ i liá»‡u/bÃ i táº­p, ngÆ°á»i gá»­i, tráº¡ng thÃ¡i. 10. Há»‡ thá»‘ng cáº­p nháº­t case thÃ nh ÄÃ£ gá»­i tÃ i liá»‡u. 11. Khi há»c viÃªn ná»™p bÃ i vÃ  giÃ¡o viÃªn sá»­a xong, ngÆ°á»i dÃ¹ng tick ÄÃ£ hoÃ n thÃ nh GAP, há»‡ thá»‘ng Ä‘Ã³ng há»“ sÆ¡.
+Luá»“ng thay tháº¿
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: Email há»c viÃªn/phá»¥ huynh khÃ´ng há»£p lá»‡. Há»‡ thá»‘ng cháº·n gá»­i vÃ  yÃªu cáº§u cáº­p nháº­t email chÃ­nh xÃ¡c.Luá»“ng ngoáº¡i lá»‡ 2: BÃ i táº­p hoáº·c tÃ i liá»‡u ngoÃ i chÆ°a Ä‘Æ°á»£c Leader Teacher duyá»‡t. Há»‡ thá»‘ng cháº·n gá»­i gÃ³i GAP vÃ  thÃ´ng bÃ¡o tÃ i liá»‡u chÆ°a Approved.Luá»“ng ngoáº¡i lá»‡ 3: NgÆ°á»i dÃ¹ng khÃ´ng cÃ³ quyá»n CSKH/GiÃ¡o viÃªn. Há»‡ thá»‘ng tá»« chá»‘i truy cáº­p vÃ  hiá»ƒn thá»‹ thÃ´ng bÃ¡o khÃ´ng Ä‘á»§ quyá»n.
+Quy táº¯c nghiá»‡p vá»¥
+Email pháº£i há»£p lá»‡. TÃ i liá»‡u ngoÃ i pháº£i cÃ³ tráº¡ng thÃ¡i Approved tá»« Task 12. Má»—i láº§n gá»­i hoáº·c gá»­i láº¡i Ä‘á»u pháº£i ghi má»™t dÃ²ng log má»›i trong gap_delivery_logs. Deadline máº·c Ä‘á»‹nh trong 48 giá».
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+GAP Case; há»c viÃªn; lá»›p; buá»•i há»c; lÃ½ do GAP; email há»c viÃªn/phá»¥ huynh; tÃ i liá»‡u tÃ³m táº¯t; bÃ i táº­p bá»• trá»£; lá»i dáº·n dÃ²; deadline; ngÆ°á»i gá»­i.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: Email bÃ i há»c vÃ  bÃ i táº­p bÃ¹ Ä‘Æ°á»£c gá»­i thÃ nh cÃ´ng Ä‘áº¿n há»c viÃªn/phá»¥ huynh; lá»‹ch sá»­ gá»­i GAP Ä‘Æ°á»£c lÆ°u vÄ©nh viá»…n lÃ m cÄƒn cá»© phÃ¡p lÃ½; case Ä‘Æ°á»£c theo dÃµi hoáº·c Ä‘Ã³ng hoÃ n thÃ nh.Tháº¥t báº¡i: GÃ³i GAP khÃ´ng Ä‘Æ°á»£c gá»­i náº¿u email sai hoáº·c tÃ i liá»‡u chÆ°a duyá»‡t; khÃ´ng phÃ¡t sinh log gá»­i thÃ nh cÃ´ng cho giao dá»‹ch bá»‹ cháº·n.
+MÃ n hÃ¬nh liÃªn quan
+ChÄƒm SÃ³c Há»c ViÃªn GAPRoute: /admin/gap-care
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+34. UC-GAP-MATERIAL-APPROVAL-01 - Duyá»‡t tÃ i liá»‡u ngoÃ i (GAP)
+34.1. HÃ¬nh Use Case tá»•ng quan
+
+34.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+34.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-GAP-MATERIAL-APPROVAL-01
+TÃªn Use Case
+Duyá»‡t tÃ i liá»‡u ngoÃ i (GAP)
+Actor
+Tá»• trÆ°á»Ÿng chuyÃªn mÃ´n (Leader Teacher); Quáº£n trá»‹ viÃªn (Admin)
+Má»¥c tiÃªu
+Tháº©m Ä‘á»‹nh tÃ i liá»‡u ngoÃ i do giÃ¡o viÃªn Ä‘á» xuáº¥t trÆ°á»›c khi Ä‘Æ°a vÃ o Kho GAP, báº£o Ä‘áº£m Ä‘Ãºng chuáº©n há»c thuáº­t IELTS, phÃ¹ há»£p trÃ¬nh Ä‘á»™/ká»¹ nÄƒng vÃ  khÃ´ng vi pháº¡m quy cháº¿ Ä‘Ã o táº¡o.
+MÃ´ táº£ nghiá»‡p vá»¥
+Leader Teacher/Admin xem danh sÃ¡ch tÃ i liá»‡u chá» duyá»‡t, lá»c theo ká»¹ nÄƒng/trÃ¬nh Ä‘á»™, má»Ÿ preview tÃ i liá»‡u, quyáº¿t Ä‘á»‹nh phÃª duyá»‡t hoáº·c tá»« chá»‘i. Náº¿u duyá»‡t, há»‡ thá»‘ng Ä‘Æ°a tÃ i liá»‡u vÃ o Kho GAP kháº£ dá»¥ng. Náº¿u tá»« chá»‘i, há»‡ thá»‘ng yÃªu cáº§u lÃ½ do báº¯t buá»™c vÃ  gá»­i pháº£n há»“i cho giÃ¡o viÃªn Ä‘á» xuáº¥t.
+Äiá»u kiá»‡n trÆ°á»›c
+1. NgÆ°á»i dÃ¹ng Ä‘Ã£ Ä‘Äƒng nháº­p vá»›i vai trÃ² Leader Teacher hoáº·c Admin. 2. CÃ³ Ã­t nháº¥t má»™t Ä‘á» xuáº¥t tÃ i liá»‡u nguá»“n ngoÃ i Ä‘ang á»Ÿ tráº¡ng thÃ¡i Chá» phÃª duyá»‡t.
+Luá»“ng chÃ­nh
+1. Leader Teacher/Admin truy cáº­p mÃ n hÃ¬nh. 2. Há»‡ thá»‘ng hiá»ƒn thá»‹ danh sÃ¡ch Ä‘á» xuáº¥t chá» duyá»‡t. 3. NgÆ°á»i dÃ¹ng lá»c theo ká»¹ nÄƒng/trÃ¬nh Ä‘á»™ náº¿u cáº§n. 4. NgÆ°á»i dÃ¹ng má»Ÿ Preview vÃ  tháº©m Ä‘á»‹nh ná»™i dung. 5. Náº¿u tÃ i liá»‡u Ä‘áº¡t tiÃªu chuáº©n, ngÆ°á»i dÃ¹ng nháº¥n PhÃª duyá»‡t. 6. NgÆ°á»i dÃ¹ng chá»n phÃ¢n loáº¡i trong Kho GAP chÃ­nh thá»©c. 7. Há»‡ thá»‘ng cáº­p nháº­t tráº¡ng thÃ¡i ÄÃ£ duyá»‡t, náº¡p tÃ i liá»‡u vÃ o Kho GAP kháº£ dá»¥ng vÃ  gá»­i thÃ´ng bÃ¡o chÃºc má»«ng cho giÃ¡o viÃªn Ä‘á» xuáº¥t.
+Luá»“ng thay tháº¿
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: Link tÃ i liá»‡u bá»‹ lá»—i hoáº·c khÃ´ng truy cáº­p Ä‘Æ°á»£c. NgÆ°á»i dÃ¹ng tá»« chá»‘i vá»›i lÃ½ do `Link há»ng` Ä‘á»ƒ giÃ¡o viÃªn cáº­p nháº­t Ä‘Æ°á»ng dáº«n há»£p lá»‡.Luá»“ng ngoáº¡i lá»‡ 2: NgÆ°á»i dÃ¹ng khÃ´ng nháº­p lÃ½ do khi tá»« chá»‘i. Há»‡ thá»‘ng cháº·n xÃ¡c nháº­n vÃ  yÃªu cáº§u nháº­p lÃ½ do báº¯t buá»™c.Luá»“ng ngoáº¡i lá»‡ 3: NgÆ°á»i dÃ¹ng khÃ´ng cÃ³ quyá»n Leader Teacher/Admin. Há»‡ thá»‘ng tá»« chá»‘i truy cáº­p vÃ  hiá»ƒn thá»‹ thÃ´ng bÃ¡o khÃ´ng Ä‘á»§ quyá»n.
+Quy táº¯c nghiá»‡p vá»¥
+TÃ i liá»‡u chá»‰ Ä‘Æ°á»£c Ä‘Æ°a vÃ o Kho GAP khi Ä‘Æ°á»£c Leader Teacher/Admin duyá»‡t. Náº¿u tá»« chá»‘i pháº£i nháº­p lÃ½ do. Link tÃ i liá»‡u pháº£i truy cáº­p Ä‘Æ°á»£c. TÃ i liá»‡u Ä‘Ã£ duyá»‡t cÃ³ thá»ƒ bá»‹ thu há»“i náº¿u lá»—i thá»i.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+MÃ£ Ä‘á» xuáº¥t; tÃªn tÃ i liá»‡u; nguá»“n/tÃ¡c giáº£; link URL/Google Drive/PDF; trÃ¬nh Ä‘á»™ Ã¡p dá»¥ng; ká»¹ nÄƒng; giÃ¡o viÃªn Ä‘á» xuáº¥t; ngÃ y gá»­i; lÃ½ do tá»« chá»‘i náº¿u cÃ³; phÃ¢n loáº¡i kho náº¿u duyá»‡t.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: [CHÆ¯A CÃ“ THÃ”NG TIN]Tháº¥t báº¡i: [CHÆ¯A CÃ“ THÃ”NG TIN]
+MÃ n hÃ¬nh liÃªn quan
+Duyá»‡t TÃ i Liá»‡u NgoÃ i GAPRoute: /admin/gap-materials-approval
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+35. UC-RBAC-MENU-ACTIONS-01 - Khai bÃ¡o quyá»n kháº£ dá»¥ng trÃªn Menu
+35.1. HÃ¬nh Use Case tá»•ng quan
+
+35.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+35.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-RBAC-MENU-ACTIONS-01
+TÃªn Use Case
+Khai bÃ¡o quyá»n kháº£ dá»¥ng trÃªn Menu
+Actor
+Quáº£n trá»‹ viÃªn tá»‘i cao (Admin)
+Má»¥c tiÃªu
+Cho phÃ©p Admin khai bÃ¡o cÃ¡c quyá»n nghiá»‡p vá»¥ cÃ³ thá»ƒ xuáº¥t hiá»‡n trÃªn má»™t Menu Ä‘á»ƒ phá»¥c vá»¥ cáº¥u hÃ¬nh phÃ¢n quyá»n theo Vai trÃ².
+MÃ´ táº£ nghiá»‡p vá»¥
+Admin truy cáº­p mÃ n hÃ¬nh Quáº£n lÃ½ Menu, chá»n má»™t Menu, chá»n cÃ¡c quyá»n kháº£ dá»¥ng nhÆ° Xem, ThÃªm, Sá»­a, XÃ³a, Cáº¥p tÃ i khoáº£n, Äiá»ƒm danh, Nháº­p Ä‘iá»ƒm vÃ  cÃ¡c quyá»n nghiá»‡p vá»¥ khÃ¡c theo Ä‘áº·c táº£, sau Ä‘Ã³ lÆ°u cáº¥u hÃ¬nh.
+Äiá»u kiá»‡n trÆ°á»›c
+1. Admin Ä‘Ã£ Ä‘Äƒng nháº­p há»‡ thá»‘ng. 2. Admin cÃ³ quyá»n truy cáº­p mÃ n hÃ¬nh /admin/menus. 3. Menu cáº§n cáº¥u hÃ¬nh Ä‘Ã£ tá»“n táº¡i trong danh má»¥c Menu.
+Luá»“ng chÃ­nh
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng thay tháº¿
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: Menu khÃ´ng tá»“n táº¡i hoáº·c khÃ´ng cÃ²n kháº£ dá»¥ng. Há»‡ thá»‘ng cháº·n lÆ°u, thÃ´ng bÃ¡o lá»—i vÃ  khÃ´ng cáº­p nháº­t quyá»n.Luá»“ng ngoáº¡i lá»‡ 2: Danh sÃ¡ch quyá»n cÃ³ giÃ¡ trá»‹ khÃ´ng há»£p lá»‡ hoáº·c khÃ´ng thuá»™c danh sÃ¡ch quyá»n Ä‘Æ°á»£c há»— trá»£. Há»‡ thá»‘ng cháº·n lÆ°u, hiá»ƒn thá»‹ lá»—i vÃ  khÃ´ng ghi Audit Logs thÃ nh cÃ´ng.Luá»“ng ngoáº¡i lá»‡ 3: Kho cáº¥u hÃ¬nh Menu lÆ°u tháº¥t báº¡i. Há»‡ thá»‘ng thÃ´ng bÃ¡o khÃ´ng thá»ƒ lÆ°u, khÃ´ng xÃ¡c nháº­n thay Ä‘á»•i thÃ nh cÃ´ng vÃ  giá»¯ nguyÃªn cáº¥u hÃ¬nh trÆ°á»›c Ä‘Ã³.
+Quy táº¯c nghiá»‡p vá»¥
+Menu pháº£i tá»“n táº¡i. Quyá»n Ä‘Æ°á»£c khai bÃ¡o pháº£i thuá»™c danh sÃ¡ch quyá»n Ä‘Æ°á»£c há»‡ thá»‘ng há»— trá»£. KhÃ´ng Ä‘Æ°á»£c lÆ°u dá»¯ liá»‡u quyá»n khÃ´ng há»£p lá»‡ hoáº·c khÃ´ng xÃ¡c Ä‘á»‹nh Ä‘Æ°á»£c Menu Ä‘Ã­ch.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+Menu Ä‘Æ°á»£c chá»n; danh sÃ¡ch cÃ¡c quyá»n kháº£ dá»¥ng Ä‘Æ°á»£c chá»n hoáº·c bá» chá»n.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: Quyá»n kháº£ dá»¥ng má»›i cá»§a Menu Ä‘Æ°á»£c lÆ°u trong kho cáº¥u hÃ¬nh Menu; thay Ä‘á»•i Ä‘Æ°á»£c ghi vÃ o Audit Logs; danh má»¥c Menu hiá»ƒn thá»‹ cáº¥u hÃ¬nh má»›i.Tháº¥t báº¡i: [CHÆ¯A CÃ“ THÃ”NG TIN]
+MÃ n hÃ¬nh liÃªn quan
+Quáº£n lÃ½ MenuRoute: /admin/menus
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+36. UC-RBAC-CREATE-ROLE-01 - Táº¡o Vai trÃ² má»›i
+36.1. HÃ¬nh Use Case tá»•ng quan
+
+36.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+36.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-RBAC-CREATE-ROLE-01
+TÃªn Use Case
+Táº¡o Vai trÃ² má»›i
+Actor
+Quáº£n trá»‹ viÃªn tá»‘i cao (Admin)
+Má»¥c tiÃªu
+Cho phÃ©p Admin táº¡o má»™t nhÃ³m vai trÃ² má»›i trong há»‡ thá»‘ng RBAC Ä‘á»ƒ sau Ä‘Ã³ cáº¥u hÃ¬nh ma tráº­n quyá»n theo Menu.
+MÃ´ táº£ nghiá»‡p vá»¥
+Admin truy cáº­p /admin/roles, nháº¥n + ThÃªm Role, nháº­p tÃªn vai trÃ² má»›i vÃ  lÆ°u. Há»‡ thá»‘ng cháº·n táº¡o vai trÃ² SuperAdmin, kiá»ƒm tra tÃªn vai trÃ², táº¡o vai trÃ² trong kho RBAC, khá»Ÿi táº¡o ma tráº­n quyá»n trá»‘ng vÃ  ghi Audit Logs.
+Äiá»u kiá»‡n trÆ°á»›c
+1. Admin Ä‘Ã£ Ä‘Äƒng nháº­p há»‡ thá»‘ng. 2. Admin cÃ³ quyá»n truy cáº­p mÃ n hÃ¬nh /admin/roles. 3. Há»‡ thá»‘ng Ä‘Ã£ cÃ³ danh má»¥c Menu vÃ  quyá»n kháº£ dá»¥ng Ä‘á»ƒ cáº¥u hÃ¬nh á»Ÿ bÆ°á»›c phÃ¢n quyá»n tiáº¿p theo.
+Luá»“ng chÃ­nh
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng thay tháº¿
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: Admin nháº­p tÃªn `SuperAdmin`. Há»‡ thá»‘ng cháº·n hoÃ n toÃ n viá»‡c táº¡o Vai trÃ², thÃ´ng bÃ¡o cáº¥p cao nháº¥t chá»‰ lÃ  `Admin`, khÃ´ng táº¡o báº£n ghi má»›i vÃ  khÃ´ng ghi Audit Logs thÃ nh cÃ´ng.Luá»“ng ngoáº¡i lá»‡ 2: TÃªn Vai trÃ² Ä‘á»ƒ trá»‘ng hoáº·c trÃ¹ng vai trÃ² Ä‘Ã£ tá»“n táº¡i. Há»‡ thá»‘ng cháº·n lÆ°u, hiá»ƒn thá»‹ lá»—i táº¡i trÆ°á»ng tÃªn Vai trÃ² vÃ  giá»¯ nguyÃªn danh sÃ¡ch Vai trÃ² hiá»‡n cÃ³.Luá»“ng ngoáº¡i lá»‡ 3: Kho Vai trÃ² RBAC lÆ°u tháº¥t báº¡i. Há»‡ thá»‘ng thÃ´ng bÃ¡o khÃ´ng thá»ƒ táº¡o Vai trÃ² má»›i, khÃ´ng xÃ¡c nháº­n táº¡o thÃ nh cÃ´ng vÃ  giá»¯ nguyÃªn danh sÃ¡ch Vai trÃ² trÆ°á»›c Ä‘Ã³.
+Quy táº¯c nghiá»‡p vá»¥
+TÃªn Vai trÃ² khÃ´ng Ä‘Æ°á»£c Ä‘á»ƒ trá»‘ng, khÃ´ng Ä‘Æ°á»£c trÃ¹ng vai trÃ² Ä‘Ã£ cÃ³, khÃ´ng Ä‘Æ°á»£c lÃ  SuperAdmin. Cáº¥p cao nháº¥t trong há»‡ thá»‘ng chá»‰ lÃ  Admin.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+TÃªn Vai trÃ² má»›i, vÃ­ dá»¥ Thá»±c táº­p sinh CSKH.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: Vai trÃ² má»›i Ä‘Æ°á»£c táº¡o trong Kho RBAC, xuáº¥t hiá»‡n trÃªn Sidebar danh sÃ¡ch Vai trÃ², cÃ³ ma tráº­n quyá»n trá»‘ng Ä‘á»ƒ Admin cáº¥u hÃ¬nh á»Ÿ bÆ°á»›c tiáº¿p theo vÃ  thao tÃ¡c Ä‘Æ°á»£c ghi Audit Logs.Tháº¥t báº¡i: [CHÆ¯A CÃ“ THÃ”NG TIN]
+MÃ n hÃ¬nh liÃªn quan
+Quáº£n lÃ½ Vai trÃ² & PhÃ¢n quyá»nRoute: /admin/roles
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+37. UC-RBAC-PERMISSION-MATRIX-01 - Cáº¥u hÃ¬nh ma tráº­n quyá»n cho Vai trÃ²
+37.1. HÃ¬nh Use Case tá»•ng quan
+
+37.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+37.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-RBAC-PERMISSION-MATRIX-01
+TÃªn Use Case
+Cáº¥u hÃ¬nh ma tráº­n quyá»n cho Vai trÃ²
+Actor
+Quáº£n trá»‹ viÃªn tá»‘i cao (Admin)
+Má»¥c tiÃªu
+Cho phÃ©p Admin cáº¥u hÃ¬nh quyá»n thao tÃ¡c theo tá»«ng Menu cho má»™t Vai trÃ² chuáº©n hÃ³a trong há»‡ thá»‘ng RBAC.
+MÃ´ táº£ nghiá»‡p vá»¥
+Admin chá»n má»™t Vai trÃ² trÃªn Sidebar, há»‡ thá»‘ng hiá»ƒn thá»‹ Báº£ng Ma tráº­n PhÃ¢n quyá»n Menu. Admin tÃ­ch hoáº·c bá» chá»n quyá»n theo tá»«ng Menu, nháº¥n LÆ°u Ma tráº­n PhÃ¢n quyá»n, há»‡ thá»‘ng kiá»ƒm tra rÃ ng buá»™c an toÃ n, cáº­p nháº­t quyá»n tá»©c thÃ¬ cho ngÆ°á»i dÃ¹ng thuá»™c Vai trÃ² vÃ  ghi Audit Logs.
+Äiá»u kiá»‡n trÆ°á»›c
+1. Admin Ä‘Ã£ Ä‘Äƒng nháº­p há»‡ thá»‘ng. 2. Admin cÃ³ quyá»n truy cáº­p /admin/roles. 3. Vai trÃ² cáº§n cáº¥u hÃ¬nh Ä‘Ã£ tá»“n táº¡i. 4. Danh má»¥c Menu vÃ  quyá»n kháº£ dá»¥ng Ä‘Ã£ Ä‘Æ°á»£c khai bÃ¡o á»Ÿ Táº§ng 1.
+Luá»“ng chÃ­nh
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng thay tháº¿
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: Admin chÆ°a chá»n Vai trÃ² hoáº·c Vai trÃ² khÃ´ng há»£p lá»‡. Há»‡ thá»‘ng thÃ´ng bÃ¡o cáº§n chá»n Vai trÃ² há»£p lá»‡ vÃ  khÃ´ng hiá»ƒn thá»‹ dá»¯ liá»‡u cáº¥u hÃ¬nh sai.Luá»“ng ngoáº¡i lá»‡ 2: Admin tá»± tÆ°á»›c toÃ n bá»™ quyá»n cá»§a chÃ­nh tÃ i khoáº£n Admin Ä‘ang Ä‘Äƒng nháº­p. Há»‡ thá»‘ng cháº·n lÆ°u thay Ä‘á»•i nguy hiá»ƒm, giá»¯ quyá»n Admin hiá»‡n táº¡i vÃ  thÃ´ng bÃ¡o khÃ´ng Ä‘Æ°á»£c tá»± tÆ°á»›c toÃ n bá»™ quyá»n Admin.Luá»“ng ngoáº¡i lá»‡ 3: Ma tráº­n quyá»n cÃ³ dá»¯ liá»‡u khÃ´ng há»£p lá»‡ hoáº·c lÆ°u tháº¥t báº¡i. Há»‡ thá»‘ng cháº·n lÆ°u, hiá»ƒn thá»‹ lá»—i, khÃ´ng xÃ¡c nháº­n thay Ä‘á»•i thÃ nh cÃ´ng vÃ  giá»¯ nguyÃªn ma tráº­n quyá»n trÆ°á»›c Ä‘Ã³.
+Quy táº¯c nghiá»‡p vá»¥
+KhÃ´ng Ä‘Æ°á»£c lÆ°u náº¿u chÆ°a chá»n Vai trÃ² há»£p lá»‡. KhÃ´ng Ä‘Æ°á»£c tá»± tÆ°á»›c toÃ n bá»™ quyá»n cá»§a chÃ­nh tÃ i khoáº£n Admin Ä‘ang Ä‘Äƒng nháº­p. KhÃ´ng Ã¡p dá»¥ng phÃ¢n quyá»n cÃ¡ nhÃ¢n User Override.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+Vai trÃ² Ä‘Ã­ch; danh sÃ¡ch Menu; danh sÃ¡ch quyá»n Ä‘Æ°á»£c tÃ­ch hoáº·c bá» chá»n theo tá»«ng Menu.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: Ma tráº­n quyá»n RBAC cá»§a Vai trÃ² Ä‘Æ°á»£c cáº­p nháº­t; quyá»n cÃ³ hiá»‡u lá»±c ngay cho ngÆ°á»i dÃ¹ng thuá»™c Vai trÃ²; thao tÃ¡c Ä‘Æ°á»£c ghi Audit Logs.Tháº¥t báº¡i: [CHÆ¯A CÃ“ THÃ”NG TIN]
+MÃ n hÃ¬nh liÃªn quan
+Quáº£n lÃ½ Vai trÃ² & PhÃ¢n quyá»nRoute: /admin/roles
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+38. UC-RBAC-BULK-PERMISSIONS-01 - Chá»n táº¥t cáº£ quyá»n / Bá» chá»n quyá»n trong ma tráº­n phÃ¢n quyá»n
+38.1. HÃ¬nh Use Case tá»•ng quan
+
+38.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+38.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-RBAC-BULK-PERMISSIONS-01
+TÃªn Use Case
+Chá»n táº¥t cáº£ quyá»n / Bá» chá»n quyá»n trong ma tráº­n phÃ¢n quyá»n
+Actor
+Quáº£n trá»‹ viÃªn tá»‘i cao (Admin)
+Má»¥c tiÃªu
+Há»— trá»£ Admin cáº¥p nhanh hoáº·c bá» nhanh toÃ n bá»™ quyá»n kháº£ dá»¥ng Ä‘ang hiá»ƒn thá»‹ trong ma tráº­n cá»§a Vai trÃ² Ä‘Æ°á»£c chá»n.
+MÃ´ táº£ nghiá»‡p vá»¥
+Admin chá»n má»™t Vai trÃ², nháº¥n Chá»n táº¥t cáº£ quyá»n hoáº·c Bá» chá»n, há»‡ thá»‘ng cáº­p nháº­t tráº¡ng thÃ¡i checkbox trÃªn giao diá»‡n Ä‘á»ƒ Admin rÃ  soÃ¡t. Thay Ä‘á»•i chá»‰ Ä‘Æ°á»£c gá»­i lÃªn mÃ¡y chá»§ khi Admin nháº¥n LÆ°u Ma tráº­n PhÃ¢n quyá»n.
+Äiá»u kiá»‡n trÆ°á»›c
+1. Admin Ä‘Ã£ Ä‘Äƒng nháº­p. 2. Admin cÃ³ quyá»n truy cáº­p /admin/roles. 3. Vai trÃ² cáº§n cáº¥u hÃ¬nh tá»“n táº¡i. 4. Ma tráº­n Menu vÃ  quyá»n kháº£ dá»¥ng Ä‘Ã£ Ä‘Æ°á»£c táº£i.
+Luá»“ng chÃ­nh
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng thay tháº¿
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: Admin chÆ°a chá»n Vai trÃ² hoáº·c Vai trÃ² khÃ´ng há»£p lá»‡. Há»‡ thá»‘ng yÃªu cáº§u chá»n Vai trÃ² há»£p lá»‡ vÃ  khÃ´ng thá»±c hiá»‡n thao tÃ¡c hÃ ng loáº¡t.Luá»“ng ngoáº¡i lá»‡ 2: Admin dÃ¹ng `Bá» chá»n` lÃ m máº¥t toÃ n bá»™ quyá»n cá»§a chÃ­nh tÃ i khoáº£n Admin Ä‘ang Ä‘Äƒng nháº­p. Há»‡ thá»‘ng cáº£nh bÃ¡o, khÃ´i phá»¥c ma tráº­n quyá»n Admin trÆ°á»›c thao tÃ¡c vÃ  cháº·n lÆ°u tráº¡ng thÃ¡i nguy hiá»ƒm.Luá»“ng ngoáº¡i lá»‡ 3: Ma tráº­n khÃ´ng há»£p lá»‡ hoáº·c lÆ°u tháº¥t báº¡i. Há»‡ thá»‘ng hiá»ƒn thá»‹ lá»—i, giá»¯ nguyÃªn ma tráº­n quyá»n trÆ°á»›c Ä‘Ã³, khÃ´ng Ã¡p dá»¥ng thay Ä‘á»•i lá»—i vÃ  khÃ´ng ghi Audit Logs thÃ nh cÃ´ng.
+Quy táº¯c nghiá»‡p vá»¥
+Chá»‰ Ã¡p dá»¥ng cho Vai trÃ² Ä‘Ã£ chá»n vÃ  cÃ¡c quyá»n kháº£ dá»¥ng Ä‘ang hiá»ƒn thá»‹. KhÃ´ng Ä‘Æ°á»£c Ä‘á»ƒ thao tÃ¡c bá» chá»n lÃ m máº¥t toÃ n bá»™ quyá»n Admin cá»§a chÃ­nh tÃ i khoáº£n Ä‘ang Ä‘Äƒng nháº­p. Tráº¡ng thÃ¡i thay Ä‘á»•i chÆ°a Ä‘Æ°á»£c lÆ°u khÃ´ng Ä‘Æ°á»£c ghi Audit Logs.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+Vai trÃ² Ä‘Æ°á»£c chá»n; danh sÃ¡ch Menu; tráº¡ng thÃ¡i cÃ¡c quyá»n kháº£ dá»¥ng trÃªn ma tráº­n.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: CÃ¡c quyá»n Ä‘Ã£ chá»n hoáº·c bá» chá»n Ä‘Æ°á»£c lÆ°u trong ma tráº­n cá»§a Vai trÃ²; quyá»n má»›i Ä‘Æ°á»£c Ã¡p dá»¥ng cho ngÆ°á»i dÃ¹ng thuá»™c Vai trÃ²; thay Ä‘á»•i Ä‘Æ°á»£c ghi Audit Logs.Tháº¥t báº¡i: [CHÆ¯A CÃ“ THÃ”NG TIN]
+MÃ n hÃ¬nh liÃªn quan
+Quáº£n lÃ½ Vai trÃ² & PhÃ¢n quyá»nRoute: /admin/roles
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+39. UC-RBAC-CLONE-PERMISSIONS-01 - NhÃ¢n báº£n quyá»n (Clone Permissions)
+39.1. HÃ¬nh Use Case tá»•ng quan
+
+39.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+39.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-RBAC-CLONE-PERMISSIONS-01
+TÃªn Use Case
+NhÃ¢n báº£n quyá»n (Clone Permissions)
+Actor
+Quáº£n trá»‹ viÃªn tá»‘i cao (Admin)
+Má»¥c tiÃªu
+Cho phÃ©p Admin sao chÃ©p nhanh bá»™ quyá»n cá»§a má»™t Vai trÃ² cÃ³ sáºµn sang Vai trÃ² Ä‘Ã­ch Ä‘á»ƒ giáº£m thao tÃ¡c cáº¥u hÃ¬nh thá»§ cÃ´ng.
+MÃ´ táº£ nghiá»‡p vá»¥
+Admin chá»n Vai trÃ² nguá»“n, chá»n Vai trÃ² Ä‘Ã­ch, thá»±c hiá»‡n Clone Permissions, rÃ  soÃ¡t ma tráº­n quyá»n Ä‘Æ°á»£c sao chÃ©p vÃ  lÆ°u. Há»‡ thá»‘ng cáº­p nháº­t quyá»n cho Vai trÃ² Ä‘Ã­ch vÃ  ghi Audit Logs.
+Äiá»u kiá»‡n trÆ°á»›c
+1. Admin Ä‘Ã£ Ä‘Äƒng nháº­p. 2. Admin cÃ³ quyá»n truy cáº­p /admin/roles. 3. Vai trÃ² nguá»“n vÃ  Vai trÃ² Ä‘Ã­ch Ä‘Ã£ tá»“n táº¡i. 4. Vai trÃ² nguá»“n cÃ³ ma tráº­n quyá»n Ä‘á»ƒ sao chÃ©p.
+Luá»“ng chÃ­nh
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng thay tháº¿
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: Vai trÃ² nguá»“n chÆ°a Ä‘Æ°á»£c chá»n hoáº·c khÃ´ng tá»“n táº¡i. Há»‡ thá»‘ng yÃªu cáº§u chá»n Vai trÃ² nguá»“n há»£p lá»‡ vÃ  khÃ´ng thá»±c hiá»‡n sao chÃ©p.Luá»“ng ngoáº¡i lá»‡ 2: Vai trÃ² Ä‘Ã­ch chÆ°a Ä‘Æ°á»£c chá»n, khÃ´ng tá»“n táº¡i hoáº·c trÃ¹ng Vai trÃ² nguá»“n. Há»‡ thá»‘ng bÃ¡o lá»—i vÃ  khÃ´ng thá»±c hiá»‡n sao chÃ©p quyá»n.Luá»“ng ngoáº¡i lá»‡ 3: NhÃ¢n báº£n lÃ m máº¥t toÃ n bá»™ quyá»n Admin cá»§a chÃ­nh tÃ i khoáº£n Ä‘ang Ä‘Äƒng nháº­p hoáº·c thao tÃ¡c lÆ°u tháº¥t báº¡i. Há»‡ thá»‘ng cháº·n lÆ°u, khÃ´i phá»¥c quyá»n trÆ°á»›c Ä‘Ã³ vÃ  khÃ´ng Ã¡p dá»¥ng thay Ä‘á»•i lá»—i.
+Quy táº¯c nghiá»‡p vá»¥
+Vai trÃ² nguá»“n vÃ  Ä‘Ã­ch pháº£i há»£p lá»‡, khÃ´ng Ä‘Æ°á»£c trÃ¹ng nhau. KhÃ´ng Ä‘Æ°á»£c lÃ m máº¥t toÃ n bá»™ quyá»n Admin cá»§a chÃ­nh tÃ i khoáº£n Admin Ä‘ang Ä‘Äƒng nháº­p. KhÃ´ng Ã¡p dá»¥ng User Override.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+Vai trÃ² nguá»“n; Vai trÃ² Ä‘Ã­ch; ma tráº­n quyá»n cá»§a Vai trÃ² nguá»“n; cÃ¡c Ä‘iá»u chá»‰nh bá»• sung cá»§a Admin trÆ°á»›c khi lÆ°u.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: Ma tráº­n quyá»n cá»§a Vai trÃ² Ä‘Ã­ch Ä‘Æ°á»£c cáº­p nháº­t theo bá»™ quyá»n nguá»“n sau khi rÃ  soÃ¡t; quyá»n cÃ³ hiá»‡u lá»±c cho ngÆ°á»i dÃ¹ng thuá»™c Vai trÃ² Ä‘Ã­ch; thao tÃ¡c Ä‘Æ°á»£c ghi Audit Logs.Tháº¥t báº¡i: [CHÆ¯A CÃ“ THÃ”NG TIN]
+MÃ n hÃ¬nh liÃªn quan
+Quáº£n lÃ½ Vai trÃ² & PhÃ¢n quyá»nRoute: /admin/roles
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+40. UC-RBAC-ASSIGN-ROLE-01 - GÃ¡n Vai trÃ² cho NgÆ°á»i dÃ¹ng
+40.1. HÃ¬nh Use Case tá»•ng quan
+
+40.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+40.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-RBAC-ASSIGN-ROLE-01
+TÃªn Use Case
+GÃ¡n Vai trÃ² cho NgÆ°á»i dÃ¹ng
+Actor
+Quáº£n trá»‹ viÃªn tá»‘i cao (Admin)
+Má»¥c tiÃªu
+Cho phÃ©p Admin gÃ¡n má»™t Vai trÃ² chuáº©n hÃ³a cho ngÆ°á»i dÃ¹ng/nhÃ¢n sá»± Ä‘á»ƒ há»‡ thá»‘ng hiá»ƒn thá»‹ Menu vÃ  nÃºt chá»©c nÄƒng theo Ä‘Ãºng quyá»n cá»§a Vai trÃ².
+MÃ´ táº£ nghiá»‡p vá»¥
+Admin má»Ÿ Modal GÃ¡n NgÆ°á»i dÃ¹ng vÃ o Vai trÃ², tÃ¬m kiáº¿m ngÆ°á»i dÃ¹ng, chá»n Vai trÃ² chÃ­nh vÃ  lÆ°u. Há»‡ thá»‘ng lÆ°u quan há»‡ NgÆ°á»i dÃ¹ng - Vai trÃ², Ã¡p dá»¥ng quyá»n theo Vai trÃ² vÃ  ghi Audit Logs.
+Äiá»u kiá»‡n trÆ°á»›c
+1. Admin Ä‘Ã£ Ä‘Äƒng nháº­p. 2. Admin cÃ³ quyá»n truy cáº­p /admin/roles. 3. NgÆ°á»i dÃ¹ng cáº§n gÃ¡n Vai trÃ² Ä‘Ã£ tá»“n táº¡i. 4. Vai trÃ² chuáº©n hÃ³a Ä‘Ã£ Ä‘Æ°á»£c khai bÃ¡o.
+Luá»“ng chÃ­nh
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng thay tháº¿
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: ChÆ°a chá»n NgÆ°á»i dÃ¹ng hoáº·c NgÆ°á»i dÃ¹ng khÃ´ng tá»“n táº¡i. Há»‡ thá»‘ng cháº·n lÆ°u vÃ  yÃªu cáº§u chá»n NgÆ°á»i dÃ¹ng há»£p lá»‡.Luá»“ng ngoáº¡i lá»‡ 2: ChÆ°a chá»n Vai trÃ² hoáº·c Vai trÃ² khÃ´ng há»£p lá»‡. Há»‡ thá»‘ng cháº·n lÆ°u vÃ  yÃªu cáº§u chá»n Vai trÃ² chuáº©n hÃ³a há»£p lá»‡.Luá»“ng ngoáº¡i lá»‡ 3: Admin cá»‘ cáº¥u hÃ¬nh quyá»n riÃªng cho tá»«ng cÃ¡ nhÃ¢n hoáº·c lÆ°u quan há»‡ Vai trÃ² tháº¥t báº¡i. Há»‡ thá»‘ng cháº·n User Override hoáº·c bÃ¡o lá»—i lÆ°u tháº¥t báº¡i, giá»¯ nguyÃªn Vai trÃ² trÆ°á»›c Ä‘Ã³.
+Quy táº¯c nghiá»‡p vá»¥
+Pháº£i chá»n NgÆ°á»i dÃ¹ng há»£p lá»‡ vÃ  Vai trÃ² há»£p lá»‡. Chá»‰ gÃ¡n Vai trÃ² chuáº©n hÃ³a, cáº¥m phÃ¢n quyá»n láº¯t lÃ©o tá»«ng cÃ¡ nhÃ¢n, khÃ´ng cÃ³ User Override.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+NgÆ°á»i dÃ¹ng Ä‘Æ°á»£c chá»n; Vai trÃ² chuáº©n hÃ³a Ä‘Æ°á»£c chá»n.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: NgÆ°á»i dÃ¹ng Ä‘Æ°á»£c gÃ¡n Vai trÃ² má»›i; quyá»n Menu vÃ  nÃºt chá»©c nÄƒng Ä‘Æ°á»£c Ã¡p dá»¥ng theo Vai trÃ²; thao tÃ¡c Ä‘Æ°á»£c ghi Audit Logs.Tháº¥t báº¡i: [CHÆ¯A CÃ“ THÃ”NG TIN]
+MÃ n hÃ¬nh liÃªn quan
+Quáº£n lÃ½ Vai trÃ² & PhÃ¢n quyá»nRoute: /admin/roles
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+41. UC-RBAC-APPLY-PERMISSION-01 - Hiá»ƒn thá»‹ Menu vÃ  nÃºt chá»©c nÄƒng theo quyá»n Vai trÃ²
+41.1. HÃ¬nh Use Case tá»•ng quan
+
+41.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+41.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-RBAC-APPLY-PERMISSION-01
+TÃªn Use Case
+Hiá»ƒn thá»‹ Menu vÃ  nÃºt chá»©c nÄƒng theo quyá»n Vai trÃ²
+Actor
+Admin; CSKH; Leader Sale; Saler; GiÃ¡o viÃªn; Trá»£ giáº£ng; Káº¿ toÃ¡n
+Má»¥c tiÃªu
+Hiá»ƒn thá»‹ Ä‘Ãºng Menu vÃ  nÃºt chá»©c nÄƒng mÃ  Vai trÃ² cá»§a NgÆ°á»i dÃ¹ng Ä‘Æ°á»£c cáº¥p, Ä‘á»“ng thá»i áº©n vÃ  cháº·n cÃ¡c chá»©c nÄƒng khÃ´ng Ä‘Æ°á»£c cáº¥p.
+MÃ´ táº£ nghiá»‡p vá»¥
+Khi NgÆ°á»i dÃ¹ng Ä‘Äƒng nháº­p hoáº·c táº£i láº¡i phiÃªn, há»‡ thá»‘ng Ä‘á»c Vai trÃ² vÃ  ma tráº­n quyá»n Menu - HÃ nh Ä‘á»™ng, sau Ä‘Ã³ hiá»ƒn thá»‹ Menu, nÃºt chá»©c nÄƒng tÆ°Æ¡ng á»©ng. Há»‡ thá»‘ng khÃ´ng Ã¡p dá»¥ng phÃ¢n quyá»n cÃ¡ nhÃ¢n User Override.
+Äiá»u kiá»‡n trÆ°á»›c
+1. NgÆ°á»i dÃ¹ng Ä‘Ã£ Ä‘Äƒng nháº­p hoáº·c Ä‘ang táº£i láº¡i phiÃªn. 2. NgÆ°á»i dÃ¹ng Ä‘Æ°á»£c gÃ¡n má»™t Vai trÃ² chuáº©n hÃ³a. 3. Ma tráº­n quyá»n cá»§a Vai trÃ² Ä‘Ã£ Ä‘Æ°á»£c cáº¥u hÃ¬nh.
+Luá»“ng chÃ­nh
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng thay tháº¿
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: Vai trÃ² khÃ´ng há»£p lá»‡ hoáº·c khÃ´ng xÃ¡c Ä‘á»‹nh Ä‘Æ°á»£c. Há»‡ thá»‘ng khÃ´ng Ã¡p dá»¥ng quyá»n cÃ¡ nhÃ¢n, hiá»ƒn thá»‹ giao diá»‡n máº·c Ä‘á»‹nh an toÃ n vÃ  áº©n cÃ¡c chá»©c nÄƒng cáº§n quyá»n.Luá»“ng ngoáº¡i lá»‡ 2: KhÃ´ng táº£i Ä‘Æ°á»£c ma tráº­n quyá»n. Há»‡ thá»‘ng thÃ´ng bÃ¡o lá»—i, khÃ´ng hiá»ƒn thá»‹ chá»©c nÄƒng yÃªu cáº§u quyá»n vÃ  khÃ´ng cho phÃ©p thá»±c hiá»‡n thao tÃ¡c chÆ°a xÃ¡c Ä‘á»‹nh quyá»n.Luá»“ng ngoáº¡i lá»‡ 3: NgÆ°á»i dÃ¹ng gá»i trá»±c tiáº¿p má»™t chá»©c nÄƒng khÃ´ng cÃ³ quyá»n. Há»‡ thá»‘ng tá»« chá»‘i yÃªu cáº§u táº¡i lá»›p kiá»ƒm tra quyá»n, hiá»ƒn thá»‹ thÃ´ng bÃ¡o khÃ´ng Ä‘á»§ quyá»n vÃ  khÃ´ng thá»±c hiá»‡n chá»©c nÄƒng.
+Quy táº¯c nghiá»‡p vá»¥
+Chá»‰ sá»­ dá»¥ng quyá»n tá»« Vai trÃ² chuáº©n hÃ³a. KhÃ´ng cÃ³ User Override. KhÃ´ng Ä‘Æ°á»£c hiá»ƒn thá»‹ hoáº·c cho thá»±c hiá»‡n chá»©c nÄƒng khi quyá»n chÆ°a Ä‘Æ°á»£c xÃ¡c Ä‘á»‹nh.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+Vai trÃ² cá»§a NgÆ°á»i dÃ¹ng; ma tráº­n quyá»n Menu - HÃ nh Ä‘á»™ng cá»§a Vai trÃ²; danh sÃ¡ch Menu vÃ  cÃ¡c nÃºt chá»©c nÄƒng.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: NgÆ°á»i dÃ¹ng nhÃ¬n tháº¥y Ä‘Ãºng Menu vÃ  nÃºt chá»©c nÄƒng theo Vai trÃ²; cÃ¡c yÃªu cáº§u khÃ´ng cÃ³ quyá»n bá»‹ áº©n hoáº·c bá»‹ tá»« chá»‘i.Tháº¥t báº¡i: [CHÆ¯A CÃ“ THÃ”NG TIN]
+MÃ n hÃ¬nh liÃªn quan
+ToÃ n bá»™ giao diá»‡n há»‡ thá»‘ng sau khi Ä‘Äƒng nháº­p hoáº·c táº£i láº¡i phiÃªnRoute: Ãp dá»¥ng theo Route cá»§a tá»«ng Menu Ä‘Æ°á»£c cáº¥p quyá»n
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+42. UC-SETTINGS-OPS-SLA-01 - Cáº¥u hÃ¬nh tham sá»‘ Váº­n hÃ nh & SLA Trung tÃ¢m
+42.1. HÃ¬nh Use Case tá»•ng quan
+
+42.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+42.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-SETTINGS-OPS-SLA-01
+TÃªn Use Case
+Cáº¥u hÃ¬nh tham sá»‘ Váº­n hÃ nh & SLA Trung tÃ¢m
+Actor
+Quáº£n trá»‹ viÃªn (Admin)
+Má»¥c tiÃªu
+Cho phÃ©p Admin Ä‘iá»u chá»‰nh cÃ¡c má»‘c thá»i gian váº­n hÃ nh vÃ  SLA trung tÃ¢m Ä‘á»ƒ cÃ¡c phÃ¢n há»‡ liÃªn quan Ã¡p dá»¥ng ngay.
+MÃ´ táº£ nghiá»‡p vá»¥
+Admin vÃ o /admin/settings, chá»n Tab Tham sá»‘ Váº­n hÃ nh & SLA Trung tÃ¢m, nháº­p cÃ¡c tham sá»‘ SLA CSKH, cáº£nh bÃ¡o lá»›p sáº¯p káº¿t thÃºc, SLA Writing vÃ  Time-lock tá»« chá»‘i nháº­n ca Writing, sau Ä‘Ã³ lÆ°u toÃ n bá»™ cáº¥u hÃ¬nh.
+Äiá»u kiá»‡n trÆ°á»›c
+1. Admin Ä‘Ã£ Ä‘Äƒng nháº­p há»‡ thá»‘ng. 2. Admin cÃ³ quyá»n truy cáº­p /admin/settings.
+Luá»“ng chÃ­nh
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng thay tháº¿
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: Admin nháº­p tham sá»‘ Ã¢m hoáº·c báº±ng `0`. Há»‡ thá»‘ng cháº·n lÆ°u, hiá»ƒn thá»‹ lá»—i yÃªu cáº§u nháº­p sá»‘ nguyÃªn dÆ°Æ¡ng há»£p lá»‡ vÃ  khÃ´ng Ã¡p dá»¥ng tham sá»‘ má»›i.Luá»“ng ngoáº¡i lá»‡ 2: Admin khÃ´ng cÃ³ quyá»n truy cáº­p `/admin/settings`. Há»‡ thá»‘ng tá»« chá»‘i truy cáº­p vÃ  hiá»ƒn thá»‹ thÃ´ng bÃ¡o khÃ´ng Ä‘á»§ quyá»n.Luá»“ng ngoáº¡i lá»‡ 3: Kho cáº¥u hÃ¬nh há»‡ thá»‘ng lÆ°u tháº¥t báº¡i. Há»‡ thá»‘ng thÃ´ng bÃ¡o khÃ´ng thá»ƒ lÆ°u cáº¥u hÃ¬nh, khÃ´ng xÃ¡c nháº­n thay Ä‘á»•i thÃ nh cÃ´ng vÃ  giá»¯ nguyÃªn cáº¥u hÃ¬nh trÆ°á»›c Ä‘Ã³.
+Quy táº¯c nghiá»‡p vá»¥
+Táº¥t cáº£ tham sá»‘ pháº£i lÃ  sá»‘ nguyÃªn dÆ°Æ¡ng. KhÃ´ng cho lÆ°u sá»‘ Ã¢m hoáº·c báº±ng 0.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+SLA CSKH gá»i phá»¥ huynh sau thi; thá»i gian cáº£nh bÃ¡o lá»›p sáº¯p káº¿t thÃºc; SLA GV nháº­p Ä‘iá»ƒm Writing; Time-lock khÃ³a nÃºt tá»« chá»‘i nháº­n ca Writing.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: CÃ¡c tham sá»‘ SLA vÃ  váº­n hÃ nh má»›i cÃ³ hiá»‡u lá»±c ngay láº­p tá»©c trÃªn cÃ¡c phÃ¢n há»‡ liÃªn quan.Tháº¥t báº¡i: [CHÆ¯A CÃ“ THÃ”NG TIN]
+MÃ n hÃ¬nh liÃªn quan
+Cáº¥u hÃ¬nh Há»‡ thá»‘ng (Settings)Route: /admin/settings
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+43. UC-SETTINGS-SPEAKING-01 - Cáº¥u hÃ¬nh tham sá»‘ Kháº£o thÃ­ Speaking
+43.1. HÃ¬nh Use Case tá»•ng quan
+
+43.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+43.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-SETTINGS-SPEAKING-01
+TÃªn Use Case
+Cáº¥u hÃ¬nh tham sá»‘ Kháº£o thÃ­ Speaking
+Actor
+Quáº£n trá»‹ viÃªn (Admin)
+Má»¥c tiÃªu
+Cho phÃ©p Admin cáº¥u hÃ¬nh cÃ¡c má»‘c thá»i gian tá»± Ä‘á»™ng vÃ  sá»‘ slot tá»‘i thiá»ƒu trong quy trÃ¬nh Ä‘Äƒng kÃ½ ca thi Speaking.
+MÃ´ táº£ nghiá»‡p vá»¥
+Admin má»Ÿ Tab Tham sá»‘ Kháº£o thÃ­ Speaking, cáº¥u hÃ¬nh thá»i gian gá»­i email má»i Ä‘Äƒng kÃ½, thá»i háº¡n Ä‘Ã³ng link Ä‘Äƒng kÃ½ vÃ  sá»‘ slot tá»‘i thiá»ƒu há»c viÃªn pháº£i chá»n, sau Ä‘Ã³ lÆ°u toÃ n bá»™ cáº¥u hÃ¬nh.
+Äiá»u kiá»‡n trÆ°á»›c
+1. Admin Ä‘Ã£ Ä‘Äƒng nháº­p. 2. Admin cÃ³ quyá»n truy cáº­p /admin/settings.
+Luá»“ng chÃ­nh
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng thay tháº¿
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: Má»‘c thá»i gian khÃ´ng há»£p lá»‡ hoáº·c sá»‘ slot khÃ´ng pháº£i sá»‘ nguyÃªn dÆ°Æ¡ng. Há»‡ thá»‘ng cháº·n lÆ°u, hiá»ƒn thá»‹ lá»—i táº¡i tham sá»‘ tÆ°Æ¡ng á»©ng vÃ  khÃ´ng Ã¡p dá»¥ng cáº¥u hÃ¬nh má»›i.Luá»“ng ngoáº¡i lá»‡ 2: Admin khÃ´ng cÃ³ quyá»n truy cáº­p `/admin/settings`. Há»‡ thá»‘ng tá»« chá»‘i truy cáº­p vÃ  hiá»ƒn thá»‹ thÃ´ng bÃ¡o khÃ´ng Ä‘á»§ quyá»n.Luá»“ng ngoáº¡i lá»‡ 3: Kho cáº¥u hÃ¬nh lÆ°u tháº¥t báº¡i. Há»‡ thá»‘ng thÃ´ng bÃ¡o khÃ´ng thá»ƒ lÆ°u, khÃ´ng xÃ¡c nháº­n thay Ä‘á»•i thÃ nh cÃ´ng vÃ  giá»¯ nguyÃªn cáº¥u hÃ¬nh trÆ°á»›c Ä‘Ã³.
+Quy táº¯c nghiá»‡p vá»¥
+Má»‘c thá»i gian pháº£i lÃ  sá»‘ dÆ°Æ¡ng; sá»‘ slot pháº£i lÃ  sá»‘ nguyÃªn dÆ°Æ¡ng.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+Sá»‘ ngÃ y gá»­i email má»i Ä‘Äƒng kÃ½ trÆ°á»›c ká»³ thi; sá»‘ giá» Ä‘Ã³ng link Ä‘Äƒng kÃ½ trÆ°á»›c ngÃ y thi; sá»‘ slot tá»‘i thiá»ƒu, má»—i slot 15 phÃºt.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: CÃ¡c má»‘c thá»i gian Speaking vÃ  sá»‘ slot tá»‘i thiá»ƒu má»›i cÃ³ hiá»‡u lá»±c ngay trÃªn Student Portal, Dá»‹ch vá»¥ Email vÃ  PhÃ¢n há»‡ Lá»‹ch thi Speaking.Tháº¥t báº¡i: [CHÆ¯A CÃ“ THÃ”NG TIN]
+MÃ n hÃ¬nh liÃªn quan
+Cáº¥u hÃ¬nh Há»‡ thá»‘ng (Settings)Route: /admin/settings
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+44. UC-SETTINGS-EMAIL-TEMPLATES-01 - Quáº£n lÃ½ Máº«u Email Tá»± Ä‘á»™ng (Email Templates)
+44.1. HÃ¬nh Use Case tá»•ng quan
+
+44.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+44.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-SETTINGS-EMAIL-TEMPLATES-01
+TÃªn Use Case
+Quáº£n lÃ½ Máº«u Email Tá»± Ä‘á»™ng (Email Templates)
+Actor
+Quáº£n trá»‹ viÃªn (Admin)
+Má»¥c tiÃªu
+Cho phÃ©p Admin xem vÃ  chá»‰nh sá»­a ná»™i dung cÃ¡c máº«u Email Ä‘Æ°á»£c há»‡ thá»‘ng gá»­i tá»± Ä‘á»™ng.
+MÃ´ táº£ nghiá»‡p vá»¥
+Admin má»Ÿ Tab Máº«u Email Tá»± Ä‘á»™ng, xem danh má»¥c máº«u, chá»n má»™t máº«u, chá»‰nh sá»­a HTML báº±ng Rich Text Editor vÃ  sá»­ dá»¥ng placeholder Ä‘á»™ng, sau Ä‘Ã³ lÆ°u Ä‘á»ƒ Ã¡p dá»¥ng cho Dá»‹ch vá»¥ Email tá»± Ä‘á»™ng.
+Äiá»u kiá»‡n trÆ°á»›c
+1. Admin Ä‘Ã£ Ä‘Äƒng nháº­p. 2. Admin cÃ³ quyá»n truy cáº­p /admin/settings. 3. Danh má»¥c Máº«u Email Ä‘Ã£ tá»“n táº¡i.
+Luá»“ng chÃ­nh
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng thay tháº¿
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: Placeholder khÃ´ng thuá»™c danh sÃ¡ch há»— trá»£ hoáº·c ná»™i dung khÃ´ng há»£p lá»‡. Há»‡ thá»‘ng cháº·n lÆ°u, hiá»ƒn thá»‹ lá»—i vÃ  giá»¯ nguyÃªn máº«u trÆ°á»›c Ä‘Ã³.Luá»“ng ngoáº¡i lá»‡ 2: Admin khÃ´ng cÃ³ quyá»n truy cáº­p `/admin/settings`. Há»‡ thá»‘ng tá»« chá»‘i truy cáº­p vÃ  hiá»ƒn thá»‹ thÃ´ng bÃ¡o khÃ´ng Ä‘á»§ quyá»n.Luá»“ng ngoáº¡i lá»‡ 3: Kho Máº«u Email lÆ°u tháº¥t báº¡i. Há»‡ thá»‘ng thÃ´ng bÃ¡o khÃ´ng thá»ƒ lÆ°u, khÃ´ng Ã¡p dá»¥ng ná»™i dung má»›i vÃ  giá»¯ nguyÃªn máº«u trÆ°á»›c Ä‘Ã³.
+Quy táº¯c nghiá»‡p vá»¥
+Ná»™i dung pháº£i Ä‘Æ°á»£c nháº­p qua trÃ¬nh soáº¡n tháº£o; placeholder pháº£i thuá»™c danh sÃ¡ch Ä‘Æ°á»£c há»‡ thá»‘ng há»— trá»£; máº«u chá»‰ Ä‘Æ°á»£c Ã¡p dá»¥ng sau khi lÆ°u thÃ nh cÃ´ng.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+Máº«u Email Ä‘Æ°á»£c chá»n; ná»™i dung HTML; placeholder Ä‘á»™ng nhÆ° {student_name}, {class_name}, {meet_link}, {exam_date}.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: Ná»™i dung Máº«u Email Ä‘Æ°á»£c cáº­p nháº­t, ngÃ y cáº­p nháº­t Ä‘Æ°á»£c ghi nháº­n vÃ  Dá»‹ch vá»¥ Email tá»± Ä‘á»™ng sá»­ dá»¥ng ná»™i dung má»›i.Tháº¥t báº¡i: [CHÆ¯A CÃ“ THÃ”NG TIN]
+MÃ n hÃ¬nh liÃªn quan
+Cáº¥u hÃ¬nh Há»‡ thá»‘ng (Settings)Route: /admin/settings
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+45. UC-MASTER-DATA-ADD-01 - ThÃªm báº£n ghi Danh má»¥c LÃµi
+45.1. HÃ¬nh Use Case tá»•ng quan
+
+45.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+45.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-MASTER-DATA-ADD-01
+TÃªn Use Case
+ThÃªm báº£n ghi Danh má»¥c LÃµi
+Actor
+Quáº£n trá»‹ viÃªn (Admin)
+Má»¥c tiÃªu
+Cho phÃ©p Admin khai bÃ¡o thÃªm má»™t giÃ¡ trá»‹ danh má»¥c má»›i vÃ o nhÃ³m Master Data Ä‘á»ƒ dÃ¹ng chung trong dropdown vÃ  bá»™ lá»c cá»§a toÃ n há»‡ thá»‘ng.
+MÃ´ táº£ nghiá»‡p vá»¥
+Admin chá»n nhÃ³m danh má»¥c, nháº¥n + ThÃªm báº£n ghi má»›i, nháº­p MÃ£ Code, TÃªn hiá»ƒn thá»‹, Thá»© tá»±, Ghi chÃº vÃ  lÆ°u. Há»‡ thá»‘ng kiá»ƒm tra trÃ¹ng Code, lÆ°u báº£n ghi vÃ  Ä‘á»“ng bá»™ vÃ o dropdown toÃ n há»‡ thá»‘ng.
+Äiá»u kiá»‡n trÆ°á»›c
+1. Admin Ä‘Ã£ Ä‘Äƒng nháº­p. 2. Admin cÃ³ quyá»n truy cáº­p /admin/master-data. 3. NhÃ³m danh má»¥c cáº§n thÃªm báº£n ghi Ä‘Ã£ tá»“n táº¡i.
+Luá»“ng chÃ­nh
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng thay tháº¿
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: MÃ£ Code bá»‹ trÃ¹ng trong nhÃ³m danh má»¥c. Há»‡ thá»‘ng cháº·n lÆ°u vÃ  yÃªu cáº§u nháº­p mÃ£ danh má»¥c duy nháº¥t.Luá»“ng ngoáº¡i lá»‡ 2: Dá»¯ liá»‡u báº¯t buá»™c khÃ´ng há»£p lá»‡. Há»‡ thá»‘ng cháº·n lÆ°u, hiá»ƒn thá»‹ lá»—i táº¡i trÆ°á»ng tÆ°Æ¡ng á»©ng vÃ  khÃ´ng thÃªm báº£n ghi.Luá»“ng ngoáº¡i lá»‡ 3: Kho Danh má»¥c LÃµi lÆ°u tháº¥t báº¡i. Há»‡ thá»‘ng thÃ´ng bÃ¡o khÃ´ng thá»ƒ thÃªm báº£n ghi, khÃ´ng xÃ¡c nháº­n thay Ä‘á»•i thÃ nh cÃ´ng vÃ  giá»¯ nguyÃªn danh má»¥c trÆ°á»›c Ä‘Ã³.
+Quy táº¯c nghiá»‡p vá»¥
+MÃ£ Code pháº£i duy nháº¥t trong nhÃ³m danh má»¥c. CÃ¡c trÆ°á»ng báº¯t buá»™c pháº£i há»£p lá»‡ trÆ°á»›c khi lÆ°u.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+MÃ£ Ä‘á»‹nh danh (Code); TÃªn hiá»ƒn thá»‹ (Display Name); Thá»© tá»± sáº¯p xáº¿p; Ghi chÃº.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: Báº£n ghi danh má»¥c má»›i xuáº¥t hiá»‡n trong báº£ng dá»¯ liá»‡u vÃ  cÃ³ sáºµn trong cÃ¡c dropdown, bá»™ lá»c cá»§a cÃ¡c phÃ¢n há»‡ liÃªn quan.Tháº¥t báº¡i: [CHÆ¯A CÃ“ THÃ”NG TIN]
+MÃ n hÃ¬nh liÃªn quan
+Quáº£n lÃ½ Danh má»¥c LÃµi (Master Data)Route: /admin/master-data
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+46. UC-MASTER-DATA-EDIT-STATUS-01 - Chá»‰nh sá»­a / Báº­t táº¯t tráº¡ng thÃ¡i Danh má»¥c LÃµi
+46.1. HÃ¬nh Use Case tá»•ng quan
+
+46.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+46.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-MASTER-DATA-EDIT-STATUS-01
+TÃªn Use Case
+Chá»‰nh sá»­a / Báº­t táº¯t tráº¡ng thÃ¡i Danh má»¥c LÃµi
+Actor
+Quáº£n trá»‹ viÃªn (Admin)
+Má»¥c tiÃªu
+Cho phÃ©p Admin chá»‰nh sá»­a thÃ´ng tin báº£n ghi danh má»¥c hoáº·c báº­t/táº¯t tráº¡ng thÃ¡i sá»­ dá»¥ng mÃ  khÃ´ng phÃ¡ vá»¡ dá»¯ liá»‡u lá»‹ch sá»­.
+MÃ´ táº£ nghiá»‡p vá»¥
+Admin chá»n nhÃ³m danh má»¥c, chá»n báº£n ghi, sá»­a TÃªn hiá»ƒn thá»‹, Thá»© tá»±, Ghi chÃº hoáº·c báº­t/táº¯t tráº¡ng thÃ¡i Äang sá»­ dá»¥ng / ÄÃ£ áº©n, sau Ä‘Ã³ lÆ°u thay Ä‘á»•i.
+Äiá»u kiá»‡n trÆ°á»›c
+1. Admin Ä‘Ã£ Ä‘Äƒng nháº­p. 2. Admin cÃ³ quyá»n truy cáº­p /admin/master-data. 3. Báº£n ghi danh má»¥c cáº§n chá»‰nh sá»­a Ä‘Ã£ tá»“n táº¡i.
+Luá»“ng chÃ­nh
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng thay tháº¿
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: Dá»¯ liá»‡u chá»‰nh sá»­a khÃ´ng há»£p lá»‡. Há»‡ thá»‘ng cháº·n lÆ°u, hiá»ƒn thá»‹ lá»—i táº¡i trÆ°á»ng tÆ°Æ¡ng á»©ng vÃ  giá»¯ nguyÃªn báº£n ghi trÆ°á»›c Ä‘Ã³.Luá»“ng ngoáº¡i lá»‡ 2: Admin khÃ´ng cÃ³ quyá»n truy cáº­p `/admin/master-data`. Há»‡ thá»‘ng tá»« chá»‘i truy cáº­p vÃ  hiá»ƒn thá»‹ thÃ´ng bÃ¡o khÃ´ng Ä‘á»§ quyá»n.Luá»“ng ngoáº¡i lá»‡ 3: Kho Danh má»¥c LÃµi lÆ°u tháº¥t báº¡i. Há»‡ thá»‘ng thÃ´ng bÃ¡o khÃ´ng thá»ƒ lÆ°u thay Ä‘á»•i, khÃ´ng xÃ¡c nháº­n thÃ nh cÃ´ng vÃ  giá»¯ nguyÃªn báº£n ghi trÆ°á»›c Ä‘Ã³.
+Quy táº¯c nghiá»‡p vá»¥
+Dá»¯ liá»‡u chá»‰nh sá»­a pháº£i há»£p lá»‡. Khi chuyá»ƒn sang ÄÃ£ áº©n, danh má»¥c khÃ´ng hiá»ƒn thá»‹ trong lá»±a chá»n má»›i nhÆ°ng dá»¯ liá»‡u lá»‹ch sá»­ váº«n Ä‘Æ°á»£c báº£o toÃ n.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+TÃªn hiá»ƒn thá»‹; Thá»© tá»± sáº¯p xáº¿p; Ghi chÃº; Tráº¡ng thÃ¡i Äang sá»­ dá»¥ng / ÄÃ£ áº©n.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: Báº£n ghi danh má»¥c Ä‘Æ°á»£c cáº­p nháº­t; tráº¡ng thÃ¡i má»›i Ä‘Æ°á»£c Ã¡p dá»¥ng; dropdown vÃ  bá»™ lá»c toÃ n há»‡ thá»‘ng Ä‘Æ°á»£c Ä‘á»“ng bá»™.Tháº¥t báº¡i: [CHÆ¯A CÃ“ THÃ”NG TIN]
+MÃ n hÃ¬nh liÃªn quan
+Quáº£n lÃ½ Danh má»¥c LÃµi (Master Data)Route: /admin/master-data
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+47. UC-MASTER-DATA-REORDER-01 - Sáº¯p xáº¿p thá»© tá»± hiá»ƒn thá»‹ Danh má»¥c LÃµi
+47.1. HÃ¬nh Use Case tá»•ng quan
+
+47.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+47.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-MASTER-DATA-REORDER-01
+TÃªn Use Case
+Sáº¯p xáº¿p thá»© tá»± hiá»ƒn thá»‹ Danh má»¥c LÃµi
+Actor
+Quáº£n trá»‹ viÃªn (Admin)
+Má»¥c tiÃªu
+Cho phÃ©p Admin kÃ©o tháº£ sáº¯p xáº¿p thá»© tá»± Æ°u tiÃªn xuáº¥t hiá»‡n cá»§a cÃ¡c giÃ¡ trá»‹ danh má»¥c trÃªn dropdown vÃ  bá»™ lá»c toÃ n há»‡ thá»‘ng.
+MÃ´ táº£ nghiá»‡p vá»¥
+Admin chá»n nhÃ³m danh má»¥c, kÃ©o tháº£ cÃ¡c dÃ²ng trong báº£ng Reorderable, rÃ  soÃ¡t thá»© tá»± má»›i vÃ  lÆ°u. Há»‡ thá»‘ng Ä‘á»“ng bá»™ thá»© tá»± má»›i vÃ o dropdown cá»§a ngÆ°á»i dÃ¹ng cuá»‘i.
+Äiá»u kiá»‡n trÆ°á»›c
+1. Admin Ä‘Ã£ Ä‘Äƒng nháº­p. 2. Admin cÃ³ quyá»n truy cáº­p /admin/master-data. 3. NhÃ³m danh má»¥c cÃ³ Ã­t nháº¥t má»™t báº£n ghi.
+Luá»“ng chÃ­nh
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng thay tháº¿
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: Thá»© tá»± má»›i bá»‹ trÃ¹ng, thiáº¿u báº£n ghi hoáº·c khÃ´ng thuá»™c nhÃ³m danh má»¥c Ä‘ang thao tÃ¡c. Há»‡ thá»‘ng cháº·n lÆ°u, hiá»ƒn thá»‹ lá»—i vÃ  khÃ´i phá»¥c thá»© tá»± trÆ°á»›c Ä‘Ã³.Luá»“ng ngoáº¡i lá»‡ 2: Admin khÃ´ng cÃ³ quyá»n truy cáº­p `/admin/master-data`. Há»‡ thá»‘ng tá»« chá»‘i truy cáº­p vÃ  hiá»ƒn thá»‹ thÃ´ng bÃ¡o khÃ´ng Ä‘á»§ quyá»n.Luá»“ng ngoáº¡i lá»‡ 3: Kho Danh má»¥c LÃµi lÆ°u thá»© tá»± tháº¥t báº¡i. Há»‡ thá»‘ng thÃ´ng bÃ¡o khÃ´ng thá»ƒ lÆ°u, khÃ´ng xÃ¡c nháº­n thay Ä‘á»•i thÃ nh cÃ´ng vÃ  khÃ´i phá»¥c thá»© tá»± trÆ°á»›c Ä‘Ã³.
+Quy táº¯c nghiá»‡p vá»¥
+Thá»© tá»± má»›i khÃ´ng Ä‘Æ°á»£c trÃ¹ng, khÃ´ng Ä‘Æ°á»£c thiáº¿u báº£n ghi vÃ  pháº£i thuá»™c Ä‘Ãºng nhÃ³m danh má»¥c Ä‘ang thao tÃ¡c.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+NhÃ³m danh má»¥c Ä‘Æ°á»£c chá»n; danh sÃ¡ch báº£n ghi danh má»¥c; thá»© tá»± má»›i sau khi kÃ©o tháº£.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: Thá»© tá»± hiá»ƒn thá»‹ má»›i Ä‘Æ°á»£c lÆ°u vÃ  Ä‘Æ°á»£c Ã¡p dá»¥ng cho dropdown, bá»™ lá»c cá»§a ngÆ°á»i dÃ¹ng cuá»‘i.Tháº¥t báº¡i: [CHÆ¯A CÃ“ THÃ”NG TIN]
+MÃ n hÃ¬nh liÃªn quan
+Quáº£n lÃ½ Danh má»¥c LÃµi (Master Data)Route: /admin/master-data
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+48. UC-AUDIT-LOGS-SEARCH-01 - Tra cá»©u Nháº­t kÃ½ Há»‡ thá»‘ng (Audit Logs)
+48.1. HÃ¬nh Use Case tá»•ng quan
+
+48.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+48.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-AUDIT-LOGS-SEARCH-01
+TÃªn Use Case
+Tra cá»©u Nháº­t kÃ½ Há»‡ thá»‘ng (Audit Logs)
+Actor
+Quáº£n trá»‹ viÃªn tá»‘i cao (Admin)
+Má»¥c tiÃªu
+Cho phÃ©p Admin tra cá»©u cÃ¡c thao tÃ¡c nghiá»‡p vá»¥ vÃ  biáº¿n Ä‘á»™ng dá»¯ liá»‡u trong Nháº­t kÃ½ Há»‡ thá»‘ng Ä‘á»ƒ phá»¥c vá»¥ kiá»ƒm toÃ¡n vÃ  truy váº¿t.
+MÃ´ táº£ nghiá»‡p vá»¥
+Admin má»Ÿ /admin/audit-logs, xem báº£ng nháº­t kÃ½ read-only, lá»c theo khoáº£ng ngÃ y, ngÆ°á»i thá»±c hiá»‡n, hÃ nh Ä‘á»™ng, phÃ¢n há»‡ hoáº·c tra cá»©u theo Entity ID. Admin cÃ³ thá»ƒ xuáº¥t bÃ¡o cÃ¡o Excel, nhÆ°ng khÃ´ng Ä‘Æ°á»£c sá»­a hoáº·c xÃ³a nháº­t kÃ½.
+Äiá»u kiá»‡n trÆ°á»›c
+1. Admin Ä‘Ã£ Ä‘Äƒng nháº­p. 2. Admin cÃ³ quyá»n truy cáº­p /admin/audit-logs. 3. Kho Audit Logs cÃ³ dá»¯ liá»‡u hoáº·c sáºµn sÃ ng tiáº¿p nháº­n truy váº¥n.
+Luá»“ng chÃ­nh
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng thay tháº¿
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: Bá»™ lá»c khÃ´ng há»£p lá»‡. Há»‡ thá»‘ng hiá»ƒn thá»‹ lá»—i vÃ  khÃ´ng thá»±c hiá»‡n truy váº¥n theo Ä‘iá»u kiá»‡n lá»—i.Luá»“ng ngoáº¡i lá»‡ 2: KhÃ´ng táº£i Ä‘Æ°á»£c Nháº­t kÃ½. Há»‡ thá»‘ng thÃ´ng bÃ¡o lá»—i vÃ  giá»¯ nguyÃªn káº¿t quáº£ trÆ°á»›c Ä‘Ã³.Luá»“ng ngoáº¡i lá»‡ 3: CÃ³ yÃªu cáº§u sá»­a hoáº·c xÃ³a nháº­t kÃ½. Há»‡ thá»‘ng khÃ´ng cung cáº¥p thao tÃ¡c, tá»« chá»‘i yÃªu cáº§u vÃ  báº£o toÃ n dá»¯ liá»‡u Append-Only.
+Quy táº¯c nghiá»‡p vá»¥
+Nháº­t kÃ½ chá»‰ Ä‘Æ°á»£c Ä‘á»c. KhÃ´ng cung cáº¥p thao tÃ¡c Sá»­a hoáº·c XÃ³a. CÆ¡ cháº¿ lÆ°u trá»¯ Append-Only cáº¥m DELETE/UPDATE trÃªn báº£ng audit_logs.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+Khoáº£ng ngÃ y; NgÆ°á»i thá»±c hiá»‡n; Loáº¡i hÃ nh Ä‘á»™ng; PhÃ¢n há»‡; MÃ£ báº£n ghi Entity ID.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: Admin xem Ä‘Æ°á»£c nháº­t kÃ½ theo pháº¡m vi tra cá»©u hoáº·c nháº­n file Excel bÃ¡o cÃ¡o; dá»¯ liá»‡u Audit Logs khÃ´ng bá»‹ thay Ä‘á»•i.Tháº¥t báº¡i: [CHÆ¯A CÃ“ THÃ”NG TIN]
+MÃ n hÃ¬nh liÃªn quan
+Nháº­t kÃ½ Há»‡ thá»‘ng & Kiá»ƒm toÃ¡n Dá»¯ liá»‡uRoute: /admin/audit-logs
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+49. UC-AUDIT-LOGS-DIFF-01 - Xem chi tiáº¿t biáº¿n Ä‘á»™ng dá»¯ liá»‡u (Diff Viewer)
+49.1. HÃ¬nh Use Case tá»•ng quan
+
+49.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+49.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-AUDIT-LOGS-DIFF-01
+TÃªn Use Case
+Xem chi tiáº¿t biáº¿n Ä‘á»™ng dá»¯ liá»‡u (Diff Viewer)
+Actor
+Quáº£n trá»‹ viÃªn tá»‘i cao (Admin)
+Má»¥c tiÃªu
+Cho phÃ©p Admin xem chi tiáº¿t dá»¯ liá»‡u trÆ°á»›c vÃ  sau khi thay Ä‘á»•i Ä‘á»ƒ kiá»ƒm toÃ¡n biáº¿n Ä‘á»™ng dá»¯ liá»‡u nháº¡y cáº£m.
+MÃ´ táº£ nghiá»‡p vá»¥
+Admin chá»n dÃ²ng nháº­t kÃ½ nghi váº¥n vÃ  nháº¥n Xem Diff. Há»‡ thá»‘ng má»Ÿ Modal Diff Viewer, hiá»ƒn thá»‹ 2 cá»™t Before/After, highlight trÆ°á»ng thay Ä‘á»•i, lÃ½ do sá»­a Ä‘á»•i vÃ  User Agent cá»§a thiáº¿t bá»‹ thá»±c hiá»‡n thao tÃ¡c.
+Äiá»u kiá»‡n trÆ°á»›c
+1. Admin Ä‘Ã£ Ä‘Äƒng nháº­p. 2. Admin cÃ³ quyá»n truy cáº­p /admin/audit-logs. 3. DÃ²ng nháº­t kÃ½ cÃ³ dá»¯ liá»‡u Before/After Ä‘á»ƒ so sÃ¡nh.
+Luá»“ng chÃ­nh
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng thay tháº¿
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: Nháº­t kÃ½ thiáº¿u dá»¯ liá»‡u Before hoáº·c After. Há»‡ thá»‘ng thÃ´ng bÃ¡o khÃ´ng Ä‘á»§ dá»¯ liá»‡u so sÃ¡nh vÃ  khÃ´ng hiá»ƒn thá»‹ Diff sai lá»‡ch.Luá»“ng ngoáº¡i lá»‡ 2: Táº£i Diff Viewer tháº¥t báº¡i. Há»‡ thá»‘ng thÃ´ng bÃ¡o khÃ´ng thá»ƒ táº£i Diff Viewer vÃ  giá»¯ nguyÃªn Báº£ng Nháº­t kÃ½.Luá»“ng ngoáº¡i lá»‡ 3: Admin khÃ´ng cÃ³ quyá»n truy cáº­p `/admin/audit-logs`. Há»‡ thá»‘ng tá»« chá»‘i truy cáº­p vÃ  hiá»ƒn thá»‹ thÃ´ng bÃ¡o khÃ´ng Ä‘á»§ quyá»n.
+Quy táº¯c nghiá»‡p vá»¥
+Diff Viewer chá»‰ Ä‘á»c dá»¯ liá»‡u kiá»ƒm toÃ¡n. KhÃ´ng cho sá»­a dá»¯ liá»‡u nháº­t kÃ½ hoáº·c sá»­a dá»¯ liá»‡u nghiá»‡p vá»¥ tá»« Modal Diff Viewer.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+ID dÃ²ng nháº­t kÃ½; dá»¯ liá»‡u Before; dá»¯ liá»‡u After; lÃ½ do sá»­a Ä‘á»•i; User Agent.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: Admin xem Ä‘Æ°á»£c chi tiáº¿t biáº¿n Ä‘á»™ng dá»¯ liá»‡u; dá»¯ liá»‡u Audit Logs khÃ´ng bá»‹ thay Ä‘á»•i.Tháº¥t báº¡i: [CHÆ¯A CÃ“ THÃ”NG TIN]
+MÃ n hÃ¬nh liÃªn quan
+Nháº­t kÃ½ Há»‡ thá»‘ng & Kiá»ƒm toÃ¡n Dá»¯ liá»‡uRoute: /admin/audit-logs
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+50. UC-AUDIT-LOGS-EXPORT-01 - Xuáº¥t BÃ¡o cÃ¡o Audit (Excel)
+50.1. HÃ¬nh Use Case tá»•ng quan
+
+50.2. HÃ¬nh Use Case chi tiáº¿t
+[ Xem hÃ¬nh chi tiáº¿t ]
+50.3. Báº£ng phÃ¢n tÃ­ch Use Case
+Ná»™i dung
+PhÃ¢n tÃ­ch
+MÃ£ Use Case
+UC-AUDIT-LOGS-EXPORT-01
+TÃªn Use Case
+Xuáº¥t BÃ¡o cÃ¡o Audit (Excel)
+Actor
+Quáº£n trá»‹ viÃªn tá»‘i cao (Admin)
+Má»¥c tiÃªu
+Cho phÃ©p Admin xuáº¥t bÃ¡o cÃ¡o Audit dáº¡ng Excel theo pháº¡m vi tra cá»©u hiá»‡n táº¡i Ä‘á»ƒ phá»¥c vá»¥ kiá»ƒm toÃ¡n, Ä‘á»‘i soÃ¡t vÃ  lÆ°u trá»¯.
+MÃ´ táº£ nghiá»‡p vá»¥
+Admin truy cáº­p /admin/audit-logs, chá»n pháº¡m vi lá»c náº¿u cáº§n vÃ  nháº¥n Xuáº¥t BÃ¡o cÃ¡o Audit (Excel). Há»‡ thá»‘ng kiá»ƒm tra quyá»n, kiá»ƒm tra bá»™ lá»c, truy váº¥n Audit Logs, táº¡o file Excel báº£o máº­t vÃ  cho phÃ©p Admin táº£i xuá»‘ng.
+Äiá»u kiá»‡n trÆ°á»›c
+1. Admin Ä‘Ã£ Ä‘Äƒng nháº­p. 2. Admin cÃ³ quyá»n truy cáº­p /admin/audit-logs. 3. Admin cÃ³ quyá»n xuáº¥t bÃ¡o cÃ¡o Audit. 4. Kho Audit Logs sáºµn sÃ ng truy váº¥n.
+Luá»“ng chÃ­nh
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng thay tháº¿
+[CHÆ¯A CÃ“ THÃ”NG TIN]
+Luá»“ng ngoáº¡i lá»‡
+Luá»“ng ngoáº¡i lá»‡ 1: Admin khÃ´ng cÃ³ quyá»n xuáº¥t bÃ¡o cÃ¡o. Há»‡ thá»‘ng tá»« chá»‘i yÃªu cáº§u vÃ  hiá»ƒn thá»‹ thÃ´ng bÃ¡o khÃ´ng Ä‘á»§ quyá»n.Luá»“ng ngoáº¡i lá»‡ 2: Bá»™ lá»c khÃ´ng há»£p lá»‡. Há»‡ thá»‘ng hiá»ƒn thá»‹ lá»—i bá»™ lá»c vÃ  khÃ´ng truy váº¥n Audit Logs.Luá»“ng ngoáº¡i lá»‡ 3: KhÃ´ng cÃ³ dá»¯ liá»‡u phÃ¹ há»£p Ä‘á»ƒ xuáº¥t. Há»‡ thá»‘ng thÃ´ng bÃ¡o khÃ´ng cÃ³ nháº­t kÃ½ phÃ¹ há»£p vÃ  khÃ´ng táº¡o file Excel rá»—ng.Luá»“ng ngoáº¡i lá»‡ 4: Táº¡o file Excel tháº¥t báº¡i. Há»‡ thá»‘ng thÃ´ng bÃ¡o khÃ´ng thá»ƒ xuáº¥t bÃ¡o cÃ¡o Audit vÃ  ghi nháº­n lá»—i ká»¹ thuáº­t.
+Quy táº¯c nghiá»‡p vá»¥
+Audit Logs chá»‰ Ä‘á»c vÃ  Append-Only. Chá»©c nÄƒng xuáº¥t bÃ¡o cÃ¡o khÃ´ng Ä‘Æ°á»£c sá»­a, xÃ³a hoáº·c ghi Ä‘Ã¨ dá»¯ liá»‡u nháº­t kÃ½.
+Dá»¯ liá»‡u Ä‘áº§u vÃ o
+Khoáº£ng ngÃ y; NgÆ°á»i thá»±c hiá»‡n; Loáº¡i hÃ nh Ä‘á»™ng; PhÃ¢n há»‡; Entity ID náº¿u Ä‘ang tra cá»©u; pháº¡m vi danh sÃ¡ch hiá»‡n táº¡i.
+Káº¿t quáº£ Ä‘áº§u ra
+ThÃ nh cÃ´ng: Admin táº£i Ä‘Æ°á»£c file Excel bÃ¡o cÃ¡o Audit; dá»¯ liá»‡u Audit Logs khÃ´ng thay Ä‘á»•i.Tháº¥t báº¡i: [CHÆ¯A CÃ“ THÃ”NG TIN]
+MÃ n hÃ¬nh liÃªn quan
+Nháº­t kÃ½ Há»‡ thá»‘ng & Kiá»ƒm toÃ¡n Dá»¯ liá»‡uRoute: /admin/audit-logs
+Use Case liÃªn quan
+[CHÆ¯A CÃ“ THÃ”NG TIN] - ChÆ°a mÃ´ táº£ quan há»‡ Use Case Ä‘á»™c láº­p trong ná»™i dung phÃ¢n tÃ­ch.
+Váº¥n Ä‘á» cáº§n xÃ¡c nháº­n
+Kiá»ƒu dá»¯ liá»‡u ká»¹ thuáº­t chi tiáº¿t vÃ  quan há»‡ Use Case Ä‘á»™c láº­p cáº§n BA xÃ¡c nháº­n náº¿u cáº§n dÃ¹ng cho thiáº¿t káº¿ chi tiáº¿t.
+
+

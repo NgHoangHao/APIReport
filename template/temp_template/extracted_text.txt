@@ -1,0 +1,32 @@
+﻿Link
+{makerlink}
+TÃªn Ä‘Äƒng nháº­p
+{makerdangnhap}
+Máº­t kháº©u
+{makermatkhau}
+1
+{{API_NAME_1}}
+- Chá»©c nÄƒng: {{API_DESC_1}}
+- Input: (json format)
+{
+"UserName": string (TÃªn Ä‘Äƒng nháº­p)
+"Password": string  (Máº­t kháº©u)
+}
+- Output:(json format)
+{
+"Result":
+{
+"Token": string
+}
+"Success": bool (Pháº§n má»m xá»­ lÃ½ dá»¯ liá»‡u cÃ³ lá»—i hay khÃ´ng)
+"Message": string (Ná»™i dung lá»—i tráº£ vá» náº¿u cÃ³)
+"StatusCode": int (Pháº§n má»m giao tiáº¿p API cÃ³ lá»—i hay khÃ´ng)
+}
+- Example Postman: (cURL format)
+curl --location 'https://vinacomin-test-service.sjob.vn/{{API_ENDPOINT_1}}' \
+--header 'Content-Type: application/json' \
+--data '{
+{{API_CURL_DATA_1}}
+
+}'
+

@@ -1,0 +1,506 @@
+
+[TABLE]
+
+[ROW]  | 
+Link | 
+https://gap-system.edu.vn
+[ROW]  | 
+Tên đăng nhập | 
+admin
+[ROW]  | 
+Mật khẩu | 
+Admin@123
+[ROW]  | 
+1 | 
+Khai báo quyền khả dụng trên Menu
+[ROW]  | 
+- Chức năng: Cho phép Admin khai báo các quyền nghiệp vụ có thể xuất hiện trên một Menu để phục vụ cấu hình phân quyền theo Vai trò.
+- Input: (json format)
+{
+“menuId”: string (Định danh Menu)
+“actions”: array (Danh sách quyền khả dụng)
+"Password": string(Mật khẩu)
+}
+- Output:(json format)
+{
+"Result":
+{
+“data”: object (Thông tin cấu hình được lưu)
+}
+"Success": bool (Phần mềm xử lý dữ liệu có lỗi hay không)
+"Message": string (Nội dung lỗi trả về nếu có)
+"StatusCode": int (Phần mềm giao tiếp API có lỗi hay không)
+}
+- Example Postman:(cURL format)
+curl --location 'https://vinacomin-test-service.sjob.vn/api/v1/admin/menus/actions' \
+--header 'Content-Type: application/json' \
+--data '{
+“menuId”: “MENU_001”,
+“actions”: [“VIEW”, “CREATE”, “UPDATE”, “DELETE”]
+“category”: “IELTS Reading”
+
+}'
+[ROW]  | 
+2 | 
+Tạo Vai trò mới
+[ROW]  | 
+- Chức năng: Cho phép Admin tạo một nhóm vai trò mới trong hệ thống RBAC để sau đó cấu hình ma trận quyền theo Menu.
+- Input: (json format)
+{
+“menuId”: string (Định danh Menu)
+“actions”: array (Danh sách quyền khả dụng)
+"Password": string(Mật khẩu)
+}
+- Output:(json format)
+{
+"Result":
+{
+“data”: object (Thông tin vai trò mới tạo)
+}
+"Success": bool (Phần mềm xử lý dữ liệu có lỗi hay không)
+"Message": string (Nội dung lỗi trả về nếu có)
+"StatusCode": int (Phần mềm giao tiếp API có lỗi hay không)
+}
+- Example Postman:(cURL format)
+curl --location 'https://vinacomin-test-service.sjob.vn/api/v1/admin/roles' \
+--header 'Content-Type: application/json' \
+--data '{
+“roleName”: “Thực tập sinh CSKH”
+“category”: “IELTS Reading”
+
+}'
+[ROW]  | 
+3 | 
+Cấu hình ma trận quyền cho Vai trò
+[ROW]  | 
+- Chức năng: Cho phép Admin cấu hình quyền thao tác theo từng Menu cho một Vai trò chuẩn hóa trong hệ thống RBAC.
+- Input: (json format)
+{
+“menuId”: string (Định danh Menu)
+“actions”: array (Danh sách quyền khả dụng)
+"Password": string(Mật khẩu)
+}
+- Output:(json format)
+{
+"Result":
+{
+“data”: object (Kết quả cấu hình ma trận quyền)
+}
+"Success": bool (Phần mềm xử lý dữ liệu có lỗi hay không)
+"Message": string (Nội dung lỗi trả về nếu có)
+"StatusCode": int (Phần mềm giao tiếp API có lỗi hay không)
+}
+- Example Postman:(cURL format)
+curl --location 'https://vinacomin-test-service.sjob.vn/api/v1/admin/roles/permissions' \
+--header 'Content-Type: application/json' \
+--data '{
+“roleId”: “ROLE_001”,
+“permissions”: [{
+  “menuId”: “MENU_001”,
+  “actions”: [“VIEW”, “CREATE”]
+}]
+“category”: “IELTS Reading”
+
+}'
+[ROW]  | 
+4 | 
+Chọn tất cả quyền / Bỏ chọn quyền trong ma trận phân quyền
+[ROW]  | 
+- Chức năng: Hỗ trợ Admin cấp nhanh hoặc bỏ nhanh toàn bộ quyền khả dụng đang hiển thị trong ma trận của Vai trò được chọn.
+- Input: (json format)
+{
+“menuId”: string (Định danh Menu)
+“actions”: array (Danh sách quyền khả dụng)
+"Password": string(Mật khẩu)
+}
+- Output:(json format)
+{
+"Result":
+{
+“data”: object (Kết quả thao tác chọn/bỏ chọn)
+}
+"Success": bool (Phần mềm xử lý dữ liệu có lỗi hay không)
+"Message": string (Nội dung lỗi trả về nếu có)
+"StatusCode": int (Phần mềm giao tiếp API có lỗi hay không)
+}
+- Example Postman:(cURL format)
+curl --location 'https://vinacomin-test-service.sjob.vn/api/v1/admin/roles/bulk-permissions' \
+--header 'Content-Type: application/json' \
+--data '{
+“roleId”: “ROLE_001”,
+“actionType”: “SELECT_ALL”
+“category”: “IELTS Reading”
+
+}'
+[ROW]  | 
+5 | 
+Nhân bản quyền (Clone Permissions)
+[ROW]  | 
+- Chức năng: Cho phép Admin sao chép nhanh bộ quyền của một Vai trò có sẵn sang Vai trò đích để giảm thao tác cấu hình thủ công.
+- Input: (json format)
+{
+“menuId”: string (Định danh Menu)
+“actions”: array (Danh sách quyền khả dụng)
+"Password": string(Mật khẩu)
+}
+- Output:(json format)
+{
+"Result":
+{
+“data”: object (Kết quả sao chép quyền)
+}
+"Success": bool (Phần mềm xử lý dữ liệu có lỗi hay không)
+"Message": string (Nội dung lỗi trả về nếu có)
+"StatusCode": int (Phần mềm giao tiếp API có lỗi hay không)
+}
+- Example Postman:(cURL format)
+curl --location 'https://vinacomin-test-service.sjob.vn/api/v1/admin/roles/clone-permissions' \
+--header 'Content-Type: application/json' \
+--data '{
+“sourceRoleId”: “ROLE_001”,
+“targetRoleId”: “ROLE_002”
+“category”: “IELTS Reading”
+
+}'
+[ROW]  | 
+6 | 
+Gán Vai trò cho Người dùng
+[ROW]  | 
+- Chức năng: Cho phép Admin gán một Vai trò chuẩn hóa cho người dùng/nhân sự để hệ thống hiển thị Menu và nút chức năng theo đúng quyền của Vai trò.
+- Input: (json format)
+{
+“menuId”: string (Định danh Menu)
+“actions”: array (Danh sách quyền khả dụng)
+"Password": string(Mật khẩu)
+}
+- Output:(json format)
+{
+"Result":
+{
+“data”: object (Kết quả gán vai trò)
+}
+"Success": bool (Phần mềm xử lý dữ liệu có lỗi hay không)
+"Message": string (Nội dung lỗi trả về nếu có)
+"StatusCode": int (Phần mềm giao tiếp API có lỗi hay không)
+}
+- Example Postman:(cURL format)
+curl --location 'https://vinacomin-test-service.sjob.vn/api/v1/admin/users/assign-role' \
+--header 'Content-Type: application/json' \
+--data '{
+“userId”: “USER_001”,
+“roleId”: “ROLE_001”
+“category”: “IELTS Reading”
+
+}'
+[ROW]  | 
+7 | 
+Hiển thị Menu và nút chức năng theo quyền Vai trò
+[ROW]  | 
+- Chức năng: Hiển thị đúng Menu và nút chức năng mà Vai trò của Người dùng được cấp, đồng thời ẩn và chặn các chức năng không được cấp.
+- Input: (json format)
+{
+“menuId”: string (Định danh Menu)
+“actions”: array (Danh sách quyền khả dụng)
+"Password": string(Mật khẩu)
+}
+- Output:(json format)
+{
+"Result":
+{
+“data”: object (Danh sách menu và quyền)
+}
+"Success": bool (Phần mềm xử lý dữ liệu có lỗi hay không)
+"Message": string (Nội dung lỗi trả về nếu có)
+"StatusCode": int (Phần mềm giao tiếp API có lỗi hay không)
+}
+- Example Postman:(cURL format)
+curl --location 'https://vinacomin-test-service.sjob.vn/api/v1/users/me/permissions' \
+--header 'Content-Type: application/json' \
+“category”: “IELTS Reading”
+
+[ROW]  | 
+8 | 
+Cấu hình tham số Vận hành & SLA Trung tâm
+[ROW]  | 
+- Chức năng: Cho phép Admin điều chỉnh các mốc thời gian vận hành và SLA trung tâm để các phân hệ liên quan áp dụng ngay.
+- Input: (json format)
+{
+“menuId”: string (Định danh Menu)
+“actions”: array (Danh sách quyền khả dụng)
+"Password": string(Mật khẩu)
+}
+- Output:(json format)
+{
+"Result":
+{
+“data”: object (Kết quả cấu hình)
+}
+"Success": bool (Phần mềm xử lý dữ liệu có lỗi hay không)
+"Message": string (Nội dung lỗi trả về nếu có)
+"StatusCode": int (Phần mềm giao tiếp API có lỗi hay không)
+}
+- Example Postman:(cURL format)
+curl --location 'https://vinacomin-test-service.sjob.vn/api/v1/admin/settings/ops-sla' \
+--header 'Content-Type: application/json' \
+--data '{
+“cskhSlaDays”: 7,
+“classEndWarningDays”: 14,
+“writingSlaHours”: 24,
+“writingRejectTimelockHours”: 12
+“category”: “IELTS Reading”
+
+}'
+[ROW]  | 
+9 | 
+Cấu hình tham số Khảo thí Speaking
+[ROW]  | 
+- Chức năng: Cho phép Admin cấu hình các mốc thời gian tự động và số slot tối thiểu trong quy trình đăng ký ca thi Speaking.
+- Input: (json format)
+{
+“menuId”: string (Định danh Menu)
+“actions”: array (Danh sách quyền khả dụng)
+"Password": string(Mật khẩu)
+}
+- Output:(json format)
+{
+"Result":
+{
+“data”: object (Kết quả cấu hình)
+}
+"Success": bool (Phần mềm xử lý dữ liệu có lỗi hay không)
+"Message": string (Nội dung lỗi trả về nếu có)
+"StatusCode": int (Phần mềm giao tiếp API có lỗi hay không)
+}
+- Example Postman:(cURL format)
+curl --location 'https://vinacomin-test-service.sjob.vn/api/v1/admin/settings/speaking' \
+--header 'Content-Type: application/json' \
+--data '{
+“inviteEmailDaysBefore”: 14,
+“closeLinkHoursBefore”: 48,
+“minSlotRequirement”: 4
+“category”: “IELTS Reading”
+
+}'
+[ROW]  | 
+10 | 
+Quản lý Mẫu Email Tự động (Email Templates)
+[ROW]  | 
+- Chức năng: Cho phép Admin xem và chỉnh sửa nội dung các mẫu Email được hệ thống gửi tự động.
+- Input: (json format)
+{
+“menuId”: string (Định danh Menu)
+“actions”: array (Danh sách quyền khả dụng)
+"Password": string(Mật khẩu)
+}
+- Output:(json format)
+{
+"Result":
+{
+“data”: object (Kết quả cập nhật Mẫu Email)
+}
+"Success": bool (Phần mềm xử lý dữ liệu có lỗi hay không)
+"Message": string (Nội dung lỗi trả về nếu có)
+"StatusCode": int (Phần mềm giao tiếp API có lỗi hay không)
+}
+- Example Postman:(cURL format)
+curl --location 'https://vinacomin-test-service.sjob.vn/api/v1/admin/settings/email-templates' \
+--header 'Content-Type: application/json' \
+--data '{
+“templateId”: “TPL_INVITE”,
+“htmlContent”: “<h1>Hello {student_name}</h1>”
+“category”: “IELTS Reading”
+
+}'
+[ROW]  | 
+11 | 
+Thêm bản ghi Danh mục Lõi
+[ROW]  | 
+- Chức năng: Cho phép Admin khai báo thêm một giá trị danh mục mới vào nhóm Master Data để dùng chung trong dropdown và bộ lọc của toàn hệ thống.
+- Input: (json format)
+{
+“menuId”: string (Định danh Menu)
+“actions”: array (Danh sách quyền khả dụng)
+"Password": string(Mật khẩu)
+}
+- Output:(json format)
+{
+"Result":
+{
+“data”: object (Bản ghi danh mục mới)
+}
+"Success": bool (Phần mềm xử lý dữ liệu có lỗi hay không)
+"Message": string (Nội dung lỗi trả về nếu có)
+"StatusCode": int (Phần mềm giao tiếp API có lỗi hay không)
+}
+- Example Postman:(cURL format)
+curl --location 'https://vinacomin-test-service.sjob.vn/api/v1/admin/master-data' \
+--header 'Content-Type: application/json' \
+--data '{
+“code”: “CAT_001”,
+“displayName”: “Tiếng Anh”,
+“sortOrder”: 1,
+“note”: “Danh mục môn học”
+“category”: “IELTS Reading”
+
+}'
+[ROW]  | 
+12 | 
+Chỉnh sửa / Bật tắt trạng thái Danh mục Lõi
+[ROW]  | 
+- Chức năng: Cho phép Admin chỉnh sửa thông tin bản ghi danh mục hoặc bật/tắt trạng thái sử dụng mà không phá vỡ dữ liệu lịch sử.
+- Input: (json format)
+{
+“menuId”: string (Định danh Menu)
+“actions”: array (Danh sách quyền khả dụng)
+"Password": string(Mật khẩu)
+}
+- Output:(json format)
+{
+"Result":
+{
+“data”: object (Kết quả cập nhật Danh mục)
+}
+"Success": bool (Phần mềm xử lý dữ liệu có lỗi hay không)
+"Message": string (Nội dung lỗi trả về nếu có)
+"StatusCode": int (Phần mềm giao tiếp API có lỗi hay không)
+}
+- Example Postman:(cURL format)
+curl --location 'https://vinacomin-test-service.sjob.vn/api/v1/admin/master-data/update' \
+--header 'Content-Type: application/json' \
+--data '{
+“id”: “CAT_001”,
+“displayName”: “Tiếng Anh”,
+“sortOrder”: 1,
+“note”: “Danh mục môn học”,
+“isActive”: true
+“category”: “IELTS Reading”
+
+}'
+[ROW]  | 
+13 | 
+Sắp xếp thứ tự hiển thị Danh mục Lõi
+[ROW]  | 
+- Chức năng: Cho phép Admin kéo thả sắp xếp thứ tự ưu tiên xuất hiện của các giá trị danh mục trên dropdown và bộ lọc toàn hệ thống.
+- Input: (json format)
+{
+“menuId”: string (Định danh Menu)
+“actions”: array (Danh sách quyền khả dụng)
+"Password": string(Mật khẩu)
+}
+- Output:(json format)
+{
+"Result":
+{
+“data”: object (Kết quả cập nhật thứ tự)
+}
+"Success": bool (Phần mềm xử lý dữ liệu có lỗi hay không)
+"Message": string (Nội dung lỗi trả về nếu có)
+"StatusCode": int (Phần mềm giao tiếp API có lỗi hay không)
+}
+- Example Postman:(cURL format)
+curl --location 'https://vinacomin-test-service.sjob.vn/api/v1/admin/master-data/reorder' \
+--header 'Content-Type: application/json' \
+--data '{
+“groupId”: “CAT_GROUP_01”,
+“items”: [
+  { “id”: “CAT_001”, “sortOrder”: 1 },
+  { “id”: “CAT_002”, “sortOrder”: 2 }
+]
+“category”: “IELTS Reading”
+
+}'
+[ROW]  | 
+14 | 
+Tra cứu Nhật ký Hệ thống (Audit Logs)
+[ROW]  | 
+- Chức năng: Cho phép Admin tra cứu các thao tác nghiệp vụ và biến động dữ liệu trong Nhật ký Hệ thống để phục vụ kiểm toán và truy vết.
+- Input: (json format)
+{
+“menuId”: string (Định danh Menu)
+“actions”: array (Danh sách quyền khả dụng)
+"Password": string(Mật khẩu)
+}
+- Output:(json format)
+{
+"Result":
+{
+“data”: object (Danh sách nhật ký hệ thống)
+}
+"Success": bool (Phần mềm xử lý dữ liệu có lỗi hay không)
+"Message": string (Nội dung lỗi trả về nếu có)
+"StatusCode": int (Phần mềm giao tiếp API có lỗi hay không)
+}
+- Example Postman:(cURL format)
+curl --location 'https://vinacomin-test-service.sjob.vn/api/v1/admin/audit-logs/search' \
+--header 'Content-Type: application/json' \
+--data '{
+“fromDate”: “2023-10-01”,
+“toDate”: “2023-10-31”,
+“userId”: “USER_01”,
+“actionType”: “UPDATE”,
+“entityId”: “DOC_123”
+“category”: “IELTS Reading”
+
+}'
+[ROW]  | 
+15 | 
+Xem chi tiết biến động dữ liệu (Diff Viewer)
+[ROW]  | 
+- Chức năng: Cho phép Admin xem chi tiết dữ liệu trước và sau khi thay đổi để kiểm toán biến động dữ liệu nhạy cảm.
+- Input: (json format)
+{
+“menuId”: string (Định danh Menu)
+“actions”: array (Danh sách quyền khả dụng)
+"Password": string(Mật khẩu)
+}
+- Output:(json format)
+{
+"Result":
+{
+“data”: object (Chi tiết dữ liệu Before/After)
+}
+"Success": bool (Phần mềm xử lý dữ liệu có lỗi hay không)
+"Message": string (Nội dung lỗi trả về nếu có)
+"StatusCode": int (Phần mềm giao tiếp API có lỗi hay không)
+}
+- Example Postman:(cURL format)
+curl --location 'https://vinacomin-test-service.sjob.vn/api/v1/admin/audit-logs/diff' \
+--header 'Content-Type: application/json' \
+--data '{
+“logId”: “LOG_999”
+“category”: “IELTS Reading”
+
+}'
+[ROW]  | 
+16 | 
+Xuất Báo cáo Audit (Excel)
+[ROW]  | 
+- Chức năng: Cho phép Admin xuất báo cáo Audit dạng Excel theo phạm vi tra cứu hiện tại để phục vụ kiểm toán, đối soát và lưu trữ.
+- Input: (json format)
+{
+“menuId”: string (Định danh Menu)
+“actions”: array (Danh sách quyền khả dụng)
+"Password": string(Mật khẩu)
+}
+- Output:(json format)
+{
+"Result":
+{
+“data”: file (File Excel báo cáo Audit)
+}
+"Success": bool (Phần mềm xử lý dữ liệu có lỗi hay không)
+"Message": string (Nội dung lỗi trả về nếu có)
+"StatusCode": int (Phần mềm giao tiếp API có lỗi hay không)
+}
+- Example Postman:(cURL format)
+curl --location 'https://vinacomin-test-service.sjob.vn/api/v1/admin/audit-logs/export' \
+--header 'Content-Type: application/json' \
+--data '{
+“fromDate”: “2023-10-01”,
+“toDate”: “2023-10-31”,
+“userId”: “USER_01”,
+“actionType”: “UPDATE”,
+“entityId”: “DOC_123”
+“category”: “IELTS Reading”
+
+}'

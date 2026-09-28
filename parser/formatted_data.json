@@ -1,0 +1,82 @@
+[
+  {
+    "id": 35,
+    "request": "{\n  \"menuId\": \"string\",\n  \"actions\": [\"string\"]\n}",
+    "response": "{\n  \"Result\": {\n    \"data\": {}\n  },\n  \"Success\": true,\n  \"Message\": \"Quyền khả dụng mới của Menu được lưu\",\n  \"StatusCode\": 200\n}"
+  },
+  {
+    "id": 36,
+    "request": "{\n  \"roleName\": \"string (Tên Vai trò mới)\"\n}",
+    "response": "{\n  \"Result\": {\n    \"data\": {\n      \"roleId\": \"string\",\n      \"roleName\": \"string\"\n    }\n  },\n  \"Success\": true,\n  \"Message\": \"Vai trò mới được tạo thành công\",\n  \"StatusCode\": 200\n}"
+  },
+  {
+    "id": 37,
+    "request": "{\n  \"roleId\": \"string\",\n  \"permissions\": [\n    {\n      \"menuId\": \"string\",\n      \"actions\": [\"string\"]\n    }\n  ]\n}",
+    "response": "{\n  \"Result\": {\n    \"data\": {}\n  },\n  \"Success\": true,\n  \"Message\": \"Ma trận quyền RBAC của Vai trò được cập nhật\",\n  \"StatusCode\": 200\n}"
+  },
+  {
+    "id": 38,
+    "request": "{\n  \"roleId\": \"string\",\n  \"menuIds\": [\"string\"],\n  \"isSelectAll\": true\n}",
+    "response": "{\n  \"Result\": {\n    \"data\": {}\n  },\n  \"Success\": true,\n  \"Message\": \"Các quyền đã chọn hoặc bỏ chọn được lưu thành công\",\n  \"StatusCode\": 200\n}"
+  },
+  {
+    "id": 39,
+    "request": "{\n  \"sourceRoleId\": \"string\",\n  \"targetRoleId\": \"string\",\n  \"adjustments\": {}\n}",
+    "response": "{\n  \"Result\": {\n    \"data\": {}\n  },\n  \"Success\": true,\n  \"Message\": \"Nhân bản quyền thành công\",\n  \"StatusCode\": 200\n}"
+  },
+  {
+    "id": 40,
+    "request": "{\n  \"userId\": \"string\",\n  \"roleId\": \"string\"\n}",
+    "response": "{\n  \"Result\": {\n    \"data\": {}\n  },\n  \"Success\": true,\n  \"Message\": \"Người dùng được gán Vai trò mới thành công\",\n  \"StatusCode\": 200\n}"
+  },
+  {
+    "id": 41,
+    "request": "{\n  \"userId\": \"string\",\n  \"roleId\": \"string\"\n}",
+    "response": "{\n  \"Result\": {\n    \"data\": {\n      \"menus\": [\"object\"],\n      \"actions\": [\"string\"]\n    }\n  },\n  \"Success\": true,\n  \"Message\": \"Lấy danh sách Menu và chức năng thành công\",\n  \"StatusCode\": 200\n}"
+  },
+  {
+    "id": 42,
+    "request": "{\n  \"slaCskhCall\": \"number\",\n  \"classEndWarningTime\": \"number\",\n  \"slaTeacherWriting\": \"number\",\n  \"writingRejectTimeLock\": \"number\"\n}",
+    "response": "{\n  \"Result\": {\n    \"data\": {}\n  },\n  \"Success\": true,\n  \"Message\": \"Cấu hình tham số Vận hành & SLA thành công\",\n  \"StatusCode\": 200\n}"
+  },
+  {
+    "id": 43,
+    "request": "{\n  \"emailInviteDays\": \"number\",\n  \"closeRegistrationHours\": \"number\",\n  \"minSlots\": \"number\"\n}",
+    "response": "{\n  \"Result\": {\n    \"data\": {}\n  },\n  \"Success\": true,\n  \"Message\": \"Cấu hình tham số Khảo thí Speaking thành công\",\n  \"StatusCode\": 200\n}"
+  },
+  {
+    "id": 44,
+    "request": "{\n  \"templateId\": \"string\",\n  \"htmlContent\": \"string\",\n  \"placeholders\": {}\n}",
+    "response": "{\n  \"Result\": {\n    \"data\": {}\n  },\n  \"Success\": true,\n  \"Message\": \"Nội dung Mẫu Email được cập nhật thành công\",\n  \"StatusCode\": 200\n}"
+  },
+  {
+    "id": 45,
+    "request": "{\n  \"code\": \"string\",\n  \"displayName\": \"string\",\n  \"sortOrder\": \"number\",\n  \"note\": \"string\"\n}",
+    "response": "{\n  \"Result\": {\n    \"data\": {\n      \"id\": \"string\"\n    }\n  },\n  \"Success\": true,\n  \"Message\": \"Thêm bản ghi Danh mục Lõi thành công\",\n  \"StatusCode\": 200\n}"
+  },
+  {
+    "id": 46,
+    "request": "{\n  \"id\": \"string\",\n  \"displayName\": \"string\",\n  \"sortOrder\": \"number\",\n  \"note\": \"string\",\n  \"isActive\": \"boolean\"\n}",
+    "response": "{\n  \"Result\": {\n    \"data\": {}\n  },\n  \"Success\": true,\n  \"Message\": \"Bản ghi danh mục được cập nhật thành công\",\n  \"StatusCode\": 200\n}"
+  },
+  {
+    "id": 47,
+    "request": "{\n  \"groupId\": \"string\",\n  \"items\": [\n    {\n      \"id\": \"string\",\n      \"sortOrder\": \"number\"\n    }\n  ]\n}",
+    "response": "{\n  \"Result\": {\n    \"data\": {}\n  },\n  \"Success\": true,\n  \"Message\": \"Thứ tự hiển thị mới được lưu thành công\",\n  \"StatusCode\": 200\n}"
+  },
+  {
+    "id": 48,
+    "request": "{\n  \"fromDate\": \"string\",\n  \"toDate\": \"string\",\n  \"userId\": \"string\",\n  \"actionType\": \"string\",\n  \"entityId\": \"string\"\n}",
+    "response": "{\n  \"Result\": {\n    \"data\": [\n      {\n        \"logId\": \"string\",\n        \"action\": \"string\"\n      }\n    ]\n  },\n  \"Success\": true,\n  \"Message\": \"Tra cứu nhật ký thành công\",\n  \"StatusCode\": 200\n}"
+  },
+  {
+    "id": 49,
+    "request": "{\n  \"logId\": \"string\"\n}",
+    "response": "{\n  \"Result\": {\n    \"data\": {\n      \"before\": {},\n      \"after\": {},\n      \"reason\": \"string\",\n      \"userAgent\": \"string\"\n    }\n  },\n  \"Success\": true,\n  \"Message\": \"Lấy chi tiết biến động thành công\",\n  \"StatusCode\": 200\n}"
+  },
+  {
+    "id": 50,
+    "request": "{\n  \"fromDate\": \"string\",\n  \"toDate\": \"string\",\n  \"userId\": \"string\",\n  \"actionType\": \"string\",\n  \"entityId\": \"string\"\n}",
+    "response": "{\n  \"Result\": {\n    \"data\": \"string (File URL hoặc Binary)\"\n  },\n  \"Success\": true,\n  \"Message\": \"Xuất báo cáo Audit thành công\",\n  \"StatusCode\": 200\n}"
+  }
+]

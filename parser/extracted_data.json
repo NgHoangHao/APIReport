@@ -1,0 +1,98 @@
+[
+  {
+    "id": 35,
+    "title": "UC-RBAC-MENU-ACTIONS-01 - Khai báo quyền khả dụng trên Menu",
+    "request": "Menu được chọn; danh sách các quyền khả dụng được chọn hoặc bỏ chọn.",
+    "response": "Thành công: Quyền khả dụng mới của Menu được lưu trong kho cấu hình Menu; thay đổi được ghi vào Audit Logs; danh mục Menu hiển thị cấu hình mới.Thất bại: [CHƯA CÓ THÔNG TIN]"
+  },
+  {
+    "id": 36,
+    "title": "UC-RBAC-CREATE-ROLE-01 - Tạo Vai trò mới",
+    "request": "Tên Vai trò mới, ví dụ Thực tập sinh CSKH.",
+    "response": "Thành công: Vai trò mới được tạo trong Kho RBAC, xuất hiện trên Sidebar danh sách Vai trò, có ma trận quyền trống để Admin cấu hình ở bước tiếp theo và thao tác được ghi Audit Logs.Thất bại: [CHƯA CÓ THÔNG TIN]"
+  },
+  {
+    "id": 37,
+    "title": "UC-RBAC-PERMISSION-MATRIX-01 - Cấu hình ma trận quyền cho Vai trò",
+    "request": "Vai trò đích; danh sách Menu; danh sách quyền được tích hoặc bỏ chọn theo từng Menu.",
+    "response": "Thành công: Ma trận quyền RBAC của Vai trò được cập nhật; quyền có hiệu lực ngay cho người dùng thuộc Vai trò; thao tác được ghi Audit Logs.Thất bại: [CHƯA CÓ THÔNG TIN]"
+  },
+  {
+    "id": 38,
+    "title": "UC-RBAC-BULK-PERMISSIONS-01 - Chọn tất cả quyền / Bỏ chọn quyền trong ma trận phân quyền",
+    "request": "Vai trò được chọn; danh sách Menu; trạng thái các quyền khả dụng trên ma trận.",
+    "response": "Thành công: Các quyền đã chọn hoặc bỏ chọn được lưu trong ma trận của Vai trò; quyền mới được áp dụng cho người dùng thuộc Vai trò; thay đổi được ghi Audit Logs.Thất bại: [CHƯA CÓ THÔNG TIN]"
+  },
+  {
+    "id": 39,
+    "title": "UC-RBAC-CLONE-PERMISSIONS-01 - Nhân bản quyền (Clone Permissions)",
+    "request": "Vai trò nguồn; Vai trò đích; ma trận quyền của Vai trò nguồn; các điều chỉnh bổ sung của Admin trước khi lưu.",
+    "response": "Thành công: Ma trận quyền của Vai trò đích được cập nhật theo bộ quyền nguồn sau khi rà soát; quyền có hiệu lực cho người dùng thuộc Vai trò đích; thao tác được ghi Audit Logs.Thất bại: [CHƯA CÓ THÔNG TIN]"
+  },
+  {
+    "id": 40,
+    "title": "UC-RBAC-ASSIGN-ROLE-01 - Gán Vai trò cho Người dùng",
+    "request": "Người dùng được chọn; Vai trò chuẩn hóa được chọn.",
+    "response": "Thành công: Người dùng được gán Vai trò mới; quyền Menu và nút chức năng được áp dụng theo Vai trò; thao tác được ghi Audit Logs.Thất bại: [CHƯA CÓ THÔNG TIN]"
+  },
+  {
+    "id": 41,
+    "title": "UC-RBAC-APPLY-PERMISSION-01 - Hiển thị Menu và nút chức năng theo quyền Vai trò",
+    "request": "Vai trò của Người dùng; ma trận quyền Menu - Hành động của Vai trò; danh sách Menu và các nút chức năng.",
+    "response": "Thành công: Người dùng nhìn thấy đúng Menu và nút chức năng theo Vai trò; các yêu cầu không có quyền bị ẩn hoặc bị từ chối.Thất bại: [CHƯA CÓ THÔNG TIN]"
+  },
+  {
+    "id": 42,
+    "title": "UC-SETTINGS-OPS-SLA-01 - Cấu hình tham số Vận hành & SLA Trung tâm",
+    "request": "SLA CSKH gọi phụ huynh sau thi; thời gian cảnh báo lớp sắp kết thúc; SLA GV nhập điểm Writing; Time-lock khóa nút từ chối nhận ca Writing.",
+    "response": "Thành công: Các tham số SLA và vận hành mới có hiệu lực ngay lập tức trên các phân hệ liên quan.Thất bại: [CHƯA CÓ THÔNG TIN]"
+  },
+  {
+    "id": 43,
+    "title": "UC-SETTINGS-SPEAKING-01 - Cấu hình tham số Khảo thí Speaking",
+    "request": "Số ngày gửi email mời đăng ký trước kỳ thi; số giờ đóng link đăng ký trước ngày thi; số slot tối thiểu, mỗi slot 15 phút.",
+    "response": "Thành công: Các mốc thời gian Speaking và số slot tối thiểu mới có hiệu lực ngay trên Student Portal, Dịch vụ Email và Phân hệ Lịch thi Speaking.Thất bại: [CHƯA CÓ THÔNG TIN]"
+  },
+  {
+    "id": 44,
+    "title": "UC-SETTINGS-EMAIL-TEMPLATES-01 - Quản lý Mẫu Email Tự động (Email Templates)",
+    "request": "Mẫu Email được chọn; nội dung HTML; placeholder động như {student_name}, {class_name}, {meet_link}, {exam_date}.",
+    "response": "Thành công: Nội dung Mẫu Email được cập nhật, ngày cập nhật được ghi nhận và Dịch vụ Email tự động sử dụng nội dung mới.Thất bại: [CHƯA CÓ THÔNG TIN]"
+  },
+  {
+    "id": 45,
+    "title": "UC-MASTER-DATA-ADD-01 - Thêm bản ghi Danh mục Lõi",
+    "request": "Mã định danh (Code); Tên hiển thị (Display Name); Thứ tự sắp xếp; Ghi chú.",
+    "response": "Thành công: Bản ghi danh mục mới xuất hiện trong bảng dữ liệu và có sẵn trong các dropdown, bộ lọc của các phân hệ liên quan.Thất bại: [CHƯA CÓ THÔNG TIN]"
+  },
+  {
+    "id": 46,
+    "title": "UC-MASTER-DATA-EDIT-STATUS-01 - Chỉnh sửa / Bật tắt trạng thái Danh mục Lõi",
+    "request": "Tên hiển thị; Thứ tự sắp xếp; Ghi chú; Trạng thái Đang sử dụng / Đã ẩn.",
+    "response": "Thành công: Bản ghi danh mục được cập nhật; trạng thái mới được áp dụng; dropdown và bộ lọc toàn hệ thống được đồng bộ.Thất bại: [CHƯA CÓ THÔNG TIN]"
+  },
+  {
+    "id": 47,
+    "title": "UC-MASTER-DATA-REORDER-01 - Sắp xếp thứ tự hiển thị Danh mục Lõi",
+    "request": "Nhóm danh mục được chọn; danh sách bản ghi danh mục; thứ tự mới sau khi kéo thả.",
+    "response": "Thành công: Thứ tự hiển thị mới được lưu và được áp dụng cho dropdown, bộ lọc của người dùng cuối.Thất bại: [CHƯA CÓ THÔNG TIN]"
+  },
+  {
+    "id": 48,
+    "title": "UC-AUDIT-LOGS-SEARCH-01 - Tra cứu Nhật ký Hệ thống (Audit Logs)",
+    "request": "Khoảng ngày; Người thực hiện; Loại hành động; Phân hệ; Mã bản ghi Entity ID.",
+    "response": "Thành công: Admin xem được nhật ký theo phạm vi tra cứu hoặc nhận file Excel báo cáo; dữ liệu Audit Logs không bị thay đổi.Thất bại: [CHƯA CÓ THÔNG TIN]"
+  },
+  {
+    "id": 49,
+    "title": "UC-AUDIT-LOGS-DIFF-01 - Xem chi tiết biến động dữ liệu (Diff Viewer)",
+    "request": "ID dòng nhật ký; dữ liệu Before; dữ liệu After; lý do sửa đổi; User Agent.",
+    "response": "Thành công: Admin xem được chi tiết biến động dữ liệu; dữ liệu Audit Logs không bị thay đổi.Thất bại: [CHƯA CÓ THÔNG TIN]"
+  },
+  {
+    "id": 50,
+    "title": "UC-AUDIT-LOGS-EXPORT-01 - Xuất Báo cáo Audit (Excel)",
+    "request": "Khoảng ngày; Người thực hiện; Loại hành động; Phân hệ; Entity ID nếu đang tra cứu; phạm vi danh sách hiện tại.",
+    "response": "Thành công: Admin tải được file Excel báo cáo Audit; dữ liệu Audit Logs không thay đổi.Thất bại: [CHƯA CÓ THÔNG TIN]"
+  }
+]

@@ -1,0 +1,1000 @@
+BÁO CÁO PHÂN TÍCH VÀ ĐẶC TẢ USE CASE
+Danh sách Use Case
+STT
+Mã UC
+Tên Use Case
+Actor
+01
+UC-LEVEL-ADD-01
+Thêm mới trình độ học
+Quản trị viên (Admin)
+02
+UC-LEVEL-EDIT-01
+Chỉnh sửa trình độ học
+Quản trị viên (Admin)
+03
+UC-LEVEL-STATUS-01
+Chuyển trạng thái trình độ học
+Quản trị viên (Admin)
+04
+UC-LEVEL-DELETE-01
+Xóa trình độ học
+Quản trị viên (Admin)
+05
+UC-LEVEL-FILTER-01
+Lọc danh mục trình độ học
+Quản trị viên (Admin)
+06
+UC-TEACHER-ADD-01
+Thêm mới giáo viên/trợ giảng
+Quản trị viên (Admin)
+07
+UC-TEACHER-EDIT-01
+Chỉnh sửa hồ sơ giáo viên/trợ giảng
+Quản trị viên (Admin)
+08
+UC-TEACHER-STATUS-01
+Chuyển trạng thái giáo viên/trợ giảng
+Quản trị viên (Admin)
+09
+UC-TEACHER-RESET-01
+Cấp lại mật khẩu giáo viên/trợ giảng
+Quản trị viên (Admin)
+10
+UC-TEACHER-FILTER-01
+Lọc danh sách giáo viên/trợ giảng
+Quản trị viên (Admin)
+11
+UC-STUDENT-CONVERT-01
+Chuyển đổi khách hàng đã đóng tiền thành học viên
+Saler
+12
+UC-STUDENT-ADD-01
+Thêm học viên thủ công
+Quản trị viên (Admin); Chăm sóc khách hàng (CSKH)
+13
+UC-STUDENT-CLASS-01
+Phân lớp / Chuyển lớp học viên
+Quản trị viên (Admin); Chăm sóc khách hàng (CSKH)
+14
+UC-STUDENT-RECEIPT-01
+Xem ảnh biên lai chuyển khoản
+Quản trị viên (Admin); Chăm sóc khách hàng (CSKH); Kế toán
+15
+UC-STUDENT-ACCOUNT-01
+Khóa / Mở khóa tài khoản học viên
+Quản trị viên (Admin); Chăm sóc khách hàng (CSKH)
+16
+UC-STUDENT-RESET-01
+Cấp lại mật khẩu học viên
+Quản trị viên (Admin); Chăm sóc khách hàng (CSKH)
+17
+UC-STUDENT-DELETE-01
+Xóa hồ sơ học viên
+Quản trị viên (Admin)
+18
+UC-STUDENT-LEARNING-STATUS-01
+Chuyển trạng thái học tập
+Quản trị viên (Admin); Chăm sóc khách hàng (CSKH)
+19
+UC-STUDENT-FILTER-01
+Lọc danh sách học viên nâng cao
+Quản trị viên (Admin); Chăm sóc khách hàng (CSKH)
+20
+UC-HOLIDAY-CREATE-01
+Khai báo ngày nghỉ toàn hệ thống
+Quản trị viên (Admin)
+21
+UC-HOLIDAY-UPDATE-01
+Điều chỉnh / Hủy bỏ ngày nghỉ
+Quản trị viên (Admin)
+22
+UC-PORTAL-LOGIN-01
+Đăng nhập &amp; Đổi mật khẩu lần đầu
+Học viên (Student)
+23
+UC-PORTAL-SPEAKING-REG-01
+Đăng ký ca thi Speaking
+Học viên (Student)
+24
+UC-PORTAL-SPEAKING-SCHEDULE-01
+Tra cứu Lịch thi Speaking
+Học viên (Student)
+25
+UC-PORTAL-GRADES-01
+Tra cứu Điểm &amp; Kết quả thi
+Học viên (Student)
+26
+UC-CSKH-EXAM-WORKSPACE-01
+Workspace Điều phối Khảo thí CSKH (WP_CSKH_01)
+Chuyên viên Chăm sóc khách hàng (CSKH / Academic Coordinator)
+27
+UC-EXAM-WRITING-MANUAL-ASSIGN-01
+Phân bổ học viên cần nhập điểm Writing thủ công
+Tổ trưởng chuyên môn (Leader Teacher)
+28
+UC-TEACHER-SPEAKING-AVAILABILITY-01
+Đăng ký lịch làm việc thi Speaking (When2meet)
+Giáo viên; Trợ giảng
+29
+UC-EXAM-SPEAKING-GRADING-01
+Lịch thi Speaking GV &amp; Nhập điểm Speaking
+Giáo viên; Trợ giảng phụ trách khảo thí (Interviewer / Examiner)
+30
+UC-EXAM-WRITING-GRADES-01
+Quản lý nhận ca &amp; Nhập điểm Writing GV
+Giáo viên; Trợ giảng được phân công (Grader / Examiner)
+31
+UC-DT-CLASS-MANAGEMENT-01
+Quản lý Lớp học
+Chuyên viên CSKH; Quản trị viên (Admin)
+32
+UC-GAP-CARE-01
+Chăm sóc học viên (GAP System)
+Chuyên viên CSKH; Giáo viên phụ trách lớp
+33
+UC-GAP-MATERIAL-APPROVAL-01
+Duyệt tài liệu ngoài (GAP)
+Tổ trưởng chuyên môn (Leader Teacher); Quản trị viên (Admin)
+34
+UC-RBAC-MENU-ACTIONS-01
+Khai báo quyền khả dụng trên Menu
+Quản trị viên tối cao (Admin)
+35
+UC-RBAC-CREATE-ROLE-01
+Tạo Vai trò mới
+Quản trị viên tối cao (Admin)
+36
+UC-RBAC-PERMISSION-MATRIX-01
+Cấu hình ma trận quyền cho Vai trò
+Quản trị viên tối cao (Admin)
+37
+UC-RBAC-BULK-PERMISSIONS-01
+Chọn tất cả quyền / Bỏ chọn quyền trong ma trận phân quyền
+Quản trị viên tối cao (Admin)
+38
+UC-RBAC-CLONE-PERMISSIONS-01
+Nhân bản quyền (Clone Permissions)
+Quản trị viên tối cao (Admin)
+39
+UC-RBAC-ASSIGN-ROLE-01
+Gán Vai trò cho Người dùng
+Quản trị viên tối cao (Admin)
+40
+UC-RBAC-APPLY-PERMISSION-01
+Hiển thị Menu và nút chức năng theo quyền Vai trò
+Admin; CSKH; Leader Sale; Saler; Giáo viên; Trợ giảng; Kế toán
+41
+UC-SETTINGS-OPS-SLA-01
+Cấu hình tham số Vận hành &amp; SLA Trung tâm
+Quản trị viên (Admin)
+42
+UC-SETTINGS-SPEAKING-01
+Cấu hình tham số Khảo thí Speaking
+Quản trị viên (Admin)
+43
+UC-SETTINGS-EMAIL-TEMPLATES-01
+Quản lý Mẫu Email Tự động (Email Templates)
+Quản trị viên (Admin)
+44
+UC-MASTER-DATA-ADD-01
+Thêm bản ghi Danh mục Lõi
+Quản trị viên (Admin)
+45
+UC-MASTER-DATA-EDIT-STATUS-01
+Chỉnh sửa / Bật tắt trạng thái Danh mục Lõi
+Quản trị viên (Admin)
+46
+UC-MASTER-DATA-REORDER-01
+Sắp xếp thứ tự hiển thị Danh mục Lõi
+Quản trị viên (Admin)
+47
+UC-AUDIT-LOGS-SEARCH-01
+Tra cứu Nhật ký Hệ thống (Audit Logs)
+Quản trị viên tối cao (Admin)
+48
+UC-AUDIT-LOGS-DIFF-01
+Xem chi tiết biến động dữ liệu (Diff Viewer)
+Quản trị viên tối cao (Admin)
+49
+UC-AUDIT-LOGS-EXPORT-01
+Xuất Báo cáo Audit (Excel)
+Quản trị viên tối cao (Admin)
+2. UC-LEVEL-ADD-01 - Thêm mới trình độ học
+2.1. Hình Use Case tổng quan
+2.2. Hình Use Case chi tiết
+[ Xem hình chi tiết ]
+2.3. Bảng phân tích Use Case
+Nội dung
+Phân tích
+Mã Use Case
+UC-LEVEL-ADD-01
+Tên Use Case
+Thêm mới trình độ học
+Actor
+Quản trị viên (Admin)
+Mục tiêu
+Admin thêm một trình độ học mới vào danh mục để hệ thống sử dụng khi tạo lớp học hoặc cấu hình trình độ chuyên môn cho giáo viên/trợ giảng.
+Mô tả nghiệp vụ
+Admin mở màn hình Quản lý Trình độ học, nhấn + Thêm trình độ, nhập tên trình độ, chọn loại áp dụng, chọn trạng thái và lưu. Hệ thống kiểm tra bắt buộc, kiểm tra trùng tên, sau đó lưu và cập nhật danh sách.
+Điều kiện trước
+1. Người dùng đã đăng nhập thành công. 2. Người dùng có vai trò Admin.
+Luồng chính
+1. Admin truy cập /admin/levels. 2. Hệ thống hiển thị danh sách trình độ và nút + Thêm trình độ. 3. Admin nhấn + Thêm trình độ. 4. Hệ thống mở modal Thông tin Trình độ học. 5. Admin nhập tên trình độ, chọn loại áp dụng, nhập mô tả nếu có, chọn trạng thái. 6. Admin nhấn Lưu. 7. Hệ thống kiểm tra dữ liệu hợp lệ. 8. Hệ thống lưu trình độ. 9. Hệ thống thông báo thành công và cập nhật lại danh sách.
+Luồng thay thế
+Admin nhấn Hủy hoặc đóng modal trước khi lưu. Hệ thống đóng modal, không gửi dữ liệu lên server và giữ nguyên danh sách trình độ cũ.
+Luồng ngoại lệ
+Luồng ngoại lệ 1: Tên trình độ để trống. Hệ thống báo lỗi, giữ modal và yêu cầu Admin nhập lại.
+Luồng ngoại lệ 2: Tên trình độ đã tồn tại. Hệ thống báo lỗi `Tên trình độ đã tồn tại, vui lòng nhập tên khác`, không lưu dữ liệu.
+Luồng ngoại lệ 3: Loại áp dụng không hợp lệ hoặc nằm ngoài 2 giá trị cho phép. Hệ thống báo lỗi dữ liệu không hợp lệ và không lưu trình độ.
+Quy tắc nghiệp vụ
+Tên trình độ bắt buộc nhập và không được trùng lặp. Loại áp dụng chỉ có 2 giá trị: Trình độ Lớp hoặc Trình độ Giáo viên, không có lựa chọn Cả hai. Mô tả là tùy chọn. Trạng thái gồm Đang mở hoặc Đã ẩn.
+Dữ liệu đầu vào
+Tên trình độ; Loại áp dụng; Mô tả; Trạng thái.
+Kết quả đầu ra
+Thành công: Trình độ mới được lưu vào hệ thống và hiển thị trong bảng danh mục. Nếu loại áp dụng là Trình độ Lớp, trình độ có thể xuất hiện trong dropdown tạo lớp khi ở trạng thái Đang mở. Nếu loại áp dụng là Trình độ Giáo viên, trình độ có thể xuất hiện trong dropdown trình độ phụ trách của giáo viên.
+Thất bại: Không có dữ liệu mới được tạo. Danh sách trình độ giữ nguyên.
+Màn hình liên quan
+Quản lý Trình độ học
+Route: /admin/levels
+Use Case liên quan
+[CHƯA CÓ THÔNG TIN] - Chưa mô tả quan hệ Use Case độc lập trong nội dung phân tích.
+Vấn đề cần xác nhận
+Kiểu dữ liệu kỹ thuật chi tiết và quan hệ Use Case độc lập cần BA xác nhận nếu cần dùng cho thiết kế chi tiết.
+3. UC-LEVEL-EDIT-01 - Chỉnh sửa trình độ học
+3.1. Hình Use Case tổng quan
+3.2. Hình Use Case chi tiết
+[ Xem hình chi tiết ]
+3.3. Bảng phân tích Use Case
+Nội dung
+Phân tích
+Mã Use Case
+UC-LEVEL-EDIT-01
+Tên Use Case
+Chỉnh sửa trình độ học
+Actor
+Quản trị viên (Admin)
+Mục tiêu
+Admin cập nhật thông tin một trình độ học đang có trong danh mục để phục vụ tạo lớp học hoặc cấu hình trình độ chuyên môn cho giáo viên/trợ giảng.
+Mô tả nghiệp vụ
+Admin mở màn hình Quản lý Trình độ học, nhấn Sửa tại dòng trình độ, cập nhật thông tin trong modal và nhấn Lưu. Hệ thống kiểm tra dữ liệu hợp lệ, kiểm tra trùng tên và cập nhật danh sách.
+Điều kiện trước
+1. Người dùng đã đăng nhập thành công. 2. Người dùng có vai trò Admin. 3. Danh mục đã có ít nhất một trình độ học để chỉnh sửa.
+Luồng chính
+1. Admin truy cập /admin/levels. 2. Hệ thống hiển thị bảng danh mục trình độ. 3. Admin nhấn Sửa tại dòng trình độ cần cập nhật. 4. Hệ thống tải dữ liệu hiện tại và mở modal Thông tin Trình độ học. 5. Admin chỉnh sửa tên trình độ, loại áp dụng, mô tả hoặc trạng thái. 6. Admin nhấn Lưu. 7. Hệ thống kiểm tra dữ liệu hợp lệ. 8. Hệ thống lưu thông tin cập nhật. 9. Hệ thống thông báo thành công và cập nhật lại danh sách.
+Luồng thay thế
+Admin nhấn Hủy hoặc đóng modal trước khi lưu. Hệ thống đóng modal, không gửi dữ liệu cập nhật lên server và giữ nguyên dữ liệu trình độ cũ.
+Luồng ngoại lệ
+Luồng ngoại lệ 1: Không tìm thấy trình độ tại thời điểm mở form sửa. Hệ thống báo lỗi dữ liệu không tồn tại hoặc đã bị thay đổi và không mở modal chỉnh sửa.
+Luồng ngoại lệ 2: Tên trình độ để trống. Hệ thống báo lỗi, giữ modal và yêu cầu Admin nhập lại.
+Luồng ngoại lệ 3: Tên trình độ đã tồn tại ở một bản ghi khác. Hệ thống báo lỗi `Tên trình độ đã tồn tại, vui lòng nhập tên khác`, không lưu dữ liệu.
+Luồng ngoại lệ 4: Loại áp dụng không hợp lệ hoặc nằm ngoài 2 giá trị cho phép. Hệ thống báo lỗi dữ liệu không hợp lệ và không cập nhật trình độ.
+Quy tắc nghiệp vụ
+Tên trình độ bắt buộc nhập và không được trùng với trình độ khác. Loại áp dụng chỉ có 2 giá trị: Trình độ Lớp hoặc Trình độ Giáo viên, không có lựa chọn Cả hai. Mô tả là tùy chọn. Trạng thái gồm Đang mở hoặc Đã ẩn.
+Dữ liệu đầu vào
+Tên trình độ; Loại áp dụng; Mô tả; Trạng thái.
+Kết quả đầu ra
+Thành công: Thông tin trình độ được cập nhật trong hệ thống và hiển thị lại trên bảng danh mục. Các dropdown liên quan đến tạo lớp hoặc quản lý giáo viên sử dụng dữ liệu mới theo đúng loại áp dụng và trạng thái.
+Thất bại: Không có dữ liệu trình độ nào được thay đổi. Danh sách trình độ giữ nguyên.
+Màn hình liên quan
+Quản lý Trình độ học
+Route: /admin/levels
+Use Case liên quan
+[CHƯA CÓ THÔNG TIN] - Chưa mô tả quan hệ Use Case độc lập trong nội dung phân tích.
+Vấn đề cần xác nhận
+Kiểu dữ liệu kỹ thuật chi tiết và quan hệ Use Case độc lập cần BA xác nhận nếu cần dùng cho thiết kế chi tiết.
+4. UC-LEVEL-STATUS-01 - Chuyển trạng thái trình độ học
+4.1. Hình Use Case tổng quan
+4.2. Hình Use Case chi tiết
+[ Xem hình chi tiết ]
+4.3. Bảng phân tích Use Case
+Nội dung
+Phân tích
+Mã Use Case
+UC-LEVEL-STATUS-01
+Tên Use Case
+Chuyển trạng thái trình độ học
+Actor
+Quản trị viên (Admin)
+Mục tiêu
+Admin chuyển trạng thái một trình độ học giữa Đang mở và Đã ẩn để kiểm soát việc hiển thị trong danh sách chọn khi tạo lớp hoặc cấu hình giáo viên mới, đồng thời bảo toàn dữ liệu lịch sử.
+Mô tả nghiệp vụ
+Admin mở màn hình Quản lý Trình độ học, chọn dòng trình độ và nhấn nút đổi trạng thái. Hệ thống xác định trạng thái mới, lưu thay đổi, cập nhật bảng danh mục và áp dụng việc ẩn/hiện trong các dropdown liên quan.
+Điều kiện trước
+1. Người dùng đã đăng nhập thành công. 2. Người dùng có vai trò Admin. 3. Danh mục đã có ít nhất một trình độ học.
+Luồng chính
+1. Admin truy cập /admin/levels. 2. Hệ thống hiển thị bảng danh mục trình độ và trạng thái từng dòng. 3. Admin chọn dòng trình độ cần đổi trạng thái. 4. Admin nhấn nút Ẩn nếu trình độ đang mở hoặc Mở lại nếu trình độ đã ẩn. 5. Hệ thống tải thông tin trình độ hiện tại. 6. Hệ thống xác định trạng thái mới. 7. Hệ thống cập nhật trạng thái. 8. Hệ thống bảo toàn dữ liệu lịch sử liên quan. 9. Hệ thống thông báo thành công và cập nhật lại danh sách.
+Luồng thay thế
+Admin chọn dòng trình độ nhưng không nhấn nút đổi trạng thái. Hệ thống không gửi yêu cầu cập nhật lên server và giữ nguyên trạng thái hiện tại.
+Luồng ngoại lệ
+Luồng ngoại lệ 1: Không tìm thấy trình độ tại thời điểm cập nhật. Hệ thống báo lỗi dữ liệu không tồn tại hoặc đã bị thay đổi và không cập nhật trạng thái.
+Luồng ngoại lệ 2: Cập nhật trạng thái thất bại do lỗi hệ thống hoặc server. Hệ thống báo lỗi không thể cập nhật trạng thái và giữ nguyên trạng thái cũ.
+Quy tắc nghiệp vụ
+Trạng thái chỉ có 2 giá trị: Đang mở hoặc Đã ẩn. Trình độ Đã ẩn không hiển thị trong danh sách chọn khi tạo lớp/giáo viên mới, nhưng dữ liệu lịch sử vẫn được bảo toàn.
+Dữ liệu đầu vào
+Mã trình độ được chọn; trạng thái hiện tại của trình độ.
+Kết quả đầu ra
+Thành công: Trạng thái trình độ được cập nhật trong hệ thống. Nếu chuyển sang Đã ẩn, trình độ không còn hiển thị trong dropdown tạo lớp/giáo viên mới. Nếu chuyển sang Đang mở, trình độ có thể hiển thị lại trong dropdown phù hợp với loại áp dụng.
+Thất bại: Trạng thái trình độ không thay đổi. Danh sách trình độ giữ nguyên.
+Màn hình liên quan
+Quản lý Trình độ học
+Route: /admin/levels
+Use Case liên quan
+[CHƯA CÓ THÔNG TIN] - Chưa mô tả quan hệ Use Case độc lập trong nội dung phân tích.
+Vấn đề cần xác nhận
+Kiểu dữ liệu kỹ thuật chi tiết và quan hệ Use Case độc lập cần BA xác nhận nếu cần dùng cho thiết kế chi tiết.
+5. UC-LEVEL-DELETE-01 - Xóa trình độ học
+5.1. Hình Use Case tổng quan
+5.2. Hình Use Case chi tiết
+[ Xem hình chi tiết ]
+5.3. Bảng phân tích Use Case
+Nội dung
+Phân tích
+Mã Use Case
+UC-LEVEL-DELETE-01
+Tên Use Case
+Xóa trình độ học
+Actor
+Quản trị viên (Admin)
+Mục tiêu
+Admin xóa một trình độ học khỏi danh mục,
+Admin thực hiện
+xóa mềm
+trình độ học khỏi danh mục và tự động xử lý các liên kết liên quan.
+Mô tả nghiệp vụ
+Admin nhấn Xóa tại dòng trình độ.
+Hệ thống kiểm tra trình độ có đang liên kết với lớp học hoặc giáo viên không. Hệ thống hiển thị hộp thoại xác nhận xóa,
+kèm theo danh sách chi tiết các Lớp học/Giáo viên đang sử dụng trình độ này (nếu có)
+. Khi Admin xác nhận, hệ thống thực hiện
+xóa mềm
+trình độ và gỡ/ẩn các liên kết hiển thị tương ứng.&quot;
+Điều kiện trước
+1. Người dùng đã đăng nhập thành công. 2. Người dùng có vai trò Admin. 3. Danh mục đã có ít nhất một trình độ học.
+Luồng chính
+1. Admin truy cập /admin/levels.
+2. Hệ thống hiển thị bảng danh mục trình độ.
+3. Admin nhấn Xóa tại dòng trình độ cần xóa.
+4. Hệ thống tải thông tin trình độ hiện tại.
+5.
+Hệ thống kiểm tra và
+lấy danh sách
+các lớp học/giáo viên đang liên kết với trình độ này.
+6.
+Hệ thống hiển thị hộp thoại xác nhận xóa
+(hiển thị kèm danh sách dữ liệu liên kết tìm thấy ở Bước 5 nếu có)
+.
+7. Admin nhấn Xác nhận.
+8. Hệ thống gửi yêu cầu xóa lên server.
+9.
+Hệ thống thực hiện
+xóa mềm
+trình độ (cập nhật trạng thái đã xóa) và
+xóa/ẩn liên kết
+với các lớp/giáo viên tương ứng, thông báo thành công và cập nhật lại danh sách.
+Luồng thay thế
+Admin không xác nhận xóa, nhấn Hủy hoặc đóng hộp thoại xác nhận. Hệ thống không gửi yêu cầu xóa lên server và giữ nguyên danh sách trình độ.
+Luồng ngoại lệ
+Luồng ngoại lệ 1: Không tìm thấy trình độ tại thời điểm xóa. Hệ thống báo lỗi dữ liệu không tồn tại hoặc đã bị thay đổi và không thực hiện xóa.
+Luồng ngoại lệ
+2
+: Server xóa thất bại. Hệ thống hiển thị lỗi không thể xóa trình độ và giữ nguyên dữ liệu trình độ.
+Quy tắc nghiệp vụ
+Cho phép thực hiện xóa mềm ngay cả khi trình độ đang được gán cho Lớp học/Giáo viên. Dữ liệu thực tế không bị xóa cứng (hard-delete) khỏi Database để bảo toàn toàn vẹn dữ liệu lịch sử, nhưng sẽ không còn hiển thị ở màn hình Quản lý Trình độ và các dropdown chọn trình độ.
+Dữ liệu đầu vào
+Mã trình độ được chọn để xóa.
+Kết quả đầu ra
+Thành công:
+Trình độ bị
+xóa mềm
+, không còn hiển thị trên bảng trình độ.
+Các Lớp học/Giáo viên đang sử dụng trình độ này sẽ bị xóa liên kết hiển thị với trình độ đó.
+Thất bại: Không có dữ liệu nào bị xóa. Danh sách trình độ giữ nguyên.
+Màn hình liên quan
+Quản lý Trình độ học
+Route: /admin/levels
+Use Case liên quan
+[CHƯA CÓ THÔNG TIN] - Chưa mô tả quan hệ Use Case độc lập trong nội dung phân tích.
+Vấn đề cần xác nhận
+Kiểu dữ liệu kỹ thuật chi tiết và quan hệ Use Case độc lập cần BA xác nhận nếu cần dùng cho thiết kế chi tiết.
+6. UC-LEVEL-FILTER-01 - Lọc danh mục trình độ học
+6.1. Hình Use Case tổng quan
+6.2. Hình Use Case chi tiết
+[ Xem hình chi tiết ]
+6.3. Bảng phân tích Use Case
+Nội dung
+Phân tích
+Mã Use Case
+UC-LEVEL-FILTER-01
+Tên Use Case
+Lọc danh mục trình độ học
+Actor
+Quản trị viên (Admin)
+Mục tiêu
+Admin lọc danh mục trình độ học theo Loại áp dụng và Trạng thái để kiểm tra, cấu hình và truy vấn dữ liệu nhanh hơn.
+Mô tả nghiệp vụ
+Admin chọn bộ lọc Loại áp dụng và/hoặc Trạng thái. Hệ thống truy vấn danh sách trình độ theo điều kiện lọc và cập nhật bảng hiển thị.
+Điều kiện trước
+1. Người dùng đã đăng nhập thành công. 2. Người dùng có vai trò Admin. 3. Màn hình /admin/levels có danh sách trình độ học.
+Luồng chính
+1. Admin truy cập /admin/levels. 2. Hệ thống hiển thị bảng danh mục trình độ và các bộ lọc. 3. Admin chọn giá trị lọc theo Loại áp dụng. 4. Admin chọn giá trị lọc theo Trạng thái. 5. Hệ thống nhận điều kiện lọc. 6. Hệ thống kiểm tra điều kiện lọc hợp lệ. 7. Hệ thống truy vấn danh sách trình độ phù hợp. 8. Hệ thống cập nhật bảng danh mục trên màn hình.
+Luồng thay thế
+Admin khôi phục bộ lọc mặc định bằng cách chọn Tất cả hoặc bỏ điều kiện lọc. Hệ thống truy vấn lại toàn bộ danh mục trình độ và hiển thị danh sách không áp dụng điều kiện lọc.
+Luồng ngoại lệ
+Luồng ngoại lệ 1: Giá trị lọc Loại áp dụng không hợp lệ. Hệ thống hiển thị lỗi điều kiện lọc không hợp lệ và không cập nhật bảng kết quả.
+Luồng ngoại lệ 2: Giá trị lọc Trạng thái không hợp lệ. Hệ thống hiển thị lỗi điều kiện trạng thái không hợp lệ và không cập nhật bảng kết quả.
+Luồng ngoại lệ 3: Truy vấn danh sách thất bại do lỗi hệ thống hoặc server. Hệ thống hiển thị lỗi không thể tải danh sách trình độ và giữ nguyên dữ liệu đang hiển thị trước đó.
+Quy tắc nghiệp vụ
+Loại áp dụng dùng để lọc gồm Tất cả, Trình độ Lớp, Trình độ GV. Dữ liệu loại áp dụng của trình độ chỉ có 2 giá trị nghiệp vụ: Trình độ Lớp hoặc Trình độ Giáo viên, không có lựa chọn Cả hai. Trạng thái gồm Đang mở hoặc Đã ẩn.
+Dữ liệu đầu vào
+Giá trị lọc Loại áp dụng; giá trị lọc Trạng thái.
+Kết quả đầu ra
+Thành công: Bảng danh mục trình độ chỉ hiển thị các bản ghi phù hợp với điều kiện lọc. Dữ liệu gốc không thay đổi.
+Thất bại: Bảng danh mục không được cập nhật theo điều kiện lọc lỗi. Dữ liệu trình độ trong hệ thống không thay đổi.
+Màn hình liên quan
+Quản lý Trình độ học
+Route: /admin/levels
+Use Case liên quan
+[CHƯA CÓ THÔNG TIN] - Chưa mô tả quan hệ Use Case độc lập trong nội dung phân tích.
+Vấn đề cần xác nhận
+Kiểu dữ liệu kỹ thuật chi tiết và quan hệ Use Case độc lập cần BA xác nhận nếu cần dùng cho thiết kế chi tiết.
+7. UC-TEACHER-ADD-01 - Thêm mới giáo viên/trợ giảng
+7.1. Hình Use Case tổng quan
+7.2. Hình Use Case chi tiết
+[ Xem hình chi tiết ]
+7.3. Bảng phân tích Use Case
+Nội dung
+Phân tích
+Mã Use Case
+UC-TEACHER-ADD-01
+Tên Use Case
+Thêm mới giáo viên/trợ giảng
+Actor
+Quản trị viên (Admin)
+Mục tiêu
+Admin thêm hồ sơ giáo viên hoặc trợ giảng mới vào hệ thống, cấu hình trình độ chuyên môn, link phòng thi Speaking online và kích hoạt tài khoản đăng nhập mặc định.
+Mô tả nghiệp vụ
+Admin nhấn + Thêm giáo viên, nhập hồ sơ nhân sự, tick Trợ giảng nếu là trợ giảng, chọn trình độ chuyên môn, nhập link Google Meet/Zoom và nhấn Lưu. Hệ thống kiểm tra email, link thi online, lưu hồ sơ và tự động kích hoạt tài khoản với mật khẩu mặc định abc@123.
+Điều kiện trước
+1. Người dùng đã đăng nhập thành công. 2. Người dùng có vai trò Admin. 3. Hệ thống đã có danh mục trình độ với Type = Trình độ Giáo viên để chọn.
+Luồng chính
+1. Admin truy cập /admin/teachers.
+2. Hệ thống hiển thị danh sách giáo viên và nút + Thêm giáo viên.
+3. Admin nhấn + Thêm giáo viên.
+4. Hệ thống mở modal Hồ sơ Giáo viên
+(có thể đổi thành Hồ sơ Nhân sự)
+.
+5. Admin nhập thông tin hồ sơ,
+chọn Vai trò. Nếu vai trò là Giáo viên hoặc Trợ giảng, hệ thống mở rộng form để nhập 3 loại trình độ (giảng dạy, chấm Writing, chấm Speaking)
+, chọn trình độ chuyên môn, nhập link thi online, chọn trạng thái.
+6. Admin nhấn Lưu.
+7. Hệ thống kiểm tra dữ liệu hợp lệ.
+8. Hệ thống lưu hồ sơ giáo viên/trợ giảng.
+9. Hệ thống tự động kích hoạt tài khoản với mật khẩu mặc định abc@123.
+10. Hệ thống thông báo thành công và cập nhật danh sách.
+Luồng thay thế
+Admin nhấn Hủy hoặc đóng modal trước khi lưu. Hệ thống đóng modal, không gửi dữ liệu lên server và giữ nguyên danh sách giáo viên.
+Luồng ngoại lệ
+Luồng ngoại lệ 1: Thiếu dữ liệu bắt buộc. Hệ thống hiển thị lỗi yêu cầu nhập đầy đủ thông tin và giữ modal để Admin nhập lại.
+Luồng ngoại lệ 2: Email đã tồn tại trong hệ thống. Hệ thống báo lỗi `Email đã được sử dụng bởi một tài khoản khác`, không lưu dữ liệu.
+Luồng ngoại lệ 3: Link thi online sai định dạng. Hệ thống báo lỗi `Đường dẫn phải bắt đầu bằng https://meet.google.com hoặc https://zoom.us`, không lưu dữ liệu.
+Quy tắc nghiệp vụ
+Email dùng làm tên đăng nhập Portal và không được trùng lặp. Trình độ chuyên môn lấy từ danh mục trình độ có Type = Trình độ Giáo viên. Link thi online phải bắt đầu bằng https://meet.google.com hoặc https://zoom.us. Trạng thái gồm Đang dạy hoặc Đã nghỉ. Nếu tick checkbox Trợ giảng, hệ thống hiển thị tag Trợ giảng.
+Dữ liệu đầu vào
+Họ tên; Email; Số điện thoại; Chi nhánh/Cơ sở; Checkbox Trợ giảng;
+Trình độ giảng dạy; Trình độ chấm Writing; Trình độ chấm Speaking
+; Link Google Meet/Zoom; Trạng thái.
+Kết quả đầu ra
+Thành công: Hồ sơ giáo viên/trợ giảng được lưu vào hệ thống. Nếu là trợ giảng, tag Trợ giảng hiển thị trên danh sách. Link Speaking sẵn sàng được hệ thống sử dụng khi gửi email lịch thi online. Tài khoản đăng nhập được kích hoạt với mật khẩu mặc định abc@123.
+Thất bại: Không có hồ sơ giáo viên/trợ giảng mới được tạo. Danh sách giáo viên giữ nguyên.
+Màn hình liên quan
+Quản lý Giáo viên &amp; Trợ giảng
+Route: /admin/teachers
+Use Case liên quan
+[CHƯA CÓ THÔNG TIN] - Chưa mô tả quan hệ Use Case độc lập trong nội dung phân tích.
+Vấn đề cần xác nhận
+Kiểu dữ liệu kỹ thuật chi tiết và quan hệ Use Case độc lập cần BA xác nhận nếu cần dùng cho thiết kế chi tiết.
+8. UC-TEACHER-EDIT-01 - Chỉnh sửa hồ sơ giáo viên/trợ giảng
+8.1. Hình Use Case tổng quan
+8.2. Hình Use Case chi tiết
+[ Xem hình chi tiết ]
+8.3. Bảng phân tích Use Case
+Nội dung
+Phân tích
+Mã Use Case
+UC-TEACHER-EDIT-01
+Tên Use Case
+Chỉnh sửa hồ sơ giáo viên/trợ giảng
+Actor
+Quản trị viên (Admin)
+Mục tiêu
+Admin cập nhật hồ sơ giáo viên hoặc trợ giảng đang có trong hệ thống, bao gồm thông tin cá nhân, phân loại trợ giảng, trình độ chuyên môn, link phòng thi Speaking online và trạng thái làm việc.
+Mô tả nghiệp vụ
+Admin nhấn Sửa tại dòng giáo viên, hệ thống mở modal Hồ sơ Giáo viên với dữ liệu hiện tại. Admin chỉnh sửa thông tin và nhấn Lưu. Hệ thống kiểm tra email, link thi online, sau đó lưu hồ sơ cập nhật và làm mới danh sách.
+Điều kiện trước
+1. Người dùng đã đăng nhập thành công. 2. Người dùng có vai trò Admin. 3. Danh sách đã có ít nhất một giáo viên hoặc trợ giảng. 4. Hệ thống đã có danh mục trình độ với Type = Trình độ Giáo viên để chọn.
+Luồng chính
+1. Admin truy cập /admin/teachers.
+2. Hệ thống hiển thị danh sách giáo viên.
+3. Admin nhấn Sửa tại dòng giáo viên cần cập nhật.
+4. Hệ thống tải hồ sơ hiện tại và mở modal Hồ sơ Giáo viên.
+5. Admin cập nhật thông tin hồ sơ,
+vai trò nhân sự, cập nhật 3 loại trình độ (giảng dạy, chấm Writing, Speaking)
+, link thi online hoặc trạng thái.
+6. Admin nhấn Lưu.
+7. Hệ thống kiểm tra dữ liệu hợp lệ.
+8. Hệ thống lưu hồ sơ cập nhật.
+9.
+Hệ thống hiển thị/ẩn khối nghiệp vụ giảng dạy tùy thuộc vào Vai trò được chọn
+.
+10. Hệ thống thông báo thành công và cập nhật lại danh sách.
+Luồng thay thế
+Admin nhấn Hủy hoặc đóng modal trước khi lưu. Hệ thống đóng modal, không gửi dữ liệu cập nhật lên server và giữ nguyên hồ sơ giáo viên cũ.
+Luồng ngoại lệ
+Luồng ngoại lệ 1: Không tìm thấy giáo viên tại thời điểm mở form sửa. Hệ thống báo lỗi dữ liệu không tồn tại hoặc đã bị thay đổi và không mở modal chỉnh sửa.
+Luồng ngoại lệ 2: Thiếu dữ liệu bắt buộc. Hệ thống hiển thị lỗi yêu cầu nhập đầy đủ thông tin và giữ modal để Admin nhập lại.
+Luồng ngoại lệ 3: Email đã được một tài khoản khác sử dụng. Hệ thống báo lỗi `Email đã được sử dụng bởi một tài khoản khác`, không lưu dữ liệu.
+Luồng ngoại lệ 4: Link thi online sai định dạng. Hệ thống báo lỗi `Đường dẫn phải bắt đầu bằng https://meet.google.com hoặc https://zoom.us`, không lưu dữ liệu.
+Quy tắc nghiệp vụ
+Email dùng làm tên đăng nhập Portal và không được trùng với tài khoản khác. Trình độ chuyên môn lấy từ danh mục trình độ có Type = Trình độ Giáo viên. Link thi online phải bắt đầu bằng https://meet.google.com hoặc https://zoom.us. Trạng thái gồm Đang dạy hoặc Đã nghỉ. Nếu tick checkbox Trợ giảng, hệ thống hiển thị tag Trợ giảng; nếu bỏ tick, tag này không hiển thị.
+Dữ liệu đầu vào
+Họ tên; Email; Số điện thoại; Chi nhánh/Cơ sở;
+Trình độ giảng dạy; Trình độ chấm Writing; Trình độ chấm Speaking
+; Link Google Meet/Zoom; Trạng thái.
+Kết quả đầu ra
+Thành công: Hồ sơ giáo viên/trợ giảng được cập nhật trong hệ thống. Tag Trợ giảng, trình độ phụ trách, link Speaking và trạng thái hiển thị đúng theo dữ liệu mới.
+Thất bại: Không có dữ liệu hồ sơ nào được thay đổi. Danh sách giáo viên giữ nguyên.
+Màn hình liên quan
+Quản lý Giáo viên &amp; Trợ giảng
+Route: /admin/teachers
+Use Case liên quan
+[CHƯA CÓ THÔNG TIN] - Chưa mô tả quan hệ Use Case độc lập trong nội dung phân tích.
+Vấn đề cần xác nhận
+Kiểu dữ liệu kỹ thuật chi tiết và quan hệ Use Case độc lập cần BA xác nhận nếu cần dùng cho thiết kế chi tiết.
+9. UC-TEACHER-STATUS-01 - Chuyển trạng thái giáo viên/trợ giảng
+9.1. Hình Use Case tổng quan
+9.2. Hình Use Case chi tiết
+[ Xem hình chi tiết ]
+9.3. Bảng phân tích Use Case
+Nội dung
+Phân tích
+Mã Use Case
+UC-TEACHER-STATUS-01
+Tên Use Case
+Chuyển trạng thái giáo viên/trợ giảng
+Actor
+Quản trị viên (Admin)
+Mục tiêu
+Admin chuyển trạng thái làm việc của giáo viên hoặc trợ giảng giữa Đang dạy và Đã nghỉ, đồng thời khóa quyền truy cập khi nhân sự nghỉ làm.
+Mô tả nghiệp vụ
+Admin nhấn nút đổi trạng thái tại dòng giáo viên. Khi chuyển sang Đã nghỉ, hệ thống kiểm tra giáo viên có đang phụ trách lớp học đang hoạt động
+hoặc có lịch chấm thi chưa hoàn thành hay không
+. Nếu không vướng ràng buộc, hệ thống yêu cầu xác nhận, cập nhật trạng thái và khóa quyền truy cập.
+Điều kiện trước
+1. Người dùng đã đăng nhập thành công. 2. Người dùng có vai trò Admin. 3. Danh sách đã có ít nhất một giáo viên hoặc trợ giảng.
+Luồng chính
+1. Admin truy cập /admin/teachers.
+2. Hệ thống hiển thị danh sách giáo viên và trạng thái từng dòng.
+3. Admin chọn dòng giáo viên cần đổi trạng thái.
+4. Admin nhấn nút đổi trạng thái.
+5. Hệ thống tải hồ sơ giáo viên hiện tại.
+6. Nếu chuyển sang Đã nghỉ, hệ thống kiểm tra giáo viên không phụ trách lớp học đang hoạt động hoặc có lịch chấm thi chưa hoàn thành .
+7. Hệ thống hiển thị hộp thoại xác nhận.
+8. Admin nhấn Xác nhận.
+9. Hệ thống cập nhật trạng thái mới.
+10. Nếu trạng thái mới là Đã nghỉ, hệ thống khóa quyền truy cập.
+11. Hệ thống thông báo thành công và cập nhật lại danh sách.
+Luồng thay thế
+Admin không xác nhận chuyển trạng thái, nhấn Hủy hoặc đóng hộp thoại. Hệ thống không gửi yêu cầu cập nhật lên server và giữ nguyên trạng thái hiện tại.
+Luồng ngoại lệ
+Luồng ngoại lệ 1: Không tìm thấy giáo viên tại thời điểm cập nhật. Hệ thống báo lỗi dữ liệu không tồn tại hoặc đã bị thay đổi và không cập nhật trạng thái.
+Luồng ngoại lệ 2: Giáo viên đang phụ trách lớp học đang hoạt động. Hệ thống cảnh báo `Giáo viên đang phụ trách lớp học đang hoạt động. Cậu cần gán giáo viên khác vào lớp trước khi chuyển sang Đã nghỉ` và giữ nguyên trạng thái `Đang dạy`.
+Luồng ngoại lệ 3: Cập nhật trạng thái thất bại do lỗi hệ thống hoặc server. Hệ thống báo lỗi không thể cập nhật trạng thái và giữ nguyên trạng thái cũ.
+Quy tắc nghiệp vụ
+Trạng thái chỉ gồm Đang dạy hoặc Đã nghỉ. Khi chuyển sang Đã nghỉ, hệ thống yêu cầu xác nhận và khóa quyền truy cập. Nếu giáo viên đang phụ trách lớp học đang hoạt động, hệ thống không cho chuyển trạng thái đến khi Admin gán giáo viên khác vào lớp.
+Dữ liệu đầu vào
+Mã giáo viên được chọn; trạng thái hiện tại của giáo viên.
+Kết quả đầu ra
+Thành công: Trạng thái giáo viên/trợ giảng được cập nhật trong hệ thống. Nếu chuyển sang Đã nghỉ, quyền truy cập của giáo viên bị khóa. Nếu chuyển lại Đang dạy, tài khoản hoạt động theo quyền vai trò được gán.
+Thất bại: Trạng thái giáo viên/trợ giảng không thay đổi. Danh sách giáo viên giữ nguyên.
+Màn hình liên quan
+Quản lý Giáo viên &amp; Trợ giảng
+Route: /admin/teachers
+Use Case liên quan
+[CHƯA CÓ THÔNG TIN] - Chưa mô tả quan hệ Use Case độc lập trong nội dung phân tích.
+Vấn đề cần xác nhận
+Kiểu dữ liệu kỹ thuật chi tiết và quan hệ Use Case độc lập cần BA xác nhận nếu cần dùng cho thiết kế chi tiết.
+10. UC-TEACHER-RESET-01 - Cấp lại mật khẩu giáo viên/trợ giảng
+10.1. Hình Use Case tổng quan
+10.2. Hình Use Case chi tiết
+[ Xem hình chi tiết ]
+10.3. Bảng phân tích Use Case
+Nội dung
+Phân tích
+Mã Use Case
+UC-TEACHER-RESET-01
+Tên Use Case
+Cấp lại mật khẩu giáo viên/trợ giảng
+Actor
+Quản trị viên (Admin)
+Mục tiêu
+Admin đặt lại mật khẩu đăng nhập Portal cho giáo viên hoặc trợ giảng về mật khẩu mặc định abc@123 và gửi email thông báo cho giáo viên.
+Mô tả nghiệp vụ
+Admin nhấn Reset Password tại dòng giáo viên. Hệ thống yêu cầu xác nhận, đặt lại mật khẩu về abc@123, gửi email thông báo và cập nhật kết quả trên màn hình.
+Điều kiện trước
+1. Người dùng đã đăng nhập thành công. 2. Người dùng có vai trò Admin. 3. Danh sách đã có ít nhất một giáo viên hoặc trợ giảng có tài khoản đăng nhập.
+Luồng chính
+1. Admin truy cập /admin/teachers. 2. Hệ thống hiển thị danh sách giáo viên. 3. Admin nhấn Reset Password tại dòng giáo viên cần cấp lại mật khẩu. 4. Hệ thống tải hồ sơ giáo viên hiện tại. 5. Hệ thống hiển thị hộp thoại xác nhận cấp lại mật khẩu. 6. Admin nhấn Xác nhận. 7. Hệ thống đặt lại mật khẩu về abc@123. 8. Hệ thống gửi email thông báo mật khẩu mới cho giáo viên. 9. Hệ thống thông báo cấp lại mật khẩu thành công.
+Luồng thay thế
+Luồng ngoại lệ
+Luồng ngoại lệ 1: Không tìm thấy giáo viên tại thời điểm reset. Hệ thống báo lỗi dữ liệu không tồn tại hoặc đã bị thay đổi và không cấp lại mật khẩu.
+Luồng ngoại lệ 2: Tài khoản đang bị khóa do giáo viên ở trạng thái `Đã nghỉ`. Hệ thống hiển thị cảnh báo và không cấp lại mật khẩu.
+Luồng ngoại lệ 3: Reset mật khẩu thất bại do lỗi hệ thống hoặc server. Hệ thống hiển thị lỗi không thể cấp lại mật khẩu và giữ nguyên mật khẩu hiện tại.
+Luồng ngoại lệ 4: Gửi email thông báo thất bại sau khi reset mật khẩu thành công. Hệ thống cảnh báo đã reset mật khẩu nhưng gửi email thất bại.
+Quy tắc nghiệp vụ
+Mật khẩu sau khi reset là abc@123. Hệ thống gửi email thông báo cho giáo viên sau khi đặt lại mật khẩu. Nếu tài khoản đang bị khóa do trạng thái Đã nghỉ, hệ thống không cấp lại mật khẩu.
+Dữ liệu đầu vào
+Mã giáo viên được chọn; email tài khoản giáo viên.
+Kết quả đầu ra
+Thành công: Mật khẩu tài khoản giáo viên/trợ giảng được đặt lại về abc@123. Giáo viên nhận email thông báo mật khẩu mới.
+Thất bại: Mật khẩu hiện tại không thay đổi, trừ trường hợp reset thành công nhưng email thông báo thất bại.
+Màn hình liên quan
+Quản lý Giáo viên &amp; Trợ giảng
+Route: /admin/teachers
+Use Case liên quan
+[CHƯA CÓ THÔNG TIN] - Chưa mô tả quan hệ Use Case độc lập trong nội dung phân tích.
+Vấn đề cần xác nhận
+Kiểu dữ liệu kỹ thuật chi tiết và quan hệ Use Case độc lập cần BA xác nhận nếu cần dùng cho thiết kế chi tiết.
+11. UC-TEACHER-FILTER-01 - Lọc danh sách giáo viên/trợ giảng
+11.1. Hình Use Case tổng quan
+11.2. Hình Use Case chi tiết
+[ Xem hình chi tiết ]
+11.3. Bảng phân tích Use Case
+Nội dung
+Phân tích
+Mã Use Case
+UC-TEACHER-FILTER-01
+Tên Use Case
+Lọc danh sách giáo viên/trợ giảng
+Actor
+Quản trị viên (Admin)
+Mục tiêu
+Admin lọc nhanh danh sách giáo viên và trợ giảng theo phân loại nhân sự và trạng thái làm việc để tra cứu, kiểm tra hoặc thao tác quản lý.
+Mô tả nghiệp vụ
+Admin chọn bộ lọc Phân loại và/hoặc Trạng thái. Hệ thống truy vấn danh sách giáo viên theo điều kiện lọc và cập nhật bảng hiển thị.
+Điều kiện trước
+1. Người dùng đã đăng nhập thành công. 2. Người dùng có vai trò Admin. 3. Màn hình /admin/teachers có danh sách giáo viên/trợ giảng.
+Luồng chính
+1. Admin truy cập /admin/teachers. 2. Hệ thống hiển thị bảng danh sách giáo viên và bộ lọc. 3. Admin chọn giá trị lọc theo Phân loại. 4. Admin chọn giá trị lọc theo Trạng thái. 5. Hệ thống nhận điều kiện lọc. 6. Hệ thống kiểm tra điều kiện lọc hợp lệ. 7. Hệ thống truy vấn danh sách giáo viên/trợ giảng phù hợp. 8. Hệ thống cập nhật bảng danh sách giáo viên trên màn hình.
+Luồng thay thế
+Admin khôi phục bộ lọc mặc định bằng cách chọn Tất cả hoặc bỏ điều kiện lọc. Hệ thống truy vấn lại toàn bộ danh sách giáo viên và hiển thị danh sách không áp dụng điều kiện lọc.
+Luồng ngoại lệ
+Luồng ngoại lệ 1: Giá trị lọc Phân loại không hợp lệ. Hệ thống hiển thị lỗi điều kiện phân loại không hợp lệ và không cập nhật bảng kết quả.
+Luồng ngoại lệ 2: Giá trị lọc Trạng thái không hợp lệ. Hệ thống hiển thị lỗi điều kiện trạng thái không hợp lệ và không cập nhật bảng kết quả.
+Luồng ngoại lệ 3: Truy vấn danh sách thất bại do lỗi hệ thống hoặc server. Hệ thống hiển thị lỗi không thể tải danh sách giáo viên và giữ nguyên dữ liệu đang hiển thị trước đó.
+Quy tắc nghiệp vụ
+Phân loại gồm Tất cả, Giáo viên, Trợ giảng; phân loại trợ giảng dựa trên checkbox Trợ giảng trong hồ sơ. Trạng thái gồm Đang dạy hoặc Đã nghỉ.
+Dữ liệu đầu vào
+Giá trị lọc Phân loại; giá trị lọc Trạng thái.
+Kết quả đầu ra
+Thành công: Bảng danh sách chỉ hiển thị giáo viên/trợ giảng phù hợp với điều kiện lọc. Dữ liệu gốc không thay đổi.
+Thất bại: Bảng danh sách không được cập nhật theo điều kiện lọc lỗi. Dữ liệu giáo viên trong hệ thống không thay đổi.
+Màn hình liên quan
+Quản lý Giáo viên &amp; Trợ giảng
+Route: /admin/teachers
+Use Case liên quan
+[CHƯA CÓ THÔNG TIN] - Chưa mô tả quan hệ Use Case độc lập trong nội dung phân tích.
+Vấn đề cần xác nhận
+Kiểu dữ liệu kỹ thuật chi tiết và quan hệ Use Case độc lập cần BA xác nhận nếu cần dùng cho thiết kế chi tiết.
+12. UC-STUDENT-CONVERT-01 - Chuyển đổi khách hàng đã đóng tiền thành học viên
+12.1. Hình Use Case tổng quan
+12.2. Hình Use Case chi tiết
+[ Xem hình chi tiết ]
+12.3. Bảng phân tích Use Case
+Nội dung
+Phân tích
+Mã Use Case
+UC-STUDENT-CONVERT-01
+Tên Use Case
+Chuyển đổi khách hàng đã đóng tiền thành học viên
+Actor
+Saler
+Mục tiêu
+Chuyển đổi khách hàng thành học viên chính thức thông qua việc
+tạo Đăng ký học và lập Phiếu thu
+. Sinh mã học viên, kích hoạt Portal và chuyển dữ liệu tài chính sang trạng thái
+Chờ Kế toán duyệt
+.
+Mô tả nghiệp vụ
+Khách hàng đồng ý mua khóa, Saler
+tạo Đăng ký học (chọn khóa/lộ trình) và lập Phiếu thu (nhập Email, upload ảnh chụp biên lai)
+. Hệ thống tạo hồ sơ học viên, sinh mã HV-XXXX, kích hoạt Portal (mustChangePassword = true). Phiếu thu được đẩy về danh sách chờ Kế toán xác nhận. Học viên nằm ở nhóm &quot;Chưa phân lớp&quot; cho đến khi đáp ứng điều kiện tài chính.
+Điều kiện trước
+1. Saler đã đăng nhập thành công. 2. Khách hàng đã hoàn tất chuyển khoản học phí. 3. Saler có quyền thao tác tại màn hình Tư vấn ghi danh.
+Luồng chính
+1. Saler mở hồ sơ khách hàng đã chuyển khoản học phí.
+2. Saler
+tạo Đăng ký học (chọn khóa/lộ trình tương ứng)
+. 3. Saler
+lập Phiếu thu cho đợt thanh toán đầu tiên
+, nhập Email học viên và upload ảnh biên lai. 4. Saler nhấn Lưu / Xác nhận.
+5. Hệ thống kiểm tra Email và ảnh biên lai hợp lệ. 6. Hệ thống kiểm tra Email không trùng lặp. 7. Hệ thống lưu ảnh biên lai. 8. Hệ thống chuyển thông tin khách hàng sang hồ sơ học viên chính thức. 9. Hệ thống tự động sinh mã học viên HV-XXXX. 10. Hệ thống kích hoạt tài khoản Portal với tên đăng nhập là Email, mật khẩu abc@123, mustChangePassword = true, badge Đã cấp. 11. Hệ thống gửi email chào mừng kèm thông tin tài khoản. 12. Học viên mới hiển thị trên /admin/students.
+13. Dữ liệu thanh toán được chuyển sang trạng thái
+&quot;Chờ Kế toán duyệt&quot;
+. Học viên chưa đủ điều kiện phân lớp cho đến khi Kế toán xác nhận.
+Luồng thay thế
+[CHƯA CÓ THÔNG TIN]
+Luồng ngoại lệ
+Luồng ngoại lệ 1: Thiếu Email hoặc chưa upload ảnh chụp biên lai chuyển khoản. Hệ thống chặn lưu và hiển thị lỗi `Bắt buộc nhập Email và upload Ảnh chụp biên lai chuyển khoản để xác nhận đóng tiền`.
+Luồng ngoại lệ 2: Email đã tồn tại trong hệ thống. Hệ thống hiển thị lỗi `Email đã tồn tại trên hệ thống, vui lòng kiểm tra lại` và không chuyển đổi thành học viên.
+Luồng ngoại lệ 3: Gửi email chào mừng thất bại sau khi hồ sơ học viên và tài khoản Portal đã được tạo. Hệ thống cảnh báo để nhân sự xử lý gửi lại, đồng thời vẫn cập nhật học viên mới trên `/admin/students`.
+Quy tắc nghiệp vụ
+Email không được để trống. Bắt buộc upload ảnh chụp biên lai chuyển khoản. Email không được trùng với tài khoản khác trong hệ thống. Tên đăng nhập Portal là Email. Mật khẩu mặc định là abc@123. Tài khoản được gắn cờ mustChangePassword = true.
+Dữ liệu đầu vào
+Email học viên; ảnh chụp biên lai chuyển khoản; thông tin khách hàng từ hồ sơ tư vấn ghi danh.
+Kết quả đầu ra
+Thành công: Hồ sơ học viên được tạo chính thức. Mã học viên được sinh tự động. Tài khoản Portal được kích hoạt với mật khẩu ban đầu abc@123. Ảnh biên lai được lưu trong hồ sơ học viên. Học viên nhận email chào mừng và có thể đăng nhập Portal để đổi mật khẩu lần đầu.
+Thất bại: Không có hồ sơ học viên mới được tạo, trừ trường hợp email chào mừng gửi thất bại sau khi hệ thống đã tạo học viên và tài khoản Portal thành công.
+Màn hình liên quan
+[CHƯA CÓ THÔNG TIN]
+Route: [CHƯA CÓ THÔNG TIN]
+Use Case liên quan
+[CHƯA CÓ THÔNG TIN] - Chưa mô tả quan hệ Use Case độc lập trong nội dung phân tích.
+Vấn đề cần xác nhận
+Kiểu dữ liệu kỹ thuật chi tiết và quan hệ Use Case độc lập cần BA xác nhận nếu cần dùng cho thiết kế chi tiết.
+13. UC-STUDENT-ADD-01 - Thêm học viên thủ công
+13.1. Hình Use Case tổng quan
+13.2. Hình Use Case chi tiết
+[ Xem hình chi tiết ]
+13.3. Bảng phân tích Use Case
+Nội dung
+Phân tích
+Mã Use Case
+UC-STUDENT-ADD-01
+Tên Use Case
+Thêm học viên thủ công
+Actor
+Quản trị viên (Admin); Chăm sóc khách hàng (CSKH)
+Mục tiêu
+Admin/CSKH tạo trực tiếp hồ sơ học viên chính thức trên hệ thống, lưu biên lai học phí, sinh mã học viên và kích hoạt tài khoản Portal cho học viên.
+Mô tả nghiệp vụ
+Admin/CSKH nhấn + Thêm học viên, nhập thông tin cá nhân (Họ tên, Email, SĐT, thông tin phụ huynh). Hệ thống kiểm tra trùng Email, tạo
+hồ sơ con người (Profile)
+, sinh mã HV-XXXX, kích hoạt tài khoản Portal (mustChangePassword = true).
+(Lưu ý: Thao tác này KHÔNG đính kèm biên lai hay sinh công nợ. Để đóng tiền, nhân sự phải vào hồ sơ này tạo Đăng ký và Phiếu thu riêng).
+Điều kiện trước
+1. Người dùng đã đăng nhập thành công. 2. Người dùng có vai trò Admin hoặc CSKH. 3. Người dùng truy cập được màn hình /admin/students.
+Luồng chính
+1. Admin/CSKH truy cập /admin/students.
+2. Hệ thống hiển thị thẻ KPI, bảng danh sách học viên và nút + Thêm học viên.
+3. Admin/CSKH nhấn + Thêm học viên.
+4. Hệ thống mở modal thêm học viên.
+5. Admin/CSKH nhập thông tin học viên, Email, SĐT, thông tin phụ huynh
+.
+6. Admin/CSKH nhấn Lưu.
+7. Hệ thống kiểm tra dữ liệu bắt buộc hợp lệ.
+8. Hệ thống kiểm tra Email không trùng lặp.
+9. Hệ thống lưu hồ sơ học viên.
+10. Hệ thống tự động sinh mã học viên HV-XXXX.
+11. Hệ thống kích hoạt tài khoản Portal với tên đăng nhập là Email, mật khẩu abc@123, mustChangePassword = true, badge Đã cấp (Nếu thao tác tại màn hình danh sách chung, học viên vào nhóm &quot;Chưa phân lớp&quot;.
+)
+.
+12. Hệ thống gửi email chào mừng kèm thông tin tài khoản.
+13. Học viên mới hiển thị trong danh sách.
+Luồng thay thế
+Admin/CSKH nhấn Hủy hoặc đóng modal trước khi lưu. Hệ thống đóng modal, không gửi dữ liệu lên server và không tạo hồ sơ học viên.
+Luồng ngoại lệ
+Luồng ngoại lệ 1: Thiếu Email, SĐT, thông tin phụ huynh. Hệ thống hiển thị lỗi yêu cầu nhập đầy đủ dữ liệu bắt buộc và giữ modal để bổ sung.
+Luồng ngoại lệ 2: Email đã tồn tại trong hệ thống. Hệ thống hiển thị lỗi `Email đã tồn tại trên hệ thống, vui lòng kiểm tra lại` và không tạo hồ sơ học viên.
+Luồng ngoại lệ 3: Gửi email chào mừng thất bại sau khi hồ sơ học viên và tài khoản Portal đã được tạo. Hệ thống cảnh báo để nhân sự xử lý gửi lại, đồng thời vẫn cập nhật học viên mới trên danh sách.
+Quy tắc nghiệp vụ
+Email, SĐT, thông tin phụ huynh. Email không được trùng với tài khoản khác trong hệ thống. Tên đăng nhập Portal là Email. Mật khẩu mặc định là abc@123. Tài khoản được gắn cờ mustChangePassword = true.
+Dữ liệu đầu vào
+Thông tin học viên; Email; SĐT; thông tin phụ huynh; ảnh biên lai học phí; trạng thái học tập ban đầu.
+Kết quả đầu ra
+Thành công: Hồ sơ học viên được tạo chính thức. Mã học viên được sinh tự động. Ảnh biên lai được lưu trong hồ sơ. Tài khoản Portal được kích hoạt với mật khẩu ban đầu abc@123. Học viên nhận email chào mừng và thông tin tài khoản.
+Thất bại: Không có hồ sơ học viên mới được tạo, trừ trường hợp email chào mừng gửi thất bại sau khi hệ thống đã tạo hồ sơ và tài khoản Portal thành công.
+Màn hình liên quan
+Quản lý Học viên
+Route: /admin/students
+Use Case liên quan
+[CHƯA CÓ THÔNG TIN] - Chưa mô tả quan hệ Use Case độc lập trong nội dung phân tích.
+Vấn đề cần xác nhận
+Kiểu dữ liệu kỹ thuật chi tiết và quan hệ Use Case độc lập cần BA xác nhận nếu cần dùng cho thiết kế chi tiết.
+14. UC-STUDENT-CLASS-01 - Phân lớp / Chuyển lớp học viên
+14.1. Hình Use Case tổng quan
+14.2. Hình Use Case chi tiết
+[ Xem hình chi tiết ]
+14.3. Bảng phân tích Use Case
+Nội dung
+Phân tích
+Mã Use Case
+UC-STUDENT-CLASS-01
+Tên Use Case
+Phân lớp / Chuyển lớp học viên
+Actor
+Quản trị viên (Admin); Chăm sóc khách hàng (CSKH)
+Mục tiêu
+Admin/CSKH phân học viên chưa có lớp vào lớp phù hợp hoặc chuyển học viên từ lớp hiện tại sang lớp khác, đồng thời cập nhật trạng thái phân lớp và sĩ số lớp.
+Mô tả nghiệp vụ
+Admin/CSKH chọn học viên,
+hệ thống kiểm tra điều kiện tài chính
+. Nhấn Phân lớp/Chuyển lớp, chọn lớp đích theo trình độ khóa đăng ký... Hệ thống cập nhật lớp học.
+Đặc biệt, thao tác chuyển lớp không làm thay đổi/reset công nợ hay lịch sử thanh toán của học viên.
+Điều kiện trước
+1. Người dùng đã đăng nhập thành công.
+2. Người dùng có vai trò Admin hoặc CSKH.
+3. Học viên đã tồn tại trong danh sách.
+4. Hệ thống có danh sách lớp học để chọn làm lớp đích.
+5. Để được phân lớp, học viên phải có Khóa đăng ký hợp lệ VÀ đã đáp ứng điều kiện tài chính (Phiếu thu đã được Kế toán duyệt HOẶC được CSKH Leader duyệt ngoại lệ 'Học trước - đóng sau')
+.
+Luồng chính
+1. Admin/CSKH truy cập /admin/students. 2. Hệ thống hiển thị bảng danh sách học viên. 3. Admin/CSKH chọn học viên cần phân lớp hoặc chuyển lớp. 4. Admin/CSKH nhấn Phân lớp hoặc Chuyển lớp. 5. Hệ thống mở modal Phân lớp / Chuyển lớp. 6. Hệ thống hiển thị danh sách lớp phù hợp theo trình độ và sĩ số hiện tại. 7. Admin/CSKH chọn lớp đích, nhập lý do chuyển lớp nếu có và chọn ngày bắt đầu. 8. Admin/CSKH nhấn Lưu. 9. Hệ thống kiểm tra dữ liệu hợp lệ. 10. Hệ thống cập nhật lớp học của học viên. 11. Hệ thống lưu lý do chuyển lớp và ngày bắt đầu. 12. Hệ thống cập nhật trạng thái phân lớp, sĩ số lớp và bảng danh sách học viên.
+Luồng thay thế
+Admin/CSKH nhấn Hủy hoặc đóng modal trước khi lưu. Hệ thống đóng modal, không gửi dữ liệu phân/chuyển lớp lên server và giữ nguyên lớp học hiện tại của học viên.
+Luồng ngoại lệ
+Luồng ngoại lệ 1: Không tìm thấy học viên tại thời điểm thao tác. Hệ thống báo lỗi dữ liệu học viên không tồn tại hoặc đã bị thay đổi và không mở modal phân/chuyển lớp.
+Luồng ngoại lệ 2: Thiếu lớp đích hoặc ngày bắt đầu. Hệ thống hiển thị lỗi yêu cầu chọn lớp đích và ngày bắt đầu, giữ modal để Admin/CSKH bổ sung dữ liệu.
+Luồng ngoại lệ 3: Lớp đích đã đạt giới hạn sĩ số. Hệ thống hiển thị cảnh báo quá tải để xác nhận trước khi lưu. Nếu Admin/CSKH không xác nhận, hệ thống không cập nhật lớp học của học viên và giữ nguyên dữ liệu phân lớp hiện tại.
+Quy tắc nghiệp vụ
+Bắt buộc chọn lớp đích và ngày bắt đầu. Khi chuyển lớp cần nhập lý do chuyển lớp. Lớp đích hiển thị theo trình độ phù hợp và hiển thị sĩ số hiện tại. Nếu lớp đã đạt giới hạn sĩ số, hệ thống cảnh báo quá tải để Admin/CSKH xác nhận trước khi lưu.
+Việc chuyển lớp (ngay cả khác hệ F24/F32) tuyệt đối không làm reset số tiền đã đóng, công nợ hay lịch sử giao dịch ban đầu của học viên (Lưu vết tài chính)
+.
+Dữ liệu đầu vào
+Học viên được chọn; lớp đích; lý do chuyển lớp; ngày bắt đầu; thông tin sĩ số hiện tại của lớp.
+Kết quả đầu ra
+Thành công: Học viên được ghi nhận thuộc lớp học mới. Trạng thái phân lớp và sĩ số lớp được cập nhật. Bảng danh sách học viên hiển thị lớp mới của học viên.
+Thất bại: Lớp học của học viên không thay đổi. Dữ liệu phân lớp hiện tại được giữ nguyên.
+Màn hình liên quan
+Quản lý Học viên
+Route: /admin/students
+Use Case liên quan
+[CHƯA CÓ THÔNG TIN] - Chưa mô tả quan hệ Use Case độc lập trong nội dung phân tích.
+Vấn đề cần xác nhận
+Kiểu dữ liệu kỹ thuật chi tiết và quan hệ Use Case độc lập cần BA xác nhận nếu cần dùng cho thiết kế chi tiết.
+15. UC-STUDENT-RECEIPT-01 - Xem ảnh biên lai chuyển khoản
+15.1. Hình Use Case tổng quan
+15.2. Hình Use Case chi tiết
+[ Xem hình chi tiết ]
+15.3. Bảng phân tích Use Case
+Nội dung
+Phân tích
+Mã Use Case
+UC-STUDENT-RECEIPT-01
+Tên Use Case
+Xem ảnh biên lai chuyển khoản
+Actor
+Quản trị viên (Admin); Chăm sóc khách hàng (CSKH); Kế toán
+Mục tiêu
+Cho phép nhân sự có quyền xem và phóng to ảnh biên lai chuyển khoản trong hồ sơ học viên để tra soát giao dịch, đối soát ngân hàng và hậu kiểm.
+Mô tả nghiệp vụ
+Admin/CSKH/Kế toán chọn học viên trên bảng danh sách và nhấn icon xem ảnh biên lai. Hệ thống tải ảnh biên lai trong hồ sơ học viên, mở popup/modal để xem hoặc phóng to ảnh. Người dùng đóng modal sau khi tra soát.
+Điều kiện trước
+1. Người dùng đã đăng nhập thành công. 2. Người dùng có vai trò Admin, CSKH hoặc Kế toán. 3. Học viên đã tồn tại trong danh sách. 4. Hồ sơ học viên có ảnh biên lai chuyển khoản nếu cần xem.
+Luồng chính
+1. Người dùng truy cập /admin/students. 2. Hệ thống hiển thị bảng danh sách học viên và cột Biên lai chuyển khoản. 3. Người dùng chọn học viên cần tra soát. 4. Người dùng nhấn icon xem ảnh biên lai. 5. Hệ thống tải hồ sơ học viên và ảnh biên lai. 6. Hệ thống mở popup/modal xem biên lai. 7. Người dùng xem hoặc phóng to ảnh để đối soát. 8. Người dùng đóng popup/modal. 9. Hệ thống quay lại bảng danh sách học viên.
+Luồng thay thế
+Người dùng chỉ xem ảnh ở kích thước mặc định, không phóng to. Hệ thống vẫn duy trì modal xem ảnh cho đến khi người dùng đóng modal.
+Luồng ngoại lệ
+Luồng ngoại lệ 1: Không tìm thấy học viên tại thời điểm xem biên lai. Hệ thống báo lỗi dữ liệu học viên không tồn tại hoặc đã bị thay đổi và không mở modal xem biên lai.
+Luồng ngoại lệ 2: Hồ sơ học viên chưa có ảnh biên lai. Hệ thống hiển thị thông báo chưa có ảnh biên lai và không mở modal xem ảnh.
+Luồng ngoại lệ 3: Tải ảnh hoặc phóng to ảnh thất bại. Hệ thống hiển thị lỗi không thể tải ảnh biên lai và giữ nguyên bảng danh sách học viên.
+Quy tắc nghiệp vụ
+Chỉ người dùng có quyền Admin, CSKH hoặc Kế toán được xem ảnh biên lai. Ảnh biên lai được lưu trong hồ sơ học viên và dùng cho tra soát giao dịch, đối soát với sổ phụ ngân hàng.
+Dữ liệu đầu vào
+Mã học viên được chọn; đường dẫn hoặc dữ liệu ảnh biên lai trong hồ sơ học viên.
+Kết quả đầu ra
+Thành công: Ảnh biên lai được hiển thị cho người dùng xem/đối soát. Dữ liệu học viên không thay đổi.
+Thất bại: Không có dữ liệu nào thay đổi. Người dùng vẫn ở màn hình danh sách học viên.
+Màn hình liên quan
+Quản lý Học viên
+Route: /admin/students
+Use Case liên quan
+[CHƯA CÓ THÔNG TIN] - Chưa mô tả quan hệ Use Case độc lập trong nội dung phân tích.
+Vấn đề cần xác nhận
+Kiểu dữ liệu kỹ thuật chi tiết và quan hệ Use Case độc lập cần BA xác nhận nếu cần dùng cho thiết kế chi tiết.
+16. UC-STUDENT-ACCOUNT-01 - Khóa / Mở khóa tài khoản học viên
+16.1. Hình Use Case tổng quan
+16.2. Hình Use Case chi tiết
+[ Xem hình chi tiết ]
+16.3. Bảng phân tích Use Case
+Nội dung
+Phân tích
+Mã Use Case
+UC-STUDENT-ACCOUNT-01
+Tên Use Case
+Khóa / Mở khóa tài khoản học viên
+Actor
+Quản trị viên (Admin); Chăm sóc khách hàng (CSKH)
+Mục tiêu
+Admin/CSKH khóa tài khoản để tạm ngưng quyền truy cập Portal khi phát hiện giao dịch lỗi/hủy hoặc học viên vi phạm quy chế, đồng thời có thể mở khóa khi vấn đề đã được xử lý.
+Mô tả nghiệp vụ
+Admin/CSKH chọn học viên và nhấn Khóa tài khoản hoặc Mở khóa. Hệ thống yêu cầu xác nhận, cập nhật trạng thái tài khoản, thay đổi quyền truy cập Portal và cập nhật badge trên danh sách học viên.
+Điều kiện trước
+1. Người dùng đã đăng nhập thành công. 2. Người dùng có vai trò Admin hoặc CSKH. 3. Học viên đã tồn tại trong danh sách. 4. Học viên đã có tài khoản Portal.
+Luồng chính
+1. Admin/CSKH truy cập /admin/students. 2. Hệ thống hiển thị bảng danh sách học viên và badge tài khoản. 3. Admin/CSKH chọn học viên cần khóa hoặc mở khóa. 4. Admin/CSKH nhấn nút Khóa tài khoản hoặc Mở khóa. 5. Hệ thống tải hồ sơ học viên và trạng thái tài khoản hiện tại. 6. Hệ thống hiển thị hộp thoại xác nhận. 7. Nếu khóa tài khoản, Admin/CSKH nhập lý do khóa. 8. Admin/CSKH nhấn Xác nhận. 9. Hệ thống cập nhật trạng thái tài khoản. 10. Nếu khóa, hệ thống tạm ngưng quyền truy cập Portal và đổi badge thành Đã khóa. Nếu mở khóa, hệ thống khôi phục quyền truy cập Portal và đổi badge thành Đã cấp. 11. Hệ thống cập nhật bảng danh sách học viên và thông báo thành công.
+Luồng thay thế
+Admin/CSKH nhấn Hủy hoặc đóng hộp thoại xác nhận. Hệ thống không gửi yêu cầu cập nhật lên server và giữ nguyên trạng thái tài khoản hiện tại.
+Luồng ngoại lệ
+Luồng ngoại lệ 1: Không tìm thấy học viên tại thời điểm thao tác. Hệ thống báo lỗi dữ liệu học viên không tồn tại hoặc đã bị thay đổi và không cập nhật trạng thái tài khoản.
+Luồng ngoại lệ 2: Khóa tài khoản nhưng thiếu lý do khóa. Hệ thống hiển thị lỗi yêu cầu nhập lý do khóa tài khoản và không cập nhật trạng thái tài khoản.
+Luồng ngoại lệ 3: Cập nhật trạng thái thất bại do lỗi hệ thống hoặc server. Hệ thống hiển thị lỗi không thể cập nhật trạng thái tài khoản và giữ nguyên trạng thái cũ.
+Quy tắc nghiệp vụ
+Trạng thái tài khoản hiển thị bằng badge Đã cấp hoặc Đã khóa. Khi khóa tài khoản, hệ thống tạm ngưng quyền truy cập Portal. Khi mở khóa, hệ thống khôi phục quyền truy cập Portal theo tài khoản học viên. Thao tác khóa cần có lý do khóa.
+Dữ liệu đầu vào
+Mã học viên được chọn; trạng thái tài khoản hiện tại; lý do khóa tài khoản nếu thao tác là khóa.
+Kết quả đầu ra
+Thành công: Trạng thái tài khoản học viên được cập nhật. Quyền truy cập Portal thay đổi theo trạng thái mới. Badge tài khoản trên danh sách học viên được cập nhật.
+Thất bại: Trạng thái tài khoản học viên không thay đổi. Quyền truy cập Portal giữ nguyên.
+Màn hình liên quan
+Quản lý Học viên
+Route: /admin/students
+Use Case liên quan
+[CHƯA CÓ THÔNG TIN] - Chưa mô tả quan hệ Use Case độc lập trong nội dung phân tích.
+Vấn đề cần xác nhận
+Kiểu dữ liệu kỹ thuật chi tiết và quan hệ Use Case độc lập cần BA xác nhận nếu cần dùng cho thiết kế chi tiết.
+17. UC-STUDENT-RESET-01 - Cấp lại mật khẩu học viên
+17.1. Hình Use Case tổng quan
+17.2. Hình Use Case chi tiết
+[ Xem hình chi tiết ]
+17.3. Bảng phân tích Use Case
+Nội dung
+Phân tích
+Mã Use Case
+UC-STUDENT-RESET-01
+Tên Use Case
+Cấp lại mật khẩu học viên
+Actor
+Quản trị viên (Admin); Chăm sóc khách hàng (CSKH)
+Mục tiêu
+Admin/CSKH đặt lại mật khẩu tài khoản Portal của học viên về abc@123, kích hoạt lại yêu cầu đổi mật khẩu ở lần đăng nhập tiếp theo và gửi email thông báo cho học viên.
+Mô tả nghiệp vụ
+Admin/CSKH chọn học viên và nhấn Cấp lại mật khẩu. Hệ thống yêu cầu xác nhận, đặt lại mật khẩu về abc@123, gắn mustChangePassword = true, gửi email thông báo và cập nhật kết quả trên màn hình.
+Điều kiện trước
+1. Người dùng đã đăng nhập thành công. 2. Người dùng có vai trò Admin hoặc CSKH. 3. Học viên đã tồn tại trong danh sách. 4. Học viên có tài khoản Portal ở trạng thái hoạt động.
+Luồng chính
+1. Admin/CSKH truy cập /admin/students. 2. Hệ thống hiển thị danh sách học viên và nút Cấp lại mật khẩu. 3. Admin/CSKH chọn học viên cần cấp lại mật khẩu. 4. Admin/CSKH nhấn Cấp lại mật khẩu. 5. Hệ thống tải hồ sơ học viên và tài khoản hiện tại. 6. Hệ thống kiểm tra tài khoản đang hoạt động. 7. Hệ thống hiển thị hộp thoại xác nhận. 8. Admin/CSKH nhấn Xác nhận. 9. Hệ thống đặt lại mật khẩu về abc@123. 10. Hệ thống kích hoạt lại cờ mustChangePassword = true. 11. Hệ thống gửi email thông báo mật khẩu mới cho học viên. 12. Hệ thống thông báo cấp lại mật khẩu thành công.
+Luồng thay thế
+Admin/CSKH nhấn Hủy hoặc đóng hộp thoại xác nhận. Hệ thống không gửi yêu cầu reset mật khẩu lên server và giữ nguyên mật khẩu hiện tại.
+Luồng ngoại lệ
+Luồng ngoại lệ 1: Không tìm thấy học viên tại thời điểm reset. Hệ thống báo lỗi dữ liệu học viên không tồn tại hoặc đã bị thay đổi và không cấp lại mật khẩu.
+Luồng ngoại lệ 2: Tài khoản học viên đang bị khóa. Hệ thống hiển thị cảnh báo tài khoản đang bị khóa và không cấp lại mật khẩu.
+Luồng ngoại lệ 3: Reset mật khẩu thất bại do lỗi hệ thống hoặc server. Hệ thống hiển thị lỗi không thể cấp lại mật khẩu và giữ nguyên mật khẩu hiện tại.
+Luồng ngoại lệ 4: Gửi email thông báo thất bại sau khi reset mật khẩu thành công. Hệ thống cảnh báo đã reset mật khẩu nhưng gửi email thất bại.
+Quy tắc nghiệp vụ
+Mật khẩu sau khi reset là abc@123. Hệ thống phải kích hoạt lại mustChangePassword = true. Nếu tài khoản đang Đã khóa, hệ thống không cấp lại mật khẩu.
+Dữ liệu đầu vào
+Mã học viên được chọn; email tài khoản học viên; trạng thái tài khoản hiện tại.
+Kết quả đầu ra
+Thành công: Mật khẩu tài khoản Portal của học viên được đặt lại về abc@123. Cờ mustChangePassword được bật lại. Học viên nhận email thông báo và phải đổi mật khẩu ở lần đăng nhập tiếp theo.
+Thất bại: Mật khẩu hiện tại không thay đổi, trừ trường hợp reset thành công nhưng gửi email thông báo thất bại.
+Màn hình liên quan
+Quản lý Học viên
+Route: /admin/students
+Use Case liên quan
+[CHƯA CÓ THÔNG TIN] - Chưa mô tả quan hệ Use Case độc lập trong nội dung phân tích.
+Vấn đề cần xác nhận
+Kiểu dữ liệu kỹ thuật chi tiết và quan hệ Use Case độc lập cần BA xác nhận nếu cần dùng cho thiết kế chi tiết.
+18. UC-STUDENT-DELETE-01 - Xóa hồ sơ học viên
+18.1. Hình Use Case tổng quan
+18.2. Hình Use Case chi tiết
+[ Xem hình chi tiết ]
+18.3. Bảng phân tích Use Case
+Nội dung
+Phân tích
+Mã Use Case
+UC-STUDENT-DELETE-01
+Tên Use Case
+Xóa hồ sơ học viên
+Actor
+Quản trị viên (Admin)
+Mục tiêu
+Admin xóa bỏ hoàn toàn bản ghi học viên trong trường hợp Saler nhập nhầm giao dịch ảo hoặc hồ sơ học viên được tạo sai lệch.
+Mô tả nghiệp vụ
+Admin chọn học viên và nhấn Xóa học viên. Hệ thống tải hồ sơ, kiểm tra điều kiện xóa, yêu cầu xác nhận và lý do xóa. Nếu hợp lệ, hệ thống xóa hồ sơ học viên, thu hồi hoặc vô hiệu hóa tài khoản Portal liên quan và cập nhật danh sách.
+Điều kiện trước
+1. Người dùng đã đăng nhập thành công. 2. Người dùng có vai trò Admin. 3. Học viên đã tồn tại trong danh sách.
+Luồng chính
+1. Admin truy cập /admin/students. 2. Hệ thống hiển thị bảng danh sách học viên. 3. Admin chọn học viên cần xóa. 4. Admin nhấn Xóa học viên. 5. Hệ thống tải hồ sơ học viên hiện tại. 6. Hệ thống kiểm tra hồ sơ đủ điều kiện xóa. 7. Hệ thống hiển thị hộp thoại xác nhận và yêu cầu nhập lý do xóa. 8. Admin nhập lý do xóa và nhấn Xác nhận. 9. Hệ thống gửi yêu cầu xóa hồ sơ. 10. Hệ thống xóa hồ sơ học viên khỏi hệ thống. 11. Hệ thống thu hồi hoặc vô hiệu hóa tài khoản Portal liên quan. 12. Hệ thống cập nhật danh sách học viên và thông báo thành công.
+Luồng thay thế
+Admin nhấn Hủy hoặc đóng hộp thoại xác nhận. Hệ thống không gửi yêu cầu xóa lên server và giữ nguyên hồ sơ học viên.

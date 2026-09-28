@@ -1,0 +1,1000 @@
+Link
+https://gap-system.edu.vn
+Tên
+đăng
+nhập
+admin
+Mật
+khẩu
+Admin@123
+1
+Khai
+báo
+quyền
+khả
+dụng
+trên
+Menu
+(POST)
+- Chức năng:
+Cho phép Admin khai báo các quyền nghiệp vụ có thể xuất hiện trên một Menu để phục vụ cấu hình phân quyền theo Vai trò.
+- Input: (json format)
+{
+"
+menu
+_id
+": "string",
+"
+available
+_actions
+": ["string"]
+}
+- Output:(json format)
+{
+"Result": {
+"data":
+{
+"
+menuId
+": "string",
+"
+menuCode
+": "string",
+"
+menuName
+": "string",
+"
+availableActions
+": ["string", "string"],
+"
+updatedAt
+": "string (date-time)"
+}
+},
+"Success": "
+boolean
+",
+"Message": "string",
+"
+StatusCode
+": "integer"
+}
+- Example JSON Input:
+{
+"
+menuId
+": "MENU_001",
+"
+available
+_actions
+": [
+"VIEW",
+"CREATE",
+"UPDATE",
+"DELETE"
+]
+}
+2
+Tạo
+Vai
+trò
+mới
+(POST)
+- Chức năng:
+Cho phép Admin tạo một nhóm vai trò mới trong hệ thống RBAC để sau đó cấu hình ma trận quyền theo Menu.
+- Input: (json format)
+{
+"
+rol
+eC
+ode
+": "string",
+"
+role
+N
+ame
+": "string",
+"description": "string"
+}
+- Output:(json format)
+{
+"Result": {
+"data": {
+"
+roleId
+": "string",
+"
+roleName
+": "string",
+"
+isSystem
+": "
+boolean
+",
+"permissions": [
+{
+"
+menuId
+": "string",
+"actions": [
+"string"
+]
+}
+],
+"
+createdAt
+": "string (date-time)",
+"
+createdBy
+": "string",
+"
+auditLogId
+": "string"
+}
+},
+"Success": "
+boolean
+",
+"Message": "string",
+"
+StatusCode
+": "integer"
+}
+- Example JSON Input:
+{
+"
+rol
+eC
+ode
+": "
+OO2
+",
+"
+role
+N
+ame
+": "
+Teacher
+",
+"description": "
+…
+"
+}
+3
+Cấu
+hình
+ma
+trận
+quyền
+cho
+Vai
+trò
+(POST)
+- Chức năng:
+Cho phép Admin cấu hình quyền thao tác theo từng Menu cho một Vai trò chuẩn hóa trong hệ thống RBAC.
+- Input: (json format)
+{
+"
+role
+I
+d
+": "string",
+"permissions": [
+{
+"
+menu
+I
+d
+": "string",
+"
+allowed
+A
+ctions
+": ["string"]
+}
+]
+}
+- Output:(json format)
+{
+"Result": {
+"data": {
+"
+roleId
+": "string",
+"
+roleName
+": "string",
+"permissions": [
+{
+"
+menuId
+": "string",
+"actions": [
+"string"
+]
+}
+],
+"
+updatedAt
+": "string (date-time)",
+"
+updatedBy
+": "string",
+"
+auditLogId
+": "string"
+}
+},
+"Success": "
+boolean
+",
+"Message": "string",
+"
+StatusCode
+": "integer"
+}
+- Example JSON Input:
+{
+"
+roleId
+": "ROLE_001",
+"permissions": [
+{
+"
+menuId
+": "MENU_001",
+"
+allowed
+A
+ctions
+": [
+"VIEW",
+"CREATE"
+]
+}
+]
+}
+4
+Chọn
+tất
+cả
+quyền
+/
+Bỏ
+chọn
+quyền
+trong
+ma
+trận
+phân
+quyền
+(
+POST)
+- Chức năng:
+Hỗ trợ Admin cấp nhanh hoặc bỏ nhanh toàn bộ quyền khả dụng đang hiển thị trong ma trận của Vai trò được chọn.
+- Input: (json format)
+{
+"
+roleId
+": "string",
+"
+actionType
+": ["string"],
+}
+- Output:(json format)
+{
+"Result": {
+"data": {
+"
+roleId
+": "string",
+"
+actionType
+": "string",
+"
+affectedMenus
+": "integer",
+"
+updatedPermissions
+": [
+{
+"
+menuId
+": "string",
+"actions": [
+"string"
+]
+}
+],
+"
+updatedAt
+": "string (date-time)",
+"
+auditLogId
+": "string"
+}
+},
+"Success": "
+boolean
+",
+"Message": "string",
+"
+StatusCode
+": "integer"
+}
+- Example JSON Input:
+{
+"
+roleId
+": "ROLE_001",
+"
+actionType
+":
+[
+"SELECT_ALL"
+]
+}
+5
+Nhân
+bản
+quyền
+(Clone Permissions)
+(POST)
+- Chức năng:
+Cho phép Admin sao chép nhanh
+toàn
+bộ quyền của một Vai trò có sẵn sang Vai trò đích để giảm thao tác cấu hình thủ công.
+- Input: (json format)
+{
+"
+sourceRoleId
+": "string",
+"
+targetRoleId
+": "string",
+}
+- Output:(json format)
+{
+"Result": {
+"data": {
+"
+sourceRoleId
+": "string",
+"
+targetRoleId
+": "string",
+"
+copiedMenuCount
+": "integer",
+"
+copiedPermissionCount
+": "integer",
+"permissions": [
+{
+"
+menuId
+": "string",
+"actions": [
+"string"
+]
+}
+],
+"
+adjustmentsApplied
+": "object",
+"
+updatedAt
+": "string (date-time)",
+"
+auditLogId
+": "string"
+}
+},
+"Success": "
+boolean
+",
+"Message": "string",
+"
+StatusCode
+": "integer"
+}
+- Example JSON Input:
+{
+"
+sourceRoleId
+": "ROLE_001",
+"
+targetRoleId
+": "ROLE_002"
+}
+6
+Gán
+Vai
+trò
+cho
+Người
+dùng
+(
+POST)
+- Chức năng:
+Cho phép Admin gán một Vai trò chuẩn hóa cho người dùng/nhân sự để hệ thống hiển thị Menu và nút chức năng theo đúng quyền của Vai trò.
+- Input: (json format)
+{
+"
+userId
+": "string",
+"
+roleId
+": "string"
+}
+- Output:(json format)
+{
+"Result": {
+"data": {
+"
+userId
+": "string",
+"
+userName
+": "string",
+"
+roleId
+": "string",
+"
+roleName
+": "string",
+"
+assignedAt
+": "string (date-time)",
+"
+assignedBy
+": "string",
+"
+permissionsApplied
+": "
+boolean
+",
+"
+auditLogId
+": "string"
+}
+},
+"Success": "
+boolean
+",
+"Message": "string",
+"
+StatusCode
+": "integer"
+}
+- Example JSON Input:
+{
+"
+userId
+": "USER_001",
+"
+roleId
+": "ROLE_001"
+}
+7
+Hiển
+thị
+Menu
+và
+nút
+chức
+năng
+theo
+quyền
+Vai
+trò
+(POST)
+- Chức năng:
+Hiển thị đúng Menu và nút chức năng mà Vai trò của Người dùng được cấp, đồng thời ẩn và chặn các chức năng không được cấp.
+- Input: (json format)
+{
+"
+userId
+": "string",
+"
+roleId
+": "string"
+}
+- Output:(json format)
+{
+"Result": {
+"data": {
+"
+userId
+": "string",
+"
+roleId
+": "string",
+"
+roleName
+": "string",
+"menus": [
+{
+"
+menuId
+": "string",
+"
+menuCode
+": "string",
+"
+iconName
+": "string",
+"
+menuName
+": "string",
+"route": "string",
+"actions": [
+"string"
+]
+}
+],
+"actions": [
+"string"
+]
+}
+},
+"Success": "
+boolean
+",
+"Message": "string",
+"
+StatusCode
+": "integer"
+}
+- Example JSON Input:
+{
+"
+userId
+": "
+9egegrje
+"
+,
+“
+roleId
+”
+: ”d
+34gegeg”
+}
+8
+Cấu
+hình
+tham
+số
+Vận
+hành
+&amp; SLA Trung
+tâm
+(POST)
+- Chức năng:
+Cho phép Admin điều chỉnh các mốc thời gian vận hành và SLA trung tâm để các phân hệ liên quan áp dụng ngay.
+- Input: (json format)
+{
+"settings": [
+{
+"
+setting
+K
+ey
+": "
+String
+",
+"
+setting
+_value
+":
+number
+},
+{
+"
+setting
+_key
+": "
+String
+",
+"
+setting
+_value
+":
+number
+},
+{
+"
+setting
+_key
+": "
+String
+",
+"
+setting
+_value
+":
+number
+}
+]
+}
+- Output:(json format)
+{
+"Result": {
+"data":
+{
+"settings": [
+{
+"
+settingKey
+": "SLA_CSKH_DAYS",
+"
+settingValue
+": "7",
+"description": "string"
+}
+]
+}
+},
+"Success": "
+boolean
+",
+"Message": "string",
+"
+StatusCode
+": "integer"
+}
+- Example JSON Input:
+{
+"settings": [
+{
+"
+setting
+_key
+": "SLA_CSKH_DAYS",
+"
+setting
+_value
+": "7"
+},
+{
+"
+setting
+_key
+": "SLA_WRITING_HOURS",
+"
+setting
+_value
+": "24"
+},
+{
+"
+setting
+_key
+": "TIME_LOCK_HOURS",
+"
+setting
+_value
+": "4"
+}
+]
+}
+9
+Cấu
+hình
+tham
+số
+Khảo
+thí
+Speaking
+(POST)
+- Chức năng:
+Cho phép Admin cấu hình các mốc thời gian tự động và số slot tối thiểu trong quy trình đăng ký ca thi Speaking.
+- Input: (json format)
+{
+"settings": [
+{
+"
+setting
+K
+ey
+": "
+String
+",
+"
+setting
+_value
+":
+number
+},
+{
+"
+setting
+_key
+": "
+String
+",
+"
+setting
+_value
+":
+number
+},
+{
+"
+setting
+_key
+": "
+String
+",
+"
+setting
+_value
+":
+number
+}
+]
+}
+- Output:(json format)
+{
+"Result": {
+"data":
+{
+"settings": [
+{
+"
+settingKey
+": "SLA_CSKH_DAYS",
+"
+settingValue
+": "7",
+"description": "string"
+}
+]
+}
+},
+"Success": "
+boolean
+",
+"Message": "string",
+"
+StatusCode
+": "integer"
+}
+- Example JSON Input:
+{
+"settings": [
+{
+"
+setting
+_key
+": "INVITE_EMAIL_DAYS_BEFORE",
+"
+setting
+_value
+": "14"
+},
+{
+"
+setting
+_key
+": "CLOSE_LINK_HOURS_BEFORE",
+"
+setting
+_value
+": "48"
+},
+{
+"
+setting
+_key
+": "MIN_SLOT_REQUIREMENT",
+"
+setting
+_value
+": "4"
+}
+]
+}
+10
+Quản
+lý
+Mẫu
+Email
+Tự
+động
+(Email Templates)
+(POST)
+- Chức năng:
+Cho phép Admin xem và chỉnh sửa nội dung các mẫu Email được hệ thống gửi tự động.
+- Input: (json format)
+{
+"
+template
+Code
+": "string",
+"subject": "string",
+"
+body
+H
+tml
+": "string"
+}
+- Output:(json format)
+{
+"Result": {
+"data": {
+"
+templateId
+": "string",
+"
+htmlContent
+": "string",
+"placeholders": {
+"key": "string"
+},
+"version": "integer",
+"
+updatedAt
+": "string (date-time)",
+"
+updatedBy
+": "string",
+"
+auditLogId
+": "string"
+}
+},
+"Success": "
+boolean
+",
+"Message": "string",
+"
+StatusCode
+": "integer"
+} - Example JSON Input:
+{
+"
+templateId
+": "TPL_INVITE",
+"subject": "
+CSE 301
+",
+"
+body
+H
+tml
+": "&lt;h1&gt;Hello {
+student_
+name
+}&lt;
+/h1&gt;"
+}
+11
+Thêm
+bản
+ghi
+Danh
+mục
+Lõi
+(POST)
+- Chức năng:
+Cho phép Admin khai báo thêm một giá trị danh mục mới vào nhóm Master Data để dùng chung trong dropdown và bộ lọc của toàn hệ thống.
+- Input: (json format)
+{
+"code": "string",
+"
+displayName
+": "string",
+"
+sortOrder
+": "number"
+}
+- Output:(json format)
+{
+"Result": {
+"data": {
+"id": "string",
+"code": "string",
+"
+displayName
+": "string",
+"
+sortOrder
+": "integer",
+"
+isActive
+": "
+boolean
+",
+"
+createdAt
+": "string (date-time)",
+"
+createdBy
+": "string",
+"
+auditLogId
+": "string"
+}
+},
+"Success": "
+boolean
+",
+"Message": "string",
+"
+StatusCode
+": "integer"
+}
+- Example JSON Input:
+{
+"code": "CAT_001",
+"
+displayName
+": "
+Tiếng
+Anh",
+"
+sortOrder
+": 1,
+}
+12
+Chỉnh
+sửa
+/
+Bật
+tắt
+trạng
+thái
+Danh
+mục
+Lõi
+(PATCH)
+- Chức năng:
+Cho phép Admin chỉnh sửa thông tin bản ghi danh mục hoặc bật/tắt trạng thái sử dụng mà không phá vỡ dữ liệu lịch sử.
+- Input: (json format)
+{
+"id": "string",
+"
+displayName
+": "string",
+"
+sortOrder
+": "number",
+"note": "string",
+"
+isActive
+": "
+boolean
+"
+}
+- Output:(json format)
+{
+"Result": {
+"data": {
+"id": "string",
+"code": "string",
+"
+displayName
+": "string",
+"
+sortOrder
+": "integer",
+"note": "string",
+"
+isActive
+": "
+boolean
+",
+"
+updatedAt
+": "string (date-time)",
+"
+updatedBy
+": "string",
+"
+dropdownSynced
+": "
+boolean
+",
+"
+filterSynced
